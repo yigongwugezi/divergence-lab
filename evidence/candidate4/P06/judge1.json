@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five respect the resource and privacy limits and check availability, condition, cleanup effort and seated access. Their primary mechanisms are centralized returns, visible shelving destinations, an on-site reserve, optional shared tidying and portable return reminders. Candidate 0 offers the simplest borrowing ritual and a predictable inspection workflow, with measurable pilot outcomes and candid limitations."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable without definite serious hard-constraint violations. Candidates 0 and 5 share centralized returns and volunteer inspection; capacity handling is a repair, not a separate mechanism. The other mechanisms are visible shelving destinations, an on-site reserve, reciprocal replenishment, optional shared tidying and limiting simultaneous browsing. Candidate 5 best combines a simple core ritual with explicit overflow handling, a fixed volunteer budget, seated-access verification and observable failure criteria. Its temporary shelf queue reduces available selection, which the pilot explicitly checks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 modestly improves on A0 by specifying what happens when the return box or volunteer processing capacity is exceeded, including a recovery path and stopping criteria. This addresses a practical weakness within the same resources. The extra return location adds complexity, but its availability and access costs are explicitly tested."
+    }
+  },
+  "format_retry_of": null
+}

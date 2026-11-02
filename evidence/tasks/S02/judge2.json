@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven offer distinct primary mechanisms: overlapping staff roles, queue-time order preparation, prepacking, short-order priority, workspace efficiency, demand shifting, and customer retrieval. Resource-dependent options explicitly state prerequisites rather than assume them established. Candidate 0 best combines plausible capacity gains, a bounded packing backlog, written accuracy checks, and measurement of total waiting against the existing line. Its test is a screening comparison, not proof of unchanged error risk."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and represent distinct primary mechanisms: overlapping staff roles, queue-time order preparation, prepacking, short-order priority, and workspace efficiency. Candidate 3's two waiting groups introduce coordination and fairness costs but do not violate a hard constraint. Candidate 0 offers the strongest combination of likely benefit, backlog control, accuracy safeguards, and an inspectable baseline comparison."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical relay proposal and experiment, so their best proposals have equal written task quality. Each respects the staffing and technology constraints and tests join-to-handoff waiting and order errors against the present single line."
+    }
+  }
+}

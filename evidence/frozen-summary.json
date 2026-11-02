@@ -1,0 +1,400 @@
+{
+  "categories": {
+    "creative": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 1.1666666666666667,
+      "quality_win_tie_loss_reviews": [
+        3,
+        8,
+        1
+      ],
+      "quality_mean_score_strict_workflow": 0.5833333333333334,
+      "quality_mean_score_partial_pool_judgment": 0.5833333333333334,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 220726,
+          "output": 18980,
+          "total": 239706
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 218711,
+          "output": 22509,
+          "total": 241220
+        },
+        "REFINE": {
+          "calls": 18,
+          "input": 218858,
+          "output": 16737,
+          "total": 235595
+        },
+        "SAVE": {
+          "calls": 12,
+          "input": 140640,
+          "output": 18375,
+          "total": 159015
+        }
+      }
+    },
+    "daily": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 1.1666666666666667,
+      "quality_win_tie_loss_reviews": [
+        2,
+        10,
+        0
+      ],
+      "quality_mean_score_strict_workflow": 0.5833333333333334,
+      "quality_mean_score_partial_pool_judgment": 0.5,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 1,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 217353,
+          "output": 15861,
+          "total": 233214
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 216470,
+          "output": 17515,
+          "total": 233985
+        }
+      }
+    },
+    "engineering": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 0.5,
+      "quality_win_tie_loss_reviews": [
+        0,
+        12,
+        0
+      ],
+      "quality_mean_score_strict_workflow": 0.5,
+      "quality_mean_score_partial_pool_judgment": 0.5,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 215844,
+          "output": 12539,
+          "total": 228383
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 211286,
+          "output": 14426,
+          "total": 225712
+        },
+        "REFINE": {
+          "calls": 18,
+          "input": 214828,
+          "output": 13259,
+          "total": 228087
+        },
+        "SAVE": {
+          "calls": 17,
+          "input": 202380,
+          "output": 12856,
+          "total": 215236
+        }
+      }
+    },
+    "information": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 1.0833333333333333,
+      "quality_win_tie_loss_reviews": [
+        0,
+        12,
+        0
+      ],
+      "quality_mean_score_strict_workflow": 0.5,
+      "quality_mean_score_partial_pool_judgment": 0.5,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 222282,
+          "output": 19032,
+          "total": 241314
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 219917,
+          "output": 22957,
+          "total": 242874
+        }
+      }
+    },
+    "organization": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 0.6666666666666666,
+      "quality_win_tie_loss_reviews": [
+        0,
+        12,
+        0
+      ],
+      "quality_mean_score_strict_workflow": 0.5,
+      "quality_mean_score_partial_pool_judgment": 0.5,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 219354,
+          "output": 19900,
+          "total": 239254
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 219195,
+          "output": 21442,
+          "total": 240637
+        }
+      }
+    },
+    "public": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 0.8333333333333334,
+      "quality_win_tie_loss_reviews": [
+        1,
+        11,
+        0
+      ],
+      "quality_mean_score_strict_workflow": 0.5416666666666666,
+      "quality_mean_score_partial_pool_judgment": 0.5416666666666666,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 218365,
+          "output": 16416,
+          "total": 234781
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 216871,
+          "output": 18687,
+          "total": 235558
+        }
+      }
+    },
+    "science": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 1.5,
+      "quality_win_tie_loss_reviews": [
+        0,
+        12,
+        0
+      ],
+      "quality_mean_score_strict_workflow": 0.5,
+      "quality_mean_score_partial_pool_judgment": 0.5,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 218192,
+          "output": 16909,
+          "total": 235101
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 215401,
+          "output": 20376,
+          "total": 235777
+        }
+      }
+    },
+    "service": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 0.0,
+      "quality_win_tie_loss_reviews": [
+        0,
+        7,
+        5
+      ],
+      "quality_mean_score_strict_workflow": 0.2916666666666667,
+      "quality_mean_score_partial_pool_judgment": 0.375,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 1,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 221035,
+          "output": 17860,
+          "total": 238895
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 219599,
+          "output": 21525,
+          "total": 241124
+        }
+      }
+    },
+    "teaching": {
+      "tasks": 6,
+      "mean_mechanism_delta_expand_minus_full": 0.8333333333333334,
+      "quality_win_tie_loss_reviews": [
+        4,
+        8,
+        0
+      ],
+      "quality_mean_score_strict_workflow": 0.6666666666666666,
+      "quality_mean_score_partial_pool_judgment": 0.6666666666666666,
+      "expand_reviews_with_serious_violations": 0,
+      "expand_generation_failures": 0,
+      "direct_full_generation_failures": 0,
+      "generation": {
+        "DIRECT_FULL": {
+          "calls": 18,
+          "input": 219258,
+          "output": 17131,
+          "total": 236389
+        },
+        "EXPAND": {
+          "calls": 18,
+          "input": 219948,
+          "output": 20471,
+          "total": 240419
+        },
+        "REFINE": {
+          "calls": 18,
+          "input": 219132,
+          "output": 16717,
+          "total": 235849
+        },
+        "SAVE": {
+          "calls": 13,
+          "input": 153891,
+          "output": 16062,
+          "total": 169953
+        }
+      }
+    }
+  },
+  "original_18": {
+    "tasks": 18,
+    "mean_mechanism_delta_expand_minus_full": 0.8333333333333334,
+    "quality_win_tie_loss_reviews": [
+      7,
+      28,
+      1
+    ],
+    "quality_mean_score_strict_workflow": 0.5833333333333334,
+    "quality_mean_score_partial_pool_judgment": 0.5833333333333334,
+    "expand_reviews_with_serious_violations": 0,
+    "expand_generation_failures": 0,
+    "direct_full_generation_failures": 0,
+    "generation": {
+      "DIRECT_FULL": {
+        "calls": 54,
+        "input": 655828,
+        "output": 48650,
+        "total": 704478
+      },
+      "EXPAND": {
+        "calls": 54,
+        "input": 649945,
+        "output": 57406,
+        "total": 707351
+      },
+      "REFINE": {
+        "calls": 54,
+        "input": 652818,
+        "output": 46713,
+        "total": 699531
+      },
+      "SAVE": {
+        "calls": 42,
+        "input": 496911,
+        "output": 47293,
+        "total": 544204
+      }
+    }
+  },
+  "extension_36": {
+    "tasks": 36,
+    "mean_mechanism_delta_expand_minus_full": 0.875,
+    "quality_win_tie_loss_reviews": [
+      3,
+      64,
+      5
+    ],
+    "quality_mean_score_strict_workflow": 0.4861111111111111,
+    "quality_mean_score_partial_pool_judgment": 0.4861111111111111,
+    "expand_reviews_with_serious_violations": 0,
+    "expand_generation_failures": 1,
+    "direct_full_generation_failures": 1,
+    "generation": {
+      "DIRECT_FULL": {
+        "calls": 108,
+        "input": 1316581,
+        "output": 105978,
+        "total": 1422559
+      },
+      "EXPAND": {
+        "calls": 108,
+        "input": 1307453,
+        "output": 122502,
+        "total": 1429955
+      }
+    }
+  },
+  "all_54": {
+    "tasks": 54,
+    "mean_mechanism_delta_expand_minus_full": 0.8611111111111112,
+    "quality_win_tie_loss_reviews": [
+      10,
+      92,
+      6
+    ],
+    "quality_mean_score_strict_workflow": 0.5185185185185185,
+    "quality_mean_score_partial_pool_judgment": 0.5185185185185185,
+    "expand_reviews_with_serious_violations": 0,
+    "expand_generation_failures": 1,
+    "direct_full_generation_failures": 1,
+    "generation": {
+      "DIRECT_FULL": {
+        "calls": 162,
+        "input": 1972409,
+        "output": 154628,
+        "total": 2127037
+      },
+      "EXPAND": {
+        "calls": 162,
+        "input": 1957398,
+        "output": 179908,
+        "total": 2137306
+      },
+      "REFINE": {
+        "calls": 54,
+        "input": 652818,
+        "output": 46713,
+        "total": 699531
+      },
+      "SAVE": {
+        "calls": 42,
+        "input": 496911,
+        "output": 47293,
+        "total": 544204
+      }
+    }
+  }
+}

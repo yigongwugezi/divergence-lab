@@ -1,0 +1,120 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "DIRECT_FULL",
+    "C": "REFINE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 meets the migration goal without requiring deduplication at launch. Keeping source identities separate prevents migration-induced wrongful merges, reduces implementation burden, and provides inspectable reconciliation and duplicate-link checks within 150 reviewed pairs. Operational duplication remains a stated limitation. Candidate 0 is usable but requires more judgment in defining corroboration and safe merge groups."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers the strongest combination of constraint correctness and ten-day feasibility: preserve each record, expose candidate links, reconcile imported fields, and test operational usability. Its unresolved duplicates are compatible with the stated goal. Candidate 0 adds consolidation benefits but also more implementation and identity-decision risk."
+      },
+      "C": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 is a usable repair of candidate 0's consolidation mechanism, making group validation and bridge-case testing explicit. It still depends on defensible field-level identity rules and adds implementation work. Candidate 1 remains preferable for this safety-focused migration because consolidation is not required, while provenance, reconciliation, privacy, and sampled duplicate checks are addressed."
+      },
+      "D": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 safely delivers one database while retaining separate source identities and making uncertain relationships visible. Its acceptance checks are practical within the staffing and review limits. Candidate 0 is usable but introduces avoidable merge-rule and group-validation complexity."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "The selected proposals are identical."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "The selected proposals are identical; C's additional consolidation repair does not change its best proposal."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The selected proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "The selected proposals are identical; C's additional repair improves another candidate."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The selected proposals are identical."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The selected proposals are identical."
+      }
+    ]
+  }
+}

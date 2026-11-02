@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable, conditional on inspection and their stated applicability limits. Their distinct primary mechanisms are a verified circulation loop, moving content to participants, pacing arrivals, acoustic zoning, persistent instructions, separating opposing traffic, and preserving turns without standing queues. Candidate 0 offers the strongest general fit: a checked arrival-to-activity layout, integrated equivalent seated participation, realistic volunteer roles, and explicit measures of arrival success, waiting and dignity."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable under their explicit inspection and feasibility conditions. Their distinct primary mechanisms are a verified circulation loop, moving content to participants, pacing arrivals, duplicating the complete workshop in independently reachable zones, and participant choice between routes with different verified barriers. Candidate 0 provides the strongest broadly applicable layout and evaluation plan; duplication and route choice depend on hall features not established by the task."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0. It respects the resource and inspection constraints and directly addresses arrival success, waiting and dignified seated participation. The other candidates do not change the written quality of these identical best proposals."
+    }
+  }
+}

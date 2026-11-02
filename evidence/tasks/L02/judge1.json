@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are conditionally feasible and explicitly screen for safety, exit clearance and the time limit. Their distinct primary mechanisms are permanent zoning, temporal footprint sharing, adapting exercise space requirements, consolidating storage, and substituting a shelf workstation. Candidate 3 best balances preserved work functionality, potential floor-area gains and low daily effort, with a small feasibility trial and measurable weeklong comparison. Spare shelf capacity remains unverified."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable conditional designs, with no definite serious hard-constraint violations. Each uses a distinct primary mechanism: permanent zoning, temporal footprint sharing, adapting exercise space requirements, consolidating storage, or substituting a shelf workstation. Candidate 3 offers the strongest practical balance through storage consolidation, accessible daily supplies, a representative trial and explicit measurements of area, switching and clutter. Its benefit depends on recoverable floor storage and safe spare shelf capacity."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals use the same storage-consolidation mechanism and provide comparably practical, constraint-aware one-week evaluations. A more explicitly records one-time effort and rehearses exercise clearance; B more explicitly addresses retrieval effort and comparison limitations. Neither has a decisive overall quality advantage."
+    }
+  }
+}

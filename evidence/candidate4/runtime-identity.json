@@ -1,0 +1,67 @@
+[
+  {
+    "file": "scripts/build_prompt.py",
+    "sha256": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
+    "candidate4_identical": true
+  },
+  {
+    "file": "scripts/run.py",
+    "sha256": "96c982ad83f112362a22254e82d726c1c12ca649ae1addee284610e4c3491fa1",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/BASELINE_PROMPT.txt",
+    "sha256": "0bffa1333b69c46f2e954bc770d1adfc2255fc2d9b87504e61a45e1bd94a0e07",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/CONTINUE_PROMPT.txt",
+    "sha256": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/CONTINUE_PROMPT_P1.txt",
+    "sha256": "870eb09b2570462774dd1e0fc4c6b99320d6bca5333a43dc42e4c643b3cc5a8b",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/CONTINUE_PROMPT_P1_NARROW.txt",
+    "sha256": "d254dbdb64b5952c5ebea249ffaf1a95a04bbd6cb696868b31cd49140e71b874",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/CONTINUE_PROMPT_P2.txt",
+    "sha256": "06849a8a6f0c6540e461830c758a780833dec6ccbc854567c7d8da7fc99da740",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/CONTINUE_PROMPT_P2_ASSUMPTION.txt",
+    "sha256": "76d2a3d39bc018d9014f367b560ab7bab5e522e994078e33eefc399fe9ed4b9f",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/REPAIR_PROMPT.txt",
+    "sha256": "df9a394518612c05852482a8ddc19b77d1ccd8961c3a485f3f01bc114ec51f2c",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/response.schema.json",
+    "sha256": "ba2ea82c009ec659e4da4afa7f9991a30f58b3f96452de317dcca08c8749e080",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/response6.schema.json",
+    "sha256": "fa8a84ab415bd47e7be4ce9cf9f5b0c93f6560ce655646abdd4c0e934f549867",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/SAVE_FULL_PROMPT.txt",
+    "sha256": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "candidate4_identical": true
+  },
+  {
+    "file": "references/SAVE_WIDE_PROMPT.txt",
+    "sha256": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
+    "candidate4_identical": true
+  }
+]

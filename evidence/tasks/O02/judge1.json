@@ -1,0 +1,92 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary acceptance, ownership, due dates, existing resources and meeting limits, and provide month-long comparisons of completion, rework and burden. Their primary mechanisms are distinct: explicit commitment and work limits, rotating coordination, protected execution time, delegated authority, calendar booking, backup coverage and recipient verification. Candidate 0 offers the strongest lightweight default: clear acceptance, bounded workload, visible unclaimed work and owner-managed updates reduce dependence on the chair. Its trial guards against inflated completion through selective acceptance; recording execution time would strengthen burden measurement."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Their distinct primary mechanisms are explicit commitment and work limits, rotating coordination, protected execution time, standing delegated authority, prerequisite readiness, early peer feedback, contingent fallback paths and preference-based matching. Candidate 0 provides the most broadly feasible lightweight default without assuming recurring approvals, predictable obstacles or available reviewers. It makes commitments inspectable and removes routine chair chasing. Its burden comparison would improve by including execution time."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0, so their written task quality is equal. Each provides a feasible voluntary decision-to-action mechanism and a concrete comparative trial, with the same minor burden-measurement limitation."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, conditional designs with explicit feasibility checks and one-week comparisons; none definitely violates a hard constraint. Their primary mechanisms are permanent zoning, alternating a shared footprint, adapting exercise space requirements, consolidating storage, and substituting a shelf workstation. Candidate 0 best balances practical work support, minimal switching, clutter control and inspectable measurements, provided both activity footprints fit."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and explicitly reject unsafe or infeasible arrangements. Each uses a distinct primary mechanism: permanent zoning, alternating a shared footprint, adapting exercise space requirements, consolidating storage, or substituting a shelf workstation. Candidate 0 offers the strongest balance of feasibility, low daily effort and measurable results. Candidates 3 and 4 add useful assessment details but depend on unverified storage capacity or shelf suitability."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both specify a practical conditional layout, preserve exit and movement clearance, avoid purchases and building changes, and compare usable area, switching time and clutter over seven days with a ten-minute rejection threshold."
+    }
+  }
+}

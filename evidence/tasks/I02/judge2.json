@@ -1,0 +1,84 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible paper-based 90-second structures, qualified examples, and unfamiliar transfer checks accessible through text. Primary mechanisms are causal-path tracing, successive-round simulation, contrasting feedback with repetition, interrupting a causal link, integrating separate causal facts, tracking a disturbance, and analogy mapping, respectively. Candidate 2 is strongest: its closely matched contrast targets a central misconception with low material and procedural demands, and its transfer check requires both identifying the return connection and predicting the next response. Its two-session comparison makes the intended learning inspectable."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the material, timing, qualification, and accessible transfer requirements. Primary mechanisms are causal-path tracing, successive-round simulation, contrasting feedback with repetition, qualitative disturbance prediction, integrating local viewpoints, and analogy mapping, respectively. Candidate 2 offers the clearest combination of conceptual correctness, feasibility, and inspectability: visitors distinguish otherwise similar systems, then explain a returning influence in a new setting. The text route supports the same explanation and check, and both prototype sessions have a concrete diagnostic purpose."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 2. Its written task quality is therefore equal across pools; differences among the remaining candidates do not change that comparison."
+    }
+  }
+}

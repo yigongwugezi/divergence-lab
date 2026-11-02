@@ -1,0 +1,160 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "REFINE",
+    "C": "EXPAND",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the stated resources and 50 minutes, use fictional prices, offer substantive participation routes, and individually assess new usages including equality. Candidate 0 most directly teaches complete total-cost comparison with inspectable component boxes and correct answers. The alternatives add graph-reading, difference reasoning, claim auditing, or inverse budget calculations that may increase learning demands."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidate 4 retains candidate 0's complete-bill mechanism while explicitly carrying optional component support into independent assessment. Learners still select components, include fixed charges, add totals and compare across the crossover. This strengthens accessibility and assessment alignment without adding substantial facilitator demands. Its proposed check appropriately distinguishes supported comparison from unaided multiplication."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints in their written designs. Candidate 0 offers the most direct, practical and inspectable route from charge components to total-cost decisions. Auditing errors and testing personal predictions are distinct mechanisms, but their additional reading or reflection demands offer no established advantage over complete-bill practice."
+      },
+      "D": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four candidates are usable and employ distinct primary mechanisms. Candidate 0 best combines familiar materials, explicit total-cost construction, meaningful supported participation and a clear individual crossover check. Graphing, savings tracking and error auditing introduce additional interpretation demands without demonstrated benefits."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B's best explicitly supports independent comparison for learners who need supplied usage-charge components, repairing an assessment-access gap in A's otherwise identical complete-bill approach."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their best proposals are identical, with the same feasibility, participation supports and individual assessment."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical; neither has a written advantage."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B's best preserves direct complete-bill comparison while making component support explicit during individual assessment, improving access without obscuring what is assessed."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B's optional usage-charge table provides a clearer independent participation route for mixed numeracy levels while retaining totals and crossover decisions."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their selected complete-bill proposals are identical in design and proposed verification."
+      }
+    ]
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "version": "superiority-candidate4-20261102",
+  "scope": "13 development/regression tasks; selected after candidate comparison; not fresh generalization.",
+  "review_win_tie_loss": [
+    19,
+    6,
+    1
+  ],
+  "passed": 11,
+  "total": 13,
+  "failed_tasks": [
+    "S05",
+    "C05"
+  ],
+  "tasks": {
+    "S01": {
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 5,
+          "EXPAND": 7
+        },
+        {
+          "EXPAND": 7,
+          "DIRECT_FULL": 5
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 6
+        },
+        {
+          "EXPAND": 6,
+          "DIRECT_FULL": 0
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B的最佳方案6在A的最佳方案0基础上，把工作量上限、改期授权、释放核对及停止条件写得更具体，更容易在两名志愿者的固定开放时间内执行和检查。收益尚未证实，但其优势来自约束落实与可检验性，而非篇幅或新颖性。",
+        "A6与B0的主要机制相同，但A6把工作量上限、改期确认、旧位释放及异常暂停写得更可执行，也检验改进是否较原提醒增加收益。其优势来自约束落实与可检查性，而非篇幅或机制新颖性；两者均未证明实际效果。"
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 8
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "L01": {
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 4,
+          "EXPAND": 4
+        },
+        {
+          "EXPAND": 4,
+          "DIRECT_FULL": 4
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 3
+        },
+        {
+          "EXPAND": 3,
+          "DIRECT_FULL": 0
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B的最佳方案3比A的最佳方案0更明确地解决个人余额、采购授权及退出退款问题，降低混合资金造成争议和隐性补差的风险；优势来自执行规则与可核验性，而非篇幅或新颖程度。",
+        "A的最佳方案3比B的最佳方案0更明确解决部分人参加、个人余额扣减及退出结算，减少实际执行中的资金归属争议，也保留采购者不得补差和隐私保护。新增核算负担有明确试行检查与停止条件，因此在约束正确性和可检查性上略胜；优势来自规则可执行性，而非篇幅或新颖性。"
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 4,
+        "EXPAND": 5
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "S03": {
+      "scores": [
+        0.5,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 5,
+          "EXPAND": 7
+        },
+        {
+          "EXPAND": 7,
+          "DIRECT_FULL": 5
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 2,
+          "EXPAND": 2
+        },
+        {
+          "EXPAND": 6,
+          "DIRECT_FULL": 2
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "两池最佳均为候选2，文本相同，在约束正确性、可执行性、潜在效果和可检查性上没有差异。",
+        "A6相对B2的优势有限但具体：明确把检查能力不足纳入不启动、停用及恢复原流程的条件，逐项记录未完成检查，并设置漏检放行立即暂停，令单人条件下的安全边界更可核查。两者均未证明实际周转提升；A6的历史比较较弱，不能据此宣称效果优于B2。"
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 8
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "S05": {
+      "scores": [
+        0.5,
+        0.5
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 5,
+          "EXPAND": 5
+        },
+        {
+          "EXPAND": 5,
+          "DIRECT_FULL": 5
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 4,
+          "EXPAND": 4
+        },
+        {
+          "EXPAND": 1,
+          "DIRECT_FULL": 1
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "A4通过既有订单与采购联动吸收新鲜余货，经济逻辑和防止库存转移的检查更完整，但依赖配材适配及可调整采购。B4直接覆盖短赏期积压，启动和停止规则清楚，但依赖付费需求且可能分流正常销售。两者均满足核心约束并提供可检查的两周试点，现有信息不足以认定一方整体更优。",
+        "两池最佳均为内容相同的候选1：满足硬约束，直接服务现有滞销库存，具有可执行的两周对照、四项指标和停止条件。没有文字质量上的胜负依据。"
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 6
+      },
+      "gates": {
+        "win_without_loss": false,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": false
+    },
+    "S06": {
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 5,
+          "EXPAND": 5
+        },
+        {
+          "EXPAND": 5,
+          "DIRECT_FULL": 5
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 4
+        },
+        {
+          "EXPAND": 4,
+          "DIRECT_FULL": 3
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B4 improves on A0 through concrete operating rules for failed acoustic privacy, missed calls and missing referrals, while preserving anonymous access and the legal-information boundary. These changes make the flow more executable and inspectable with the available resources; the advantage is substantive rather than based on length or novelty.",
+        "A4 provides the more complete and inspectable first-visit flow: it checks acoustic privacy before service, defines what happens when that check fails, supports spoken assistance and missed turns, and specifies referral limits. B3 has a strong disclosure-minimization mechanism, but its warning that the corner may lack confidentiality gives less concrete protection against spontaneous disclosure."
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 6
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "C05": {
+      "scores": [
+        1.0,
+        0.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 6,
+          "EXPAND": 8
+        },
+        {
+          "EXPAND": 8,
+          "DIRECT_FULL": 6
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 7
+        },
+        {
+          "EXPAND": 7,
+          "DIRECT_FULL": 4
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B7 improves on A0 by placing responsibility for factual learning claims on volunteers rather than disappointed owners. It also provides clearer capacity limits and pilot stopping rules while retaining optional participation and explicit uncertainty. These are practical improvements in constraint correctness and inspectability, although its effect remains untested.",
+        "B4 narrowly exceeds A7: its concrete institutional change gives failed attempts visible value without adding individualized writing at handback. Its comparison better isolates the proposed mechanism and explicitly checks whether the celebration dismisses disappointment. A7 remains strong, but adds handback work and tests the revision against another learning ritual rather than ordinary service."
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 6,
+        "EXPAND": 9
+      },
+      "gates": {
+        "win_without_loss": false,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": false
+    },
+    "L05": {
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 5,
+          "EXPAND": 6
+        },
+        {
+          "EXPAND": 6,
+          "DIRECT_FULL": 5
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 1,
+          "EXPAND": 5
+        },
+        {
+          "EXPAND": 5,
+          "DIRECT_FULL": 1
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B的最佳候选5在A的最佳候选1基础上，具体解决了上肩触发不适用、检查后未进入最终携带位置及再次取出导致失效的问题，同时保留低成本、无声与隐私保护。其评估还区分出门前拦下的缺物和越过家门后的真实遗漏，可检查性更强；优势来自这些实际修正，而非篇幅或新颖性。",
+        "A5在B1已有的实物触检机制上，更明确核定本趟证件需求、确认最终携带位置，并规定检查后取物的重新核对方式，减少检查与实际离家状态脱节。其优势来自流程完整性和可检验性，而非篇幅或新颖性；两者均未证明长期效果。"
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "E03": {
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 2,
+          "EXPAND": 4
+        },
+        {
+          "EXPAND": 4,
+          "DIRECT_FULL": 2
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 3
+        },
+        {
+          "EXPAND": 3,
+          "DIRECT_FULL": 0
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B3 modestly improves on A0 by making the 30-minute shutdown executable through explicit readiness and restoration decisions, including what to do when ventilation capacity or repair resources are inadequate. It retains repeated comparisons, corroborating inspection and safe escalation without claiming a definitive diagnosis from overall vibration alone.",
+        "A3 improves on B0 with explicit checks for ventilation capacity, tools, access, repair feasibility, and restoration time, plus clear fallback decisions when safe completion is impossible. These practical safeguards strengthen execution within the single 30-minute window while preserving diagnostic uncertainty."
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 2,
+        "EXPAND": 5
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "T05": {
+      "scores": [
+        1.0,
+        0.5
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 7,
+          "EXPAND": 7
+        },
+        {
+          "EXPAND": 7,
+          "DIRECT_FULL": 7
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 4,
+          "EXPAND": 6
+        },
+        {
+          "EXPAND": 6,
+          "DIRECT_FULL": 4
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B6 narrowly improves on A4 by combining clear escalation-boundary practice with reliable access to both claimants' information and an individual assessment requiring missing-information requests. These are concrete improvements in feasibility and inspectability, although neither proposal supplies evidence of actual learning effects.",
+        "A6 strengthens evidence gathering through reliable disclosure and tests requesting missing information; B4 makes the action-versus-escalation boundary especially clear through contrasting cases. Both provide feasible 45-minute role-play sequences, explicit escalation checks, and relevant unseen individual assessments. Their different strengths do not establish a clear overall advantage in written task quality."
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 7,
+        "EXPAND": 8
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "O02": {
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 7,
+          "EXPAND": 8
+        },
+        {
+          "EXPAND": 8,
+          "DIRECT_FULL": 7
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 7
+        },
+        {
+          "EXPAND": 7,
+          "DIRECT_FULL": 0
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B7 improves on A0 by specifying what happens when commitments lapse, owners withdraw or nobody accepts the recorder role. These practical recovery rules address a likely source of renewed chair dependence while preserving consent and bounded meeting time. Its direct comparison with the original queue makes the added value inspectable; superiority remains a hypothesis to test.",
+        "A7 modestly improves on B0 by specifying dispositions for overdue and withdrawn commitments, voluntary handoffs, absent-owner handling and a fallback when no recorder volunteers. These practical repairs reduce ambiguity that could otherwise restore chair chasing. Both are lightweight and inspectable; B0 specifies the rework observation window more clearly."
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 7,
+        "EXPAND": 9
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "Q05": {
+      "scores": [
+        1.0,
+        0.5
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 4,
+          "EXPAND": 7
+        },
+        {
+          "EXPAND": 7,
+          "DIRECT_FULL": 4
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 6
+        },
+        {
+          "EXPAND": 6,
+          "DIRECT_FULL": 2
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B6比A0更明确处理出勤分母与观察记录不匹配的问题，避免产生误导性的调整结果；其无法配对时的替代展示、停止条件和分母复核提高了可行性与可审查性，同时保留季节、记录口径及非因果解释的限制。优势来自具体的方法修正，而非篇幅或机制数量。",
+        "A6对出勤分母错配的防范更细，B2对记录指标与统计口径的核验更完整。两者均利用允许资料、考虑努力与季节及记录方式、不推断种群下降，并提供可检查的反证条件和谨慎报告模板；没有足够依据认定其中一个整体更优。"
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 4,
+        "EXPAND": 8
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "I03": {
+      "scores": [
+        1.0,
+        0.5
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 5,
+          "EXPAND": 6
+        },
+        {
+          "EXPAND": 6,
+          "DIRECT_FULL": 5
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 1,
+          "EXPAND": 5
+        },
+        {
+          "EXPAND": 5,
+          "DIRECT_FULL": 1
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B5较A1略优：两者机制相同且均忠实容纳失败与未知，B5进一步将主要问题、处理依据和验收条件落实为拍摄前的明确要求，并规定漏拍证据时撤回对应成功结论，提高执行和核查的确定性。优势来自操作细化，而非篇幅或新颖性；试映尚未产生效果证据。",
+        "A5与B1采用同一判断链，均提供可拍的九十秒结构、真实性边界及理解测试。A5把验收条件和拍摄责任写得更明确；B1对真实结果分支与观众判断依据的检查更直接。差异属于执行细化，未形成足以判定整体任务质量高下的优势。"
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    },
+    "P06": {
+      "scores": [
+        1.0,
+        1.0
+      ],
+      "mechanisms": [
+        {
+          "DIRECT_FULL": 5,
+          "EXPAND": 6
+        },
+        {
+          "EXPAND": 6,
+          "DIRECT_FULL": 5
+        }
+      ],
+      "best_indices": [
+        {
+          "DIRECT_FULL": 0,
+          "EXPAND": 5
+        },
+        {
+          "EXPAND": 5,
+          "DIRECT_FULL": 0
+        }
+      ],
+      "serious_violations": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "reasons": [
+        "B5 modestly improves on A0 by specifying what happens when the return box or volunteer processing capacity is exceeded, including a recovery path and stopping criteria. This addresses a practical weakness within the same resources. The extra return location adds complexity, but its availability and access costs are explicitly tested.",
+        "A5 narrowly exceeds B0 in written task quality by addressing return-box capacity and unfinished work within the same resources and visit budget. It supplies concrete fallback instructions and stopping criteria while acknowledging reduced shelf capacity and unresolved depletion. The additional return location adds complexity, but makes overload more manageable and inspectable."
+      ],
+      "candidate_counts": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "gates": {
+        "win_without_loss": true,
+        "mechanism_noninferior_each_review": true,
+        "no_serious_expand_violation": true
+      },
+      "passed": true
+    }
+  }
+}

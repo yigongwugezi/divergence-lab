@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, conditional proposals with distinct primary mechanisms: a checked circulation loop, bringing activities to participants, pacing arrivals, duplicating the program across reachable zones, and informed route choice. Each respects inspection before access claims, the resource limits, and measurement of arrival, waiting and dignified seated participation. Candidate 1 best combines reduced movement, integrated participation, explicit three-volunteer staffing and a practical prototype, subject to activity portability."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable and have distinct primary mechanisms: a checked circulation loop, bringing activities to participants, pacing arrivals, acoustic separation, persistent activity instructions, separating opposing traffic, and preserving turns without standing queues. Their applicability conditions and limitations do not constitute hard-constraint violations. Candidate 1 offers the strongest overall arrival and activity layout, with reduced travel, equivalent seated participation, feasible staffing and inspectable checks; the other mechanisms depend more on particular barriers or demand patterns."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 1. Its constraint correctness, feasibility, likely effect and inspectability are therefore equal; the additional alternatives in B do not improve the written quality of the selected proposal."
+    }
+  }
+}

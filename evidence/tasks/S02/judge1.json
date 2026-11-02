@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer distinct, conditionally workable mechanisms within the constraints: overlapping staff roles, earlier customer decisions, shifting packing before peak, short-order priority, and reducing movement. Candidate 0 best combines a concrete operating rule, bounded packing backlog, ticket-based accuracy checks, and a baseline comparison measuring total wait through handoff. Its space and workload assumptions need checking."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable conditional proposals with baseline tests. Each has a distinct primary mechanism; candidates 5 and 6 add voluntary arrival shifting and customer retrieval. Candidate 6 explicitly requires an existing suitable display rather than assuming new equipment. Candidate 0 offers the strongest combination of operational clarity, plausible peak capacity benefit, backlog control, accuracy protection, and inspectable outcomes."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both directly address waiting with two staff, preserve order checks, require no prohibited technology or advance customer data, and compare total waiting and errors against the present single line. B's additional alternatives do not improve its best proposal."
+    }
+  }
+}

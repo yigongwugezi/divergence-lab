@@ -1,0 +1,76 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible or explicitly conditional procedures within the resource and scheduling constraints, log required observations, and allow limited or inconclusive attribution. Their distinct primary mechanisms are lamp-reference comparison, daylight intervention, placement intervention, additive-offset checking, operating-duration intervention, and exposure-history intervention. Candidate 0 offers the strongest overall comparison through repeated lamp references, standardized classroom placement, replacement checks, and explicit lamp-versus-meter uncertainty."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints; power cycling and shade-based sensor blocking are explicitly conditional on safe, reproducible operation. Their distinct primary mechanisms are lamp-reference comparison, daylight intervention, placement intervention, power-cycle intervention, and additive-offset checking. Candidate 0 provides the strongest overall comparison with repeatability checks and appropriately limited conclusions. The other candidates offer useful but narrower causal tests."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a safe, inspectable five-day comparison while acknowledging that lamp stability, residual daylight, and brightness-dependent meter faults prevent definitive attribution."
+    }
+  }
+}

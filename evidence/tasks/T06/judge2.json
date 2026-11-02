@@ -1,0 +1,168 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "SAVE",
+    "C": "REFINE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer distinct usable mechanisms and individual transfer with safe endpoint checks. Candidate 0 provides a clear, feasible comparison connecting ingredient scaling to changed cooking conditions. Its main weakness is changing several conditions together. Proposed pilot checks need integration into the 40-minute schedule."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and mechanistically distinct. Candidate 4 directly addresses both multiplying cooking time and retaining it with unjustified certainty, preserves valid ingredient arithmetic, and makes independent safe planning inspectable. Its experimental comparison needs explicit integration into the existing schedule."
+      },
+      "C": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 improves candidate 0's contrast mechanism by holding vessel arrangement and loading constant between scaled versions while varying depth distribution. It retains uncertainty about original timing and specifies a concrete individual transfer check. This is a repair of the same mechanism, not a fifth mechanism."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable; candidate 5 adds a distinct communication-feedback mechanism. Candidate 4 offers the strongest balance of direct misconception correction, feasibility, and inspectable independent safe planning. Its experimental comparison needs explicit integration into the existing schedule."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B4 explicitly corrects both proportional-time reasoning and unjustified unchanged-time reasoning, with clear independent passing requirements. A0's comparison changes several physical conditions together."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C4 retains A0's accessible comparison while better isolating depth and assessing transfer through a smaller-but-thicker scenario with an explicit endpoint-and-recheck plan."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 addresses two opposing fixed-time misconceptions and clearly requires independent safe planning. A0 is feasible but provides a less controlled comparison."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C4 more clearly connects a controlled physical difference to timing uncertainty and embeds its diagnostic check in individual transfer. B4 is strong, but its additional experimental comparison is less clearly accommodated within 40 minutes."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The selected proposals, B4 and D4, are identical."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C4 supplies a more controlled causal comparison and a concrete transfer check within the lesson. D4 offers strong misconception correction but leaves integration of its experimental comparison less explicit."
+      }
+    ]
+  }
+}

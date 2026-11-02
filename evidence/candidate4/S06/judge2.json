@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable without definite serious hard-constraint violations. The primary mechanisms are anonymous queued orientation, visitor-controlled browsing, shared welcome rounds, silent communication, and volunteer boundary calibration. Candidate 4 repairs candidate 0 rather than introducing a mechanism. It is strongest overall because it makes privacy checking operational, supplies an accessible fallback, handles missed turns, and tests navigation, waiting confusion and privacy without real case exposure."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable without definite serious hard-constraint violations. Their primary mechanisms are anonymous queued orientation, visitor-controlled browsing, shared welcome rounds, case-free information assistance, and spatial separation. Candidate 3 is strongest because it limits personal disclosure throughout assistance, preserves a common anonymous queue, provides respectful redirection and qualified-help escalation, and explicitly checks usefulness alongside the required outcomes."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 provides the more complete and inspectable first-visit flow: it checks acoustic privacy before service, defines what happens when that check fails, supports spoken assistance and missed turns, and specifies referral limits. B3 has a strong disclosure-minimization mechanism, but its warning that the corner may lack confidentiality gives less concrete protection against spontaneous disclosure."
+    }
+  },
+  "format_retry_of": null
+}

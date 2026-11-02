@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect safety, existing resources and shopping constraints, and compare waste, flexibility and planning time over three weeks. Their primary mechanisms are freezing uncertain demand, ingredient interchangeability, assigned coordination, redirecting meal occasions and delaying opening or preparation. Candidate 0 most directly buffers unpredictable attendance with single-person portions and deferred thawing; its experiment checks effort and accumulated freezer stock as well as discards."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide usable, safety-conscious three-week comparisons. Their primary mechanisms are freezing uncertain demand, ingredient interchangeability, assigned coordination, redirecting meal occasions, purchasing more durable fresh foods, surplus sharing and advance preparation. Sharing and advance preparation explicitly depend on additional existing relationships or equipment, limiting feasibility without constituting definite hard-constraint violations. Candidate 0 offers the strongest direct buffer against cancellations, practical portion flexibility and an inspectable comparison that checks for waste merely deferred into storage."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality, feasibility, constraint correctness and inspectability."
+    }
+  }
+}

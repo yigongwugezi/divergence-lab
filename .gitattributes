@@ -1,0 +1,2 @@
+# Preserve the bytes used by the archived SHA-256 evidence and runtime manifests.
+* -text

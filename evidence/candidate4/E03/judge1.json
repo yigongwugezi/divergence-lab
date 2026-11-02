@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both respect the safety and resource constraints and require corroboration. Candidate 0 provides the strongest general diagnostic sequence across all three causes; candidate 1 centers on a conditional mounting correction and its measured effect."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 3 share repeated matched comparison followed by targeted inspection. Candidate 1 uses mounting correction as an intervention, 2 uses coast-down response, and 4 tests transmitted vibration with the rotor stationary. Candidate 3 best combines diagnostic evidence with explicit checks for ventilation capacity, tools, access, restoration time and safe fallback decisions. The transient and stationary tests are usable but offer conditional benefits."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 modestly improves on A0 by making the 30-minute shutdown executable through explicit readiness and restoration decisions, including what to do when ventilation capacity or repair resources are inadequate. It retains repeated comparisons, corroborating inspection and safe escalation without claiming a definitive diagnosis from overall vibration alone."
+    }
+  },
+  "format_retry_of": null
+}

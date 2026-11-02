@@ -1,0 +1,176 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "REFINE",
+    "C": "DIRECT_FULL",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 offers a practical, reversible trial with few technical prerequisites, unchanged alarm protection and explicit thermal rejection criteria. All candidates are conditionally usable; relocation, calibration and software changes appropriately depend on evidence and preserved coverage. Reduced alarm counts alone would not establish success."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 makes the access-workflow intervention especially concrete: prepare outside, retrieve an ordinary load and close before sorting. It preserves alarms, distinguishes the required causes and rejects longer openings or worse recovery. It shares candidate 2's mechanism. Candidate 3 also improves calibration validation, but requires a demonstrated bias and adequate temperature-range evidence."
+      },
+      "C": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 is the most readily trialled reversible mitigation while preserving detection settings and checking thermal outcomes. The calibration and connection proposals are usable only upon verification of their respective faults. Candidate 4 explicitly conditions servicing on adequate continuous coverage and acknowledges that replay cannot validate physical responsiveness."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 best combines four-day feasibility, reversibility, unchanged protection and inspectable comparison criteria. The other mechanisms remain usable conditional alternatives, with appropriate prerequisites and fallback to unchanged operation. No written proposal definitely violates a hard constraint."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B4 narrowly improves on A2 by specifying an ordinary-load retrieval procedure and an explicit close-before-sorting rule, making the workflow easier to inspect without changing protection."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their best proposals are identical, with the same feasibility, safeguards and validation limits."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical and offer equal constraint correctness and practical value."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B4 narrowly improves operational specificity over C2 and directly guards against longer batched openings; both preserve alarm detection."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B4 provides a more concrete, inspectable workflow trial than D2, with similar resources and unchanged alarm protection."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their selected proposals are identical; neither has an advantage in feasibility, likely effect or validation."
+      }
+    ]
+  }
+}

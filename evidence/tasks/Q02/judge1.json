@@ -1,0 +1,76 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Four distinct primary mechanisms: ambient vapor uptake, condensation, regional material or construction effects, and trapped internal moisture. All provide safe, bounded observations and acknowledge confounding. Candidate 3 is conditional on safe opening. Candidate 0 offers the strongest broadly feasible comparison through randomized storage assignment and crossover, while explicitly limiting causal interpretation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Seven distinct primary mechanisms: ambient vapor uptake, condensation, regional material or construction effects, contact-fed liquid transfer, continuing moisture release from contents, sensory misclassification, and residue deliquescence. Conditional prerequisites are explicit and no candidate definitely violates a hard constraint. Candidate 3's unchanged-contact comparator needs scheduling clarification, but this is repairable. Candidate 0 provides the strongest broadly feasible and inspectable test without relying on unknown contents, deposits or temperature contrasts."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0. It directly addresses the task with competing explanations, a feasible ten-package weekly crossover, documented logger limitations and appropriately bounded conclusions. Additional alternatives in B do not improve the selected proposal's written quality."
+    }
+  }
+}

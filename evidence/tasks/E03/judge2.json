@@ -1,0 +1,124 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "REFINE",
+    "C": "SAVE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 provides the strongest inspectable repair decision through a justified mounting correction and repeated controlled comparisons. Candidate 0 is a sound comparative diagnostic sequence. Candidate 2 is usable conditionally on existing speed controls, but those resources are unconfirmed and speed response cannot uniquely distinguish the required causes."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 improves the mounting-intervention approach by checking procedural feasibility beforehand, reserving restoration time and setting a firm cutoff. This better accommodates the single 30-minute window while retaining conditional repair, controlled verification and safe escalation. It shares candidate 1's primary mechanism."
+      },
+      "C": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both proposals respect the constraints and acknowledge diagnostic uncertainty. Candidate 1 offers stronger causal evidence for a mounting contribution, an explicit conditional repair decision and controlled post-repair verification. Its inspection sequence could consume repair time, but this is a feasibility weakness rather than a definite hard-constraint violation."
+      },
+      "D": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both proposals are usable. Candidate 1 best connects a confirmed mounting defect to a justified repair and repeated comparator-controlled verification, while referring unresolved bearing or imbalance evidence for specialist diagnosis. Shutdown time allocation remains its principal weakness."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B's best retains A's mounting-intervention mechanism while explicitly protecting restoration time and checking that the correction fits the shutdown."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "The best proposals are identical and therefore have equal constraint correctness, feasibility and inspectability."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The best proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B's best addresses the risk of inspection consuming the repair window through advance feasibility checks, prioritized correction and a restoration cutoff."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B's best provides a more feasible shutdown sequence without weakening the diagnostic controls or safety conditions."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The best proposals are identical."
+      }
+    ]
+  }
+}

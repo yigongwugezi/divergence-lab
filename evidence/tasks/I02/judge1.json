@@ -1,0 +1,84 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable within the stated constraints. Primary mechanisms are causal-path tracing, successive-round simulation, contrasting feedback with fixed repetition, predicting a disturbance’s returning effect, perspective-taking, and explicit analogy. Candidate 2 is strongest: a simple contrasting pair isolates the defining return connection, supports complete text participation, and checks identification plus causal prediction on a new example. Its two-session comparison is feasible and inspectable."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable within the stated constraints. Primary mechanisms are causal-path tracing, successive-round simulation, contrasting feedback with fixed repetition, counterfactual link interruption, integrating separate causal facts, following a disturbance’s returning effect, and explicit analogy. Candidate 2 offers the clearest combination of conceptual discrimination, low material and reading burden, accessible transfer checking, and feasible prototype evaluation."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools’ strongest proposal is the identical candidate 2. It explicitly distinguishes feedback from repetition, accommodates text-preferring visitors, avoids harmfulness and universality claims, and provides a concrete 90-second structure with an inspectable transfer check."
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND",
+    "C": "SAVE",
+    "D": "REFINE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Distinct mechanisms are personal learning closure, collective question formation, recognition of care, volunteer modeling, institutional responsiveness, and reconstruction of initial uncertainty. Candidate 0 most directly connects an actual unsuccessful visit to optional learning, with separate publication consent, an honest no-learning option, and observable checks of discomfort, refusal handling, and delay. Its main risk is making reflection feel compulsory."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Distinct mechanisms are personal learning closure, collective question formation, recognition of care, volunteer modeling, active application, institutional responsiveness, expectation calibration, and separating process judgments from outcomes. Candidate 0 offers the strongest overall balance of direct relevance, modest workload, consent safeguards, and inspectable learning versus pressure. The alternatives are usable but have less direct learning links, greater exercise burden, or additional prerequisites."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Distinct mechanisms are personal learning closure, collective question formation, recognition of care, volunteer modeling, active application, institutional responsiveness, and expectation calibration. Candidate 0 most directly makes an unsuccessful visit optionally useful while permitting uncertainty and private participation. Its pilot explicitly checks learning, embarrassment, refusal handling, and queue effects; visitor reflection remains a pressure risk."
+      },
+      "D": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 5 share personal learning closure; transferring slip completion to volunteers repairs that mechanism rather than creating another. Other mechanisms are collective question formation, recognition of care, volunteer modeling, and institutional responsiveness. Candidate 5 best reduces visitor effort and pressure while retaining factual findings, honest uncertainty, separate publication consent, and concrete checks of understanding and discomfort. Volunteer writing time remains a feasibility risk explicitly covered by observation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0, so their best proposals have equal merits and limitations."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0, with the same safeguards, learning mechanism, and reflection burden."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D5 modestly improves the shared mechanism by supplying a factual summary without requiring visitors to classify or produce a lesson. Its pilot checks concrete understanding and the additional writing burden."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their selected candidate 0 is identical; differences elsewhere in the pools do not change this comparison."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "D",
+        "reason": "D5 better addresses pressure at a disappointing handback through volunteer-prepared wording and a single take-or-leave offer, while preserving consent and testing queue costs."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "D",
+        "reason": "D5 removes visitor homework while retaining the useful-ending ritual and explicitly evaluating understanding, embarrassment, pressure, and delay. This is a modest proposal-level advantage, not demonstrated effectiveness."
+      }
+    ]
+  }
+}

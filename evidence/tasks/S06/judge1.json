@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with distinct primary mechanisms: anonymous queue access, visitor-directed browsing, shared welcome rounds, disclosure minimization, and spatial separation. Candidate 0 best balances a complete first-visit flow, accessible waiting instructions, volunteer boundaries, qualified referrals and observable checks. Its acoustic assumption is explicitly checked and has a fallback; candidate 4 depends more heavily on suitable space."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with distinct primary mechanisms: anonymous queue access, visitor-directed browsing, shared welcome rounds, disclosure minimization, and an optional referral-understanding feedback loop. Candidate 0 provides the strongest overall arrival-to-referral flow and explicit accessibility provisions while testing navigation, waiting confusion and privacy concerns. Candidate 4 adds a useful, inspectable closing check but gives less detail on accessible arrival and waiting."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both meet the constraints, use the available resources plausibly, provide escalation through existing referral information and specify checks without claiming results. Referral quality and acoustic privacy remain explicit dependencies."
+    }
+  }
+}

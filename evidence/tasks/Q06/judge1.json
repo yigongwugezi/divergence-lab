@@ -1,0 +1,84 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the equipment, privacy, volume and access constraints. Their primary mechanisms are distance attenuation, boundary reflections, background masking, listener orientation, source variability, and visual or attentional influence. Candidate 0 offers the clearest feasible comparison with a likely observable effect, baseline measurements, reversed order and appropriate limits on phone readings."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious constraint violations. Their primary mechanisms are distance attenuation, boundary reflections, background masking, source directionality, listener orientation, source variability, and comparison-order effects. Source directionality and trial-to-trial source variability are distinct mechanisms. Candidate 0 provides the strongest combination of feasibility, likely effect and inspectable comparison while acknowledging reflections, background and measurement limitations."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both directly test distance with safe gentle claps, controlled comparisons and explicit treatment of inconclusive aggregate readings, without claiming calibrated acoustics."
+    }
+  }
+}

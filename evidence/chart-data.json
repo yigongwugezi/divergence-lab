@@ -1,0 +1,28 @@
+{
+  "tested_version": "2026-10-31 frozen package",
+  "expand_tasks": 54,
+  "refine_save_tasks": 18,
+  "mean_mechanisms_strict_workflow": {
+    "DIRECT_FULL": 4.935185185185185,
+    "EXPAND": 5.796296296296297
+  },
+  "mechanism_delta": 0.8611111111111116,
+  "review_votes": {
+    "REFINE": [
+      32,
+      4,
+      0
+    ],
+    "SAVE": [
+      7,
+      28,
+      1
+    ]
+  },
+  "generation_tokens_original18": {
+    "DIRECT_FULL": 704478,
+    "REFINE": 699531,
+    "SAVE": 544204
+  },
+  "save_reduction_pct": 22.75074594238571
+}

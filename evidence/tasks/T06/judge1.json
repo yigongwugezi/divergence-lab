@@ -1,0 +1,168 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "REFINE",
+    "C": "SAVE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six propose feasible paper-based lessons with individual transfer and safe future checks. Their primary mechanisms are contrast, assumption auditing, decision rehearsal, spatial modeling, error repair, and instruction handoff. Candidate 0 best balances direct comparison of scaling conditions, a clear 40-minute schedule, and inspectable individual reasoning. The experimental additions would need to fit within the session rather than extend it."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable. Candidate 4 repairs the contrast mechanism of candidate 0 rather than introducing a distinct mechanism; the others use auditing, decision rehearsal, and error repair. Candidate 4 provides the clearest controlled comparison of depth, explicitly retains uncertainty from oven loading, and tests transfer through a smaller-but-thicker scenario requiring an endpoint check and recheck plan."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and employ distinct primary mechanisms: contrast, auditing, decision rehearsal, spatial modeling, and error repair. Candidate 0 offers the strongest overall balance of task alignment, classroom feasibility, explicit uncertainty, and independently assessable safe checking plans. Experimental probes require integration into the existing time allocation."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with contrast, auditing, decision rehearsal, error repair, and spatial explanation as distinct mechanisms. Candidate 4 connects changed thickness to heating assumptions, explicitly limits what diagrams establish, and requires individual endpoint-checking plans. Its proposed assessment without a supplied cross-section makes the spatial reasoning particularly inspectable, although baseline collection needs integration into the 40 minutes."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B4 improves on A0 by holding more conditions constant in the contrast and using smaller-but-thicker portions for transfer, making recognition of the consequential assumption easier to distinguish from generic timing uncertainty."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "The selected proposals are identical."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "A0 offers broader comparison of cooking conditions and simpler delivery; D4 offers a reconstructable spatial explanation and a revealing transfer check. Both require safe endpoint verification, with no clear overall advantage from the written proposals."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B4 isolates depth more clearly than C0 while preserving timing uncertainty and requiring safe individual transfer to a reversed quantity-versus-thickness scenario."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B4's controlled comparison directly exposes the failed scaling assumption with less dependence on learners constructing a simplified heat-flow model. Its stated lesson schedule also accommodates the core transfer check without an additional baseline activity."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "C0's accessible contrast and broader conditions balance D4's causal spatial explanation and transfer without supplied diagrams. Both are feasible proposals with explicit uncertainty and safe checking requirements; neither has demonstrated superior learning effects."
+      }
+    ]
+  }
+}

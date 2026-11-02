@@ -1,0 +1,176 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "DIRECT_FULL",
+    "C": "REFINE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 offers a practical, reversible four-day trial using available resources while preserving alarm settings and coverage. It distinguishes the required causes and checks sustained-excursion detection. Other candidates are usable conditional options, but depend more on demonstrated faults, configurable controls or physical validation."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 combines straightforward implementation, unchanged alarm protection and inspectable thermal outcomes. Candidate 3 strengthens calibration validation but requires adequate temperature-range evidence; candidate 4 requires a demonstrated serviceable connection fault and independently adequate coverage during servicing."
+      },
+      "C": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 specifies a narrow, reversible outside-preparation trial, reference swapping and explicit rejection criteria for worse thermal behavior. It preserves existing protection and checks sustained-excursion logic. It shares candidate 2's primary mechanism; the repair improves specificity rather than introducing a distinct mechanism."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 is the strongest broadly practical trial with unchanged alarm protection and observable rejection criteria. Candidate 6 adds a distinct rearming mechanism with appropriate warning and escalation safeguards, but helps only when repeated notifications from unresolved episodes dominate."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Their best proposals are identical and offer equal feasibility, constraint protection and validation."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "C makes the workflow and reference checks more specific, but A already prohibits excessive consolidation and checks thermal deterioration. Both offer comparable practical value and preserve detection."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical; additional alternatives do not improve the selected proposal."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "C's narrower workflow is easier to follow, but B already includes the essential safeguards and validation. Neither has a demonstrated advantage in likely effect."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical in mechanism, safeguards, feasibility and inspectability."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "C adds useful procedural specificity to the same workflow mechanism, while D already addresses prolonged openings and thermal rejection criteria. Overall practical merit is comparable."
+      }
+    ]
+  }
+}

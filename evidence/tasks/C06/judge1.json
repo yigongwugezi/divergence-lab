@@ -1,0 +1,184 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "REFINE",
+    "C": "SAVE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable and have distinct primary mechanisms: sequential attention, recurrence, description and reconsideration, visual prediction, imagined subtraction, simultaneous grouping, and memory comparison. Candidate 0 offers a direct, low-demand interaction with clear access, upkeep and poster-comparison checks. Its distance prompts may be ambiguous, but the one-sound ending limits that weakness. Candidate 6's internal trial provides weaker traveler-specific evidence."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable. Candidates 0 and 5 share sequential attention as their primary mechanism; removing distance judgments is a repair, not a new mechanism. The others use recurrence, description and reconsideration, visual prediction, and imagined scene-making. Candidate 5 combines straightforward listening, an explicit short ending, accessible presentation and concrete usability and poster-comparison checks, while reducing source-location ambiguity."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable, with distinct mechanisms: sequential attention, recurrence, description and reconsideration, visual prediction, imagined subtraction, and simultaneous grouping. Candidate 0 provides the strongest balance of simple participation, plausible noticing, operational feasibility and inspectable checks. Its distance judgments remain a modest usability risk rather than a definite hard-constraint violation."
+      },
+      "D": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable, with distinct mechanisms: sequential attention, recurrence, description and reconsideration, visual prediction, imagined scene-making, and memory comparison. Candidate 0 gives the clearest low-demand route to noticing sounds, supported by seated readability, upkeep and poster-comparison checks. The alternatives add recurrence, visual, language or memory demands without established additional benefit."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B5 preserves A0's feasible sequential listening interaction while removing distance inference and specifying a short ending. Its repair-specific usability check and reversed-order poster comparison make the proposal slightly more inspectable."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "A0 and C0 are identical written proposals."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "A0 and D0 are identical written proposals."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B5 reduces the distance-judgment ambiguity in C0 while retaining its simple mechanism and practical safeguards, with more targeted proposed usability checks."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B5 improves on D0 through attention-based prompts that avoid source-distance inference, an explicit short ending and a targeted repair check before the poster comparison."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "C0 and D0 are identical written proposals."
+      }
+    ]
+  }
+}

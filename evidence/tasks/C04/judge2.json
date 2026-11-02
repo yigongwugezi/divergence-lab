@@ -1,0 +1,180 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL",
+    "C": "REFINE",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 directly addresses unfamiliarity through inspectable arrival previews, with low material and maintenance demands, an accessible short-route requirement and a sheltered paper fallback. Its comparison against plain directions can test whether rehearsal improves recognition or adds confusion. Other candidates are usable but introduce more uncertain emotional effects, instructional demands or participation infrastructure."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 offers the strongest combination of direct relevance, modest resources and testable navigation benefits. Facility guidance depends on suitable amenities; editable artwork needs additional fixture permission and maintenance; the puzzle risks making welcome feel like a test. These dependencies are acknowledged rather than definite constraint violations."
+      },
+      "C": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 strengthens candidate 2's rehearsal mechanism with approach-specific sketches, two checked cues and an explicit short-route return. Its first-panel pilot provides concrete readiness criteria before expanding the format. Written directions remain necessary, and visual exclusion remains an acknowledged limitation. This is a repair of the same mechanism, not a distinct mechanism."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 most directly reduces arrival uncertainty using the available inspection and printing resources. Its optional short route, public cues, sheltered fallback and comparative clarity pilot fit the constraints. Balloting adds permission and follow-through dependencies, while skill teaching has a less certain connection to feeling welcome."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2, with the same feasibility, safeguards and proposed pilot."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C4 narrowly improves on A2 by specifying approach-matched arrival cues and testing the short return before replicating the design. A2 has a stronger comparative test, but C4 makes the proposed route more concrete and inspectable."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2; neither has an advantage in the written proposal."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C4 narrowly improves B2's arrival rehearsal through checked approach-specific diagrams and explicit return testing, without adding a separate activity or substantial infrastructure."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical candidate 2, including the same constraints and evaluation plan."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C4 makes D2's rehearsal mechanism more operationally precise and gives the first arrival panel a concrete revision gate. This is a modest proposal-level advantage, not evidence of demonstrated effectiveness."
+      }
+    ]
+  }
+}

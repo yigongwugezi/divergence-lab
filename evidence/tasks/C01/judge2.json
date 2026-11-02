@@ -1,0 +1,188 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "SAVE",
+    "C": "REFINE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable as written, subject to their stated sightline checks. Mechanisms are scale shifting, interpretive word choice, imagined mark-making, temporal attention, memory mismatch, figure–ground reversal and visual template matching, respectively. Candidate 5 offers a simple immediate action and a plausible connection to texture without requiring wind, recall or fine detail. Its seated-location rejection check and counterbalanced comparator pilot make the proposal inspectable."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints as proposed. Their distinct mechanisms are scale shifting, interpretive word choice, imagined mark-making, temporal attention, memory mismatch and figure–ground reversal. Candidate 5 combines a quick, concrete invitation with a feasible longer observation and explicit checks that finding gaps actually leads to noticing surface structure."
+      },
+      "C": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Mechanisms are scale shifting, interpretive word choice, imagined mark-making, figure–ground reversal and memory mismatch. Candidate 5 repairs candidate 3 within the same mechanism. Comparing repeated spaces in two clusters makes the connection between gaps and foliage texture more concrete. It adds a stricter siting prerequisite, but checks it explicitly and provides a matched, counterbalanced pilot with the same verbal question in both conditions."
+      },
+      "D": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Their mechanisms are scale shifting, interpretive word choice, imagined mark-making, figure–ground reversal, memory mismatch, temporal attention and completing an incomplete representation. Candidate 3 offers the strongest balance of simple instructions, low production burden and direct attention to repeated spacing. Its pilot checks both seated visibility and whether visitors connect gaps to texture. Candidate 6 is plausible but adds drawing and scene-matching dependencies."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "The selected proposals are identical, including their interaction, feasibility conditions and pilot."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C5 makes the gap-to-texture relationship more explicit through a concrete spacing comparison and uses the same outcome question in both conditions. Its additional siting requirement is clearly stated and checked."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "D3 gives clearer instructions about neighboring gaps and density; A5 specifies stronger counterbalancing and a direct gap-to-surface probe. Both offer similarly feasible, constraint-compliant interactions."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C5 more concretely directs visitors from repeated gaps to foliage texture and provides a more comparable verbal outcome check, with an explicit test of its stricter location requirement."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "D3 has clearer visitor-facing guidance on spacing, while B5 has more explicit pilot counterbalancing and a direct mechanism probe. Neither has a decisive overall advantage."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C5 strengthens D3's mechanism by making spacing differences directly comparable across two clusters. Its matched panels, reversed block order and common verbal question also improve inspectability, conditional on finding the required seated view."
+      }
+    ]
+  }
+}

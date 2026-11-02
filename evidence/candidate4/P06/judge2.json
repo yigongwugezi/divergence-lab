@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Primary mechanisms are centralized return inspection (0,5), reader reshelving into visible categories (1), an on-site availability reserve (2), optional reciprocal replenishment (3), optional shared caretaking (4), and limiting simultaneous browsing (6). Candidate 5 best combines simple borrowing with explicit overflow handling, a fixed volunteer time budget, condition checks, seated-access verification and observable failure criteria. Its capacity provisions refine candidate 0 rather than create a new mechanism."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Primary mechanisms are centralized return inspection (0), reader reshelving into visible categories (1), an on-site availability reserve (2), optional shared caretaking (3), and portable return reminders (4). Candidate 0 offers the clearest low-burden ritual and predictable volunteer workflow, checking availability, condition, cleanup effort and seated access. Its main weakness is assuming the return box can accommodate material between visits."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly exceeds B0 in written task quality by addressing return-box capacity and unfinished work within the same resources and visit budget. It supplies concrete fallback instructions and stopping criteria while acknowledging reduced shelf capacity and unresolved depletion. The additional return location adds complexity, but makes overload more manageable and inspectable."
+    }
+  },
+  "format_retry_of": null
+}

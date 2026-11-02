@@ -1,0 +1,282 @@
+[
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S01/MANIFEST.json",
+    "source_sha256": "00b39b291b57bee8d7608b098bce57d34217859b16ba949c3110e6580135b38a",
+    "export": "evidence/candidate4/S01/task-and-pools.json",
+    "export_sha256": "e6f40861426fa84cc1664a9f5629b17074a52582c84b2c3d8733a016844946cc",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S01/judge1/VERDICT.json",
+    "source_sha256": "6ea7bb528ab747685b3534de21695eaff731b22f28ef1f999e29c75d377f272f",
+    "export": "evidence/candidate4/S01/judge1.json",
+    "export_sha256": "6ea7bb528ab747685b3534de21695eaff731b22f28ef1f999e29c75d377f272f",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S01/judge2/VERDICT.json",
+    "source_sha256": "68af25818124f850e032ddb55247ed909373cbd2443590fc0dc90a5c79ce1a69",
+    "export": "evidence/candidate4/S01/judge2.json",
+    "export_sha256": "68af25818124f850e032ddb55247ed909373cbd2443590fc0dc90a5c79ce1a69",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/L01/MANIFEST.json",
+    "source_sha256": "bcacb27e54810ef59bfa7ed400eb4d26cd7c79f0217165e967d674344744c659",
+    "export": "evidence/candidate4/L01/task-and-pools.json",
+    "export_sha256": "566a3babe30fd09e4e8839590afd0daca5fbc9a57dddc5438ce8887910762876",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/L01/judge1/VERDICT.json",
+    "source_sha256": "dc61df77aef8d1708c8a9aace1f8d9cee0affafc31eea078586c55dfb9c1728d",
+    "export": "evidence/candidate4/L01/judge1.json",
+    "export_sha256": "dc61df77aef8d1708c8a9aace1f8d9cee0affafc31eea078586c55dfb9c1728d",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/L01/judge2/VERDICT.json",
+    "source_sha256": "7118f3ca81735463c9607763f809b3e4a445593915869f330a6b39012e7ea3d1",
+    "export": "evidence/candidate4/L01/judge2.json",
+    "export_sha256": "7118f3ca81735463c9607763f809b3e4a445593915869f330a6b39012e7ea3d1",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S03/MANIFEST.json",
+    "source_sha256": "fdee96d7cfb33328dce614e481a552abf4242472df2601f14fc9c3f196141f9e",
+    "export": "evidence/candidate4/S03/task-and-pools.json",
+    "export_sha256": "441c6c1a0dccec3e649d25780cc451d1df0fa38bfdc19efe812da96457f7bf6e",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S03/judge1/VERDICT.json",
+    "source_sha256": "540b03551edcc7217c9b71d7b1050d41bf1619d8a5616529f09f4bd1b369120c",
+    "export": "evidence/candidate4/S03/judge1.json",
+    "export_sha256": "540b03551edcc7217c9b71d7b1050d41bf1619d8a5616529f09f4bd1b369120c",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S03/judge2/VERDICT.json",
+    "source_sha256": "2d79986ab952e443dd551f96ad78de2d4171d61127095b0789846c959d472c41",
+    "export": "evidence/candidate4/S03/judge2.json",
+    "export_sha256": "2d79986ab952e443dd551f96ad78de2d4171d61127095b0789846c959d472c41",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S05/MANIFEST.json",
+    "source_sha256": "8106fa2539b24bfea7396d737b6f1a00faeea39c47a58682c89e70b4a49c9334",
+    "export": "evidence/candidate4/S05/task-and-pools.json",
+    "export_sha256": "3bb7364cd970b66b96fb46aabe3307cbbbf0e259e1c474c13315d96078110443",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S05/judge1/VERDICT.json",
+    "source_sha256": "3625eb4208b88b22afcb9142d98a249d6b0546a2f7f0875cec025d7224e218bf",
+    "export": "evidence/candidate4/S05/judge1.json",
+    "export_sha256": "3625eb4208b88b22afcb9142d98a249d6b0546a2f7f0875cec025d7224e218bf",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S05/judge2/VERDICT.json",
+    "source_sha256": "eb38237300306047125206d01d98d54c05ff8383acabde970edf9c60729feda1",
+    "export": "evidence/candidate4/S05/judge2.json",
+    "export_sha256": "eb38237300306047125206d01d98d54c05ff8383acabde970edf9c60729feda1",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S06/MANIFEST.json",
+    "source_sha256": "13aa89b4279ff12e8e7d2db7a755929b49673bc2ba6c8fc54d9003d5b27564a5",
+    "export": "evidence/candidate4/S06/task-and-pools.json",
+    "export_sha256": "844f59f7d40717b925a700f528e7a72bd5638658d9970486ada990b6f7ec52f4",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S06/judge1/VERDICT.json",
+    "source_sha256": "a6aebc7dd2abdffe41feb56f95d413c5da82b3800626b3c891c02d05b64ad257",
+    "export": "evidence/candidate4/S06/judge1.json",
+    "export_sha256": "a6aebc7dd2abdffe41feb56f95d413c5da82b3800626b3c891c02d05b64ad257",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/S06/judge2/VERDICT.json",
+    "source_sha256": "23590724ced2f41544eb431683f07a4b7220de9c497699d093b352d7c22d9d02",
+    "export": "evidence/candidate4/S06/judge2.json",
+    "export_sha256": "23590724ced2f41544eb431683f07a4b7220de9c497699d093b352d7c22d9d02",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/C05/MANIFEST.json",
+    "source_sha256": "46bd0686d8ef815e9c598266da9318205b76b07ed528af08a8581b9c0ea56e09",
+    "export": "evidence/candidate4/C05/task-and-pools.json",
+    "export_sha256": "c660fac57720fbdb24622853acf4cf55440e81dbb927395eca29e9f37a03be26",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/C05/judge1/VERDICT.json",
+    "source_sha256": "ee3a1f4fec391ec8cd5ea96feaece1bf9ae5699a2df80a9d81af2cbdd9bd1825",
+    "export": "evidence/candidate4/C05/judge1.json",
+    "export_sha256": "ee3a1f4fec391ec8cd5ea96feaece1bf9ae5699a2df80a9d81af2cbdd9bd1825",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/C05/judge2/VERDICT.json",
+    "source_sha256": "f02f46b82c11cf50b47d255a6fdab10b418674691c0c76d06836ff819b181314",
+    "export": "evidence/candidate4/C05/judge2.json",
+    "export_sha256": "f02f46b82c11cf50b47d255a6fdab10b418674691c0c76d06836ff819b181314",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/L05/MANIFEST.json",
+    "source_sha256": "a81b8a8aa6862f0b01b9641bd3268341c33c48d9c456bce40704e3c4598549a5",
+    "export": "evidence/candidate4/L05/task-and-pools.json",
+    "export_sha256": "2c16c4475b7cc704b091a571584adb2d7532eede9ad775a681c6e6df78ac692a",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/L05/judge1/VERDICT.json",
+    "source_sha256": "b501aefb4b3c3d033f65225be24bd2df7b99c183bc4250d5cd1048be0669fabb",
+    "export": "evidence/candidate4/L05/judge1.json",
+    "export_sha256": "b501aefb4b3c3d033f65225be24bd2df7b99c183bc4250d5cd1048be0669fabb",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/L05/judge2/VERDICT.json",
+    "source_sha256": "567b2e5b80075f9071c989c00dfd36377bbb89bf2ce638219c4bff97065cc924",
+    "export": "evidence/candidate4/L05/judge2.json",
+    "export_sha256": "567b2e5b80075f9071c989c00dfd36377bbb89bf2ce638219c4bff97065cc924",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/E03/MANIFEST.json",
+    "source_sha256": "8e632bce2448021f0ef3038fb67090e61e01ba2bfb16f062404007b1e3b2c7c1",
+    "export": "evidence/candidate4/E03/task-and-pools.json",
+    "export_sha256": "fa7b8ad67916b2534d80c494061ae47d9acb113f931272319529fb57fd01f3c7",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/E03/judge1/VERDICT.json",
+    "source_sha256": "23d28909c93ade986bd28ddde640e0917c7ef3302e021e47ff390d3d01df687d",
+    "export": "evidence/candidate4/E03/judge1.json",
+    "export_sha256": "23d28909c93ade986bd28ddde640e0917c7ef3302e021e47ff390d3d01df687d",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/E03/judge2/VERDICT.json",
+    "source_sha256": "2d85cce05ca4a2809a44c56b1725bd45471f2c3c3a1e5e53356af2aba5f3b220",
+    "export": "evidence/candidate4/E03/judge2.json",
+    "export_sha256": "2d85cce05ca4a2809a44c56b1725bd45471f2c3c3a1e5e53356af2aba5f3b220",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/T05/MANIFEST.json",
+    "source_sha256": "9b69e51a830fe11653694e40ab59fdb6bfa27290475ea900b724e71f23c3521d",
+    "export": "evidence/candidate4/T05/task-and-pools.json",
+    "export_sha256": "95d293ababb5acd460dacdffe67c70c3c89ef9edec580392a5b9518fdfc1cb09",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/T05/judge1/VERDICT.json",
+    "source_sha256": "ad462dff15a9a448400c0d15c67b51609d78b4781c7a037280bccb695ea9abd1",
+    "export": "evidence/candidate4/T05/judge1.json",
+    "export_sha256": "ad462dff15a9a448400c0d15c67b51609d78b4781c7a037280bccb695ea9abd1",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/T05/judge2/VERDICT.json",
+    "source_sha256": "d24e4b9816ecc759b8a416890dd83f098b35737e43b9059ca96718741bea4886",
+    "export": "evidence/candidate4/T05/judge2.json",
+    "export_sha256": "d24e4b9816ecc759b8a416890dd83f098b35737e43b9059ca96718741bea4886",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/O02/MANIFEST.json",
+    "source_sha256": "8a7eca0e8a60502dae09a2ef2e5c340591980854ddc1e7708943bf1504e17a7e",
+    "export": "evidence/candidate4/O02/task-and-pools.json",
+    "export_sha256": "64a9db15273da736504de6ecca4b32e75030e3461854c38d774c723dce06be36",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/O02/judge1/VERDICT.json",
+    "source_sha256": "a2ec3d9ea0720bc5b07869eef0086a5fcd48af3cefea16012debaa51d64c26d0",
+    "export": "evidence/candidate4/O02/judge1.json",
+    "export_sha256": "a2ec3d9ea0720bc5b07869eef0086a5fcd48af3cefea16012debaa51d64c26d0",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/O02/judge2/VERDICT.json",
+    "source_sha256": "bf8b47987ab111a99673bf88727ff66cc49812963c92e9590b1eb94e51ba45d6",
+    "export": "evidence/candidate4/O02/judge2.json",
+    "export_sha256": "bf8b47987ab111a99673bf88727ff66cc49812963c92e9590b1eb94e51ba45d6",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/Q05/MANIFEST.json",
+    "source_sha256": "5d67eecbff62d784a585dfc32fa274ce68fdd7d1669d9b682f49e192d454e54f",
+    "export": "evidence/candidate4/Q05/task-and-pools.json",
+    "export_sha256": "6bf4378744ba17cecb043f9a9222cb044ef26cd9b0b756ff243e990781e4128b",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/Q05/judge1/VERDICT.json",
+    "source_sha256": "e80bb7443d7e9691f76d5aea38d482a9277d159c330b5be392eaeac79839acd1",
+    "export": "evidence/candidate4/Q05/judge1.json",
+    "export_sha256": "e80bb7443d7e9691f76d5aea38d482a9277d159c330b5be392eaeac79839acd1",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/Q05/judge2/VERDICT.json",
+    "source_sha256": "e383ba1c9db9714312ad0fe2f62ad5a491b388844ba366dda1d06076249b0e38",
+    "export": "evidence/candidate4/Q05/judge2.json",
+    "export_sha256": "e383ba1c9db9714312ad0fe2f62ad5a491b388844ba366dda1d06076249b0e38",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/I03/MANIFEST.json",
+    "source_sha256": "27be07709690689dea3146b69709f918d52176beb00c4e9090095dc4e6bcd197",
+    "export": "evidence/candidate4/I03/task-and-pools.json",
+    "export_sha256": "93162bf506c692f054b77eaf1e09f759407e9b388c283c77a1bbde59087b3144",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/I03/judge1/VERDICT.json",
+    "source_sha256": "abb8e5659a79d9c66d931d4260fa6d0c4d3d8fa3c97f47436b61fdb31261c8a3",
+    "export": "evidence/candidate4/I03/judge1.json",
+    "export_sha256": "abb8e5659a79d9c66d931d4260fa6d0c4d3d8fa3c97f47436b61fdb31261c8a3",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/I03/judge2/VERDICT.json",
+    "source_sha256": "cdd0364a446231010bf7fee7a24ed14988732a55fec179f8a08e0ad228989ade",
+    "export": "evidence/candidate4/I03/judge2.json",
+    "export_sha256": "cdd0364a446231010bf7fee7a24ed14988732a55fec179f8a08e0ad228989ade",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/P06/MANIFEST.json",
+    "source_sha256": "17ba10af8633e0b0eb042fc6466732121336506f6fd1aecf6719d261a44ee071",
+    "export": "evidence/candidate4/P06/task-and-pools.json",
+    "export_sha256": "ca73f1d28748359a99216eaa7ca2613ad5ccd98bfe2f952f03f738d430e18ff7",
+    "transformation": "Retain task and complete pools; omit machine-local paths."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/P06/judge1/VERDICT.json",
+    "source_sha256": "48c4776f47416653e3a3a2e9e8ac33f6fb26a975ad10163986f137e628e1dd0d",
+    "export": "evidence/candidate4/P06/judge1.json",
+    "export_sha256": "48c4776f47416653e3a3a2e9e8ac33f6fb26a975ad10163986f137e628e1dd0d",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/runs/P06/judge2/VERDICT.json",
+    "source_sha256": "f36c4ce0453e7ac5e221bb433682c26a998ccd8d1ac4a5208454acf2d1d07d15",
+    "export": "evidence/candidate4/P06/judge2.json",
+    "export_sha256": "f36c4ce0453e7ac5e221bb433682c26a998ccd8d1ac4a5208454acf2d1d07d15",
+    "transformation": "Byte-identical valid verdict."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/superiority-validation-4/SUPERIORITY_BATCH4_RESULT.json",
+    "source_sha256": "b78d4f8d852d5bc911384fa22ede3250c95bd11b364e46b0ea4426bf49155d27",
+    "export": "evidence/candidate4/summary.json",
+    "export_sha256": "dfbfb180ce16fb59677d0ecfe2cfe6f05c58c6ca381d2437d10400bea9a5e871",
+    "transformation": "Task outcomes without machine-local output paths; explicit development scope."
+  }
+]

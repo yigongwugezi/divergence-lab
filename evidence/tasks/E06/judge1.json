@@ -1,0 +1,148 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND",
+    "C": "REFINE",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 best connects the available aggregate delivery evidence to a bounded fallback, with consent checks, distinct failure categories and inspectable outcome measures. Its feasibility depends explicitly on matching reporting periods to appointment batches. Candidate 0 risks a large silence queue; 1 and 3 address narrower causes."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 offers the strongest evidence-triggered operational fallback, conditional on batch attribution, while bounding calls and measuring privacy and workload. Candidate 3 is usable but depends on patients remembering to initiate recovery and on incoming-call capacity."
+      },
+      "C": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 repairs candidate 2's cohort attribution weakness without changing its primary mechanism. A minimal reminder-run snapshot reconciled with current appointments and permissions makes targeting more inspectable and reduces avoidable calls. Feasibility remains conditional on existing exports identifying that cohort; the contact-free rehearsal explicitly tests this prerequisite."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 best uses aggregate delivery evidence to activate a capped, consent-filtered fallback and provides clear feasibility and outcome checks. Batch matching remains a prerequisite. The other mechanisms are usable but depend on confirmation behavior, telephone preference uptake or intervening contact corrections."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2, with the same strengths and batch-attribution limitation."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's selected repair explicitly preserves the original reminder cohort and reconciles subsequent changes, improving targeting and inspectability over A's later-export reconstruction, subject to a tested export prerequisite."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The pools and their selected candidate 2 are identical."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's selected repair addresses a concrete source of unnecessary or omitted fallback calls through cohort snapshots and reconciliation, while retaining B's selected proposal's workload and privacy safeguards."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2; their differing fourth candidates do not change the best proposal."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C adds a specific, testable correction to D's selected mechanism's batch-attribution weakness. This improves operational correctness if cohort exports are available, without claiming demonstrated implementation results."
+      }
+    ]
+  }
+}

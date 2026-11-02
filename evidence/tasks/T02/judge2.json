@@ -1,0 +1,160 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "EXPAND",
+    "C": "REFINE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the most direct, feasible route to comparing complete bills, with substantive supported participation and an individual check below, at and above the crossover. Graph reading, savings differences and error auditing introduce additional demands in the alternatives. All four fit the stated resources and 50-minute limit."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 remains the strongest straightforward fit. Candidate 4 adds a distinct prediction-and-feedback mechanism with useful supports, but its extra reflection demands have uncertain benefit within the same time. Every candidate provides fictional prices, meaningful participation and individual crossover assessment."
+      },
+      "C": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 strengthens candidate 0 by carrying optional component support into independent assessment. It directly assesses total-cost comparison without requiring unaided multiplication and explicitly limits what supported success demonstrates. This is a repair within the complete-bill mechanism, not a distinct mechanism. Candidate 3 is also usable but adds reading and claim-correction demands."
+      },
+      "D": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 most directly teaches the requested total-cost comparison with manageable materials and clear assessment. Candidate 3 supports independent calculation but adds literacy demands. Candidate 4 offers a distinct inverse budget mechanism, yet introduces division and a transition from affordable usage to bills that may complicate learning. None has a definite serious hard-constraint violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Their selected proposals are identical, so constraint correctness, feasibility, likely effect and inspectability are equal."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's selected repair preserves the direct complete-bill activity while explicitly supporting independent comparison for participants who struggle with multiplication and recording the limits of that evidence."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their selected proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's optional usage-charge table makes the individual check more accessible while retaining independent component selection, addition and crossover decisions."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their selected proposals are identical."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C addresses the selected D proposal's gap between supported pair participation and independent assessment, with a concrete worksheet repair and an inspectable check of supported understanding."
+      }
+    ]
+  }
+}

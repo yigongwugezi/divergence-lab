@@ -1,0 +1,184 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "DIRECT_FULL",
+    "C": "EXPAND",
+    "D": "REFINE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 best combines feasible production, protected-object observation, explicit uncertainty and an inspectable comparison against ordinary labels. Its generational exchange is less structured than its evidence checking. Other candidates offer distinct usable mechanisms: reciprocal storytelling, tradeoff choices, communication reconstruction, expressive design, vocabulary translation and relationship mapping. Candidate 3 depends on documented repair methods; that explicit feasibility gate is not a definite violation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the strongest overall balance of evidence integrity, feasibility and observable visitor outcomes under uneven documentation. The other mechanisms are reciprocal storytelling, tradeoff choices, demonstration and imitation, and chronological alignment. Candidate 3 risks emphasizing communication over repair comparison. Candidate 4 makes generations explicit but requires dated repairs that the available collection may lack; its audit gate appropriately acknowledges this dependency."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 remains the strongest balance of collection flexibility, practical delivery and inspectable evidence checking. Candidates 1–6 respectively use storytelling, tradeoff choices, communication reconstruction, expressive design, vocabulary translation and relationship mapping. Candidate 7 adds chronological prediction and correction, but depends on several defensibly dated repairs and may foreground guessing dates over comparing repair practices. Its explicit rejection gate prevents that dependency from becoming a definite provenance violation."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 strengthens candidate 0 by requiring a specific reciprocal repair comparison while retaining observation, evidence checking and separation of memory from provenance. This is a repair of the same primary mechanism, not a new mechanism. Its repeated card format fits the existing schedule, and its critique explicitly checks whether pointing alone supports comparison. The remaining mechanisms are storytelling, tradeoff choices, and demonstration and imitation. No proposal establishes a definite serious hard-constraint violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0, with the same feasibility, accessibility provisions, evidence safeguards and critique plan."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both best proposals are identical candidate 0; additional pool alternatives do not improve the selected proposal."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 makes cross-generation comparison a concrete reciprocal action rather than an optional anecdotal outcome, while preserving A0's feasible materials and evidence safeguards. Its proposed critique also directly tests that improvement."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0, so their best proposals have equal written merits."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 improves the shared detective concept's weakest connection to the goal through explicit similarity-or-difference comparison, without materially expanding production demands."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 more directly connects protected-object evidence to reciprocal generational exchange and supplies a targeted critique of that change. This supports a modest preference over C0, not a claim of demonstrated effectiveness."
+      }
+    ]
+  }
+}

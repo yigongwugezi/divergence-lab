@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: peer triage, reserved consultations, proactive invitations, answer reuse, predetermined escalation triggers, and request structuring. Candidate 2 most directly reduces hesitation to ask while distributing responsibility, preserving voluntary private participation, and explicitly budgeting each senior's time. Its pilot assesses asking delay, useful help, recurrence, and load; shared capacity and the small sample limit causal interpretation."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: peer triage, reserved consultations, proactive invitations, question aggregation, reusable decision guidance, and anticipatory work review. Candidate 2 offers the strongest direct fit to early help-seeking with low setup effort, voluntary private outreach, distributed responsibility, explicit senior caps, and inspectable outcomes. The alternatives depend more on shared questions, maintainable guidance, or informative work plans."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 2. Its written mechanism and pilot provide equal constraint correctness, feasibility, likely effect, and inspectability."
+    }
+  }
+}

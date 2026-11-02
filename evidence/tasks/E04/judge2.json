@@ -1,0 +1,148 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "REFINE",
+    "C": "EXPAND",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 most directly addresses missed inputs through bounded source coverage, explicit dispositions and a reverse audit. Its budget and unfinished-batch handling support feasibility, although actual workload remains untested. The other candidates are usable but rely on initial capture, add revalidation costs or duplicate reading effort."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 retains candidate 1's source reconciliation mechanism and repairs a concrete omission risk: changed notices being dismissed as duplicates. Explicit comparison, assigned pending updates and traceable removal when confirmation is undermined improve constraint correctness and inspectability. Its mock exercise tests the repair, but does not establish live workload feasibility."
+      },
+      "C": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers the strongest direct protection against missed intake using existing resources and auditable batch boundaries. Candidate 3 provides a distinct, usable generation mechanism for reducing page discrepancies, but requires formula expertise and compatible page editing, and cannot recover uncaptured inputs. All time budgets remain proposals rather than demonstrated results."
+      },
+      "D": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 best combines source coverage, confirmation requirements, correction traceability and bounded upkeep. Independent discovery is usable but spends more effort rereading sources and retains shared blind spots. No proposal establishes actual performance, and none contains a definite serious hard-constraint violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B's best preserves A's best mechanism while explicitly preventing changed notices from being discarded as duplicates and handling conflicting published information traceably."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical source-batch reconciliation proposal."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical source-batch reconciliation proposal."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B adds a targeted safeguard against misclassifying updates as duplicates to the same underlying reconciliation process, improving handling of missed corrections."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B's explicit repeat-versus-update check and traceable handling of conflicting evidence strengthen D's selected reconciliation proposal without introducing a new resource dependency."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical source-batch reconciliation proposal."
+      }
+    ]
+  }
+}

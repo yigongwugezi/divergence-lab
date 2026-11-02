@@ -1,0 +1,148 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "REFINE",
+    "C": "EXPAND",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 best matches the available aggregate delivery evidence with a capped fallback, explicit privacy safeguards and an inspectable feasibility test. Its usefulness depends on mapping reporting periods to appointment cohorts. Candidate 0 risks an oversized nonconfirmation queue; 1 and 3 address narrower sources of failure. All four are usable conditional proposals, without definite serious hard-constraint violations."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 strengthens candidate 2 by preserving the actual reminder cohort and reconciling current eligibility before calling, reducing erroneous targeting after appointment changes. It explicitly tests cohort availability and preparation time. This is a repair of the same aggregate-outage fallback mechanism, not a distinct mechanism. Feasibility remains conditional on existing exports identifying the reminder cohort."
+      },
+      "C": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 provides the strongest evidence-linked operational fallback, subject to verifying batch attribution and workload. Candidate 3 offers a distinct patient-initiated recovery route with limited outbound exposure, but depends on patients remembering to call and reaching the line. All candidates distinguish uncertain receipt from demonstrated technical failure and propose attendance, contact and workload measurement."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 best uses aggregate delivery evidence to trigger bounded calls, with consent checks, neutral content, separate failure classifications and a testable pilot. Cohort matching remains its main feasibility weakness. The other candidates are usable but rely on nonconfirmation, channel selection or opportunistic contact correction rather than directly responding to aggregate delivery deterioration."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B's best repairs the cohort-attribution weakness in A's best and explicitly tests reconciliation within the time budget. The improvement is proposed, not demonstrated."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their best proposals are identical, with the same safeguards, conditional feasibility and limitations."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B's cohort snapshot and current-eligibility reconciliation make targeting more inspectable and reduce unnecessary calls caused by reconstructing a past batch from current appointments, provided the required export exists."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B's best directly repairs D's best proposal's cohort-matching weakness while retaining its contact and workload limits, with an explicit prerequisite check."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical, so neither has a written advantage in correctness, feasibility, likely effect or inspectability."
+      }
+    ]
+  }
+}

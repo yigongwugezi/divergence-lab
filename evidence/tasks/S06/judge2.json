@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect volunteer limits and avoid required registration or public case triage, with checks covering navigation, waiting confusion and privacy. Their primary mechanisms are anonymous queuing, visitor-controlled self-service, shared orientation, disclosure minimization and referral comprehension feedback. Candidate 0 offers the strongest complete first-visit flow, including accessible turn announcements, explicit advice boundaries and an acoustic check with a fallback."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; candidate 4 explicitly makes adoption conditional on sufficient accessible space and acoustic separation. The primary mechanisms are anonymous queuing, visitor-controlled self-service, shared orientation, disclosure minimization and spatial separation. Candidate 3 best combines clear waiting instructions, spoken or pointing-based assistance, respectful disclosure prevention and explicit referral-gap inspection without depending on confidential premises."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 slightly improves on A0 by making useful assistance possible without personal accounts throughout the visit, reducing reliance on the quiet corner's acoustic privacy. It retains accessible anonymous waiting and provides concrete boundary wording and inspectable referral and usability checks. Neither proposal establishes actual referral availability."
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "REFINE",
+    "C": "EXPAND",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the clearest shared ritual with low preparation demands, meaningful participation by one resident, privacy safeguards and observable two-week checks. Accessible discovery and requests must still be confirmed before launch. The other candidates use distinct mechanisms: delayed exchange, anticipation, editorial ownership, everyday noticing, interpretive rereading and intention-based choice. None has a definite serious hard-constraint violation."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 preserves candidate 0's simple shared ritual while specifying an invitation route beyond the shelf and concrete delivery, scheduling and workload checks. Its doorstep-access prerequisite and risk of missing absent residents remain explicit. The pilot examines operational feasibility more thoroughly than social value. Candidates 0 and 4 share one mechanism; the repair and changed test do not create another."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 best balances a directly shared reading experience, modest effort, low-turnout resilience and inspectable pilot checks, conditional on confirming accessible requests. The alternatives use distinct mechanisms: delayed exchange, anticipation, collective construction, collective editorial choice, everyday noticing and text reconstruction. Candidate 3 has inconsistent anthology timing, and candidate 6 leaves outreach uncertain, but neither establishes a definite serious hard-constraint violation."
+      },
+      "D": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 provides the strongest balance of simplicity, shared focus, privacy and observable feasibility checks, with accessible discovery still a launch prerequisite. The remaining mechanisms are delayed exchange, anticipation, collective construction, collective editorial choice and everyday noticing. The anthology's inconsistent weekly versus fortnightly timing needs clarification but is not a definite serious hard-constraint violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B4 makes accessible discovery and delivery arrangements more concrete than A0 and adds explicit workload checks. This gives it a narrow feasibility advantage despite weaker assessment of the ritual's added social value."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0, with identical strengths, prerequisites and pilot limitations."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0; their written proposals provide no basis for a difference."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B4 retains C0's shared reading mechanism while providing a concrete invitation round and more explicit operational feasibility checks. Its remaining outreach limits prevent an unconditional accessibility claim."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B4 narrowly improves on D0 by specifying how residents can discover and arrange access without visiting the shelf, alongside delivery and workload checks. Its pilot provides less evidence about social benefit."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0, so constraint correctness, feasibility, likely effect and inspectability are equal."
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the safety and resource constraints, use corroborating evidence, and provide escalation triggers. Candidates 0 and 3 share repeated matched comparisons followed by targeted inspection; 3 adds preparation and restoration safeguards without changing that mechanism. Candidate 1 centers on a controlled mounting correction, 2 on coast-down response, and 4 on stationary vibration transmission. Candidate 3 best combines diagnostic coverage, realistic shutdown preparation, conditional repair decisions, and inspectable restart criteria."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both candidates are usable and avoid unsupported diagnoses. Candidate 0 centers on repeated matched comparisons and targeted inspection; candidate 1 centers on a controlled mounting correction. Candidate 0 is the stronger overall diagnostic sequence across all three requested causes, while candidate 1 provides a particularly clear test of a mounting contribution when a defect is found."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A3 improves on B0 with explicit checks for ventilation capacity, tools, access, repair feasibility, and restoration time, plus clear fallback decisions when safe completion is impossible. These practical safeguards strengthen execution within the single 30-minute window while preserving diagnostic uncertainty."
+    }
+  },
+  "format_retry_of": null
+}

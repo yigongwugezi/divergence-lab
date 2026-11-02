@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the stated constraints and propose inspectable, consent-based tests without collecting patient destinations. Their primary mechanisms are continuous route recognition, landmark/map orientation, local directional choices, numeric address comparison, and wrong-turn recovery. Candidate 2 offers the strongest general-purpose hierarchy: directions at decisions, confirmation after difficult turns, explicit arrivals, and separate emergency/private-care panels. Its limited junction prototype makes errors directly observable. Candidate 4 is usable but primarily improves recovery rather than initial navigation."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with layout-dependent approaches explicitly bounded by feasibility checks. Their primary mechanisms are continuous route recognition, landmark/map orientation, local directional choices, numeric address comparison, advance boundary exclusion, direct destination visibility, and memorized movement sequences. Candidate 2 provides the best balance of broad feasibility, reduced reading and memory demands, explicit emergency/private-care separation, and an inspectable first-time navigation test. Boundary, sightline, and script approaches have narrower applicability."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 2. Its sign hierarchy and proposed test address the task well, with explicit translation and clinic-verification prerequisites and no claimed experimental results. Additional alternatives in B do not improve the quality of the selected proposal."
+    }
+  }
+}

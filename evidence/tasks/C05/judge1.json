@@ -1,0 +1,192 @@
+{
+  "mapping": {
+    "A": "REFINE",
+    "B": "SAVE",
+    "C": "EXPAND",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 directly connects an unsuccessful attempt to a supported finding while removing the visitor's obligation to produce a lesson. It preserves consent, uncertainty and silent refusal, and tests concrete understanding, embarrassment, pressure and queue effects. It refines candidate 0's learning-record mechanism."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 makes learning tangible through a supported, modest service change without requiring visitors to reinterpret disappointment. Its responsibilities, uncertainty wording and withdrawal conditions are practical. Its main limitation is that the experiment tests the operational change more directly than the celebratory framing."
+      },
+      "C": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 offers concrete organizational learning with little visitor burden and an inspectable service change. Candidate 7 adds a distinct outcome-bias mechanism, but its fictional exercise has less direct connection to actual café learning and could feel artificial. No proposal establishes a definite serious constraint violation."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 visibly credits unsuccessful attempts with an actual, supported service improvement while leaving personal disappointment legitimate. Its comparator keeps the improvement available and isolates the added account of learning from failure. Consent, bypassing, queue observation and dismissal checks are explicit."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "A",
+        "reason": "A5 provides a direct personal learning record without visitor homework and measures understanding and embarrassment more specifically. B5 depends on finding a recurring actionable issue, and its experiment less directly evaluates the celebration mechanism."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "A",
+        "reason": "A5 links each eligible handback to a factual finding or honest absence of one, with explicit pressure and embarrassment checks. C5 offers useful institutional learning but requires a suitable recurring issue and tests the service change more than its framing."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "A",
+        "reason": "A5 narrowly leads through its direct connection to the visitor's attempt, acceptance of no clear finding and focused learning-versus-embarrassment evaluation. D4 has a strong comparator and low visitor burden, but depends on a supported recurring issue and authority to change practice."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their best proposals, B5 and C5, are identical."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 keeps the service improvement constant while testing whether crediting unsuccessful attempts adds understanding or dismisses disappointment. B5 primarily tests whether the revised service process works."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 more clearly evaluates the proposed celebratory meaning by comparing the same improvement with and without its origin story. C5's operational comparison provides weaker evidence about learning versus embarrassment from that framing."
+      }
+    ]
+  }
+}

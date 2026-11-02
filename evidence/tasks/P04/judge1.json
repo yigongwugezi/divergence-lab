@@ -1,0 +1,64 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 most directly prevents deposited leftovers through donor-held, same-session handoffs, with explicit capacity limits and all required tracking. Candidates 0 and 1 share donor responsibility and take-back as their primary mechanism; displaying tags instead of goods is an operational variation. Candidate 2 gates arrivals by demand. Candidate 3 uses a disposal-backed exit and is usable only if its explicitly stated clearance prerequisite is verified; that route is not an established resource."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers the strongest simple flow for two volunteers without storage and tracks reuse, unmatched offers, abandonment, cleanup and carrying exclusion. Candidates 0 and 1 share donor responsibility and take-back. Candidate 2 uses demand gating, candidate 3 creates complementary kits, and candidate 4 reduces uncertainty through demonstration. Kits and demonstrations have distinct proposed effects but add coordination or screening burdens without established benefits."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical live-handoff proposal. It provides practical intake, transfer and closing procedures, handles unmatched goods through donor retention, and explicitly records carrying exclusion. Neither pool's best has a written-quality advantage."
+    }
+  }
+}

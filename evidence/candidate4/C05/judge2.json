@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Primary mechanisms are recording learning (0,7), collective inquiry (1), acknowledging care (2), institutional improvement (3), prediction and correction (4), volunteer norm-setting (5), owner-as-teacher role reversal (6), and prospective question-setting (8). Candidate 7 best combines supported learning, optional participation, separate publication consent, practical workload limits, and observable stopping criteria. It improves candidate 0 without introducing a new mechanism."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Primary mechanisms are recording learning (0), collective inquiry (1), acknowledging care (2), volunteer norm-setting (3), institutional improvement (4), and reconstructing uncertainty through a reveal (5). Candidate 4 makes usefulness concrete through an enacted communication improvement, requires supporting records, avoids demanding positive reflection, and tests the celebratory framing while keeping the service improvement constant."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 narrowly exceeds A7: its concrete institutional change gives failed attempts visible value without adding individualized writing at handback. Its comparison better isolates the proposed mechanism and explicitly checks whether the celebration dismisses disappointment. A7 remains strong, but adds handback work and tests the revision against another learning ritual rather than ordinary service."
+    }
+  },
+  "format_retry_of": null
+}

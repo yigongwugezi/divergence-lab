@@ -1,0 +1,11 @@
+{
+  "attempt": "c990fc3c76ef79de1b89_a1",
+  "status": "complete",
+  "usage": {
+    "input_tokens": 13055,
+    "cached_input_tokens": 8320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 777,
+    "reasoning_output_tokens": 109
+  }
+}

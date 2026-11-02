@@ -1,0 +1,95 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary acceptance, owners and dates, existing resources and meeting limits, and compare completion, rework and burden. Their primary mechanisms are explicit commitment, rotating coordination, protected execution time, delegated authority, calendar scheduling, backup continuity and recipient verification. Candidate 0 offers the strongest broadly applicable starting point: bounded commitments, capacity limits, visible unclaimed work and owner updates reduce dependence on chair follow-up. Its trial preserves original deadlines and reports unclaimed work, making selective success inspectable."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 0 and 7 share the explicit-acceptance queue mechanism; overdue dispositions repair that mechanism rather than create a new one. The other mechanisms are rotating coordination, protected execution time, standing delegated authority, prerequisite readiness, early sample feedback, backup recovery and advance executable artifacts. Candidate 7 is the strongest general-purpose proposal because it handles overdue and withdrawn commitments explicitly, preserves original deadlines and provides a recorder fallback without assigning chasing to the chair. Its comparison measures whether the added procedure recovers useful work within the same meeting budget."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A0 by specifying what happens when commitments lapse, owners withdraw or nobody accepts the recorder role. These practical recovery rules address a likely source of renewed chair dependence while preserving consent and bounded meeting time. Its direct comparison with the original queue makes the added value inspectable; superiority remains a hypothesis to test."
+    }
+  },
+  "format_retry_of": null
+}

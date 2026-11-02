@@ -1,0 +1,140 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "SAVE",
+    "C": "EXPAND",
+    "D": "REFINE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the most direct, feasible soil-evidence routine with the supplied materials. It includes safe unplanted practice, an ambiguous case, and an individual decision with a reason and follow-up within 35 minutes. Candidate 1 depends on perceptible weight contrasts and matching pots; candidate 2 additionally depends on absorbent paper producing distinguishable reference patches."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 best balances direct evidence, feasibility, safety, and an inspectable transfer check. Candidates 1 and 2 are usable but introduce additional calibration and material dependencies. The proposals are identical to pool A."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 most directly teaches learners to obtain soil evidence and use it independently. Candidate 3 provides a distinct counterexample and rule-repair mechanism and meets the constraints, but its instructor-supplied evidence leaves independent sampling skill less well established. Candidates 1 and 2 retain their calibration dependencies."
+      },
+      "D": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 preserves candidate 0's feasible, safe routine while making conflicting evidence actionable through a second location and instructor review. Its assessment checks both uneven moisture and a uniformly dry sample, making inappropriate watering and indiscriminate withholding observable. This is a repair of the same depth-inspection mechanism, not a separate mechanism."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0; C's additional usable mechanism does not improve its best proposal."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D's repair adds a concrete response to conflicting moisture readings and a targeted discrimination check while preserving the schedule, materials, and seedling protection."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "D",
+        "reason": "D's best proposal improves handling of uneven moisture and makes the follow-up check more explicit without adding resource requirements."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "D",
+        "reason": "D's repaired depth-inspection routine addresses an unrepresentative single reading more concretely than C's selected candidate 0 and provides a more targeted assessment."
+      }
+    ]
+  }
+}

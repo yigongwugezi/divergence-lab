@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect safety dates, avoid required new appliances or apps, and compare waste, flexibility and planning time over three weeks. Distinct primary mechanisms are reducing fresh exposure through freezing, ingredient interchangeability, assigned handoffs, meal redirection, longer-lasting substitutions, surplus sharing and advance preparation. Candidate 5 depends on an available recipient; candidate 6 depends on a reliable preparation window. Candidate 0 best addresses unpredictable attendance with single portions and frozen reserves, explicit safety safeguards and a check against merely accumulating frozen stock."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints and provide inspectable three-week comparisons. Their distinct primary mechanisms are reducing fresh exposure through freezing, ingredient interchangeability, assigned handoffs, meal redirection and delaying opening or preparation to preserve usable life. Candidate 0 offers the strongest combination of feasibility, likely waste reduction and flexibility when either or both people miss dinner, while checking storage accumulation and planning effort."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0. Its constraint correctness, feasibility, likely effect and inspectability are therefore equal."
+    }
+  }
+}

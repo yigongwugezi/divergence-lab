@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: reserved backup capacity, voluntary exchange, service consolidation, qualification flexibility, and joint vacancy matching. Each respects absence privacy, uses existing resources, measures the required outcomes, and provides a missed-shift fallback. Candidate 0 most directly addresses short-notice changes with accepted backups, bounded escalation, explicit coverage checks, and inspectable workload accounting. Its dependence on sufficient willing backup capacity is acknowledged."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: reserved backup capacity, voluntary exchange, service consolidation, qualification flexibility, and overlapping working periods. Conditional feasibility limits are explicit rather than hard-constraint violations. Candidate 0 offers the strongest direct response to short-notice absences, with consent, bounded contacts, safe fallback, and measurement of coverage and workload. The alternatives depend more on exchange opportunities, service flexibility, training resources, or adjacent shifts."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical backup-duty proposal, so their best proposals have equal written task quality, feasibility qualifications, safeguards, and inspectability."
+    }
+  }
+}

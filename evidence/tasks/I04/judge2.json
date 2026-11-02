@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven offer distinct primary mechanisms and respect the hard constraints. Candidate 2 provides the strongest general-purpose hierarchy: local arrow-and-pictogram choices, brief four-language labels, confirmation and arrival signs, and explicit emergency/private-care separation. Its consent-based first-time navigation test makes branch errors inspectable without collecting patient destinations. Other approaches depend more on layout, map reading, numeracy, memory, or specific error patterns."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and use distinct primary mechanisms. Candidate 2 best combines feasible wall-mounted paper signs, low memory demands, clear sign hierarchy, explicit emergency/private-care separation, and an inspectable consent-based test without health disclosure or patient-destination collection. Candidate 4 adds recovery feedback but may leave initial wrong turns unchanged; the other alternatives have stronger layout or interpretation dependencies."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 2, so their best proposals have equal written task quality, constraint correctness, feasibility, likely effect, and inspectability."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve adult control, conceal content on common labels and test retrieval, misfiling and upkeep after four weeks. Their primary mechanisms are private address lookup, branching classification, chronological event lookup, spatial memory and bounded direct search. Candidate 0 offers the strongest general balance of reliable retrieval, feasible maintenance and inspectable errors; the others depend more on classification consistency, log length, memory or collection size. Privacy against deliberate opening remains an explicitly acknowledged resource limitation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the operational constraints and specify four-week checks. Their primary mechanisms are private address lookup, branching classification, chronological event lookup and bounded direct recognition search. Concealed recognition labels improve direct searching but remain an implementation of bounded search. Candidate 0 provides the strongest general balance of retrieval effectiveness, maintenance feasibility and auditable filing accuracy. All rely on residents respecting closed personal storage."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical private location-index proposal, so their best proposals have equal written task quality."
+    }
+  }
+}

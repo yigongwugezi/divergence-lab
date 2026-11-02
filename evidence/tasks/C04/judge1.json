@@ -1,0 +1,180 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "REFINE",
+    "C": "DIRECT_FULL",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 directly addresses unfamiliarity through inspectable arrival previews, with modest production needs, a short option and an honest sheltered fallback. Its comparative pilot checks recognition, navigation and exclusion. All candidates are usable as proposals; ballot fixtures require additional permission and maintenance, while candidate 1 overstates how fully printed alternatives address sensory access."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 strengthens candidate 2's rehearsal mechanism with approach-specific sketches, matching marker orientation and an explicit short return. Its staged first-stop pilot offers concrete readiness criteria before expanding production. Written directions remain available, although visual access and map interpretation still need testing. This is a repair of the same mechanism, not a separate mechanism."
+      },
+      "C": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 offers the strongest combination of direct newcomer benefit, low operational burden and inspectable navigation outcomes. Editable artwork adds attachment permissions and maintenance; the puzzle introduces a greater risk of perceived testing or completion pressure. Their safeguards make them usable, but neither is as dependable on the written evidence."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 most directly reduces uncertainty with checked public cues and a practical comparative pilot. The additional personal-association candidate has a distinct continuity mechanism and thoughtful safeguards, but its welcome benefit is less directly inspectable and its prompts may evoke discomfort. No proposal contains a definite serious hard-constraint violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B4 makes A2's arrival rehearsal more operationally precise and tests approach matching and return decisions before completing all three stops. This gives it a modest advantage in likely navigational usefulness and inspectability."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2, with the same feasibility, safeguards and pilot."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2; the additional alternatives do not change the selected proposal's merits."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B4 improves C2's rehearsal mechanism through approach-specific cues and an explicit return sketch, with a focused readiness check. Its advantage is concrete implementation clarity rather than novelty."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B4 provides more inspectable arrival and return guidance than D2 while retaining the same basic constraints and modest resources. Its staged pilot reduces the risk of repeating an unclear panel across all stops."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical candidate 2, so there is no written basis for distinguishing them."
+      }
+    ]
+  }
+}

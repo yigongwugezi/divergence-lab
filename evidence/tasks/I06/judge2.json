@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the print-only, role-separation and comprehension-check requirements without unsupported savings claims. Their distinct primary mechanisms are role-based selection, control-and-handoff decisions, evidence labeling, cue-linked planning, contrasting worked examples, causal explanation, and retrieval with correction. Candidate 0 best balances clear authority boundaries, practical action selection, honest evidence and an inspectable comprehension test with low reading burden."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and respect the hard constraints. Their distinct primary mechanisms are role-based selection, control-and-handoff decisions, evidence labeling, cue-linked planning, and retrieval practice with corrective feedback. Candidate 0 offers the strongest balance of clarity, feasibility, modest participation demands and direct checks of feasible action identification and savings uncertainty."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a policy-grounded role menu, independently usable printed materials, explicit limits on savings claims and a concrete comprehension check. Neither establishes actual energy reduction, and both accurately acknowledge that limitation."
+    }
+  }
+}

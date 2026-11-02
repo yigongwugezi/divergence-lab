@@ -1,0 +1,84 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: packet-based release comparison, independent verification, customer verification, accountable ownership, physical separation, and specification standardization. Each preserves revisions, provides a failure path, continues same-day intake, and measures mismatch, added service time and correction burden over two weeks. Candidate 0 best balances direct prevention of wrong handoffs, feasibility with four workers, traceability and inspectability without requiring a second available worker or customer expertise."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable and have distinct primary mechanisms: packet-based release comparison, independent verification, customer verification, accountable ownership, physical separation, interruption recovery, and specification standardization. Each addresses the constraints and includes measurable evaluation and a failure path. Candidate 0 offers the strongest practical balance: a direct item-to-record release check, explicit revision acknowledgment, and manageable staffing demands. Other candidates depend more on worker overlap, customer knowledge, space, or a particular source of errors."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a feasible, traceable handoff design, preserved revision history, explicit holds and resolution, and a two-week comparison measuring all required outcomes while acknowledging uncertainty."
+    }
+  }
+}

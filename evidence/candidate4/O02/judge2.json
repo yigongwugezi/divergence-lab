@@ -1,0 +1,95 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are feasible using notes and calendars, preserve voluntary acceptance, and compare completion, rework and burden. Candidates 0 and 7 share the consent-based queue mechanism; explicit dispositions repair its exception handling rather than create a new mechanism. The other groups use rotating coordination, meeting-time execution, standing delegation, prerequisite readiness, early sample review, backup recovery and advance artifacts. Candidate 7 best combines broad applicability, bounded meeting time, explicit ownership and deadlines, voluntary handoffs, and inspectable handling of unfinished work without chair chasing."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints without a definite serious violation. Their primary mechanisms are voluntary commitment, rotating coordination, immediate execution, delegated authority, calendar scheduling, backup continuity and recipient verification. Candidate 0 provides the strongest general-purpose foundation: explicit acceptance, bounded commitments, visible unclaimed work, owner updates and a comparison that measures original-deadline completion, rework and individual administrative burden. The alternatives depend more on particular causes of stalled work."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 modestly improves on B0 by specifying dispositions for overdue and withdrawn commitments, voluntary handoffs, absent-owner handling and a fallback when no recorder volunteers. These practical repairs reduce ambiguity that could otherwise restore chair chasing. Both are lightweight and inspectable; B0 specifies the rework observation window more clearly."
+    }
+  },
+  "format_retry_of": null
+}

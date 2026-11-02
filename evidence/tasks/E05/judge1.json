@@ -1,0 +1,114 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "SAVE",
+    "C": "DIRECT_FULL",
+    "D": "REFINE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All use batch-matched randomized comparative drop testing; repeated impacts and varying heights change the test protocol rather than the primary mechanism. Candidate 0 offers the most direct, feasible comparison and an explicit equivalence rule. Candidate 1 requires more drops and measures endurance; candidate 2 adds substantial modeling demands for sparse data. All address the hard constraints."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both use the same primary mechanism of batch-matched randomized comparative drop testing. Candidate 0 is simpler, more directly interpretable, and less laborious than the repeated-drop endurance protocol. Both define damage, control orientation, stop excessive breakage, quarantine tested mugs, and avoid equating nonsignificance with equivalence."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable variants of the same matched randomized drop-test mechanism. Candidate 0 provides the clearest direct protection comparison with fewer drops and a prespecified equivalence decision. Candidate 1 is defensible but evaluates cumulative endurance and requires greater workshop effort."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All share the matched randomized comparative drop-test mechanism; candidate 2 explicitly repairs candidate 0 rather than introducing another mechanism. It retains the constraint-compliant design while adding blinded physical inspection, baseline records, and a complete surface checklist. This plausibly improves damage detection and inspectability without consuming additional mugs or drops."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Their best proposals are identical."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their best proposals are identical."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D retains A's best design and adds standardized blinded physical inspection, improving the proposed detection of fine or obscured damage with the same resources."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their best proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "D",
+        "reason": "D's repair improves outcome ascertainment and inspection consistency while retaining B's best proposal's allocation, stopping rule, and statistical decision."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "D",
+        "reason": "D adds a feasible blinded physical inspection workflow to C's best design, making damage classification more inspectable without additional destructive testing."
+      }
+    ]
+  }
+}

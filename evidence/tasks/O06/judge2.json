@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: peer troubleshooting, reserved access, proactive invitations, question aggregation, reusable decision guides, and prospective work review. Candidate 2 directly addresses hesitation through optional private outreach, distributes responsibility, and explicitly caps each senior's total process time. Its pilot assesses useful-help timing, repeated blockers, and senior load. Weekly outreach and shared capacity limit effectiveness and causal interpretation, but these limitations are acknowledged."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: peer troubleshooting, reserved access, proactive invitations, reusable answers, agreed escalation conditions, and request clarification scaffolding. Candidate 2 best addresses reluctance to ask while preserving voluntary participation, private exchanges, distributed responsibility, and explicit senior time caps. Its pilot measures the required outcomes and treats the small, shared-capacity comparison as diagnostic. Other candidates depend more on recurring questions, predictable task boundaries, or request-writing skills."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical proactive-invitation proposal. Its constraint correctness, feasibility, likely effect, and inspectability are therefore equal."
+    }
+  }
+}

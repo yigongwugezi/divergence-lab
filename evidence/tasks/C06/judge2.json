@@ -1,0 +1,184 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "SAVE",
+    "C": "REFINE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the clearest low-demand listening sequence, with seated readability, upkeep and an appropriately qualified poster comparison. Distance judgments may be ambiguous, but its one-sound fallback supports completion. Other candidates are feasible but add recurrence, vocabulary, visual prediction, composition or memory demands without established benefit."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 gives a brief, concrete invitation to notice simultaneous sounds, accepts uncertainty and explicitly discourages making noise. Accessibility, circulation, upkeep and the poster comparison are covered. Its proposed checks address both comprehension and unintended audible participation; its effect remains unproven."
+      },
+      "C": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 improves the listening sequence by removing distance inference while preserving an easy one-sound ending. It provides explicit silent instructions, seated access and upkeep checks, plus a silent usability check and an order-reversed poster comparison. It is a repair of candidate 0's mechanism, not a separate mechanism."
+      },
+      "D": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 offers the strongest balance of direct listening, short duration, permissive endings and inspectable failure conditions. Candidate 6 is usable, but its arts-group-only comparison gives weaker evidence about traveler usability and adds memory demands. All candidates describe feasible silent activities with access and upkeep checks."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B5 avoids A0's distance judgments, explicitly discourages added sound and checks for tapping or imitation. Its simultaneous-sound task remains bounded by an accepted one-sound or uncertain ending."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C5 preserves A0's straightforward sequence while removing ambiguous distance judgments, making the access disclaimer clearly readable and strengthening the silent comparative test."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D5 avoids distance inference and explicitly addresses unintended noise, with concrete observation checks and permissive endings."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C5's intended sequence can operate on one audible sound; B5's grouping mechanism requires distinguishable overlap. C5 also specifies a silent initial usability check and reverses comparison order."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both pools select the identical candidate 5, with the same interaction, safeguards, upkeep and proposed comparison."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C5 has fewer perceptual prerequisites than D5's simultaneous grouping and a more explicit staged, silent usability and poster-comparison plan. Neither proposal establishes actual effectiveness."
+      }
+    ]
+  }
+}

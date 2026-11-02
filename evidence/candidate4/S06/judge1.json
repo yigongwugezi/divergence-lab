@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with stated dependencies and no definite serious hard-constraint violations. Their primary mechanisms are anonymous queued orientation, visitor-controlled browsing, shared welcome rounds, case-information minimization, and spatial separation. Candidate 0 offers the strongest overall balance of accessible arrival, predictable waiting, service boundaries, qualified-help referral and inspectable checks. Its acoustic assumption is explicitly checked and has a general-orientation fallback."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable. Candidates 0 and 4 share anonymous queued orientation; privacy checks and recovery rules improve that mechanism without creating a new one. The other mechanisms are visitor-controlled browsing, shared welcome rounds, silent communication, and volunteer boundary calibration. Candidate 4 best combines accessible waiting instructions, missed-turn recovery, an operational acoustic check, a usable fallback and honest referral limits. Its trial checks navigation, waiting confusion and privacy alongside throughput."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 through concrete operating rules for failed acoustic privacy, missed calls and missing referrals, while preserving anonymous access and the legal-information boundary. These changes make the flow more executable and inspectable with the available resources; the advantage is substantive rather than based on length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,84 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates offer feasible, gentle, aggregate-only comparisons without calibrated claims. Their primary mechanisms are distinct: distance attenuation, boundary reflections, background masking, source directionality, listener orientation, source variability, and comparison-order effects. Candidate 0 is strongest because measured distances, matched windows, local baselines and reversed order provide a straightforward, observable comparison with a likely effect and explicit inconclusive outcomes."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the constraints and provide observable comparisons. Their primary mechanisms are distance attenuation, boundary reflections, background masking, listener orientation, source variability, and visual or attentional influence. Candidate 5's optional stationary eye closure includes appropriate traffic precautions. Candidate 0 offers the clearest feasible comparison and likely observable effect, with sensible controls and measurement limitations."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical distance proposal. It addresses distance directly, considers reflections and background noise, preserves safety and privacy, and supports inspectable relative observations without claiming calibrated acoustics."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five satisfy the print-only format, role separation and comprehension checks without unsupported savings claims. Their primary mechanisms are role-based choice, boundary-and-handoff decisions, evidence labeling, cue-linked planning and retrieval with corrective feedback. Candidate 0 is strongest overall: easy to implement from existing policies, clear about authority and uncertainty, and directly testable for feasible action selection. Its likely behavioral effect remains unproven, as acknowledged."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable and meet the hard constraints. Their primary mechanisms are role-based choice, boundary-and-handoff decisions, evidence labeling, cue-linked planning, contrasting worked examples, causal explanation and retrieval with correction. Candidate 0 offers the strongest balance of correctness, feasibility, likely comprehension and inspectability, with less reading burden and fewer implementation assumptions than the more elaborate alternatives."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0. It provides a practical, honest communication mechanism, explicit limitations and a relevant comprehension test; neither pool has a better winning proposal."
+    }
+  }
+}

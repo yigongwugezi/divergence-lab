@@ -1,0 +1,188 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "REFINE",
+    "C": "SAVE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 offers a simple, concrete shift from plants to the spaces between them, with an immediate quick interaction, seated sightline checks and a feasible comparative pilot. Its principal uncertainty—whether noticing gaps leads to noticing texture—is explicitly inspectable. All candidates are usable as written, subject to their stated siting prerequisites."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 strengthens the gap interaction by comparing repeated spacing in two clusters and explicitly connecting it to foliage texture. Its seated prototype check, matched comparator, reversed block order and common neutral question make the proposal especially inspectable. Finding two suitable clusters is an additional but explicitly tested feasibility condition. Candidates 3 and 5 share figure–ground reversal as their primary mechanism."
+      },
+      "C": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 makes the connection between openings and surface structure concrete while keeping attention on one verified patch. It combines a worthwhile quick invitation, feasible seated participation and a counterbalanced pilot with explicit failure conditions. Its prompted verbal check is useful for comprehension but provides limited evidence of spontaneous noticing."
+      },
+      "D": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 provides the strongest balance of simplicity, texture-specific attention and inspectable feasibility. Candidate 6 is also usable and introduces visual template matching, a distinct mechanism, but adds graphic matching demands without a clear advantage over the direct gap interaction."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B's best directly addresses A's risk of noticing isolated holes without recognizing texture, and specifies stronger comparison controls."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's best more clearly connects gap arrangements to the whole surface while retaining a simple single-patch interaction and adding counterbalanced observation blocks."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D's best clarifies how openings reveal surface structure and strengthens the pilot design relative to A's best."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B narrowly leads through its concrete spacing comparison and explicitly common neutral outcome question. These improve inspectability, although its two-cluster siting requirement is more demanding."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B narrowly leads because its comparison makes the gap-to-texture relationship explicit and its neutral question better separates reported noticing from successful completion of a prompted task."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical; D's additional usable mechanism does not change the quality of its best proposal."
+      }
+    ]
+  }
+}

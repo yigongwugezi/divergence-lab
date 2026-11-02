@@ -1,0 +1,140 @@
+{
+  "mapping": {
+    "A": "REFINE",
+    "B": "EXPAND",
+    "C": "SAVE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 preserves the feasible depth-inspection routine while making conflicting evidence actionable through a second location and instructor review. It explicitly requires individual follow-up and tests discrimination between uneven moisture and uniformly dry soil. Candidate 1 depends on perceptible weight contrasts; candidate 2 depends on distinguishable paper responses."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 most directly teaches beginners to gather soil evidence and make watering decisions with the supplied materials. Its ambiguous case and independent assessment support inspectable transfer while protecting shared seedlings. Candidate 3 directly challenges habitual rules but supplies instructor-exposed evidence, limiting independent sampling practice. Weight and paper methods add calibration dependencies."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the most direct, feasible routine with an ambiguous sample, independent reasoned decision and planned follow-up. Weight calibration and paper transfer are usable alternatives but depend more strongly on material contrasts. Its conditional wording about completing follow-up is a weakness, not a definite serious violation."
+      },
+      "D": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the most direct, feasible routine with an ambiguous sample, independent reasoned decision and planned follow-up. Weight calibration and paper transfer are usable alternatives but depend more strongly on material contrasts. Its conditional wording about completing follow-up is a weakness, not a definite serious violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "A",
+        "reason": "A's best adds a concrete response to conflicting moisture evidence and requires performed follow-up, improving safety and inspectability with modest additional complexity."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "A",
+        "reason": "A's best strengthens the shared depth-inspection mechanism with a second-location check and explicit handling of disagreement, while retaining the materials and timing constraints."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "A",
+        "reason": "A's best makes uncertain evidence and follow-up more operational than D's best, and its assessment checks against indiscriminate withholding of water."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0; their best proposals have equal written merits and limitations."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0; the additional option in B does not improve its selected best proposal."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their candidate sets and selected best proposals are identical."
+      }
+    ]
+  }
+}

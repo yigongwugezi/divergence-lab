@@ -1,0 +1,5 @@
+{
+  "frozen_at": "2026-10-31T19:06:56.900204+08:00",
+  "source_version": "divergence-lab-unified-20261031",
+  "scope": "Frozen templates and prompt builder whose hashes match PACKAGE_FREEZE.json; this is evidence, not a newly selected release package."
+}

@@ -1,0 +1,64 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 best prevents deposited leftovers through donor-held goods and immediate handoffs, with explicit capacity limits and tracking of reuse, unmatched offers, abandonment, cleanup and carrying exclusion. Candidates 0 and 1 share donor presence and take-back responsibility; display versus retained possession is an operational variation. Request gating, complementary kits and functional demonstrations supply distinct additional mechanisms. All are usable, though repeat attendance, assembly effort and demonstration time limit the alternatives."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers the strongest practical prevention of leftover inventory while tracking the required outcomes. Candidates 0 and 1 share the donor-responsibility mechanism; request gating and disposal-backed acceptance are distinct. Candidate 3 is conditionally usable because it explicitly requires verification of a free, accessible disposal route before intake; that route is not an established resource, so its feasibility is weaker. No candidate definitely violates a hard constraint."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical live-handoff proposal, so their best written task quality is equal. It fits two volunteers and no storage, prohibits names, money and hazardous electronics, handles unmatched goods through donor retention, and measures carrying exclusion alongside reuse and cleanup."
+    }
+  }
+}

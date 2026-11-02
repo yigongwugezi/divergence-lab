@@ -1,0 +1,168 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "SAVE",
+    "C": "REFINE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 combines explicit modeling, supported practice, removal of prompts, and individual unseen-image assessment. Its rubric rewards accurate observations, evidence-linked qualification or justified withholding, and specific unknowns. Assessment timing leaves little transition margin. All candidates are usable; candidate 5's larger pilot is an optional evaluation rather than a replacement for the eight-person lesson."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 offers the strongest combination of novice support and inspectable independent transfer: model the decisions, fade assistance, then assess an unfamiliar image individually. It explicitly permits justified withholding and scores observation accuracy. Its ten-minute assessment block has little transition margin."
+      },
+      "C": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 strengthens candidate 2's peer-auditing mechanism by checking both feature location and evidential support, requiring repair of unsupported wording, and scoring supported observations. Facilitator checks and an explicit failure probe make the central distinction inspectable. It incorporates the original lesson and unseen individual assessment by reference; the eight-minute assessment remains tight. This is a repair of mechanism 2, not a distinct mechanism."
+      },
+      "D": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 provides a clear observation-first routine, explicit uncertainty practice, visitor-facing rehearsal, and an accuracy-sensitive rubric that accepts justified withholding. Its assessment allocates inspection and response time while leaving transition margin. Candidate 4 is usable but depends more heavily on whether concealing and revealing these particular photographs produces useful evidence changes."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Their best proposals are identical, with the same strengths in modeling and fading support and the same tight assessment timing."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's repaired peer audit repeatedly tests the precise confusion between locating a feature and supporting a claim about it. Its required repairs, facilitator checks, and targeted failure probe give it a narrow advantage in inspectability and likely effect."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "A provides stronger explicit modeling and gradual removal of support; D provides more realistic assessment transitions and visitor-facing rehearsal. Both directly practice uncertainty and assess individual transfer with suitable rubrics."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C more directly exposes and repairs unsupported claims that sound observational, with a concrete check against accepting mere locatability. B's modeling is strong, but its central learning process is less directly audited."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "B's scaffolded instruction and D's more feasible assessment schedule offer comparable overall value. Neither clearly dominates across likely learning effect, feasibility, and inspectability."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "D has better assessment timing, but C directly checks whether descriptive wording exceeds visible evidence and requires corrective practice. That tighter alignment with the target distinction gives C a narrow overall advantage."
+      }
+    ]
+  }
+}

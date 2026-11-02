@@ -1,0 +1,196 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "SAVE",
+    "C": "EXPAND",
+    "D": "REFINE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 meets the constraints and combines realistic role rotation with explicit contrasts between routine action, contradictory evidence, and unauthorized exceptions. Its policy-based explanations and unseen mixed case make judgment inspectable. Other candidates are usable, though replay-heavy activities have tighter timing and some experiments provide weaker comparative evidence."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 6 meets the constraints and gives every trainee individual boundary classification before role-play. Its proposed assessment separately checks justified routine action and referral, helping expose blanket escalation as well as missed escalation. Five-minute role-plays require concise cards but remain plausible with one facilitator."
+      },
+      "C": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 6 offers the strongest balance of constraint compliance, practical delivery, and inspectable boundary judgment. Candidate 7 adds a distinct needs-and-options mechanism with appropriate authority safeguards, but depends on authorized alternatives and adds conversational demands for novices."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 provides a feasible contrast-based sequence and actionable escalation check. Candidate 5 repairs unequal live practice within the same mechanism, but fitting both accounts, summaries, record checks, and action into each two-minute encounter risks superficial rehearsal. That timing concern is not a definite hard-constraint violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B6 narrowly improves on A4 through individual classification and separate unseen routine and escalation cases, making both unnecessary referral and unsupported action easier to detect. Its shorter role-plays are a manageable feasibility tradeoff."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C6 provides individual boundary classification and separately tests routine action and referral, offering more inspectable judgment than A4's single mixed assessment, despite slightly tighter practice timing."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "A4 and D4 are identical written proposals, with the same constraint coverage, feasibility, mechanism, and proposed evaluation."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "B6 and C6 are identical written proposals; C's additional candidate does not change the comparison of pool bests."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B6's individual classification and separate routine/referral assessment make boundary learning more inspectable than D4's approach. Both meet the constraints; B6 has slightly tighter role-play timing."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C6 more explicitly checks each trainee's boundary reasoning and distinguishes appropriate routine handling from appropriate referral. D4 offers slightly longer encounters but less diagnostic assessment coverage."
+      }
+    ]
+  }
+}

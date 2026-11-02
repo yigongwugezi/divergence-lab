@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.agents/skills/*/state/
+.env
+.env.*
+!.env.example

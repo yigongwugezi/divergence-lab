@@ -1,0 +1,124 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "SAVE",
+    "C": "REFINE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both respect safety and measurement limits. Candidate 1 offers a more inspectable repair decision through a justified mounting correction and repeated controlled comparisons. Its main weakness is fitting inspection, correction and restoration into 30 minutes."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable. Candidate 1 best connects evidence to a feasible mounting repair and checks its contribution against an unchanged comparator, while retaining uncertainty about residual imbalance or bearing wear."
+      },
+      "C": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 strengthens candidate 1 by requiring a procedure walkthrough, reserved restoration time and an intervention cutoff. This improves feasibility within the sole shutdown window. It retains the same controlled mounting intervention mechanism."
+      },
+      "D": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers the strongest repair-linked evidence using the stated resources. Candidate 2 provides a distinct speed-response mechanism, but depends on unconfirmed adjustable-speed controls and adds resonance evidence without reliably separating the three requested causes. Its explicit prerequisites and safety limits make it conditionally usable."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "The best proposals are identical."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C preserves the controlled mounting intervention while explicitly checking that correction and safe restoration fit the 30-minute window."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The best proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C adds a concrete feasibility gate and restoration cutoff, reducing the risk that optional inspections consume the repair window."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The best proposals are identical."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C improves shutdown execution and inspectability without requiring additional diagnostic capabilities or weakening causal caution."
+      }
+    ]
+  }
+}

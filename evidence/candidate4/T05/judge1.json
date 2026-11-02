@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the stated constraints. Their primary mechanisms are sequencing, information gaps, paused replay, presentation-style reversal, contrasting escalation boundaries, shared attributed notes, and repairing premature commitments. Candidate 4 best combines feasible practice with explicit discrimination between routine resolution and justified escalation, plus an inspectable individual assessment."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the stated constraints. Candidate 6 repairs the evidence-gap mechanism in candidate 1 rather than introducing a distinct mechanism. The other groups use sequencing, paused replay, contrasting boundaries, presentation-cue exchange, shared correctable accounts, and receiving-staff feedback. Candidate 6 offers the strongest overall balance: reliable disclosure reduces dependence on acting or guessing, explicit policy boundaries support escalation decisions, and individual assessment checks unprompted information seeking."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A4 by combining clear escalation-boundary practice with reliable access to both claimants' information and an individual assessment requiring missing-information requests. These are concrete improvements in feasibility and inspectability, although neither proposal supplies evidence of actual learning effects."
+    }
+  },
+  "format_retry_of": null
+}

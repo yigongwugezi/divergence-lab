@@ -1,0 +1,196 @@
+{
+  "mapping": {
+    "A": "REFINE",
+    "B": "EXPAND",
+    "C": "SAVE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide the required practice and individual unseen assessment without definite serious violations. Candidate 5 strengthens candidate 4 by giving every volunteer live practice on both sides of an escalation boundary, with explicit verification and handoff requirements. Its main feasibility risk is fitting both encounters into four minutes; the proposed timing prototype directly checks that risk."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with no definite serious hard-constraint violations. Candidate 6 combines individual boundary classification with role-play requiring both accounts and record verification. Explicit policy justifications and proposed unseen routine and escalation cases make unsupported decisions and blanket referral particularly inspectable. Five-minute practice rounds remain a timing limitation."
+      },
+      "C": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with no definite serious hard-constraint violations. Candidate 6 offers the strongest balance of policy-grounded escalation teaching, required listening and verification, and inspectable individual decisions. Its proposed assessment distinguishes justified routine handling from justified escalation, although brief role-plays limit conversational depth."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with no definite serious hard-constraint violations. Candidate 4 directly teaches the evidence and authority boundaries governing room decisions, requires both accounts and record checks, and provides an actionable handoff. Its main weakness is that each trainee makes only one live volunteer decision, so practice across both routine and escalation cases is uneven."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "A5 gives every volunteer live practice with a matched boundary contrast but compresses encounters substantially. B6 provides individual classification across several boundaries and broader proposed assessment, but each trainee handles only one live dispute. Neither clearly dominates overall."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "A5 provides stronger enacted contrast for every trainee, while C6 offers broader individual boundary classification with less compressed encounters. Both make verification, fair hearing, and justified escalation inspectable; their feasibility and practice tradeoffs balance."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "A",
+        "reason": "A5 repairs D4's uneven live practice by having every volunteer handle both a routine case and a changed boundary case. The compressed timing is a material risk, but its explicit prototype check makes the repair reviewable."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "The selected proposals, B6 and C6, are identical."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "B",
+        "reason": "B6 requires every trainee to classify multiple boundary cases individually and proposes separate unseen routine and escalation checks. This gives clearer evidence of distinguishing justified action from referral than D4's introductory comparison and single mixed assessment, despite slightly shorter role-plays."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C6 adds individual classification of multiple policy boundaries and proposes assessment of both routine handling and escalation. These make blanket referral and missed authority limits more inspectable than D4, while retaining all required practice elements."
+      }
+    ]
+  }
+}

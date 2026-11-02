@@ -1,0 +1,184 @@
+{
+  "mapping": {
+    "A": "REFINE",
+    "B": "EXPAND",
+    "C": "DIRECT_FULL",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 strengthens evidence checking with an explicit reciprocal repair comparison while retaining the feasible materials, schedule and access alternatives. Its three-condition critique directly examines the proposed improvement, although two pairs per condition can only expose usability problems. It remains the same primary mechanism as 0."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 6 makes actual repair assistance and knowledge transmission concretely comparable through accessible personal maps, with clear separation from provenance and an inspectable label comparison. Its main limitation is dependence on visitors having repair memories. Candidates 3 and 7 are conditionally usable: their explicit documentation gates must pass before production."
+      },
+      "C": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers a simple, feasible reciprocal comparison with balanced participation, seated picture-based alternatives and a critique against ordinary labels. It makes intergenerational exchange more explicit than 0, while avoiding the hypothetical-choice and communication-exercise drift of 2 and 3. Candidate 4 is usable only if its stated dated-evidence gate passes."
+      },
+      "D": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 6 provides a concrete comparison of who enables repairs and how knowledge travels, using feasible printable materials and accessible pointing interactions. Its critique checks specific comparisons, provenance confusion and value beyond labels. Participation depends on relevant memories; candidate 3 separately requires its documented-method gate to pass."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "A",
+        "reason": "A4 connects explicit reciprocal comparison more closely to visible repair methods and collection evidence. B6 offers strong social comparisons but depends more heavily on recalled networks and can leave the displayed repairs peripheral."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "A",
+        "reason": "A4 anchors the exchange in an inspected repair feature and requires a specific comparison. C1 is feasible and inclusive but can drift toward general memories or preferences."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "A",
+        "reason": "A4 more directly joins object observation, evidence checking and comparison of repair practices. D6 makes repair relationships inspectable but offers a narrower account of how objects are repaired."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "B",
+        "reason": "B6 gives visitors a concrete structure for comparing actual repair roles and knowledge routes. C1 supports balanced conversation, but its broader prompts offer less assurance of a specific comparison about repair."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both pools select the identical relationship-mapping proposal and critique plan, with the same strengths and dependencies."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "D",
+        "reason": "D6 makes the comparison more concrete and inspectable through mapped repair roles and knowledge routes. C1 is simpler but less tightly structured around how repair gets accomplished."
+      }
+    ]
+  }
+}

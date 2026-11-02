@@ -1,0 +1,84 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable and have distinct primary mechanisms: ticket-to-item release gate, independent verification, customer verification, accountable ownership, physical segregation, interruption recovery, and structured intake. Each preserves revisions, permits continued same-day intake, provides a failure path, and measures mismatch, added time and correction burden over two weeks. Candidate 0 best balances direct prevention of wrong handoffs, feasible staffing, traceability and an inspectable release check. Other candidates depend more on staffing overlap, customer knowledge, space, or an unconfirmed source of errors."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: ticket-to-item release gate, independent verification, customer verification, accountable ownership, physical segregation, and structured production specifications. Each addresses the hard constraints and includes a documented failure path and two-week measurement. Candidate 0 offers the strongest balance of direct handoff protection, low operational burden and inspectability. Candidate 5's recipe and completion marks refine structured specification rather than establish another primary mechanism."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select candidate 0, whose proposal and experiment are identical. It supplies traceable identification, preserved and acknowledged revisions, a concrete release gate, explicit holds and relevant two-week measurements, while acknowledging feasibility and evidence limits."
+    }
+  }
+}

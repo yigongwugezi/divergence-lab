@@ -1,0 +1,168 @@
+{
+  "mapping": {
+    "A": "REFINE",
+    "B": "EXPAND",
+    "C": "DIRECT_FULL",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 provides a feasible same-data baseline comparison and an individual transfer task whose visible doubling matches the headline. Its rubric clearly separates noticing the axis from explaining its effect. Candidate 0 remains usable despite its less closely aligned transfer headline."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 directly teaches the difference between identifying a baseline and explaining a visual claim, with manageable group work and a well-aligned individual transfer assessment. Candidate 4's transfer bars suggest fourfold lengths rather than tripling, weakening its prompt without constituting a serious hard-constraint violation. Candidate 5 offers an inspectable attention routine, but its added benefit is uncertain."
+      },
+      "C": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 combines explicit causal explanation, claim repair and an aligned unseen transfer question within the constraints. Candidate 3 adds design and labeling demands; candidate 4 may improve numerical judgment without necessarily improving explanation of the visual mechanism."
+      },
+      "D": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 has a feasible teaching sequence and clearly inspectable transfer criterion that targets explanation beyond axis detection. Candidate 4 usefully distinguishes supported numerical claims from appearance claims, but its transfer prompt asks about tripling when the displayed lengths are fourfold."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "A",
+        "reason": "A4's same-data comparison isolates the baseline change more directly and avoids supplying the full explanation before students construct it. Both have aligned individual transfer checks."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "A",
+        "reason": "A4 offers a simpler, controlled visual comparison with a precise transfer rubric; C2 carries a greater risk of reproducing its supplied explanation."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "A",
+        "reason": "A4 makes the changed visual impression observable through identical data under different baselines, with fewer instructional demands than D2's group adjudication sequence."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2, so their written best proposals have equal merits and limitations."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2, with the same feasibility, explanatory focus and transfer assessment."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2; there is no proposal-level difference to justify a preference."
+      }
+    ]
+  }
+}

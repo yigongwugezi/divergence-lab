@@ -1,0 +1,120 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "REFINE",
+    "C": "DIRECT_FULL",
+    "D": "SAVE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 provides a feasible migration within ten days while avoiding migration-induced wrongful merges. It preserves source records and provenance, protects report privacy, and defines sampled checks for missed links and incorrect identity labels. Duplicate outreach remains an explicit operational acceptance check. Candidate 0 is usable but requires more judgment in defining corroboration and safe merge groups."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers the strongest constraint correctness and feasibility by importing separately addressable records with inspectable duplicate links. Candidate 2 usefully repairs candidate 0's group-construction ambiguity and adds a concrete synthetic test, but retains its primary consolidation mechanism and dependence on sufficiently reliable identity rules. Consolidation is not required for the requested migration."
+      },
+      "C": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 completes the database migration without asserting shared identities, preserves provenance, and supplies bounded review and operational acceptance checks. Its unresolved duplicates are a disclosed limitation compatible with the task. Candidate 0 is usable but introduces additional rule-definition and merge-validation work."
+      },
+      "D": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 best fits the limited staffing and safety objective: immutable source records, explicit candidate links, private aggregate reporting, and checks for missed links and erroneous labels. Its operational usability must pass the proposed outreach check. Candidate 0 remains usable but depends more heavily on identity-rule judgment."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 1; B's additional consolidation repair does not improve its selected proposal."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "The selected proposals are identical in mechanism, constraints, feasibility, and acceptance checks."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The selected proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical migration-without-consolidation proposal."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical proposal; B's extra usable repair does not change this comparison."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "The selected proposals are identical in all assessed respects."
+      }
+    ]
+  }
+}

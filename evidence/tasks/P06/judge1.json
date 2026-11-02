@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and address availability, condition, cleanup effort and seated access within the stated resources. Their primary mechanisms are centralized return processing, visible shelving destinations, an on-site availability reserve, optional shared upkeep, and portable return reminders. Candidate 3 most directly supports self-maintenance through bounded voluntary actions, retains volunteer inspections within the time allowance, and provides an inspectable alternating-week pilot."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable. Their primary mechanisms are centralized return processing, visible shelving destinations, an on-site availability reserve, stock-responsive contribution prompts, and optional shared upkeep. Candidate 4 best combines a simple borrowing ritual with bounded reader contributions, clear limits on handling hazards, seated access and checks during the existing volunteer visits. Its pilot measures all four required dimensions while acknowledging weak evidence."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A3 within the same shared-upkeep mechanism: it explicitly directs finished books to the return box, suggests ordinary tidying actions while reserving damaged books and hazards for staff or volunteers, and allocates recording time within each visit. These details make the ritual clearer and more feasible to inspect without increasing monitoring."
+    }
+  }
+}

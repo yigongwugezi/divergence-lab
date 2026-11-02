@@ -1,0 +1,168 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "REFINE",
+    "C": "SAVE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 3 combines systematic observation, explicit uncertainty, visitor-facing rehearsal, and individual unseen-image assessment. Its rubric requires accurate observations and permits justified withholding; its assessment timing explicitly accommodates transitions. Other candidates are usable, but rival explanations can encourage speculation, location auditing can accept unsupported wording, and partial reveals depend on suitable photographs."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 retains candidate 2's repeatable peer-auditing lesson while repairing its central weakness: locating a feature does not establish the claim about it. Checking wording, repairing unsupported claims, and facilitator sampling directly target the teaching goal. Its revised observation rubric and individual transfer check make the intended effect inspectable. Private assessment within eight minutes remains tight."
+      },
+      "C": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 provides a clear procedure through modeling, supported completion, paired practice, and removal of prompts. It explicitly teaches photographic limits, allows justified withholding, and assesses independent performance on an unseen image. Ten minutes for individual assessment is comparatively feasible, and the rubric checks supported observations rather than fluency or location alone."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 offers the strongest combination of novice support, accurate claim formation, explicit uncertainty, and independent assessment. Candidate 5 adds a distinct incentive mechanism but risks excessive caution and facilitator compliance; its two-session experiment exceeds the immediate resources without making the core lesson unusable. No proposal contains a definite serious hard-constraint violation."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "B",
+        "reason": "B4 directly trains volunteers to detect and repair inference hidden inside a locatable claim. A3 directs attention effectively but offers less structured practice checking whether descriptive wording is supported."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C4 makes the reasoning procedure explicit and progressively removes support, giving novices a stronger bridge to independent description than A3's scanning exercise. It also reserves more assessment time."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 combines worked reasoning, corrective practice, and unsupported transfer assessment. This more directly teaches evidence-versus-inference decisions than A3's attention-first procedure, with more time for individual assessment."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "B4 offers a precise and inspectable repair to peer auditing. C4 narrowly wins through explicit novice modeling, deliberate withdrawal of prompts, acceptance of justified withholding, and a less compressed individual assessment."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 narrowly exceeds B4 in scaffolding independent performance and assessment feasibility. B4's claim audit is strong, but its inherited eight-minute assessment is tighter and its support-removal sequence less explicit."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both pools select the identical candidate 4, so their best written proposals have equal constraint correctness, feasibility, likely effect, and inspectability."
+      }
+    ]
+  }
+}

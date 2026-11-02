@@ -1,0 +1,68 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve adult control, conceal content labels and test retrieval, misfiling and upkeep after four weeks. Their primary mechanisms are indexed addresses, branching classification, chronological logging and bounded recognition search. Candidate 0 offers the strongest general balance of predictable retrieval, feasible filing and inspectable location errors. Privacy against deliberate opening remains an explicitly acknowledged resource limitation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the operational constraints and include the required four-week checks. Their primary mechanisms are indexed addresses, branching classification, chronological logging, learned spatial memory and bounded direct search. Candidate 0 provides the strongest general balance of retrieval reliability, feasibility and inspectability; memory and direct search depend more heavily on collection size or retained familiarity. All acknowledge the limits of unlocked storage."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical indexed-address proposal, so their best proposals have equal written task quality, including the same practical strengths, maintenance burden and privacy limitation."
+    }
+  }
+}

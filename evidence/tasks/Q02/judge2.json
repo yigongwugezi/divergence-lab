@@ -1,0 +1,76 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates offer safe, bounded observations within ten packages and one week; conditional tests explicitly acknowledge unmet prerequisites. Primary mechanisms are ambient vapor uptake, condensation, material/construction effects, contact-fed wetting, internal moisture supply, sensory misclassification, and residue deliquescence. Candidate 0 is the strongest general starting point: feasible randomized crossover, inspectable individual trajectories, and explicit limits on distinguishing absorption from condensation or material effects."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and safety constraints and avoid causal overclaiming. Their primary mechanisms are ambient vapor uptake, condensation, material/construction effects, and internal moisture accumulation. Candidate 3 appropriately acknowledges that ventilation also dries externally acquired moisture. Candidate 0 offers the strongest broadly feasible initial test, with randomized crossover, repeat observations, and clear confounding limits."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0. Its written task quality, feasibility, discriminating observations, and uncertainty bounds are therefore equal; additional alternatives do not improve the selected proposal itself."
+    }
+  }
+}

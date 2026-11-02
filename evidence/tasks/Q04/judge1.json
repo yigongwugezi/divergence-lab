@@ -1,0 +1,76 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the constraints, with conditional feasibility checks where needed. Their primary mechanisms are lamp-reference comparison, daylight intervention, placement crossover, reset intervention and additive-zero testing. Candidate 0 offers the strongest broadly feasible comparison for separating environmental changes from possible meter effects, explicitly retaining lamp and residual-daylight uncertainty. The narrower interventions cannot independently resolve all three causes."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites and limitations. Their primary mechanisms are lamp-reference comparison, daylight intervention, placement crossover, additive-zero testing, operating-duration intervention and exposure-history crossover. Candidate 0 provides the strongest broadly feasible reference comparison, repeatability checks and explicit limits on attribution. Improvised shielding requires validation; operating-duration and exposure-history tests address narrower instrument effects."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical fixed-lamp proposal. It meets the scheduling, resource, safety and logging constraints, supplies inspectable comparisons and permits inconclusive findings without claiming that the lamp independently establishes meter accuracy."
+    }
+  }
+}

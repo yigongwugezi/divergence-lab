@@ -1,0 +1,168 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "DIRECT_FULL",
+    "C": "EXPAND",
+    "D": "REFINE"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All proposals meet the hard constraints. Candidate 2 combines feasible group work, explicit differentiation between noticing and explaining, and an individual transfer claim aligned with the displayed length ratio. Supplied explanations risk copying, but independent transfer checks this. Candidate 0's transfer bars suggest tripling rather than nearly doubling; candidate 4 similarly mismatches tripling with fourfold displayed lengths. These weaken assessment precision without making either unusable."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All proposals meet the hard constraints. Candidate 2 offers a clear, manageable route from numerical evidence to a causal explanation, followed by aligned individual transfer. Candidate 3's inverse design is promising, but preoutlined bars may constrain the supposedly student-chosen baseline unless the template geometry is carefully prepared. Candidate 4 adds a distinct numerical-anchoring mechanism, with uncertain benefit beyond rejecting exaggerated claims."
+      },
+      "C": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All proposals meet the hard constraints. Candidate 2 most clearly integrates claim evaluation, explanation of displayed lengths, and aligned independent transfer. Candidate 5 adds a distinct scale-first attention routine and an inspectable initial comparison, but its written rationale leaves uncertain whether directing attention improves causal understanding. Candidates 0 and 4 have transfer-headline mismatches that reduce assessment precision."
+      },
+      "D": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All proposals meet the hard constraints. Candidate 4 retains candidate 0's same-data baseline comparison while aligning the transfer headline with the visible doubling and separating claim evaluation from visual explanation. This is feasible and directly inspectable. It remains the same primary mechanism as candidate 0; changing the transfer baseline and scoring does not create a new mechanism."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2, with the same feasibility, constraints, instructional mechanism, and transfer check."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 2; C's additional usable mechanism does not improve its selected best proposal."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 narrowly favors direct comparison of identical data under different baselines, making the visual cause concrete without supplying a complete explanation for students to select. Its aligned transfer and separate scoring preserve strong inspectability."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "The selected proposals are identical, so their expected instructional value and assessment quality are equal."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 narrowly offers a more direct demonstration of the baseline's effect, with an aligned unseen claim and explicit separation of numerical judgment from causal explanation."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "D",
+        "reason": "D4 narrowly combines a concrete same-data comparison with precise individual transfer scoring, while C2 carries a greater risk of students reproducing supplied explanations."
+      }
+    ]
+  }
+}

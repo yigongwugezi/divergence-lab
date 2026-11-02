@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: personal learning records, shared open questions, acknowledgment of care, volunteer norm-setting, institutional improvement, and reconstructing uncertainty. Candidate 0 best combines a concrete ritual, minimal resources, private participation, separate publication consent, and direct evaluation of learning versus embarrassment. Its acceptance of 'nothing clear yet' limits forced positivity; handback delays still need observation."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable. Candidates 0 and 7 share the learning-record mechanism; volunteer completion and stronger stopping rules refine that mechanism. The other groups use shared questions, acknowledgment, institutional improvement, prediction and correction, volunteer norm-setting, owner expertise, and prospective expectation setting. Candidate 7 is strongest: volunteers supply supported observations, owners need not manufacture lessons, unresolved outcomes remain valid, publication requires separate consent, and the pilot checks refusals, pressure, delay, and unsafe wording."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A0 by placing responsibility for factual learning claims on volunteers rather than disappointed owners. It also provides clearer capacity limits and pilot stopping rules while retaining optional participation and explicit uncertainty. These are practical improvements in constraint correctness and inspectability, although its effect remains untested."
+    }
+  },
+  "format_retry_of": null
+}

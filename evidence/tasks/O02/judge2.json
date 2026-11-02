@@ -1,0 +1,92 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary acceptance, owners and due dates, existing resources, and the meeting limit, and compare completion, rework and burden. Their primary mechanisms are distinct: explicit commitment, rotating coordination, protected execution time, standing delegation, readiness gating, early peer checking, contingent fallback authority, and preference matching. Candidate 0 offers the strongest general starting point: simple accepted commitments, limited work in progress, visible unclaimed work and owner-managed updates reduce chair dependence. Its experiment preserves original deadlines and counts unclaimed work and distributed administrative burden. Other candidates depend more on particular causes of delay."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints and provide inspectable monthly comparisons. Their distinct primary mechanisms are explicit commitment, rotating coordination, protected execution time, bounded execution authority, calendar-based execution planning, backup continuity, and recipient verification. Candidate 0 is the most broadly feasible lightweight mechanism, combining voluntary ownership, clear deliverables, due dates, capacity limits and decentralized updates. Its measurement includes unclaimed work, rework and administrative burden, making apparent gains easier to scrutinize. The alternatives are useful but more dependent on specific bottlenecks."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality. Each directly addresses voluntary commitments and chair dependence with a feasible mechanism and a transparent, appropriately provisional comparison."
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mapping": {
+    "A": "REFINE",
+    "B": "DIRECT_FULL",
+    "C": "SAVE",
+    "D": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 retains candidate 0's feasible randomized, batch-matched single-drop comparison and explicit equivalence rule while improving damage detection through blinded physical inspection. Candidate 1 is usable but measures cumulative endurance with greater workload and a less direct endpoint. Candidate 2 is a repair of the same mechanism as 0."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both candidates address batch and orientation variation, predefined damage, excessive-breakage stopping, quarantine, and uncertainty. Candidate 0 offers the more direct and feasible protection comparison; candidate 1 measures repeated-impact endurance and requires up to 240 drops."
+      },
+      "C": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 provides a direct, resource-compatible comparison with a prespecified equivalence criterion. Candidate 1 is also usable, but its repeated-drop endurance endpoint adds workload and depends more on whether the chosen sequence represents handling."
+      },
+      "D": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 is the clearest feasible direct comparison. Candidate 2 remains a paired single-drop damage comparison with varied heights and a different analysis, so it shares candidate 0's primary mechanism. Its sparse height-specific data and simultaneous model-based bounds make a decisive, inspectable result less likely. Candidate 1 uses the distinct repeated-drop endurance mechanism."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "A",
+        "reason": "A's best adds standardized blinded physical inspection to the otherwise shared design, reducing the risk of missing damage without additional mugs or drops."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "A",
+        "reason": "A's best improves damage ascertainment through blinded physical inspection while retaining the same feasible comparison and decision rule."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "A",
+        "reason": "A's best strengthens the shared single-drop design with a complete physical inspection checklist and an explicit rule for suspected damage."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "tie",
+        "reason": "Their best proposals are identical."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical; D's additional candidate does not improve the selected proposal."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical."
+      }
+    ]
+  }
+}

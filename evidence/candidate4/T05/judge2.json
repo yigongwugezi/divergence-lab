@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Primary mechanisms are a staged protocol, distributed evidence gathering, paused replay, contrasting authority boundaries, presentation-cue reversal, a correctable shared account, and receiving-staff feedback. Candidate 6 repairs candidate 1's disclosure reliability rather than introducing a new mechanism. It offers the strongest balance of feasible practice, reliable access to evidence, explicit authority boundaries, actionable escalation, and an unseen individual assessment requiring information requests."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their distinct primary mechanisms are a staged protocol, distributed evidence gathering, paused replay, presentation-cue reversal, contrasting authority boundaries, a correctable shared account, and repairing premature commitments. Candidate 4 best combines straightforward delivery with practice distinguishing authorized action from escalation. Its individual assessment checks whether trainees separate verified booking facts from an exception requiring staff authority."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A6 strengthens evidence gathering through reliable disclosure and tests requesting missing information; B4 makes the action-versus-escalation boundary especially clear through contrasting cases. Both provide feasible 45-minute role-play sequences, explicit escalation checks, and relevant unseen individual assessments. Their different strengths do not establish a clear overall advantage in written task quality."
+    }
+  },
+  "format_retry_of": null
+}

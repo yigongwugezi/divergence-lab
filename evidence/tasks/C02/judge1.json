@@ -1,0 +1,184 @@
+{
+  "mapping": {
+    "A": "SAVE",
+    "B": "EXPAND",
+    "C": "REFINE",
+    "D": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers a simple shared focus, optional conversation and a dependable ritual even with one reader. Its pilot checks delivery, access and perceived value without reading histories. Accessible outreach remains a prerequisite rather than a fully specified route. The six mechanisms are shared scheduled attention, delayed written reciprocity, narrative anticipation, collective construction, collective editorial choice and everyday noticing. Candidate 3 has a minor weekly-versus-fortnightly cadence inconsistency."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 provides the strongest balance of simplicity, shared experience and observable pilot checks, subject to confirming accessible outreach. Candidates 0–5 use distinct mechanisms: shared scheduled attention, delayed written reciprocity, narrative anticipation, collective construction, collective editorial choice and everyday noticing. Candidate 6 adds interpretive puzzle solving, but requires more preparation and has a weaker invitation route for isolated residents. Its accessibility uncertainty is explicit, not evidence of a definite violation."
+      },
+      "C": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 retains candidate 0's shared scheduled attention while making accessible invitations and consented delivery more concrete. Its operational pilot checks releases, appointments, requested access and volunteer workload without identifiable histories. Doorstep permission and missed residents remain limitations, and the pilot cannot establish social benefit. This repair is the same mechanism as 0; the other mechanisms are delayed written reciprocity, narrative anticipation and a resident editorial turn."
+      },
+      "D": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 most directly supports shared reading with little preparation and an appointment that remains worthwhile at low turnout. Access must be confirmed before launch. The seven distinct mechanisms are shared scheduled attention, delayed written reciprocity, narrative anticipation, a resident editorial turn, everyday noticing, rereading through a different lens and private intention-based selection. The alternatives are usable but add preparation or rely more heavily on uncertain individual benefits."
+      }
+    },
+    "pairs": [
+      {
+        "a": "A",
+        "b": "B",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0; the additional puzzle candidate does not improve B's best proposal."
+      },
+      {
+        "a": "A",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's best preserves the simple shared ritual while specifying an invitation route beyond existing check-ins and clearer operational feasibility checks. Its advantage is access planning, not demonstrated outcomes."
+      },
+      {
+        "a": "A",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Both select the identical candidate 0, with the same strengths and unresolved access prerequisite."
+      },
+      {
+        "a": "B",
+        "b": "C",
+        "winner": "C",
+        "reason": "C's best makes accessible recruitment and requested delivery more concrete while reducing pilot complexity. B's best leaves the access route to be confirmed."
+      },
+      {
+        "a": "B",
+        "b": "D",
+        "winner": "tie",
+        "reason": "Their best proposals are identical; neither pool's additional mechanisms displace candidate 0."
+      },
+      {
+        "a": "C",
+        "b": "D",
+        "winner": "C",
+        "reason": "C's best addresses the invitation gap in D's best and provides directly inspectable delivery and workload checks, although missed residents and lasting social benefit remain unresolved."
+      }
+    ]
+  }
+}

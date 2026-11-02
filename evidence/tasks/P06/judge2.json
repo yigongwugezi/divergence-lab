@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and respect the hard constraints. Their distinct primary mechanisms are centralized return-and-inspection, reader reshelving guided by visible categories, an on-site availability reserve, stock-responsive appeals, and optional shared tidying. Candidate 0 is strongest overall: a simple borrowing ritual concentrates condition checks and cleanup in one place, addresses seated access and overflow, and provides inspectable pilot measures. Its return-box capacity and replenishment limitations are explicit."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and respect the hard constraints. Their distinct primary mechanisms are centralized return-and-inspection, reader reshelving guided by visible categories, an on-site availability reserve, optional shared tidying, and portable reminders supporting later returns. Candidate 0 offers the strongest balance of simplicity, feasible volunteer work, condition control, seated access and inspectability. The alternatives are plausible but introduce sorting, reliance on voluntary help, or reminder maintenance with less certain benefits."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a feasible ritual and small pilot covering availability, condition, cleanup effort and seated access, while acknowledging uncertainty and avoiding prohibited monitoring or borrower controls."
+    }
+  }
+}

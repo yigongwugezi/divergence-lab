@@ -1,0 +1,72 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with explicit feasibility conditions where needed. Their primary mechanisms are reserved backup capacity, voluntary exchanges, service consolidation, expanded qualifications, and overlapping working periods. Candidate 0 most directly addresses short-notice absences using existing resources, explicit consent, bounded escalation and a safe fallback. Its pilot measures coverage, contact burden and fairness, including standby duty."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable. Their primary mechanisms are reserved backup capacity, voluntary exchanges, service consolidation, qualification flexibility with role reassignment, and joint allocation of simultaneous vacancies. Candidate 0 offers the strongest direct scheduling mechanism and inspectable fallback, while acknowledging limits on willing backup capacity. No candidate definitely violates a hard constraint."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality: clear operational responsibilities, consent and privacy protections, realistic capacity limits, a safe missed-shift fallback, and measurement of all three required outcomes."
+    }
+  }
+}
