@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "kind": "offline archived-response replay",
+  "model_calls": 0,
+  "command": "python tools/check_local_replay.py",
+  "fixture_task": "N01",
+  "coverage": [
+    "start/expand/save state persistence with replayed outputs",
+    "prior rounds retained across continuations",
+    "changed task rejected without overwriting prior state",
+    "eight prompt phases render task and replace placeholders",
+    "schema maxItems values are 3 and 6",
+    "new Python process reloads previously saved rounds"
+  ],
+  "limits": [
+    "Generator replaced with archived fixtures; no real CLI request is validated.",
+    "Save stages replay expand outputs to test state handling, not SAVE response quality.",
+    "Schema checks assert cardinality configuration, not full schema validation.",
+    "Task-change test covers missing new-task initialization, not all possible changes.",
+    "No human interaction or business outcome measured."
+  ],
+  "fixtures_sha256": {
+    "evidence/usability/replay/TASKS.json": "c519298bbfc12bd2c2b638a5e5b67015a4d7824123cd4d7081305ac847335a19",
+    "evidence/usability/replay/runs/N01/calls/0f6fb7a2757ef5357291.json": "08fbf08155407ce6d2d9ab957680e328545e42feedef26dc615ff4ba276e75f5",
+    "evidence/usability/replay/runs/N01/calls/b6826246ee002ba19b67.json": "8ade2f524a3d791aea6e62d977c2f28c2390485f3e30810c8775e487aad0708c",
+    "evidence/usability/replay/runs/N01/calls/f088e1d187e63a4cc7ae.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  "checker_sha256": "5fe402f71807987c2545d9909960d613d9716ad0463e22cbbb5e79cb1bb7acde"
+}

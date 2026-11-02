@@ -22,5 +22,6 @@
     ".agents/skills/divergence-lab-unified/references/SAVE_WIDE_PROMPT.txt": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
     ".agents/skills/divergence-lab-unified/scripts/build_prompt.py": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
     ".agents/skills/divergence-lab-unified/scripts/run.py": "96c982ad83f112362a22254e82d726c1c12ca649ae1addee284610e4c3491fa1"
-  }
+  },
+  "local_replay_validation": "passed; offline fixtures; evidence/usability/LOCAL_REPLAY.json"
 }

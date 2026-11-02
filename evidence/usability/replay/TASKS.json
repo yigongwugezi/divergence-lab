@@ -1,0 +1,14 @@
+[
+  {
+    "id": "N01",
+    "category": "engineering",
+    "goal": "Design a way to detect overnight water leaks in an older apartment block without replacing meters.",
+    "hard_constraints": [
+      "Caretaker can inspect existing daily meter readings and common-area pipes for five mornings; no new sensors.",
+      "Do not shut off occupied apartments or disclose unit-level consumption.",
+      "Distinguish real leaks from delayed meter entry and shared cleaning use; specify a confirmation and rollback check."
+    ],
+    "available_resources": "Paper meter log and building maintenance roster.",
+    "expected_result": "A feasible detection and response workflow."
+  }
+]
