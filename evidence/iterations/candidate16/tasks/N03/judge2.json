@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a 50-minute offline lesson, accessible mean–median instruction, unseen-chart transfer, and timing checks. Candidate 6 retains candidate 1's claim-audit mechanism; its arithmetic recovery is a repair, not a new mechanism. It is strongest because it keeps interpretation accessible while separately inspecting unaided calculation, justified claim evaluation, completion time, and unfinished responses. Candidate 4 has greater arithmetic burden and dataset prerequisites, but no definite hard-constraint violation."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the stated constraints on paper and assess timed transfer. Their primary mechanisms are extreme-value manipulation, claim auditing, prediction followed by distribution inspection, error diagnosis and repair, and comparing consequences under different numerical objectives. Candidate 1 offers the strongest balance of direct relevance, manageable workload, and inspectable numerical reasoning. Candidate 4's distance calculations increase workload for beginners, but this is a feasibility concern rather than a definite violation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves the shared headline-audit lesson with a concrete recovery path for arithmetic difficulty while preserving separate evidence about calculation and interpretation. Its common transfer reveal and timing records make the intended learning more accessible and assessable within 50 minutes. This is a written-design advantage, not demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

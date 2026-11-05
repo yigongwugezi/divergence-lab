@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible collective practice within three 30-minute sessions, distinguish drift from omissions, and check unfamiliar patterns without extra equipment or public singling out. Mechanisms are internal pulse prediction, shared pulse roles, error recognition and matched repair, subdivision, and continuous movement. Candidate 2 most directly integrates hearing with correction and separately checks recognition and performance. Candidate 0 has a weaker fallback if the metronome cannot be muted while running."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable under the stated constraints. Primary mechanisms are internal pulse prediction, shared pulse roles, error recognition and matched repair, continuous movement preparation, subdivision, sequence chunking, moderated timing correction, and reduced acoustic masking. Candidates 7 and 8 refine existing mechanisms through recovery and audibility checks rather than introducing new ones. Candidate 7 best combines listening instruction, specific corrections, bounded recovery from uncertainty, and separate unfamiliar-pattern measures of drift and omissions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A2 by giving ambiguous diagnoses a concrete, time-bounded recovery path and checking performance on matched unfamiliar patterns before and after instruction. This makes the teaching sequence more actionable and improvement more inspectable, while retaining private responses and collective practice. Its small-group comparison appropriately does not claim causal proof."
+    }
+  },
+  "format_retry_of": null
+}

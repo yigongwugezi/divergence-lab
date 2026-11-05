@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect anonymous access and the information-only boundary. Their primary mechanisms are predictable turns, visitor-controlled browsing, shared orientation, information minimization and spatial separation. Candidate 3 best addresses privacy without depending on confidential space, provides accessible assistance and explicitly identifies unsupported referrals as a gap. Its rehearsal checks all three required outcomes and respectful redirection."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated limitations. Primary mechanisms are predictable turns, visitor-controlled browsing, shared orientation, audibility-based exposure control, referral rehearsal, volunteer boundary calibration and visitor audience choice. Candidate 6 repairs candidate 3's interruption handling; candidate 7 repairs candidate 4's referral continuity, so neither creates a new mechanism. Candidate 6 best combines observable privacy safeguards with retained access, clear volunteer ownership and a bounded recovery procedure. Its rehearsal checks navigation, waiting confusion, privacy concerns and queue disruption."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A3 prevents disclosure through information minimization with relatively little operational burden. B6 supplies stronger environmental checks and explicit recovery when privacy conditions fail, but requires more coordination and may extend waits. Both offer feasible, inspectable first-visit flows and qualified-help routes conditional on existing listings; neither clearly dominates overall."
+    }
+  },
+  "format_retry_of": null
+}

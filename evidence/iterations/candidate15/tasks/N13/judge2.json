@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide plausible static-site workflows with source and review metadata and tracking for staleness, conflicts and retrieval failures. Candidates 0 and 6 share canonicalization as their primary mechanism; 6 adds a source-conflict safeguard rather than a new mechanism. Candidate 6 is strongest because it reduces duplicate maintenance, explicitly prevents unsupported source choices, bounds initial scope and tests interrupted work and reader access. Other mechanisms are dependency tracing, renewal deadlines, source excerpts, navigation indexing, grouped publication and claim retirement."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five candidates are usable and meet the stated constraints without a definite serious violation. Their distinct primary mechanisms are canonicalization, dependency tracing, renewal deadlines, source excerpts and decision tables. Candidate 0 offers the strongest general workflow: fewer substantive edits per policy change, explicit source and review metadata, a lightweight issue register and a practical reader-location test. The alternatives introduce mapping overhead, recurring renewal work or policy-format suitability requirements."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 retains B0's practical canonical-answer workflow while explicitly checking supersession and applicability before choosing between competing memos. Its bounded pilot also tests unresolved work surviving interruption. These safeguards improve constraint correctness and inspectability, although their added review cost still needs validation within two hours weekly."
+    }
+  },
+  "format_retry_of": null
+}

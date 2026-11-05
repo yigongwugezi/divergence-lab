@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the training constraints. Groups distinguish sequential evidence gates, information-gap inquiry, paused replay, sufficient-information stopping, contrasting authority cases, shared accounts, credibility-cue reversal, and commitment repair. Candidate 7 strengthens the basic gates with a concrete, inspectable handoff and nonresponse fallback without requiring another facilitator. Candidate 8 refines the contrasting-case mechanism rather than introducing a new one."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints. Their primary mechanisms are sequential gates, information-gap inquiry, paused replay, credibility-cue reversal, contrasting authority cases, shared written accounts, and commitment repair. Candidate 4 best combines realistic practice, explicit policy-based decisions, an actionable escalation check, and an individual unseen assessment within 45 minutes."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly exceeds B4 in written task quality: both provide feasible role-play and individual assessment, but A7 also specifies who maintains communication during escalation, what to do when staff do not respond, and how to avoid unsupported allocation while awaiting a decision. Its added handoff practice remains feasible with one facilitator."
+    }
+  },
+  "format_retry_of": null
+}

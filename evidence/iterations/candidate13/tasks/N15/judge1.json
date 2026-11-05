@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, allow emergency use and compare the three required measures over two weeks. Their primary mechanisms are first-entry reservations, rotating priority, usage-based priority, flexible scheduling and bounded-loan queuing. Candidate 3 best combines early conflict resolution with a way to accommodate competing trips, explicit fallback rules and an inspectable trial, though evening discussion adds effort."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidates 5 and 6 repair reservations and rotating priority respectively, rather than introduce new mechanisms. The other mechanisms are usage-based priority, flexible scheduling, bounded-loan queuing and voluntary reduction of bike absence through early return. Candidate 3 provides a concrete scheduling procedure, confirmed allocations, explicit handling of unallocated requests and a trial that checks both saved trips and displacement of long trips."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 narrowly improves on A3 through a more explicit allocation procedure and comparison against simple reservations, with direct checks for saved trips, added effort and harm to long trips. Its added scheduling burden is a limitation, but the proposal makes that tradeoff inspectable."
+    }
+  },
+  "format_retry_of": null
+}

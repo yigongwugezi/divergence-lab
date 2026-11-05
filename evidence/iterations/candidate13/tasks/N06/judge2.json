@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide concrete, conditional staging procedures and two-rehearsal evaluation without a definite hard-constraint violation. Candidates 0 and 6 share the light-handoff mechanism; arrival acceptance and recovery refine it. The remaining mechanisms are social geometry, repeated movement, concealed reset through darkness, continuous action, shared environmental response, and an empty-center interval. Candidate 6 narrowly leads through explicit movement ownership, confirmed arrival, and bounded recovery, although its added coordination must earn its place in rehearsal."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable subject to their stated room, lamp, and script prerequisites. Their primary mechanisms are light handoff, social geometry, repeated movement, dark visual punctuation, and projected shadow architecture. Candidate 0 offers the strongest balance of clear spatial change, modest performer load, simple technician operation, and inspectable rehearsal criteria. Candidate 3 is also practical, while candidate 4 depends more heavily on suitable optics and wall geometry."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0's otherwise identical core mechanism by tying completion to visible arrival and specifying recovery if destination lighting fails. That makes coordination and failure handling more inspectable; the advantage is conditional on rehearsal confirming that the extra movement and cues remain manageable and below 40 seconds."
+    }
+  },
+  "format_retry_of": null
+}

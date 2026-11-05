@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All satisfy the resource, accessibility and 40-minute prediction–measurement requirements. Primary mechanisms are controlled seam-placement comparison, backward sizing from a fit target, diagnosis and repair, distinguishing folds from seams, and measuring local narrowing. Candidate 0 offers the clearest introductory comparison, correct dimensions and an inspectable transfer check with modest preparation."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable without mandatory sewing or cutting donated garments. Candidate 6 retains candidate 0's controlled comparison; its checkpoint and fallback are operational improvements, not a new mechanism. Likewise, 7 shares 2's diagnosis-and-repair mechanism. Other mechanisms are backward sizing, revealing hidden finished boundaries, fading worked-example support, checking information sufficiency, and distinguishing folded from sewn bottoms. Candidate 6 best combines correct geometry, accessible participation, protected measurement time and a concrete transfer check."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 by specifying when assembly stops and how learners continue through a prepared model while preserving their predictions and measurement roles. This directly supports completion within 40 minutes across differing handling abilities. The advantage is practical robustness in the written lesson, not demonstrated learning superiority."
+    }
+  },
+  "format_retry_of": null
+}

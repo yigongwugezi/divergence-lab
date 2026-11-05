@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the available resources, require supported estimates and honest delay disclosure, and compare missed estimates, customer calls and staff time over four weeks. Candidates 0 and 6 share evidence-gated communication; explicit ownership improves execution without creating a new primary mechanism. Candidates 3 and 7 share capacity reservations; the admission cap is a refinement. The other primary mechanisms are historical calibration, supplier exception resolution, order verification, customer understanding checks and advance resolution of customer prerequisites. Candidate 6 offers the strongest practical process: evidence-based windows, realistic capacity checks, accountable updates and recovery from interruptions, with inspectable paper records and safeguards against improving results merely by withholding estimates."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their distinct primary mechanisms are evidence-gated communication, historical calibration, supplier exception resolution, protected capacity for received parts and early repair-requirement completeness checks. Candidate 0 is the strongest direct fit: it provides a simple daily communication process using existing resources, distinguishes supplier arrival from pickup readiness, promptly revises unsupported windows and includes a four-week comparison with estimate-availability safeguards. The alternatives depend more heavily on particular causes of delay being present."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 retains B0's strong evidence gates and adds explicit responsibility for promised updates, accepted handoffs and recovery of overdue contacts. These concrete operating rules address a plausible failure point in a two-person shop and are directly inspectable. Its comparison against ordinary gates also tests whether the added administration earns its cost. The advantage is modest and concerns process completeness, not demonstrated results."
+    }
+  },
+  "format_retry_of": null
+}

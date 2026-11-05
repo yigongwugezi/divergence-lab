@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable and respect the safety and evidence constraints. Candidate 0 provides the stronger general diagnostic sequence across all three suspected causes, using repeated matched comparisons followed by targeted inspection. Candidate 1 instead centers on a warranted mounting correction as a controlled intervention."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites. Primary mechanisms are matched-condition comparison, controlled mounting correction, isolation of transmitted vibration, airflow-loading intervention, and measurement-contact validation. Candidates 4 and 5 refine existing mechanisms. Candidate 4 offers the strongest overall sequence: it checks meter capability, accounts for uncaptured intermittent episodes, uses physical evidence to distinguish causes, and explicitly addresses ventilation adequacy, rotation prevention and safe restoration."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 through actionable meter-capability gating and explicit handling of uncaptured episodes, windmilling and safe restoration. These strengthen diagnostic reliability and shutdown feasibility without claiming unsupported certainty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable; none definitely violates a hard constraint. Groups distinguish personal learning records, collective questions, acknowledgment of care, volunteer modeling, decision rehearsal, organizational improvement, outcome normalization, and prospective learning aims. Candidates 7 and 8 refine existing mechanisms. Candidate 7 best combines a direct, optional ritual with evidence-grounded learning, separate publication consent, clear review responsibility, queue safeguards, and assessment of learning versus embarrassment."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable; none definitely violates a hard constraint. Their primary mechanisms are personal learning records, collective questions, acknowledgment of care, volunteer modeling, organizational improvement, and reconstruction of uncertainty through a staged reveal. Candidate 4 makes learning tangible through a supported service improvement. Its comparison keeps that improvement available while testing the added celebratory framing, with explicit checks for learning, dismissed disappointment, congestion, and respected refusals. Feasibility depends on finding a supported communication problem within volunteer authority."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 more directly serves visitors experiencing unsuccessful repairs, accommodates no clear learning, and tightly controls unsupported claims, publication, and added handback work. B4 offers credible organizational learning and a well-targeted comparison, but depends more on suitable historical evidence and visitors finding the service-change story personally meaningful. A7 provides the stronger overall fit to a low-pressure ritual and evaluation of learning versus embarrassment."
+    }
+  },
+  "format_retry_of": null
+}

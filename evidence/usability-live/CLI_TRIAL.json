@@ -1,0 +1,61 @@
+{
+  "task": "N01",
+  "package": "outputs/divergence-lab-unified-superiority-candidate6-20261103/.agents/skills/divergence-lab-unified",
+  "original_preview_failure": "work/candidate4-evidence-completion-20261102/usability/CLI_TRIAL.json",
+  "explicit_model_old_cli_failure": "CLI6_N01_START.stderr.txt",
+  "successful_cli_version": "0.165.0-alpha.1.2",
+  "model": "gpt-6.1-sol",
+  "transport": "normal ChatGPT CLI through temporary per-command PATH shim; no global config change",
+  "native_probe": "CLI_NATIVE_PROBE.stderr.txt",
+  "steps": [
+    {
+      "action": "start",
+      "exit_code": 0,
+      "stdout": "CLI6_NATIVE_N01_START.stdout.json",
+      "stderr": "CLI6_NATIVE_N01_START.stderr.txt"
+    },
+    {
+      "action": "continue",
+      "exit_code": 0,
+      "stdout": "CLI6_NATIVE_N01_CONTINUE.stdout.json",
+      "stderr": "CLI6_NATIVE_N01_CONTINUE.stderr.txt"
+    },
+    {
+      "action": "save",
+      "exit_code": 0,
+      "stdout": "CLI6_NATIVE_N01_SAVE.stdout.json",
+      "stderr": "CLI6_NATIVE_N01_SAVE.stderr.txt"
+    },
+    {
+      "action": "new-process start",
+      "exit_code": 0,
+      "stdout": "CLI6_NATIVE_N01_RESTORE.stdout.json",
+      "stderr": "CLI6_NATIVE_N01_RESTORE.stderr.txt"
+    }
+  ],
+  "final_state": "outputs\\divergence-lab-unified-superiority-candidate6-20261103\\.agents\\skills\\divergence-lab-unified\\state\\a150daf04caef0ae",
+  "rounds": [
+    {
+      "phase": "P0",
+      "candidates": 3
+    },
+    {
+      "phase": "P1",
+      "candidates": 1
+    },
+    {
+      "phase": "P2",
+      "candidates": 0
+    },
+    {
+      "phase": "SAVE",
+      "candidates": 1
+    }
+  ],
+  "restore_identical": true,
+  "usage": "unknown; scripts/run.py captures but does not persist CLI usage",
+  "limitations": [
+    "The normal CLI flow used a newer local executable than the PATH default.",
+    "The live CLI output is a usability demonstration, not part of the matched quality comparison."
+  ]
+}

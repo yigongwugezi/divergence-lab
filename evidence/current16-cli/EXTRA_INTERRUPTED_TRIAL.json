@@ -1,0 +1,14 @@
+{
+  "event": "CLI expand driver timeout",
+  "driver_timeout_seconds": 390,
+  "start_completed": true,
+  "start_p0_candidates": 2,
+  "expand_p1_saved": true,
+  "expand_p2_saved": false,
+  "orphan_process_ended": true,
+  "orphan_output_found_after_exit": false,
+  "retry_or_manual_state_repair": false,
+  "interpretation": "Interrupted extra CLI trial; not counted as a completed product workflow. Existing start and P1 evidence retained.",
+  "source_sha256": "05a4e24fc2cb2bf4ecc020ff557b051e8e6c5905a20bb956a825e5b1281a919a",
+  "transformation": "Machine-local process ID and temporary path omitted."
+}

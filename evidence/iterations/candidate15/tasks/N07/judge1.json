@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve privacy and phone-free pickup, budget 20 extra minutes daily, and track the required outcomes. Policy-dependent options are explicitly conditional. Candidate 0 most directly addresses scarce shelf space with feasible daily clearance, notification-aware deadlines and release checks; pickup losses remain an explicit rejection criterion."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated prerequisites and limits. Candidates 4 and 5 repair their source workflows rather than introduce new mechanisms. Candidate 4 best combines direct shelf-space recovery with an inspectable, interruption-safe release process, staging-space accounting and conservative use of existing deadlines."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves A0's practical reliability by specifying ownership and recovery when record updates and physical removal are interrupted. It also counts staging space and begins with existing deadlines. These concrete error controls strengthen the requested workflow without relying on novelty or claiming that clearance increases pickups."
+    }
+  },
+  "format_retry_of": null
+}

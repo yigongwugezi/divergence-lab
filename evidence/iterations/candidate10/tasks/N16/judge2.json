@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, use available materials, and include private one-month retrieval and misfiling checks. Primary mechanisms are fixed storage, locator indexing, checkout signals, keeping papers with the carried folder, periodic recovery sweeps, and receipt-stage completeness checks. Candidate 6 repairs candidate 0 with a missing-paper recovery rule rather than introducing a new primary mechanism. It best combines simple storage, safe recovery, explicit privacy limits, and inspectable outcomes."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are fixed storage, locator indexing, checkout signals, keeping papers with the carried folder, and source-stage collection and transport checks. Candidate 0 offers the strongest general-purpose balance of low effort, plausible loss reduction, privacy, and a clear one-month test; the alternatives depend more on particular loss patterns or additional habits."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 retains B0's feasible fixed-storage mechanism while adding useful owner-only recovery boundaries and clearer checks for missing or incomplete sets, maintenance burden, and inconclusive results. These substantive safeguards and evaluation improvements give it a modest advantage."
+    }
+  },
+  "format_retry_of": null
+}

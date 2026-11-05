@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable conditional proposals with explicit service limits and checks for navigation, waiting confusion and privacy concerns. Groups distinguish anonymous individual access, visitor-controlled browsing, shared welcome, referral rehearsal, volunteer boundary calibration and uniform handouts. Candidates 3 and 6 strengthen the baseline queue's privacy and continuity procedures; 7 repairs interrupted referral rehearsal. Candidate 6 best combines accessible anonymous turns, recovery without public explanation, audibility safeguards and inspectable failure conditions within two-volunteer capacity."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable; none definitely breaches a hard constraint. Their primary mechanisms are anonymous individual access, visitor-controlled browsing, shared welcome, information minimization and spatial separation. Candidate 3 provides clear case-free requests, a common anonymous queue, spoken assistance and respectful redirection to qualified help. It explicitly identifies missing referral details as a service gap and tests both disclosure prevention and whether boundaries obstruct useful assistance."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 better addresses the central privacy goal by making useful assistance possible without personal accounts, reducing reliance on confidential space. A6 handles interruptions more concretely, but B3's clear request options and disclosure boundaries offer the stronger overall first-visit flow. Both remain conditional on usable printed referral information, and neither claims demonstrated results."
+    }
+  },
+  "format_retry_of": null
+}

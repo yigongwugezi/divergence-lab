@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the matched-pair randomized parallel mechanism; candidate 2 improves its loss and interpretation rules rather than adding a mechanism. Candidate 1 uses a balanced crossover and is usable, but carryover and period effects complicate inference and it does not directly test six uninterrupted weeks at either window. Candidate 2 best fits the task, with feasible care, defined measurements, and explicit safeguards against misleading survivor-only conclusions."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 uses matched-pair parallel assignment; candidate 1 uses repeated weekly randomization. Both satisfy the hard constraints, but candidate 0 directly estimates six-week growth under sustained window placement. Candidate 1 estimates short-term effects across exposure histories, with greater handling and carryover uncertainty."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A2 preserves B0's direct, feasible randomized comparison while strengthening prespecified handling of deaths and missing endpoints. Its explicit restriction on declaring an overall better-growing window reduces survivor-selection overclaims, a substantive improvement in cautious inference."
+    }
+  },
+  "format_retry_of": null
+}

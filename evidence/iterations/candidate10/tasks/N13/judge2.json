@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide static-file workflows within the weekly budget, require source and review metadata, and track staleness, conflicts and retrieval failures. Candidates 0 and 6 share canonical-answer consolidation; source-supersession checks refine that mechanism. The other mechanisms are dependency mapping, scheduled renewal, source excerpts, reader-language navigation and coordinated releases. Candidate 6 best combines reduced duplicate maintenance with explicit handling of ambiguous authority, bounded rollout and inspectable checks."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the publishing constraints and track the three required failure types. Their distinct mechanisms are canonical-answer consolidation, dependency mapping, scheduled renewal, source excerpts and decision tables. Candidate 0 offers the strongest broadly applicable reduction in update effort with a simple register and a concrete pilot; the alternatives add mapping or renewal overhead or depend on particular policy structures."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 preserves B0's practical canonical-answer workflow while explicitly checking which memo governs, handling unresolved authority without guessing, and providing a reader-feedback fallback. These changes improve constraint correctness and operational completeness, although their added review cost still needs pilot validation."
+    }
+  },
+  "format_retry_of": null
+}

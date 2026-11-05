@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; none definitely violates a hard constraint. Groups distinguish personal learning records, shared questions, acknowledgment of care, volunteer modeling, decision rehearsal, organizational improvement, outcome normalization, and visitor correction rights. Candidate 7 strengthens candidate 0's mechanism rather than introducing another: it checks learning claims, accepts uncertainty, provides an immediate fallback, and observes pressure and queue effects. It best combines concrete learning, optional participation, feasibility, and inspectable stopping conditions."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; none definitely violates a hard constraint. Their primary mechanisms are personal learning records, shared questions, acknowledgment of care, volunteer modeling, visible organizational responsiveness, and reconstructing uncertainty through staged information. Candidate 4 makes learning tangible through an actual modest service change, avoids requiring visitors to reinterpret disappointment, and tests the celebratory framing while keeping the improvement available throughout. Its dependency on supported notes and volunteer authority is explicit."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A7 provides stronger individual learning verification and a practical fallback when evidence is unclear. B4 provides stronger visible follow-through and a cleaner comparison isolating the added framing, with less handback burden. Both explicitly protect optional participation, inspect embarrassment and opt-out behavior, and acknowledge pilot uncertainty; neither has a decisive overall advantage."
+    }
+  },
+  "format_retry_of": null
+}

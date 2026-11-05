@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the case, label, time and provenance constraints and compare understanding and discomfort with a factual label. Their primary mechanisms are close observation, evidential boundaries, personal association, curatorial valuation and present care. Candidate 0 offers the strongest balance of direct object engagement, feasibility and inspectable learning, with explicit safeguards against unsupported history."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and include feasible factual-label comparisons measuring understanding and discomfort. Candidates 5 and 6 refine the observation and evidential-boundary mechanisms rather than introduce new ones. The other mechanisms are personal association, simulated interrupted use, curatorial valuation and prospective stewardship. Candidate 5 is strongest because its visibility gate checks whether visitors can actually inspect the evidence, while retaining a simple installation and explicit uncertainty disclosures."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 narrowly improves on A0 by operationalizing visibility from visitor positions and asking visitors to locate the feature. This makes the proposed learning mechanism more inspectable and provides a concrete fallback when it cannot work, without expanding the required resources. Both remain formative proposals with no demonstrated visitor outcomes."
+    }
+  },
+  "format_retry_of": null
+}

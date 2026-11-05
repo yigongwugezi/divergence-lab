@@ -1,0 +1,10 @@
+{
+  "role": "N15_J1_a1",
+  "status": "failed",
+  "exit_code": 1,
+  "seconds": 6.838180499998998,
+  "usage": null,
+  "total_tokens": null,
+  "cash_cost": null,
+  "provider_request_count": null
+}

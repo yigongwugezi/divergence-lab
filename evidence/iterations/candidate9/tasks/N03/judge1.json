@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All fit the class constraints and assess unseen-chart transfer and completion time. The distinct mechanisms are extreme-value manipulation, claim auditing, prediction followed by distribution inspection, error repair, and comparing decision consequences. Candidate 1 best combines accessible instruction, direct headline evaluation, balanced uses of both summaries, and an inspectable transfer assessment. Candidate 4 adds substantial arithmetic demands; candidate 0 discusses results before transfer, weakening its experimental comparison."
+      },
+      "B": {
+        "best": 8,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All provide feasible conditional preparation, beginner instruction, unseen transfer, and time measurement without requiring internet or personal medical data. Primary mechanisms are extreme-value manipulation, claim auditing, prediction and inspection, count reconstruction, calculation scaffolding, information-request decisions, retrieval practice, and reasoning-error repair. Candidates 7 and 8 refine existing mechanisms. Candidate 8 is strongest because explicit numerical claims make supported versus unsupported interpretations easier to teach and score, while retaining mean–median comparison and a bounded transfer assessment."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B8 improves on A1 by replacing ambiguous headline language with verifiable numerical claims and requiring evidence for the judgment. This improves assessment clarity and inspectability within the same practical class constraints. Its advantage is a targeted repair, not greater length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

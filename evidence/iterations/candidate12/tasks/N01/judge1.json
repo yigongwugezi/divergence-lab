@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 provides the strongest combined workflow for correcting delayed readings, separating shared cleaning use, directing inspection, confirming defects, and checking repair attribution. Candidate 1 uses a distinct physical source-tracing mechanism. Both acknowledge that morning observations cannot prove overnight leakage."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 best integrates reliable consumption screening with physical confirmation and an explicit unresolved handoff. Candidates 4 and 5 refine existing mechanisms. Branch isolation, nested-meter reconciliation, and short meter-movement observation are distinct conditional mechanisms; their prerequisites and uncertainty limits are explicit. Candidate 2 excludes interruption of apartments and essential services."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 by requiring verified completed cleaning records across entire reading intervals, preventing scheduling changes from being mistaken for cleaning-free evidence. It also specifies ownership and unresolved follow-up within the five-morning limit while retaining confirmation and rollback checks."
+    }
+  },
+  "format_retry_of": null
+}

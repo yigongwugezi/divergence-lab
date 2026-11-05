@@ -1,0 +1,854 @@
+{
+  "task_count": 12,
+  "totals": {
+    "DIRECT_FULL": {
+      "stage_slots": 36,
+      "unique_requests": 36,
+      "known_input_tokens": 435106,
+      "known_output_tokens": 30934,
+      "unknown_usage_requests": 0
+    },
+    "EXPAND": {
+      "stage_slots": 36,
+      "unique_requests": 36,
+      "known_input_tokens": 458092,
+      "known_output_tokens": 52514,
+      "unknown_usage_requests": 0
+    }
+  },
+  "generation_token_change_percent": 9.562698480817101,
+  "valid_output_totals": {
+    "DIRECT_FULL": {
+      "unique_requests": 36,
+      "known_input_tokens": 435106,
+      "known_output_tokens": 30934,
+      "unknown_usage_requests": 0
+    },
+    "EXPAND": {
+      "unique_requests": 36,
+      "known_input_tokens": 458092,
+      "known_output_tokens": 52514,
+      "unknown_usage_requests": 0
+    }
+  },
+  "valid_output_token_change_percent": 9.562698480817101,
+  "tasks": {
+    "R01": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36116,
+        "known_output_tokens": 2386,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\6c5d5e30b2d5c5aaff73.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\6c5d5e30b2d5c5aaff73_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11788,
+            "output_tokens": 1105
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\389bd804767f790ff607.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\389bd804767f790ff607_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11945,
+            "output_tokens": 605
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\2e82263d0857701e2b1a.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\2e82263d0857701e2b1a_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12383,
+            "output_tokens": 676
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 39047,
+        "known_output_tokens": 4021,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\6c5d5e30b2d5c5aaff73.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\6c5d5e30b2d5c5aaff73_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11788,
+            "output_tokens": 1105
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\8b646051145f21283ab7.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\8b646051145f21283ab7_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13297,
+            "output_tokens": 1536
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\be5341926c69ecb5ead4.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\be5341926c69ecb5ead4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13962,
+            "output_tokens": 1380
+          }
+        ]
+      }
+    },
+    "R02": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36527,
+        "known_output_tokens": 1928,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\73919746bf55feed68b3.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\73919746bf55feed68b3_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11799,
+            "output_tokens": 1249
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\fc65368a78116206598b.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\fc65368a78116206598b_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12144,
+            "output_tokens": 563
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\b5c4c3991ca6068733f4.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\b5c4c3991ca6068733f4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12584,
+            "output_tokens": 116
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 38112,
+        "known_output_tokens": 3624,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\73919746bf55feed68b3.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\73919746bf55feed68b3_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11799,
+            "output_tokens": 1249
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\b4b35e04050277658272.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\b4b35e04050277658272_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12644,
+            "output_tokens": 1223
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\20468d00398565bf4bae.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\20468d00398565bf4bae_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13669,
+            "output_tokens": 1152
+          }
+        ]
+      }
+    },
+    "R03": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35825,
+        "known_output_tokens": 2298,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\7e2bb825b4a5045d9dd1.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\7e2bb825b4a5045d9dd1_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11785,
+            "output_tokens": 885
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\869565a8a48436357982.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\869565a8a48436357982_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11770,
+            "output_tokens": 676
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\c1fc583a2b9d722a81ec.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\c1fc583a2b9d722a81ec_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12270,
+            "output_tokens": 737
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37302,
+        "known_output_tokens": 3834,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\7e2bb825b4a5045d9dd1.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\7e2bb825b4a5045d9dd1_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11785,
+            "output_tokens": 885
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\04f4560ec7b4096a1019.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\04f4560ec7b4096a1019_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12147,
+            "output_tokens": 980
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\d26cfb0dd63c3272b3e2.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\d26cfb0dd63c3272b3e2_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13370,
+            "output_tokens": 1969
+          }
+        ]
+      }
+    },
+    "R04": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35125,
+        "known_output_tokens": 1949,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\6fd1e658c1d08991182d.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\6fd1e658c1d08991182d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11784,
+            "output_tokens": 639
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\b6ae660a8e647bceb37e.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\b6ae660a8e647bceb37e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11410,
+            "output_tokens": 739
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\5aea19c1b3090f1d8518.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\5aea19c1b3090f1d8518_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11931,
+            "output_tokens": 571
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36602,
+        "known_output_tokens": 3625,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\6fd1e658c1d08991182d.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\6fd1e658c1d08991182d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11784,
+            "output_tokens": 639
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\45a7b34a7ba5e91049d3.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\45a7b34a7ba5e91049d3_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11787,
+            "output_tokens": 1211
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\a06358b7c892530e24de.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\a06358b7c892530e24de_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13031,
+            "output_tokens": 1775
+          }
+        ]
+      }
+    },
+    "R05": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37531,
+        "known_output_tokens": 3424,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\40d1bd7acde8df344939.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\40d1bd7acde8df344939_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11785,
+            "output_tokens": 1494
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\18124fcc113f6325362c.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\18124fcc113f6325362c_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12363,
+            "output_tokens": 1076
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\76868e74da93f072185f.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\76868e74da93f072185f_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13383,
+            "output_tokens": 854
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 39614,
+        "known_output_tokens": 5651,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\40d1bd7acde8df344939.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\40d1bd7acde8df344939_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11785,
+            "output_tokens": 1494
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\b5b9d3c97913e1624736.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\b5b9d3c97913e1624736_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12863,
+            "output_tokens": 2076
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\677720fc8d7d9b94b3d1.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\677720fc8d7d9b94b3d1_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14966,
+            "output_tokens": 2081
+          }
+        ]
+      }
+    },
+    "R06": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35188,
+        "known_output_tokens": 2565,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\597d9f91dc1e817d85b4.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\597d9f91dc1e817d85b4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10933,
+            "output_tokens": 979
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\df5b66445f0ad0b3d33f.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\df5b66445f0ad0b3d33f_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11851,
+            "output_tokens": 829
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\35e385e018af7688a4da.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\35e385e018af7688a4da_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12404,
+            "output_tokens": 757
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37623,
+        "known_output_tokens": 3919,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\597d9f91dc1e817d85b4.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\597d9f91dc1e817d85b4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10933,
+            "output_tokens": 979
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\955635f781dd906f39f3.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\955635f781dd906f39f3_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12228,
+            "output_tokens": 1239
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\5acd0f88beda3a8f63c3.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\5acd0f88beda3a8f63c3_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14462,
+            "output_tokens": 1701
+          }
+        ]
+      }
+    },
+    "R07": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35199,
+        "known_output_tokens": 1773,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\65c934aa735ab36fc9e5.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\65c934aa735ab36fc9e5_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10929,
+            "output_tokens": 1016
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\a0d5ef10c61004d3a177.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\a0d5ef10c61004d3a177_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11876,
+            "output_tokens": 603
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\fc17f24bc72f73c252cd.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\fc17f24bc72f73c252cd_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12394,
+            "output_tokens": 154
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36780,
+        "known_output_tokens": 3982,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\65c934aa735ab36fc9e5.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\65c934aa735ab36fc9e5_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10929,
+            "output_tokens": 1016
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\06e8211255cf3dace7db.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\06e8211255cf3dace7db_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12253,
+            "output_tokens": 1297
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\2ba86cc37e7caba43ec0.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\2ba86cc37e7caba43ec0_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13598,
+            "output_tokens": 1669
+          }
+        ]
+      }
+    },
+    "R08": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36531,
+        "known_output_tokens": 2560,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\609bbb9025c5852e44a6.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\609bbb9025c5852e44a6_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11793,
+            "output_tokens": 1174
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\2e696ffe582f6a0cb8c6.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\2e696ffe582f6a0cb8c6_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12135,
+            "output_tokens": 752
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\ad891b4fd8b48eed71d6.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\ad891b4fd8b48eed71d6_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12603,
+            "output_tokens": 634
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 39424,
+        "known_output_tokens": 4634,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\609bbb9025c5852e44a6.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\609bbb9025c5852e44a6_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11793,
+            "output_tokens": 1174
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\5e75faa2450fb1164185.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\5e75faa2450fb1164185_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12635,
+            "output_tokens": 1674
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\a0939deddb97d1aa65e5.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\a0939deddb97d1aa65e5_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14996,
+            "output_tokens": 1786
+          }
+        ]
+      }
+    },
+    "R09": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37859,
+        "known_output_tokens": 3374,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\331264d14848a1901cee.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\331264d14848a1901cee_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11795,
+            "output_tokens": 1263
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\32b2e60d7f3336d40557.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\32b2e60d7f3336d40557_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12986,
+            "output_tokens": 1083
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\da097219732ba796672f.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\da097219732ba796672f_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13078,
+            "output_tokens": 1028
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 39823,
+        "known_output_tokens": 5136,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\331264d14848a1901cee.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\331264d14848a1901cee_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11795,
+            "output_tokens": 1263
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\049eaa5505c2e83ca3bb.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\049eaa5505c2e83ca3bb_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12634,
+            "output_tokens": 1995
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\8699494677cd67f7da3c.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\8699494677cd67f7da3c_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 15394,
+            "output_tokens": 1878
+          }
+        ]
+      }
+    },
+    "R10": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37768,
+        "known_output_tokens": 3516,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\79acd772f2257c0fd232.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\79acd772f2257c0fd232_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10934,
+            "output_tokens": 1546
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\39991b006d77e056a9e9.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\39991b006d77e056a9e9_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12422,
+            "output_tokens": 1227
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\75be0f085aff3365da82.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\75be0f085aff3365da82_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14412,
+            "output_tokens": 743
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 38553,
+        "known_output_tokens": 5604,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\79acd772f2257c0fd232.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\79acd772f2257c0fd232_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10934,
+            "output_tokens": 1546
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\0639f48d72ca6015817b.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\0639f48d72ca6015817b_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12922,
+            "output_tokens": 1849
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\68a03302113e1bba7812.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\68a03302113e1bba7812_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14697,
+            "output_tokens": 2209
+          }
+        ]
+      }
+    },
+    "R11": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35964,
+        "known_output_tokens": 2513,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\e96da2133f0296c6b4c8.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\e96da2133f0296c6b4c8_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10938,
+            "output_tokens": 1321
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\b4cca909636e1bc12bf1.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\b4cca909636e1bc12bf1_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12279,
+            "output_tokens": 595
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\35d369f7965508637ae4.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\35d369f7965508637ae4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12747,
+            "output_tokens": 597
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37609,
+        "known_output_tokens": 3976,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\e96da2133f0296c6b4c8.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\e96da2133f0296c6b4c8_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10938,
+            "output_tokens": 1321
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\cc39b0e05e0cad6287ed.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\cc39b0e05e0cad6287ed_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12779,
+            "output_tokens": 1274
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\d58071367c565cc5c266.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\d58071367c565cc5c266_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13892,
+            "output_tokens": 1381
+          }
+        ]
+      }
+    },
+    "R12": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35473,
+        "known_output_tokens": 2648,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\45f7c5ca31c28eda45bc.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\45f7c5ca31c28eda45bc_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10937,
+            "output_tokens": 1079
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\64a99e38988dc4b94ce3.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\64a99e38988dc4b94ce3_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12036,
+            "output_tokens": 647
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\ec504197147638b0546d.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\ec504197147638b0546d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12500,
+            "output_tokens": 922
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37603,
+        "known_output_tokens": 4508,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\45f7c5ca31c28eda45bc.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\45f7c5ca31c28eda45bc_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10937,
+            "output_tokens": 1079
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\c28bedbf887a01253816.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\c28bedbf887a01253816_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12536,
+            "output_tokens": 1699
+          },
+          {
+            "output": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\6f9e37f69345cfe986d6.json",
+            "metadata": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\6f9e37f69345cfe986d6_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14130,
+            "output_tokens": 1730
+          }
+        ]
+      }
+    }
+  },
+  "scope": "totals counts completed transport requests listed in each manifest, including historical invalid-format generations and their replacements; valid_output_totals counts only validated saved outputs. Reused origins are included. Duplicate exact requests within one task/arm count once. Excludes judging, failed transport attempts, provider-internal retries and real CLI trial. Token accounting, not money or total research expenditure."
+}

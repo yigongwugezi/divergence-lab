@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve privacy and phone-free pickup, budget 20 extra minutes, and track the required outcomes. Their primary mechanisms are deadline clearance, paper planning cues, voluntary cancellation, retrieval-error correction, and collecting ready holds during an existing visit. Candidate 4 best combines immediate verified pickups, plausible shelf-space savings, explicit handling of failed checkout and identity mismatches, and a practical comparison with usual service. Its effect is limited to patrons already visiting, which it acknowledges."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites; conditional policy requirements are not definite violations. Their primary mechanisms are deadline clearance, paper planning cues, voluntary cancellation, faster retrieval, and authorized proxy collection. Candidate 2 offers a feasible way to remove unwanted ready holds and prevent unnecessary arrivals, with explicit consent, item checks, separate pickup counts and cancellation reconciliation. Its dependence on visiting patrons and the prevalence of unwanted holds limits its likely effect."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 has a slight advantage over B2: it converts an existing visit into a completed pickup and tests both expiration reduction and shelf-space benefit. Its evaluation more directly connects the intervention to reduced abandonment, whereas B2 emphasizes cancellations per visitor and provides a weaker test of reduced shelf dwell. Both satisfy the hard constraints without claiming demonstrated results."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve traceability, avoid purchases and memory-based identification, measure the required outcomes over two weeks, and permit reversal. Their primary mechanisms are independent verification, physical continuity, custody control, isolated label printing, transcription elimination, identifier separation, and spreadsheet row integrity. Candidate 0 offers the strongest broadly applicable handoff safeguard and a comparable-batch evaluation that distinguishes intercepted discrepancies from errors escaping acceptance. Other routes depend more on unverified local failure modes or equipment capabilities."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints with stated applicability conditions. The groups represent independent verification, physical continuity, custody control, eliminating routine relabeling, isolated label printing, transcription elimination, eliminating handoffs, and identifier separation. Candidates 7 and 8 repair interruption handling within existing mechanisms rather than introduce new ones. Candidate 0 combines broad feasibility, direct protection at handoffs and a comparative two-week evaluation. Candidate 7 improves interruption handling, but its uncontrolled trial provides weaker evidence of error reduction."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The selected proposals are identical. Both provide a reversible, source-based handoff check, explicit mismatch holds, required measurements and a practical comparison while acknowledging uncertainty from rare errors."
+    }
+  },
+  "format_retry_of": null
+}

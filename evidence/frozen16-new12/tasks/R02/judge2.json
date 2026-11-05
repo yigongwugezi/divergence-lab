@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and safety limits and preserve uncertainty about local rainfall. Primary mechanisms are instrument calibration, placement/exposure, timing and handling accounting, comparator interpretation, and simultaneous positional comparison. Candidates 5 and 6 refine existing mechanisms. Candidate 5 is best because repeatable pours and explicit precision gates make instrument-error findings inspectable while preventing unsupported corrections. It appropriately leaves collection efficiency and spatial variation unresolved."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and acknowledge their attribution limits. Their primary mechanisms are instrument calibration, placement/exposure, timing and handling accounting, and simultaneous collector comparison. Candidate 0 offers the strongest initial diagnostic sequence: inspect, test known volumes, check water loss, and monitor three events with aligned comparisons. Candidate 3 adds concurrent evidence but depends on an imperfect cup collector with potentially different aerodynamic behavior."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0 through repeated calibration pours, explicit uncertainty ranges and stopping rules, and a stricter condition for numerical correction. These materially improve diagnostic reliability and inspectability using the same permitted resources, without treating the public reading as local ground truth."
+    }
+  },
+  "format_retry_of": null
+}

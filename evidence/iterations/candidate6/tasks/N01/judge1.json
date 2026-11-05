@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the strongest general workflow using the stated resources: correct observation intervals, check cleaning-related explanations, inspect for confirmation, and withdraw unsupported attribution after repair. Candidate 1 uses a distinct physical source-tracing mechanism and is usable for accessible leaks. Both correctly acknowledge that morning inspections and daily readings cannot establish overnight duration."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 is the best broadly feasible option with the resources guaranteed by the task. The distinct mechanisms are corrected aggregate consumption, physical wetness tracing, controlled common-branch isolation, nested-meter reconciliation, and acoustic screening. Candidates 2 and 3 are usable conditional routes with explicit prerequisite checks; candidate 2 excludes apartment and essential-service interruption. Candidate 4 requires physical confirmation of acoustic leads. All include confirmation and rollback or reassessment checks, without claiming proof of overnight timing."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality. Additional mechanisms in B do not improve the selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

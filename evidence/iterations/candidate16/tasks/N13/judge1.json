@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer feasible static-file workflows with sourced, dated answers and tracking for stale guidance, conflicts and failed lookups. Their primary mechanisms are canonicalization, dependency tracking, review-based renewal, source excerpts and decision tables. Candidate 0 best reduces repeated maintenance directly, with a bounded weekly routine and an inspectable update-and-reader pilot."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated feasibility conditions; none definitely violates a hard constraint. Candidates 7 and 8 repair canonicalization and dependency tracking rather than introduce new mechanisms. The other mechanisms are renewal, excerpts, decision tables, reader-language navigation, automated prepublication checks and direct document destinations. Candidate 7 best combines reduced duplicate maintenance with coordinated publication, interruption recovery, source requirements and explicit tracking, tested within the weekly budget."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 preserves A0's practical maintenance benefit while addressing a concrete execution gap: an interrupted update leaving known conflicting copies public. Its publication sequence and recovery test improve constraint correctness and inspectability, with modest additional coordination cost."
+    }
+  },
+  "format_retry_of": null
+}

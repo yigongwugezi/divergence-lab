@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and respect the hard constraints. Their primary mechanisms are personal learning records, collective questions, acknowledgment of care, volunteer modeling, organizational responsiveness, and revealing hindsight bias. Candidate 0 best combines a concrete ritual, minimal preparation, honest allowance for no learning, separate publication consent, and observable checks of learning, pressure, refusal handling, and delay."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable; none definitely violates a hard constraint. Candidates 0 and 7 share the personal learning-record mechanism: universal private delivery is a refinement, not a new mechanism. Other mechanisms are collective questions, acknowledgment of care, volunteer modeling, decision rehearsal, organizational responsiveness, outcome normalization, and prospective expectation calibration. Candidate 7 offers the strongest overall balance through factual private cards, reduced public identification of unsuccessful outcomes, explicit publication consent, and concrete pilot stop conditions. Its universal card-writing burden remains a feasibility concern addressed by observation and a fallback."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A0 by reducing the chance that receiving a reflection card publicly singles out an unsuccessful repair, while retaining direct learning capture and strengthening stop conditions. Its added workload is a real tradeoff, but the written pilot explicitly checks and limits that burden."
+    }
+  },
+  "format_retry_of": null
+}

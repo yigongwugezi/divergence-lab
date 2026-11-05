@@ -1,0 +1,55 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly tests six-week window exposure with matched randomization, fixed care, repeatable measurement and explicit missing-pair rules. Candidate 1 is usable but estimates weekly exposure effects and is more vulnerable to carryover."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the matched-pair parallel mechanism; 2 repairs outcome reporting rather than introducing a mechanism. Candidate 1 uses crossover, and 3 adds measurement masking. Candidate 2 best preserves the direct six-week comparison while explicitly exposing survival differences and missingness that could distort surviving-plant growth comparisons. Its notebook rehearsal checks reporting, not biological efficacy."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B2 narrowly improves on A0 through explicit survival denominators and rules preventing greater growth among survivors from supporting a misleading claim of overall benefit. Both provide feasible controlled comparisons and appropriately limit inference to these plants and windows."
+    }
+  },
+  "format_retry_of": null
+}

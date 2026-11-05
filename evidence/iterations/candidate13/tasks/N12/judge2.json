@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide safe, repeated comparisons and avoid unsupported biological attribution; equipment-dependent routes include feasibility gates. Groups distinguish matched-time wet–dry comparison, runoff gradients, probe-procedure artifacts, vertical redistribution and temperature-dependent solubility. Candidates 4 and 5 refine existing mechanisms. Candidate 4 is best overall: it directly addresses timing, calibration and runoff comparisons, with explicit exclusion and bounded recovery after calibration failure."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect safety and resource limits, specify repeated checks and avoid inferring biological causes from isolated readings. Their primary mechanisms are matched-time wet–dry comparison, runoff gradients, temperature-dependent solubility and vertical redistribution. Candidate 0 offers the most feasible general investigation, controlling timing and meter stability while retaining spatial runoff comparisons; the specialized alternatives depend on suitable shoreline contrasts or meter capabilities."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 improves on B0 through an actionable calibration-failure rule: exclude affected circuits, attempt one permitted correction, and resample only within the original safe time window. This makes environmental comparisons more reliable and inspectable while preserving the same feasible core design."
+    }
+  },
+  "format_retry_of": null
+}

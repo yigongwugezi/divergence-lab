@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are workable within the constraints, with distinct primary mechanisms: recurring supply commitments, timed releases, voluntary category shares, staggered arrivals and weekly demand-responsive requests. Candidate 0 best supports predictable replenishment with modest coordination, consistent allocation and explicit measurement limits. The alternatives depend more on arrival clustering, donor responsiveness or recipient cooperation, or deliberately defer current access."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are conditionally workable and respect the hard constraints. Candidates 0 and 5 share recurring commitments as their primary mechanism; the missed-delivery fallback is a repair rather than a separate mechanism. The other mechanisms are timed releases, voluntary category shares, low-stock-triggered requests, loss prevention and food exchanges. Candidate 5 offers the strongest routine: predictable commitments, clear ownership and handoff, controlled replacement requests, explicit uncertainty and bounded additional work. Its trial checks access, capacity and coordination costs."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0's otherwise strong commitment routine by specifying what happens after missed deliveries or coordinator absence. Its acceptance records, duplicate-delivery checks and workload cap make replenishment more reliable and inspectable within the same resources. Benefits remain conditional on donor flexibility and existing contact arrangements."
+    }
+  },
+  "format_retry_of": null
+}

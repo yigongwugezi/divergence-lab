@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and authority limits, preserve source distinctions, dates and exceptions, and test unfamiliar-item sorting and appropriate questions. The mechanisms are terminology comparison, procedural routing, contrast learning, teach-back feedback, and act-versus-ask calibration. Candidate 5 improves the crosswalk without creating a new primary mechanism: its applicability check reduces the risk of treating vocabulary matches as interchangeable instructions. Its source-traceable pilot, legibility limits and correction triggers make it the strongest usable proposal."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, teach-back feedback, and preventive correction of misleading shortcuts. Candidate 0 most directly serves the comparison task with modest volunteer demands, explicit match/overlap/conflict distinctions, adjacent exceptions, a complete update rule and a source-grounded unfamiliar-item test. The alternatives are usable but depend more on suitable rule structures, examples or volunteer interaction."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 retains B0's direct terminology comparison while explicitly checking which source applies before a resident uses a match to choose a destination. Its test inspects source-selection errors and volunteer burden against existing feasible practice, and includes concrete revision triggers. These are substantive improvements in constraint correctness and inspectability, although effectiveness remains unestablished."
+    }
+  },
+  "format_retry_of": null
+}

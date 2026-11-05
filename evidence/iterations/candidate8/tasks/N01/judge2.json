@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers a feasible aggregate screening workflow, explicitly handles delayed entries and cleaning, and specifies physical confirmation and post-repair rollback. Groups distinguish corrected consumption, physical source tracing, branch isolation, nested-meter reconciliation, and listening. Candidate 2 is usable only with verified safe isolation and authority; candidate 3 requires existing matched nested readings. Neither assumes those prerequisites exist. All acknowledge limits on proving overnight leakage."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible and preserve apartment supply and consumption privacy. Candidate 0 best integrates corrected readings, cleaning comparisons, physical confirmation, and explicit rollback if repair fails to explain excess. Candidate 1 provides a distinct physical source-tracing mechanism but depends on accessible visible evidence."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0, so their written task quality is equal. Additional mechanisms and longer variants in A do not independently improve the selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

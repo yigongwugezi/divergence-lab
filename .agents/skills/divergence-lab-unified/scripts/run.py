@@ -2,7 +2,6 @@
 import argparse
 import hashlib
 import json
-import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -32,11 +31,8 @@ def prompt(phase, task, p0=None, p1=None, prior=()):
             ("CONTINUE_PROMPT_P2_ASSUMPTION.txt" if narrow else "CONTINUE_PROMPT_P2.txt"))
         history = ([{"index": i, **row} for i, row in enumerate(candidates(p0))] + list(prior)
                    if phase == "EXPAND_P1" else
-                   [{"index": i, "title": row["title"], "proposal": row["proposal"]}
-                    for i, row in enumerate(candidates(p0))] +
-                   [{"title": row["title"], "proposal": row["proposal"]} for row in prior] +
-                   [{"title": row["title"], "proposal": row["proposal"]}
-                    for row in candidates(p1, 6)])
+                   [{"index": i, **row} for i, row in enumerate(candidates(p0))] +
+                   list(prior) + candidates(p1, 6))
     elif phase in {"SAVE_P1", "SAVE_P2"}:
         wide = len(candidates(p0)) == 3
         source = ROOT / "references" / (
@@ -61,17 +57,20 @@ def prompt(phase, task, p0=None, p1=None, prior=()):
         "{HISTORY}", json.dumps(history, ensure_ascii=False))
 
 
-def generate(text, destination, limit=3):
-    executable = shutil.which("codex.cmd" if os.name == "nt" else "codex")
+def generate(text, destination, limit=3, model=None):
+    executable = shutil.which("codex")
     if not executable:
         raise RuntimeError("No independent Codex CLI request channel is available")
     with tempfile.TemporaryDirectory() as temp:
         output = Path(temp) / "response.json"
+        command = [executable, "exec", "--ephemeral", "--skip-git-repo-check", "-s", "read-only"]
+        if model:
+            command.extend(["--model", model])
+        command.extend(["--output-schema", str(SCHEMA if limit == 3 else ROOT / "references/response6.schema.json"),
+                        "-o", str(output), "-"])
         try:
             call = subprocess.run(
-                [executable, "exec", "--ephemeral", "--skip-git-repo-check", "-s", "read-only",
-                 "--output-schema", str(SCHEMA if limit == 3 else ROOT / "references/response6.schema.json"),
-                 "-o", str(output), "-"],
+                command,
                 input=text, text=True, encoding="utf-8", capture_output=True,
                 cwd=ROOT, check=False, timeout=300)
         except subprocess.TimeoutExpired as error:
@@ -86,6 +85,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("action", choices=["start", "continue", "refine", "expand", "save"])
     parser.add_argument("task", type=Path, help="agent-maintained task JSON, never required from the user")
+    parser.add_argument("--model", help="Codex CLI model override when the local default is unavailable")
     args = parser.parse_args()
     task = json.loads(args.task.read_text(encoding="utf-8"))
     if (not isinstance(task, dict) or not isinstance(task.get("goal"), str) or not task["goal"]
@@ -102,7 +102,7 @@ def main():
     p0 = folder / "p0.json"
     if args.action == "start":
         if not p0.exists():
-            generate(prompt("P0", task), p0)
+            generate(prompt("P0", task), p0, model=args.model)
     else:
         if not p0.exists():
             parser.error("no complete first pass for this exact task; run start")
@@ -124,12 +124,13 @@ def main():
         if not p1.exists():
             generate(prompt("EXPAND_P1" if args.action == "expand" else
                             "SAVE_P1" if args.action == "save" else "P1", task, p0, prior=prior),
-                     p1, 6 if args.action in {"expand", "save"} and len(candidates(p0)) == 3 else 3)
+                     p1, 6 if args.action in {"expand", "save"} and len(candidates(p0)) == 3 else 3,
+                     model=args.model)
         if not (args.action == "save" and len(candidates(p0)) == 3) and not p2.exists():
             generate(prompt("REFINE" if args.action == "refine" else
                             "EXPAND_P2" if args.action == "expand" else
                             "SAVE_P2" if args.action == "save" else "P2",
-                            task, p0, p1, prior=prior), p2)
+                            task, p0, p1, prior=prior), p2, model=args.model)
         (round_dir / "done.txt").write_text("complete", encoding="utf-8")
     files = [p0] + [path for past in sorted(folder.glob("continue-*"))
                     for phase in ("p1", "p2") if (path := past / f"{phase}.json").exists()]

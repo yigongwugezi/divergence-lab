@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 provides the stronger overall workflow by correcting delayed entries, checking cleaning explanations, requiring physical confirmation, and withdrawing repair attribution if excess persists. Candidate 1 is a usable physical-source detection mechanism but misses concealed losses. Neither can establish overnight duration from daily readings, and both acknowledge that limitation."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 best combines feasible screening, explicit handling of unusable or cleaning-confounded intervals, physical-inspection fallback, confirmation, rollback, and unresolved-case handoff. Candidates 4 and 5 refine existing mechanisms rather than introduce new ones. Branch isolation and nested-meter reconciliation are usable conditional routes with explicit prerequisite checks; listening is usable only as a maintenance clue requiring independent confirmation."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's candidate 5 improves constraint correctness over A's candidate 0 by explicitly recognizing that moving cleaning after a reading does not create a cleaning-free daily interval, stopping unsupported numerical classification, and handing unresolved cases to an accepting maintenance owner. These changes make the workflow more reliable and inspectable."
+    }
+  },
+  "format_retry_of": null
+}

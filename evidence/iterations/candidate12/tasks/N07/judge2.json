@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource, privacy, phone-free access and trial-tracking constraints. Candidates 2 and 4 share patron-authorized cancellation as their primary mechanism; interruption handling improves that mechanism rather than creating another. Candidate 5 best combines direct conversion of ready holds into verified pickups, ordinary counter contact, bounded staff time and inspectable outcomes. Its benefit depends on patrons visiting before expiration."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with policy-dependent actions explicitly conditional. Their distinct mechanisms are deadline clearance, paper planning cues, cancellation of stale demand, faster retrieval and authorized proxy collection. Candidate 2 offers a feasible, consent-based way to reduce unwanted shelf occupancy, with item checks, a daily time budget and separate tracking of cancellations, pickups and release mistakes. Its reach is limited to desk visitors."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 provides the stronger practical workflow: it uses an existing visit to complete an actual pickup, preserves deadlines for declined offers and specifies safe handling of interruptions. Its comparison tracks completed pickups and shelf dwell while enforcing the daily allowance. B2 is sound, but its main benefit comes through cancellations and its experiment connects those outcomes less directly to reduced shelf dwell."
+    }
+  },
+  "format_retry_of": null
+}

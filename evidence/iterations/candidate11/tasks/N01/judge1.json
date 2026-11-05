@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 provides directly inspectable evidence of an active leak within five mornings, separates source recurrence from cleaning or condensation, and specifies confirmation and post-repair checks. Candidate 0 is a feasible complementary consumption screen but is more vulnerable to resident-demand variation. Neither can establish overnight duration from daily readings alone, and both acknowledge that limit."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 best combines observable source tracing, delayed-entry and cleaning checks, supply-preserving repair disposition, explicit handoff ownership, and verification or withdrawal of attribution. Candidates 1 and 4 share the same primary mechanism. Branch isolation, nested-meter reconciliation, and refill-cycle challenges are distinct, conditionally feasible mechanisms; their prerequisites and stop rules avoid definite constraint violations."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's candidate 4 improves A's candidate 1 by making the maintenance response and unresolved-case ownership executable while retaining direct confirmation and rollback checks. The advantage is operational completeness, not length or novelty; neither proves overnight timing."
+    }
+  },
+  "format_retry_of": null
+}

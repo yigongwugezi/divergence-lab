@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve traceability, require no purchase, specify reversible procedures and measure the required outcomes over two weeks. Candidate 7 refines candidate 0's acceptance mechanism; interruption recovery does not make it a separate primary mechanism. The other groups target stable placement, serial labeling, fewer custody changes, spreadsheet key association, obsolete-label control, processing restart and fewer container changes. Candidate 7 is strongest because it directly addresses handoffs, assigns custody until acceptance, contains mismatches and provides inspectable checks and rollback."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and provide reversible, measurable trials. Their primary mechanisms are source-checked acceptance, stable placement, serial labeling, fewer custody changes and batch identifier reconciliation. Candidate 0 offers the strongest direct fit to handoff errors with modest existing-resource requirements, independent source verification and documented mismatch handling."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 by specifying who retains custody during interrupted or ambiguous acceptance and requiring a restarted check before processing. That closes a concrete handoff gap while preserving traceability, measuring waiting costs and providing explicit recovery. Effectiveness remains unproven in both proposals."
+    }
+  },
+  "format_retry_of": null
+}

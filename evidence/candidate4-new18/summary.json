@@ -1,0 +1,2498 @@
+{
+  "freeze": {
+    "package": "outputs\\divergence-lab-unified-superiority-candidate4-20261102\\.agents\\skills\\divergence-lab-unified",
+    "package_files": {
+      ".gitignore": "14188a31de4a645fd035797f1b2e904c60b2f1428ae555ed2a281e2431b3f2d6",
+      "references/BASELINE_PROMPT.txt": "0bffa1333b69c46f2e954bc770d1adfc2255fc2d9b87504e61a45e1bd94a0e07",
+      "references/CONTINUE_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+      "references/CONTINUE_PROMPT_P1.txt": "870eb09b2570462774dd1e0fc4c6b99320d6bca5333a43dc42e4c643b3cc5a8b",
+      "references/CONTINUE_PROMPT_P1_NARROW.txt": "d254dbdb64b5952c5ebea249ffaf1a95a04bbd6cb696868b31cd49140e71b874",
+      "references/CONTINUE_PROMPT_P2.txt": "06849a8a6f0c6540e461830c758a780833dec6ccbc854567c7d8da7fc99da740",
+      "references/CONTINUE_PROMPT_P2_ASSUMPTION.txt": "76d2a3d39bc018d9014f367b560ab7bab5e522e994078e33eefc399fe9ed4b9f",
+      "references/REPAIR_PROMPT.txt": "df9a394518612c05852482a8ddc19b77d1ccd8961c3a485f3f01bc114ec51f2c",
+      "references/response.schema.json": "ba2ea82c009ec659e4da4afa7f9991a30f58b3f96452de317dcca08c8749e080",
+      "references/response6.schema.json": "fa8a84ab415bd47e7be4ce9cf9f5b0c93f6560ce655646abdd4c0e934f549867",
+      "references/SAVE_FULL_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+      "references/SAVE_WIDE_PROMPT.txt": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
+      "scripts/build_prompt.py": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
+      "scripts/run.py": "96c982ad83f112362a22254e82d726c1c12ca649ae1addee284610e4c3491fa1",
+      "SKILL.md": "229107440067034ee18cac57fd9582a387d8035eb13b5a62580b992b8610ecb0"
+    },
+    "tasks_sha256": "37f2bd06106e15c037ff290c3ffb35376cc2b5b27cc560f8903327a1bb518690",
+    "protocol_sha256": "94fc120c3fd124c57ae2a8233b6a5a1215e4a75c302e22e3b45de2e2e11bab18",
+    "runner_sha256": "24bfed99390f01448169b310bad1597510054ed6f421d2988f1e07f3b3426c00",
+    "judge_sha256": "a983ee6c081608a42eb98526f814ff486d18ba966ac2d05eeda30b287f63f0e4",
+    "original_archive_root": "7ceb566e3b154ccb3d57fe882eecd330daaf02f312d00e4a250f3c207fc934b5"
+  },
+  "tasks": {
+    "N01": {
+      "category": "engineering",
+      "pool_sizes": {
+        "DIRECT_FULL": 2,
+        "EXPAND": 4
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\b6826246ee002ba19b67.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\1113c648cc4420d311c7.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\1113c648cc4420d311c7.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\b6826246ee002ba19b67.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\f088e1d187e63a4cc7ae.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\0f6fb7a2757ef5357291.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B2 improves on A1 with explicit source-based repair confirmation, recovery for intervention-caused leaks or service disturbance, and separate reporting of confirmed and unresolved findings after five mornings. These strengthen constraint correctness and inspectability without claiming proof of overnight flow.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 2,
+              "mechanisms": 2,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "Candidate 0 uses timestamp-corrected aggregate consumption and cleaning comparisons; candidate 1 uses repeated physical source tracing. Candidate 1 best establishes an actual accessible leak despite noisy daily consumption, with confirmation and post-repair checks. Both respect supply and privacy constraints and acknowledge that morning observations cannot establish overnight duration."
+            },
+            "EXPAND": {
+              "usable_count": 4,
+              "mechanisms": 3,
+              "best": 2,
+              "serious_violations": [],
+              "reason": "Candidates 1 and 2 share physical source tracing; candidate 2 improves evidence thresholds, repair confirmation and recovery without creating a new mechanism. Candidate 0 uses corrected consumption comparisons. Candidate 3 uses conditional branch isolation, with strict eligibility, restoration checks and an executable fallback; its feasibility depends on a suitable existing valve, and daily consumption variation limits causal confidence. Candidate 2 offers the clearest feasible detection and response workflow."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A2 modestly improves on B1 through clearer evidence thresholds, maintenance handoff, and explicit recovery if repair causes leakage or service disturbance. These strengthen the required confirmation and rollback workflow without changing the primary mechanism.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 4,
+              "mechanisms": 3,
+              "best": 2,
+              "serious_violations": [],
+              "reason": "Three primary mechanisms: corrected aggregate consumption comparison, repeated physical source tracing, and conditional common-branch isolation. Candidate 2 best combines a feasible five-morning routine, delayed-entry and cleaning checks, explicit confirmation thresholds, and repair verification with operational rollback. Candidate 3 is usable only under its strict eligibility conditions; otherwise its stated fallback applies. None establishes overnight duration from morning evidence alone."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 2,
+              "mechanisms": 2,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "The candidates use distinct primary mechanisms: corrected aggregate consumption comparison and physical source tracing. Candidate 1 offers more directly inspectable leak evidence, distinguishes cleaning and condensation, preserves apartment supply and privacy, and checks repairs while retracting unsupported consumption attribution. Concealed leaks and overnight duration remain unresolved."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 2,
+          "input_tokens_known": 23686,
+          "output_tokens_known": 1176
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 35151,
+          "output_tokens_known": 2515
+        }
+      }
+    },
+    "N02": {
+      "category": "engineering",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 8
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\1ec79b1797537c34cd0e.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\17065bfb2dfff2961ed9.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\bfe89d27a7412d3c18bb.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\1ec79b1797537c34cd0e.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\78d7888e7f3014137866.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\86d1e03dd7c7a634a4c8.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B6 modestly improves on A0 by specifying custody when the receiver is unavailable and preventing processing before acceptance. It measures both active handoff work and waiting time, and provides a fallback if pending transfers threaten deadlines. These operational details improve feasibility and inspectability while preserving traceability; effectiveness remains uncertain until tested.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates preserve original identifiers, use existing resources, provide reversible procedures and measure the required outcomes over two weeks. Their primary mechanisms are source verification, stable physical positions, single-sample labeling, reduced custody changes and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with independently checked acceptance and clear, inspectable exception handling."
+            },
+            "EXPAND": {
+              "usable_count": 8,
+              "mechanisms": 7,
+              "best": 6,
+              "serious_violations": [],
+              "reason": "All candidates are usable, with applicability prerequisites explicitly acknowledged and no definite serious hard-constraint violations. Candidates 0 and 6 share source-checked acceptance; pending custody is an operational repair, not a new primary mechanism. The remaining mechanisms are stable positions, single-sample labeling, spreadsheet identity protection, surplus-label control, reduced custody changes and prevention of label deterioration. Candidate 6 combines direct source verification with explicit responsibility before acceptance, a simultaneous-check fallback and inspectable stopping rules."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools' best proposal is the identical source-checked handoff procedure and experiment, so their written task quality is equal.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 8,
+              "mechanisms": 7,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates preserve original identifiers, require documentary resolution, use existing resources and measure the required outcomes over two weeks. Candidates 0 and 6 share source-checked acceptance as their primary mechanism; pending custody is an operational repair. Other mechanisms are fixed placement, serialized labeling, protected spreadsheet identity, surplus-label control, reduced custody changes and label-damage prevention. Candidate 0 best balances direct relevance to handoffs, feasibility and inspectability, with explicit mismatch containment and comparable audits. The alternatives depend more heavily on unconfirmed error sources or workflow prerequisites."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates meet the hard constraints and provide reversible procedures with two-week measurement. Their distinct primary mechanisms are source-checked acceptance, fixed placement, serialized labeling, reduced custody changes and batch identifier reconciliation. Candidate 0 offers the strongest direct handoff intervention with modest setup, preserved evidence and an inspectable comparison. The alternatives have explicit but more restrictive prerequisites or narrower error coverage."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36661,
+          "output_tokens_known": 2513
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36660,
+          "output_tokens_known": 4252
+        }
+      }
+    },
+    "N03": {
+      "category": "teaching",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 8
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\b11a1f23b917effc0c3c.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\105cee57d62a7f3f8244.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\1f5a44a8fe199fbf8964.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\b11a1f23b917effc0c3c.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\50e75fa19a420c18e58c.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\bdf309f8899cb8646f5c.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools select the identical headline-audit proposal. It provides a feasible lesson and a transparent assessment of calculation, justified interpretation, transfer and completion time; neither pool's selected proposal has a written-quality advantage.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All proposals fit the 50-minute, offline class and assess mean–median comparison, unseen-chart transfer and time. Distinct primary mechanisms are value manipulation, claim auditing, prediction followed by distribution inspection, error repair, and comparing planning consequences. Candidate 1 best balances direct relevance, manageable arithmetic and inspectable assessment: it tests claim justification separately from calculation, includes a useful application of the mean, and assesses transfer before discussion."
+            },
+            "EXPAND": {
+              "usable_count": 8,
+              "mechanisms": 7,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All proposals are usable within the stated constraints and include individual transfer and timing. Candidates 0 and 6 share physical value manipulation; explicit caption comparison refines that mechanism. Other mechanisms are claim auditing, prediction and inspection, evidence-sufficiency decisions, error repair, listener-tested explanation, and persuasive chart production followed by reader feedback. Candidate 1 offers the strongest balance of task alignment, feasibility and inspectability without the additional procedural demands of several alternatives."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools select the identical candidate 1. Its clear schedule, accessible instruction, claim-focused practice and timed individual transfer provide equally strong written task quality. Neither pool supplies evidence of actual learning effects.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 8,
+              "mechanisms": 6,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All offer feasible 50-minute lessons using printed, anonymized material, introductory mean–median instruction, unseen-chart transfer and timing. Groups distinguish physical manipulation, claim–evidence auditing, prediction and revelation, error repair, teach-back, and message production. Candidate 6 refines 0; candidate 3 extends the audit with an evidence-sufficiency rule and recovery step. Candidate 1 best balances direct relevance, manageable arithmetic, explicit interpretation criteria and inspectable individual transfer before discussion. Its assessment includes a useful application of the mean, guarding against blanket rejection."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All satisfy the hard constraints and assess transfer and completion time. Their primary mechanisms are physical manipulation, claim–evidence auditing, prediction and revelation, error repair, and comparison of numerical decision consequences. Candidate 1 offers the strongest balance of feasibility and direct practice in recognizing misleading claims. Candidate 4 is usable but adds substantial distance arithmetic for beginners, making its instructional payoff less certain within one class."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36113,
+          "output_tokens_known": 2779
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 37005,
+          "output_tokens_known": 4601
+        }
+      }
+    },
+    "N04": {
+      "category": "teaching",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\9a0c0d5ccf334a786895.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\c12da084628fe41f9cec.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\58e5fe0fc318babacd1c.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\9a0c0d5ccf334a786895.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\1b01a514014cd9ac2c7b.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\f8d187df809c6e10b8ea.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B5 narrowly improves on A2 by explicitly verifying each repair on the original pattern at the original tempo and providing a practical response to group masking. Both satisfy the constraints and test unfamiliar material; B5 makes successful correction more consistently observable, although neither establishes individual mastery or strong causal evidence.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 2,
+              "serious_violations": [],
+              "reason": "All five provide feasible, low-pressure sequences within the stated resources and session limits, distinguish drift from omissions, and check unfamiliar patterns. Candidate 2 best connects hearing an error to selecting a correction and checks performance separately from recognition. Its comparison with equal-duration repetition makes the proposed benefit inspectable. Candidate 0 depends on metronome muting for its strongest mechanism, and its fallback provides weaker evidence."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All seven are usable without definite serious hard-constraint violations. Candidates 2 and 5 share diagnosis followed by a matching repair; added verification refines that mechanism. The other primary mechanisms are internal pulse prediction, divided pulse roles, continuous movement, chunk assembly, and landmark recovery. Candidate 5 best combines explicit listening distinctions, specific repairs, immediate performance verification, uncertainty handling, and a feasible quartet fallback when collective sound masks errors."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A5 strengthens B2's diagnosis-and-repair mechanism with explicit verification at the original tempo and pattern, plus a practical quartet fallback for unclear ensemble evidence. These changes improve correction and inspectability while preserving the low-pressure format and resource constraints. Neither proposal establishes individual mastery or strong causal evidence.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All candidates provide feasible, collective practice within the stated resources and schedule, distinguish drift from omissions, and include unfamiliar-pattern checks. Candidates 2 and 5 share diagnosis followed by a matched repair; verification strengthens that mechanism without creating a new one. Candidate 5 is strongest because it checks the repair on the original pattern and tempo, handles ambiguous errors explicitly, and offers seating-based quartets when ensemble sound obscures evidence. The other primary mechanisms are internal pulse prediction, divided pulse roles, continuous movement, chunk assembly, and landmark recovery."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 2,
+              "serious_violations": [],
+              "reason": "All candidates respect the practical and social constraints and check unfamiliar patterns while separating drift from omissions. Their distinct primary mechanisms are internal pulse prediction, divided pulse roles, diagnosis with matched repair, subdivision, and continuous movement. Candidate 2 most directly integrates learning to hear the error with choosing a correction, and separately checks recognition and subsequent group performance. Its main limitation is that ensemble sound may conceal omissions."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36406,
+          "output_tokens_known": 2916
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 37006,
+          "output_tokens_known": 4172
+        }
+      }
+    },
+    "N05": {
+      "category": "creative",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\58041e6d49c65eee0fc5.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\e7a1d0f837d98d7ae8ab.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\b013e7d282471fba4f61.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\58041e6d49c65eee0fc5.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\70938f5d1794d6929850.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\21c958e38d40d642a48d.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B5 narrowly improves on A0 by checking that visitors can actually locate the documented feature through the closed case and specifying a factual-label fallback if they cannot. This addresses a concrete feasibility dependency. Its small three-condition trial remains formative and does not establish superiority, but the proposal makes its central mechanism more inspectable within the constraints.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five respect the case, label, time and provenance constraints and compare understanding and discomfort with a factual label. Their primary mechanisms are close observation, evidential classification, personal association, curatorial judgment and present care. Candidate 0 offers the strongest balance of feasibility, grounded meaning and inspectable outcomes, with relatively few prerequisites."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All seven are usable; conditional concepts explicitly fall back when evidence is inadequate. Candidates 0 and 5 share close observation: visibility checks and revised testing improve implementation without creating a new mechanism. The other mechanisms are evidential classification, personal association, institutional selection rationale, conservation deliberation and procedural imagination. Candidate 5 best combines evidential restraint, practical visibility verification, clear responsibility and directly observable visitor outcomes."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A5 narrowly improves on B0 by checking whether visitors can actually locate the interpreted feature through the closed case and providing an explicit fallback if they cannot. This strengthens feasibility and inspectability. Its smaller samples limit comparative conclusions, but the proposal acknowledges that limitation.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All candidates respect the case, label, time and provenance constraints and propose factual-label comparisons of understanding and discomfort. Mechanisms are close observation (0,5), evidential boundaries (1), personal association (2), curatorial accountability (3), conservation deliberation (4), and mental rehearsal of a task (6). Candidate 5 best combines grounded interpretation with a practical visibility check, explicit responsibility and a factual fallback. Its three-condition, small-sample test remains formative."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates are usable without definite serious hard-constraint violations. Their primary mechanisms are close observation (0), evidential boundaries (1), personal association (2), evaluation of museum selection (3), and present care (4). Candidate 0 offers a feasible, direct connection between documented damage and material significance, with a balanced factual-label comparison measuring understanding and discomfort."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 37392,
+          "output_tokens_known": 2378
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 37034,
+          "output_tokens_known": 3505
+        }
+      }
+    },
+    "N06": {
+      "category": "creative",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\f363d204307f2aa7a336.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\a8770d636ff18a2d0ab5.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\134e5f875ffc46f49c7d.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\f363d204307f2aa7a336.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\e7fcd60c13b4cbb9a2e9.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\62ee523f5d25397d3721.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B5 narrowly improves on A0 through an observable arrival cue, an executable fallback and explicit comprehension and performer-load measurements at both rehearsals. Its additional cue introduces a real burden, but its comparison plan directly tests whether that burden earns a benefit.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five offer distinct, concrete mechanisms with conditional equipment requirements, clear aisles and sub-40-second targets. Their rehearsal plans address comprehension, load and repeatability, though some measure load less explicitly at rehearsal two. Candidate 0 best balances readable relocation, modest performer demands and straightforward operation; shadow scenery has greater optical uncertainty."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All are usable subject to their stated feasibility checks. Concealed repositioning, release from character and lighting punctuation have different primary mechanisms. Candidates 0 and 5 share light handoff; arrival checks and fallback procedures do not create a new mechanism. Candidate 5 offers the strongest balance of clarity, feasibility and inspectability through an explicit arrival cue, lamp checks, timing margin and evaluation at both rehearsals. Candidate 3's movement in darkness warrants its specified visibility and footing checks, but is not a definite hard-constraint violation."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "A5 offers a stronger spatial destination signal and explicit fallback, but requires distinguishable lighting areas and an additional readiness cue. B3 offers simpler movement and particularly inspectable repetition checks, but depends on a perceptible dark interval and communicates only a scene boundary. Both are concrete, feasible under stated checks and responsive to the required evaluations; neither clearly dominates.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All candidates provide executable, conditional mechanisms within the resource and timing limits, with two-rehearsal evaluation plans. Candidate 3's movement in darkness creates uncertainty but includes bounded routes, rejection conditions and recovery, so it is not a definite violation. Candidates 0 and 5 share the light-handoff mechanism; arrival checks and fallbacks do not create a new mechanism. Candidate 5 best combines a clear destination signal, lamp-operability checks, arrival confirmation, timing margin and an executable fallback."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 3,
+              "serious_violations": [],
+              "reason": "All candidates condition feasibility on available space or lighting and evaluate comprehension, load and repeatability across two rehearsals. Their primary mechanisms are distinct: light handoff, social geometry, repeated movement, dark punctuation and shadow architecture. Candidate 3 provides a simple reusable scene boundary, keeps performers stationary during darkness, preserves safety lighting and specifies three timed runs plus clear rejection criteria."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36428,
+          "output_tokens_known": 2519
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36117,
+          "output_tokens_known": 3621
+        }
+      }
+    },
+    "N07": {
+      "category": "service",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 5
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\feeb50aa3099b69348e4.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\ade8229446ed0ce7df3e.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\538e446d317be90069bf.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\feeb50aa3099b69348e4.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\5ee29bece95e417a0ea2.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\b1373c3a45d4e4df9cec.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "The best proposals are identical. Both provide a practical, time-bounded workflow, preserve privacy and phone-free pickup, and distinguish actual pickups from other shelf removals while tracking mistaken releases.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five are usable, with conditional prerequisites stated and privacy, phone-free pickup, daily time limits and required measurements addressed. Their primary mechanisms are deadline enforcement, paper reminders, explicit cancellation, faster retrieval and authorized collection. Candidate 0 most directly addresses limited shelf space, verifies release eligibility and tests whether space gains come at the expense of pickups."
+            },
+            "EXPAND": {
+              "usable_count": 5,
+              "mechanisms": 4,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five are usable and address the hard constraints. Candidates 0 and 3 share deadline enforcement as their primary mechanism; additional verification and correction procedures do not create a new mechanism. The others use paper reminders, explicit cancellation and prevention of failed retrievals. Candidate 0 offers the strongest overall combination of direct space recovery, safeguards and an inspectable trial. Candidate 3's comparison adds little separation because candidate 0 already requires item-specific checks."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality. It provides practical release checks and tracks all required outcomes while acknowledging that reduced occupancy alone does not demonstrate reduced abandonment.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 5,
+              "mechanisms": 4,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates provide bounded workflows, private handling, phone-free pickup and three-week outcome tracking. Candidates 0 and 3 share deadline enforcement as their primary mechanism; added verification is a repair, not a separate mechanism. Candidate 0 offers the strongest overall balance of direct shelf-space recovery, policy safeguards, feasible daily work and inspectable outcomes. The other mechanisms are paper planning cues, explicit cancellation of unwanted holds and retrieval reconciliation."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates are usable, with conditional prerequisites stated where needed and no definite serious hard-constraint violations. Their distinct primary mechanisms are deadline enforcement, paper planning cues, explicit cancellation, faster indexed retrieval and authorized proxy collection. Candidate 0 most directly addresses scarce shelf space with a bounded daily routine and checks that distinguish actual pickups from releases. The other approaches depend more heavily on particular patron barriers or existing operational capabilities."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 37241,
+          "output_tokens_known": 2808
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36266,
+          "output_tokens_known": 2902
+        }
+      }
+    },
+    "N08": {
+      "category": "service",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 9
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\66385e34240aeb61f40f.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\822ddf26d615370562ef.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\ff728314d2b71e740dfd.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\66385e34240aeb61f40f.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\8070673291206a952573.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\0cad1038daeb5a553a75.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B7 narrowly improves on A0 by specifying when a provisional window loses support and preserving original and revised windows separately. This makes stale promises and concealed misses easier to detect using the same paper cards and inbox. Its advantage is procedural clarity and inspectability, not demonstrated results.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five satisfy the resource, truthful-estimating and four-week comparison constraints. Their primary mechanisms are evidence gates, historical calibration, exception clarification, protected repair capacity and repair-requirement completeness. Candidate 0 is the strongest general-purpose communication process: it directly addresses uncertain arrivals, assigns practical staff responsibilities and checks whether apparent accuracy gains come from withholding estimates. The others depend more on unestablished historical comparability or particular causes of delay."
+            },
+            "EXPAND": {
+              "usable_count": 9,
+              "mechanisms": 8,
+              "best": 7,
+              "serious_violations": [],
+              "reason": "All nine are usable; candidate 6 explicitly makes applicability conditional on existing alternative suppliers rather than assuming they exist. The primary mechanisms are evidence gates, historical calibration, exception clarification, capacity reservation, order completeness, early preparation, supplier selection and customer-understanding verification. Candidate 7 improves the gate process through explicit expiry triggers and preserved estimate history; these are refinements of candidate 0's mechanism. It offers the strongest combination of direct relevance, modest resource demands and inspectable commitments, with four-week tracking of misses, calls and staff time."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A7 improves the shared evidence-gate proposal with explicit withdrawal of unsupported windows and preservation of original estimates. These practical controls reduce stale promises and prevent revisions from concealing misses, while retaining feasible staffing, existing tools and the required four-week comparison. Its advantage is operational clarity and inspectability, not length or novelty.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 9,
+              "mechanisms": 8,
+              "best": 7,
+              "serious_violations": [],
+              "reason": "All candidates respect the resource and honesty constraints and compare the three required outcomes over four weeks. Candidates 0 and 7 share the evidence-gated commitment mechanism; expiry rules and revision tracking refine it rather than create a new mechanism. Other candidates use distinct primary mechanisms. Candidate 7 is strongest: clear ownership, evidence requirements, expiry triggers, preserved original windows and card audits make a feasible communication process inspectable. Candidate 6 is usable only where existing alternative suppliers are available, as explicitly acknowledged."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five candidates satisfy the hard constraints and use distinct primary mechanisms: evidence gates, historical calibration, exception clarification, protected repair capacity and requirement completeness. Candidate 0 most directly addresses variable parts arrival with a practical paper-based communication process, supported pickup windows, prompt delay disclosure and a four-week comparison that tracks estimate availability. The other approaches depend more heavily on unestablished causes or resources."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36885,
+          "output_tokens_known": 2623
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 37261,
+          "output_tokens_known": 4534
+        }
+      }
+    },
+    "N09": {
+      "category": "organization",
+      "pool_sizes": {
+        "DIRECT_FULL": 4,
+        "EXPAND": 5
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\02898c4697faadc8f6bf.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\b3324ee05f4055fc3c31.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\b761ad5076aaf6f4c043.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\02898c4697faadc8f6bf.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\a37220672151938f3e25.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\839d3d2224143dc2b617.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B3 narrowly improves on A1 through explicit acceptance handling, completion deadlines, treatment of unknown burden records and a rotating-order fallback. These make ownership and missed tasks easier to inspect while preserving immediate protection and scheduled shift limits. Both remain limited by unavoidable solo-shift burden.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 4,
+              "mechanisms": 4,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All four provide immediate protection, bounded shifts, paper-based handoffs and escalation, and three-week measurement of response, repeated burden and missed tasks. Their primary mechanisms are scheduled duty rotation, least-burden assignment, compensating routine-task exchanges and exposure redistribution through shift swaps. Candidate 1 best balances actual urgent workload when eligible volunteers overlap, with simple records and explicit feasibility limits."
+            },
+            "EXPAND": {
+              "usable_count": 5,
+              "mechanisms": 4,
+              "best": 3,
+              "serious_violations": [],
+              "reason": "All candidates are usable; none definitely violates a hard constraint. Candidates 1 and 3 share least-burden assignment: acceptance rules and missing-record fallbacks refine that mechanism. The other mechanisms are scheduled duty rotation, routine-task exchanges and segment sharing within incidents. Candidate 3 offers the strongest combination of workload balancing, bounded acceptance, shift-contained completion deadlines and inspectable failure handling. Its comparative trial may remain inconclusive with sparse incidents."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A3 narrowly improves on B1 through explicit acceptance and fallbacks for missing records or unavailable responders, reducing the risk of unowned hazards without extending shifts. Both acknowledge that allocation cannot equalize unavoidable solo-shift exposure; A3 makes handoff and allocation failures more directly inspectable.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 5,
+              "mechanisms": 4,
+              "best": 3,
+              "serious_violations": [],
+              "reason": "The primary mechanisms are scheduled duty rotation, least-burden incident allocation, routine-work exchanges, and incident segmentation. Candidate 3 repairs candidate 1 rather than introducing a new mechanism. It best combines immediate protection, actual-burden allocation, explicit acceptance, bounded shifts, fallback rules, and inspectable three-week measures. Exchanges and segmentation remain usable subject to their stated feasibility conditions."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 4,
+              "mechanisms": 4,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "The primary mechanisms are scheduled duty rotation, least-burden incident allocation, routine-work exchanges, and paired shift swaps. Candidate 1 most directly balances actual urgent work when eligible volunteers overlap, preserves immediate protection and shift boundaries, and measures response, repeated burden, and missed tasks. The other mechanisms are usable but depend more on incident distribution, transferable work, or scheduling flexibility."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 34975,
+          "output_tokens_known": 2126
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 35315,
+          "output_tokens_known": 2693
+        }
+      }
+    },
+    "N10": {
+      "category": "organization",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\70db1e1da20a463bfa86.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\b12ff963952e4816f978.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\d2ac550e5bb55b413666.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\70db1e1da20a463bfa86.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\38def610d4ee6c8a8e18.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\d3c7c45d0ed92cc7dde0.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B5 narrowly improves on A0 by specifying how actual deliveries are distinguished from intentions and how missed commitments are cleared before further requests. It also uses the existing donor-facing schedule without assuming a separate contact channel. These concrete feasibility and inspectability gains support the same predictable-supply mechanism; neither proposal guarantees sufficient donations.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five are workable conditional proposals with distinct primary mechanisms: recurring supply commitments, timed stock release, universal flexible shares, staggered arrivals and demand-responsive replenishment. Candidate 0 best directly supports predictable staple supply with modest coordination, consistent access rules and inspectable records. The buffer is usable but risks denying present requests; the other routes depend on cooperation, arrival clustering or sufficiently reliable demand records."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All candidates are usable under their stated conditions. Candidates 0 and 5 share the recurring-commitment mechanism; delivery confirmation and commitment expiry are operational repairs, not a new mechanism. The remaining groups use timed release, flexible shares, count-triggered replenishment, loss prevention and staggered arrivals. Candidate 5 offers the strongest overall routine through explicit volunteer duties, physical-stock accounting, expiring missed commitments, shelf-capacity limits and a bounded workload. Its short trial provides only provisional evidence."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A5 narrowly improves on B0 through concrete delivery confirmation, expiration of missed commitments and capacity-aware replacement requests. These operational safeguards make the replenishment routine more reviewable and feasible with paper and the existing schedule. The advantage is in written implementation quality, not demonstrated results or a distinct new mechanism.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "The six primary mechanisms are recurring staple commitments, scheduled buffer releases, universal flexible shares, count-triggered replenishment requests, spoilage prevention and staggered donor arrivals. Candidate 5 improves the commitment mechanism with recorded deliveries, expiring commitments, shelf-capacity limits and a bounded workload. It uses the existing schedule without assuming an additional contact channel, preserves equal open access and tracks all required outcomes. Its effectiveness remains conditional on donor participation; its short trial establishes no proven advantage."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "The five primary mechanisms are recurring staple commitments, scheduled buffer releases, universal flexible shares, staggered donor arrivals and demand-responsive replenishment. Candidate 0 offers the strongest balance of predictable staple supply, simple allocation guidance, feasible volunteer roles and inspectable outcomes. Its donor-contact assumption is explicit. Candidate 4 offers responsive replenishment but adds calculation and recording burdens and depends on incomplete demand observations. No candidate definitely violates a hard constraint."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 35849,
+          "output_tokens_known": 2551
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36552,
+          "output_tokens_known": 3589
+        }
+      }
+    },
+    "N11": {
+      "category": "science",
+      "pool_sizes": {
+        "DIRECT_FULL": 2,
+        "EXPAND": 3
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\98d1af0c0833db41dc25.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\e4fe9543a9833ced9938.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\db4c6fefb70ab3e17f8b.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\98d1af0c0833db41dc25.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\2fc1d00e3f7196838aaf.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\5c6eb3617bdd50454d39.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B's best proposal retains the direct six-week randomized comparison while making repeated measurements, discrepancy handling, watering delivery limitations, and plant withdrawal more explicit. These provide a modest practical advantage over A's best without changing the primary mechanism.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 2,
+              "mechanisms": 2,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "Candidate 0 directly tests six continuous weeks at each window with randomized matched pairs, fixed care, and predefined measurement and missingness rules. Candidate 1 is usable but tests weekly exposure effects and is more vulnerable to delayed responses and carryover."
+            },
+            "EXPAND": {
+              "usable_count": 3,
+              "mechanisms": 2,
+              "best": 2,
+              "serious_violations": [],
+              "reason": "Candidates 0 and 2 share the same fixed-window matched-pair mechanism; candidate 2 adds operational measurement, watering-resource, and distress rules. Candidate 1 uses a distinct crossover mechanism but depends on uncertain response timing and carryover assumptions. Candidate 2 narrowly offers the most executable protocol."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools' best proposal is the identical candidate 0, so their best written task quality is equal.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 3,
+              "mechanisms": 2,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "Candidates 0 and 2 share the fixed-window, matched-pair randomized mechanism; added measurement and missing-data procedures do not create a new mechanism. Candidate 1 uses a distinct crossover mechanism and is usable with its stated carryover limitations. Candidate 0 best fits the six-week question directly, with feasible care, consistent measurement timing, explicit missing-pair rules, and cautious inference. Candidate 2 adds procedural detail without clearly improving overall quality."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 2,
+              "mechanisms": 2,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "Candidate 0 uses fixed-window matched-pair randomization; candidate 1 uses repeated weekly randomization. Both respect the hard constraints. Candidate 0 more directly tests sustained six-week growth differences and avoids the response-delay, carryover, and movement complications of weekly reassignment."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 35061,
+          "output_tokens_known": 1377
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 35363,
+          "output_tokens_known": 2064
+        }
+      }
+    },
+    "N12": {
+      "category": "science",
+      "pool_sizes": {
+        "DIRECT_FULL": 4,
+        "EXPAND": 5
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\3600992aa7dc7d768b4d.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\92d18722e7df182412bb.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\a0b46442ca7ccef745c4.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\3600992aa7dc7d768b4d.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\8f9fe29c757285323f8d.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\86876f70f9f521ee4db5.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B3 modestly improves on A0 through explicit Saturday–Sunday coverage, alternating circuit direction, cloud observations and a clear recurrence rule. These make timing and rain comparisons more inspectable while retaining safe access, instrument checks and appropriately limited causal claims.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 4,
+              "mechanisms": 4,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates respect safety, resources and repeated-check requirements. Their primary mechanisms are timing/calibration confounding, runoff association, temperature-dependent solubility and vertical redistribution, respectively. Candidate 0 provides the strongest broadly feasible starting plan: matched-hour wet–dry comparisons, morning–afternoon checks, calibration verification and repositioned duplicates. Candidates 2 and 3 appropriately condition their feasibility on existing meter capabilities."
+            },
+            "EXPAND": {
+              "usable_count": 5,
+              "mechanisms": 4,
+              "best": 3,
+              "serious_violations": [],
+              "reason": "All candidates are usable without definite serious violations. Candidates 0 and 3 share the timing/calibration mechanism; the others test runoff association, vertical redistribution and probe-handling sensitivity. Candidate 3 best combines feasible scheduled sampling, actual-time and order records, repeated rain occasions, calibration safeguards and an explicit insufficient-weather outcome. Its schedule and evidence rules improve execution without creating a distinct mechanism."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools' best proposals are identical. They safely distinguish a localized runoff association from timing and meter artifacts through spatial baselines, matched-hour recovery observations and repeated rain events, while acknowledging weather and access limitations.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 5,
+              "mechanisms": 4,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All candidates provide safe, conditional plans with calibration and repeated observations. Candidates 0 and 3 share the same primary mechanism; 3 improves execution rather than introducing a mechanism. The other mechanisms are runoff gradients, vertical redistribution and probe-handling sensitivity. Candidate 1 best combines matched-time sampling, dry spatial baselines, post-rain recovery checks and independent-event replication. Its spatial interpretation explicitly depends on accessible points having different runoff exposure."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 4,
+              "mechanisms": 4,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All candidates are usable. Their primary mechanisms are matched-time wet–dry comparison, runoff gradients, temperature-dependent solubility and vertical redistribution. Equipment-dependent alternatives explicitly acknowledge when they cannot discriminate their mechanisms. Candidate 1 offers the strongest directly inspectable runoff comparison while checking timing, calibration, sampling order and repeatability within the available weekends."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 35870,
+          "output_tokens_known": 2036
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 35475,
+          "output_tokens_known": 2637
+        }
+      }
+    },
+    "N13": {
+      "category": "information",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 8
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\1977a67eb88a79d0774a.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\2d7eab676f6d23f55892.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\a6fadb3a7a5fcc0ce968.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\1977a67eb88a79d0774a.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\78be5e93ad70aa1cbf6d.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\0f21f35c7318ee9bc732.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools' best proposal is the identical canonical-answer workflow, so their best written task quality is equal. Pool B's additional alternatives and refinements do not improve that selected proposal.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five offer distinct, usable mechanisms within static files and a two-hour weekly budget, require named sources and review dates, and track all three required failure types. Candidate 0 offers the strongest balance: consolidating duplicate answers directly reduces recurring editing effort, while its register and reader checks make remaining conflicts and discovery failures inspectable. Its rollout and inbox assumptions are explicit."
+            },
+            "EXPAND": {
+              "usable_count": 8,
+              "mechanisms": 7,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates are usable and address the publication and tracking constraints without requiring a new content system. Candidates 1 and 6 share the dependency-register mechanism; 6 improves coverage accounting and fallback procedures rather than introducing a new mechanism. Candidate 0 remains the strongest overall choice because eliminating repeated policy wording directly reduces maintenance work, with a bounded rollout and concrete checks. The other mechanisms offer useful but more conditional benefits or additional upkeep."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A6 strengthens the same practical mechanism as B1 with explicit coverage states, an initial provenance gate, authority handling, a fallback when archive changes cannot be identified, and public-result checks before closing issues. These address concrete correctness and maintenance gaps; the advantage does not depend on length or novelty.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 8,
+              "mechanisms": 7,
+              "best": 6,
+              "serious_violations": [],
+              "reason": "All candidates provide workable static-file workflows, source and review-date requirements, and tracking of stale answers, conflicts and reader failures. Candidates 1 and 6 share the dependency-register mechanism; 6 improves its coverage accounting and fallback checks rather than introducing a new mechanism. Candidate 6 is strongest overall because it explicitly handles unsupported existing answers, uninspected sections, uncertain source authority and undetectable archive changes while retaining a bounded weekly routine and inspectable closure checks."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All candidates respect the static-site and staffing constraints and include the required provenance and issue tracking. Their primary mechanisms are canonical answers, source-to-passage dependencies, renewal gates, source excerpts and decision tables. Candidate 1 offers the strongest general workflow: policy revisions produce concrete editing checklists, supplementary searches expose missing dependencies, and the pilot measures omissions and maintenance cost. Its main limitation is maintaining complete coverage within two hours."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36514,
+          "output_tokens_known": 2484
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 37534,
+          "output_tokens_known": 3906
+        }
+      }
+    },
+    "N14": {
+      "category": "information",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\26b34bc95d35fb1dcd97.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\90d4783accc17db4341a.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\e298979ee93be0d798e9.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\26b34bc95d35fb1dcd97.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\f7d187c27a9c6815d6da.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\663088169508aece40d7.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B5 improves A0 by explicitly preventing matching terms from implying shared applicability, providing a fallback for unreliable pairings, and specifying what happens when no clarification contact exists. These practical safeguards strengthen constraint correctness and feasibility. Its trial also checks unsupported choices and time costs; neither proposal supplies actual effectiveness evidence.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All five are usable and employ distinct primary mechanisms: terminology comparison, procedural routing, contrast learning, teach-back feedback, and shortcut correction. Candidate 0 most directly addresses differing terminology while preserving source identity, dates, exceptions and conflicts. Its unfamiliar-item test checks both sorting and appropriate clarification, and its update rule is explicit."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All seven are usable. Candidates 0 and 5 share the terminology-crosswalk mechanism; applicability checks and fallback panels improve its execution without creating a new mechanism. The remaining mechanisms are procedural routing, contrast learning, required evidence justification, teach-back repair, and act-or-ask rehearsal. Candidate 5 best combines direct terminology comparison with explicit applicability checks, readable scope, preserved exceptions, an executable fallback, and observable failure criteria."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A5 strengthens the shared crosswalk approach with an explicit applicability check, clearly limited coverage, handling for missing clarification contacts, and an executable fallback when term pairings are unreliable. These improve constraint correctness and practical usability without relying on greater length or novelty.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All candidates preserve source distinctions, dates and exceptions, remain unofficial, and test unfamiliar-item sorting and appropriate requests for help. Candidate 5 best fits terminology comparison while explicitly checking applicability, limiting coverage to readable content, and providing a source-separated fallback. It improves candidate 0's mechanism rather than introducing a new one. Evidence receipts, teach-back and act-or-ask rehearsal impose distinct working mechanisms."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates meet the hard constraints and include inspectable tests and update rules. Candidate 0 offers the most direct, feasible comparison of differing terms, with explicit relationships, adjacent exceptions and source metadata. The other candidates primarily use decision routing, contrast learning, corrective teach-back and preventive correction of misleading shortcuts."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 35487,
+          "output_tokens_known": 2361
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36907,
+          "output_tokens_known": 3240
+        }
+      }
+    },
+    "N15": {
+      "category": "daily",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\9717c2bc8bae3db87264.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\986690911790cc1764a1.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\450ad2b9ebf79ef00820.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\9717c2bc8bae3db87264.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\cdb672c9bebd35299e6b.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\00ccef1db2b405b8d289.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools' best proposal is the identical reservation routine, with clear privacy and emergency rules and a suitably cautious two-week comparison of missed trips, idle time and coordination effort.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates preserve destination privacy, allow emergency use and compare the three required outcomes over two weeks. Their primary mechanisms are advance reservations, rotating priority, recent-use fairness, flexible-window scheduling and a bounded waiting queue. Candidate 0 best balances low effort, irregular trip lengths, early conflict visibility and inspectable results. Candidate 3 could preserve more trips when schedules are flexible, but requires more shared discussion."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates are usable and meet the hard constraints. Candidate 5 modifies advance reservations with expiring holds rather than introducing a distinct primary mechanism. The other mechanisms are rotating priority, recent-use fairness, bounded queued borrowing, private demand consolidation and booking-hour allowances. Candidate 0 offers the strongest low-friction default. Expiry checks, consolidation and quota accounting have plausible benefits but depend on unestablished household conditions and add effort."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.0,
+          "winner": "B",
+          "reason": "B's best proposal has a modest advantage: it provides a concrete way to preserve both overlapping trips and an inspectable measure of whether that mechanism works. A's best is simpler, but leaves overlap resolution to an agreed swap without specifying how to reach one. B explicitly measures its additional coordination burden and acknowledges when flexibility offers no benefit.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates preserve destination privacy, permit emergency use when the bike is available, and specify two-week comparisons of missed trips, idle time and coordination effort. Candidate 5 refines candidate 0's reservation mechanism rather than introducing a new one. Candidate 0 offers the strongest low-friction default: flexible booking lengths, early conflict visibility and minimal bookkeeping. Other mechanisms depend more on unestablished household needs or add scheduling, fairness or accounting burdens."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 3,
+              "serious_violations": [],
+              "reason": "All candidates satisfy the hard constraints. Candidate 3 directly addresses overlapping demand by moving flexible trips around fixed windows, with a clear tie-break when both cannot fit. Its comparison measures all required outcomes, requested-trip demand and actual conflicts avoided through shifting. The evening check adds effort, but that cost and the mechanism's dependence on flexibility are explicitly testable."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36008,
+          "output_tokens_known": 2133
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36564,
+          "output_tokens_known": 3435
+        }
+      }
+    },
+    "N16": {
+      "category": "daily",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\a47d2b1caa5c1fdcc771.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\c6e1cacfadaf19fd0e12.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\cd0e9b59eb4a8c1c442d.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\a47d2b1caa5c1fdcc771.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\12497deeaabaecbdddd7.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\ca766984d8ac16cc3d9e.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools' strongest proposal is the identical candidate 0. It provides a feasible owner-controlled retrieval system with neutral labels, concealed contents and private one-month measurement. Both would benefit from recording a baseline misfiling count explicitly; neither provides protection against deliberate snooping, which both acknowledge.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates respect owner control, available resources, clinical boundaries and private one-month checks. Their primary mechanisms are fixed storage, locator indexing, checkout tracking, keeping sheets together during use, and collection/transport completeness checking. Candidate 0 offers the strongest general fit: simple implementation, a predictable retrieval destination and inspectable results. Other approaches depend more on particular loss patterns or additional routines."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 0 and 5 share the fixed-storage mechanism; concealed descriptions are a labeling repair, not a new mechanism. The remaining mechanisms are locator indexing, checkout tracking, keeping sheets together during use, periodic recovery and packet reconciliation. Candidate 0 best balances simplicity, privacy, likely benefit and inspectability. Candidate 5 removes key maintenance but may require repeated envelope opening; the other candidates add routines whose value depends on the source of losses."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "Both pools' best proposal is the identical candidate 0, so their written task quality is equal. It provides a practical privacy-preserving retrieval system and a one-month evaluation without changing clinical advice or exposing diagnoses.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates are feasible within the resources, preserve owner control and clinical instructions, and include private one-month retrieval and misfiling checks. Primary mechanisms are fixed-home storage (0,5), locator indexing (1), checkout signaling (2), keeping sheets together during reading (3), periodic recovery (4), and packet reconciliation (6). Candidate 5 modifies identification within candidate 0's mechanism. Candidate 0 offers the strongest balance of simplicity, likely benefit and inspectability without assuming a particular stage causes most losses."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "All candidates meet the hard constraints. Their primary mechanisms are fixed-home storage (0), locator indexing (1), checkout signaling (2), keeping sheets together during reading (3), and collection-and-transport checking (4). Candidate 0 is the strongest general fit: minimal maintenance, concealed contents, individual control and a clear private before-and-after test. Candidate 4 appropriately acknowledges that its main mechanism remains untested if no new sheets arrive."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 35190,
+          "output_tokens_known": 2317
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 35781,
+          "output_tokens_known": 3394
+        }
+      }
+    },
+    "N17": {
+      "category": "public",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\291176610264be59aa27.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\85be38a9e77de1b16413.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\352b9d8083313574e2fd.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\291176610264be59aa27.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\5d6bdaae4bd5ecb3cd1c.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\842176efa95046804c53.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B5 strengthens A1's timed-cohort arrangement with a concrete preopening feasibility check, bounded waiting space and an orderly fallback when transitions cannot be managed safely. These improve constraint correctness and operational feasibility. Its two-event comparison remains confounded by attendance and weather, so it supports practical assessment rather than a causal claim.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All candidates address emergency clearance, mobility access and measurement across two events without a definite hard-constraint violation. Their primary mechanisms are continuous first-come admission, timed cohorts, a call-forward register, first-turn preference with a protected repeat share, and batch random ordering. Candidate 1 best combines predictable turnover, equal play intervals, accessible transitions and an inspectable comparison, conditional on safe cohort clearance with two attendants."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All candidates are conditionally usable; none definitely violates a hard constraint. Candidates 1 and 5 share the timed-cohort mechanism: feasibility checks, queue bounds and fallback procedures are improvements rather than a new mechanism. The other mechanisms are continuous first-come admission, call-forward registration, repeated random draws, first-turn priority and bounded capacity-fit bypass. Candidate 5 best combines inclusive play intervals with explicit transition checks, emergency clearance, preserved queue order on fallback and measurable waits, disputes and workload."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 1.0,
+          "winner": "A",
+          "reason": "A5 improves on B1's shared timed-cohort mechanism with a preopening transition check, explicit queue-capacity limits and an order-preserving fallback. These strengthen constraint correctness and practical feasibility. Its between-event comparison offers weaker attribution than B1's reversed blocks, but the operational safeguards give A5 the overall advantage.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "All candidates provide operationally plausible arrangements with emergency-access safeguards, mobility accommodations and two-event measurement. Candidates 1 and 5 share timed arrival-order cohorts; 5 adds feasibility checks, bounded waiting space and an explicit fallback. It is strongest overall because predictable turnover supports fair access while its recovery rules address practical limits with two attendants. The remaining groups use continuous arrival order, call-forward registration, random selection, first-turn priority and protected capacity matching respectively. Random selection and repeat-turn delays are fairness tradeoffs, not definite hard-constraint violations."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 1,
+              "serious_violations": [],
+              "reason": "All candidates address accessibility, emergency clearance, two-attendant operation and measurement across two events. Their distinct primary mechanisms are continuous arrival order, timed cohorts, call-forward registration, first-turn priority with a repeat-turn share, and batch random ordering. Candidate 1 best combines predictable turnover, equal play intervals, protected transition time and an inspectable comparison. Its feasibility remains conditional on safe cohort clearance, which it explicitly requires."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 35925,
+          "output_tokens_known": 2685
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36418,
+          "output_tokens_known": 4117
+        }
+      }
+    },
+    "N18": {
+      "category": "public",
+      "pool_sizes": {
+        "DIRECT_FULL": 5,
+        "EXPAND": 7
+      },
+      "generation_failure": {},
+      "paths": {
+        "DIRECT_FULL": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\b900ef90b2c3a7082d6e.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\47765d036ea50ad54910.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\09383a1f804bca1b8f24.json"
+        ],
+        "EXPAND": [
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\b900ef90b2c3a7082d6e.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\f0fc27bc1f2a57ae882e.json",
+          "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\20948df0624d2c3d9c67.json"
+        ]
+      },
+      "reviews": [
+        {
+          "order": 1,
+          "mapping": {
+            "A": "DIRECT_FULL",
+            "B": "EXPAND"
+          },
+          "score": 1.0,
+          "winner": "B",
+          "reason": "B's best proposal modestly improves feasibility and likely usefulness by checking actual conditions and specifying fallbacks before committing to placement. A's within-afternoon comparisons are stronger for attribution, but B's operational safeguards give it a narrow overall advantage.",
+          "pools": {
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "Candidate 0 directly addresses crowd exposure through a feasible, dignified layout and compares use, spillover and effort across both afternoons. All candidates are usable; candidate 3 is explicitly conditional on existing operator cooperation. The five primary mechanisms are spatial shelter, shared quiet behavior, voluntary seat turnover, source-volume reduction and predictable self-service."
+            },
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 5,
+              "serious_violations": [],
+              "reason": "Candidate 5 strengthens spatial shelter with checks during actual fair activity, accessible placement criteria and practical fallbacks. Its trial covers use, spillover and volunteer effort, although assigning each arrangement to a different afternoon weakens attribution. Candidates 0 and 5 share one mechanism; the others use shared quiet behavior, voluntary turnover, source-volume reduction, advance seat-status information and predictable self-service. Conditional operator cooperation in candidate 3 is not a definite staffing violation."
+            }
+          }
+        },
+        {
+          "order": 2,
+          "mapping": {
+            "A": "EXPAND",
+            "B": "DIRECT_FULL"
+          },
+          "score": 0.5,
+          "winner": "tie",
+          "reason": "The selected proposals are identical and equally satisfy the task: a dignified accessible layout, realistic acoustic limitations and a two-afternoon comparison covering all required outcomes. Neither supplies observed results.",
+          "pools": {
+            "EXPAND": {
+              "usable_count": 7,
+              "mechanisms": 6,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "Candidate 0 directly addresses acoustic and crowd exposure through an accessible layout using the stated resources, with voluntary universal access and an inspectable comparison of use, spillover and effort across both afternoons. Candidate 5 refines the same placement mechanism; its separate-day comparison is more vulnerable to changing fair conditions. Other mechanisms are behavior agreements, voluntary turnover, source-volume reduction, capacity information and experience predictability. Candidate 3 is conditional on existing operator cooperation, not a definite extra-staff violation."
+            },
+            "DIRECT_FULL": {
+              "usable_count": 5,
+              "mechanisms": 5,
+              "best": 0,
+              "serious_violations": [],
+              "reason": "Candidate 0 offers the strongest direct combination of feasible quiet-space layout and inspectable trial within the stated resources. All candidates preserve voluntary universal access and compare use, spillover and volunteer effort. Their distinct mechanisms are placement, behavior agreements, voluntary turnover, source-volume reduction and experience predictability. Candidate 3 explicitly depends on cooperation from existing operators and is conditionally feasible."
+            }
+          }
+        }
+      ],
+      "flow_cost": {
+        "DIRECT_FULL": {
+          "completed_requests": 3,
+          "input_tokens_known": 36162,
+          "output_tokens_known": 2438
+        },
+        "EXPAND": {
+          "completed_requests": 3,
+          "input_tokens_known": 36642,
+          "output_tokens_known": 3428
+        }
+      }
+    }
+  },
+  "task_count": 18,
+  "review_count": 36,
+  "quality_win_tie_loss": [
+    22,
+    13,
+    1
+  ],
+  "category_quality_win_tie_loss": {
+    "engineering": [
+      3,
+      1,
+      0
+    ],
+    "teaching": [
+      2,
+      2,
+      0
+    ],
+    "creative": [
+      3,
+      1,
+      0
+    ],
+    "service": [
+      2,
+      2,
+      0
+    ],
+    "organization": [
+      4,
+      0,
+      0
+    ],
+    "science": [
+      2,
+      2,
+      0
+    ],
+    "information": [
+      3,
+      1,
+      0
+    ],
+    "daily": [
+      0,
+      3,
+      1
+    ],
+    "public": [
+      3,
+      1,
+      0
+    ]
+  },
+  "cost": {
+    "generation": {
+      "attempts": 101,
+      "statuses": {
+        "complete": 89,
+        "failed": 12
+      },
+      "input_tokens_known": 1093663,
+      "output_tokens_known": 83447,
+      "unknown_usage_attempts": 12
+    },
+    "review": {
+      "attempts": 38,
+      "statuses": {
+        "complete": 36,
+        "failed": 2
+      },
+      "input_tokens_known": 575002,
+      "output_tokens_known": 16138,
+      "unknown_usage_attempts": 2
+    }
+  },
+  "attempts": {
+    "generation": [
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\0f6fb7a2757ef5357291_a1",
+        "status": "complete",
+        "input_tokens": 12041,
+        "output_tokens": 1216
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\1113c648cc4420d311c7_a1",
+        "status": "complete",
+        "input_tokens": 12712,
+        "output_tokens": 216
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\b6826246ee002ba19b67_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\b6826246ee002ba19b67_a2",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\b6826246ee002ba19b67_a3",
+        "status": "complete",
+        "input_tokens": 10974,
+        "output_tokens": 960
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\f088e1d187e63a4cc7ae_a1",
+        "status": "complete",
+        "input_tokens": 12136,
+        "output_tokens": 339
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\17065bfb2dfff2961ed9_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\17065bfb2dfff2961ed9_a2",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\17065bfb2dfff2961ed9_a3",
+        "status": "complete",
+        "input_tokens": 13070,
+        "output_tokens": 581
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\1ec79b1797537c34cd0e_a1",
+        "status": "complete",
+        "input_tokens": 10930,
+        "output_tokens": 1371
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\78d7888e7f3014137866_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\78d7888e7f3014137866_a2",
+        "status": "complete",
+        "input_tokens": 12531,
+        "output_tokens": 1569
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\86d1e03dd7c7a634a4c8_a1",
+        "status": "complete",
+        "input_tokens": 13199,
+        "output_tokens": 1312
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\bfe89d27a7412d3c18bb_a1",
+        "status": "complete",
+        "input_tokens": 12661,
+        "output_tokens": 561
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\105cee57d62a7f3f8244_a1",
+        "status": "complete",
+        "input_tokens": 12369,
+        "output_tokens": 584
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\1f5a44a8fe199fbf8964_a1",
+        "status": "complete",
+        "input_tokens": 12814,
+        "output_tokens": 658
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\50e75fa19a420c18e58c_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\50e75fa19a420c18e58c_a2",
+        "status": "complete",
+        "input_tokens": 12682,
+        "output_tokens": 1759
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\b11a1f23b917effc0c3c_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\b11a1f23b917effc0c3c_a2",
+        "status": "complete",
+        "input_tokens": 10930,
+        "output_tokens": 1537
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\bdf309f8899cb8646f5c_a1",
+        "status": "complete",
+        "input_tokens": 13393,
+        "output_tokens": 1305
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\1b01a514014cd9ac2c7b_a1",
+        "status": "complete",
+        "input_tokens": 12793,
+        "output_tokens": 1323
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\58e5fe0fc318babacd1c_a1",
+        "status": "complete",
+        "input_tokens": 12996,
+        "output_tokens": 807
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\9a0c0d5ccf334a786895_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\9a0c0d5ccf334a786895_a2",
+        "status": "complete",
+        "input_tokens": 10930,
+        "output_tokens": 1530
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\c12da084628fe41f9cec_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\c12da084628fe41f9cec_a2",
+        "status": "complete",
+        "input_tokens": 12480,
+        "output_tokens": 579
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\f8d187df809c6e10b8ea_a1",
+        "status": "complete",
+        "input_tokens": 13283,
+        "output_tokens": 1319
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\21c958e38d40d642a48d_a1",
+        "status": "complete",
+        "input_tokens": 12784,
+        "output_tokens": 1080
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\58041e6d49c65eee0fc5_a1",
+        "status": "complete",
+        "input_tokens": 11777,
+        "output_tokens": 1215
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\70938f5d1794d6929850_a1",
+        "status": "complete",
+        "input_tokens": 12473,
+        "output_tokens": 1210
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\b013e7d282471fba4f61_a1",
+        "status": "complete",
+        "input_tokens": 12603,
+        "output_tokens": 625
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\e7a1d0f837d98d7ae8ab_a1",
+        "status": "complete",
+        "input_tokens": 13012,
+        "output_tokens": 538
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\134e5f875ffc46f49c7d_a1",
+        "status": "complete",
+        "input_tokens": 12563,
+        "output_tokens": 708
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\62ee523f5d25397d3721_a1",
+        "status": "complete",
+        "input_tokens": 12791,
+        "output_tokens": 1210
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\a8770d636ff18a2d0ab5_a1",
+        "status": "complete",
+        "input_tokens": 12945,
+        "output_tokens": 584
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\e7fcd60c13b4cbb9a2e9_a1",
+        "status": "complete",
+        "input_tokens": 12406,
+        "output_tokens": 1184
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\f363d204307f2aa7a336_a1",
+        "status": "complete",
+        "input_tokens": 10920,
+        "output_tokens": 1227
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\538e446d317be90069bf_a1",
+        "status": "complete",
+        "input_tokens": 13592,
+        "output_tokens": 602
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\5ee29bece95e417a0ea2_a1",
+        "status": "complete",
+        "input_tokens": 12151,
+        "output_tokens": 663
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\ade8229446ed0ce7df3e_a1",
+        "status": "complete",
+        "input_tokens": 11875,
+        "output_tokens": 1021
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\b1373c3a45d4e4df9cec_a1",
+        "status": "complete",
+        "input_tokens": 12341,
+        "output_tokens": 1054
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\feeb50aa3099b69348e4_a1",
+        "status": "complete",
+        "input_tokens": 11774,
+        "output_tokens": 1185
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\0cad1038daeb5a553a75_a1",
+        "status": "complete",
+        "input_tokens": 13698,
+        "output_tokens": 1136
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\66385e34240aeb61f40f_a1",
+        "status": "complete",
+        "input_tokens": 10921,
+        "output_tokens": 1388
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\8070673291206a952573_a1",
+        "status": "complete",
+        "input_tokens": 12642,
+        "output_tokens": 2010
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\822ddf26d615370562ef_a1",
+        "status": "complete",
+        "input_tokens": 12329,
+        "output_tokens": 578
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\ff728314d2b71e740dfd_a1",
+        "status": "complete",
+        "input_tokens": 13635,
+        "output_tokens": 657
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\02898c4697faadc8f6bf_a1",
+        "status": "complete",
+        "input_tokens": 10925,
+        "output_tokens": 941
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\839d3d2224143dc2b617_a1",
+        "status": "complete",
+        "input_tokens": 12321,
+        "output_tokens": 1108
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\a37220672151938f3e25_a1",
+        "status": "complete",
+        "input_tokens": 12069,
+        "output_tokens": 644
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\b3324ee05f4055fc3c31_a1",
+        "status": "complete",
+        "input_tokens": 11793,
+        "output_tokens": 617
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\b761ad5076aaf6f4c043_a1",
+        "status": "complete",
+        "input_tokens": 12257,
+        "output_tokens": 568
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\38def610d4ee6c8a8e18_a1",
+        "status": "complete",
+        "input_tokens": 12551,
+        "output_tokens": 1102
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\70db1e1da20a463bfa86_a1",
+        "status": "complete",
+        "input_tokens": 10922,
+        "output_tokens": 1380
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\b12ff963952e4816f978_a1",
+        "status": "complete",
+        "input_tokens": 12238,
+        "output_tokens": 583
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\d2ac550e5bb55b413666_a1",
+        "status": "complete",
+        "input_tokens": 12689,
+        "output_tokens": 588
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\d3c7c45d0ed92cc7dde0_a1",
+        "status": "complete",
+        "input_tokens": 13079,
+        "output_tokens": 1107
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\2fc1d00e3f7196838aaf_a1",
+        "status": "complete",
+        "input_tokens": 12536,
+        "output_tokens": 585
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\5c6eb3617bdd50454d39_a1",
+        "status": "complete",
+        "input_tokens": 11900,
+        "output_tokens": 853
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\98d1af0c0833db41dc25_a1",
+        "status": "complete",
+        "input_tokens": 10927,
+        "output_tokens": 626
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\db4c6fefb70ab3e17f8b_a1",
+        "status": "complete",
+        "input_tokens": 11874,
+        "output_tokens": 132
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\e4fe9543a9833ced9938_a1",
+        "status": "complete",
+        "input_tokens": 12260,
+        "output_tokens": 619
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\3600992aa7dc7d768b4d_a1",
+        "status": "complete",
+        "input_tokens": 10932,
+        "output_tokens": 960
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\86876f70f9f521ee4db5_a1",
+        "status": "complete",
+        "input_tokens": 12456,
+        "output_tokens": 1083
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\8f9fe29c757285323f8d_a1",
+        "status": "complete",
+        "input_tokens": 12087,
+        "output_tokens": 594
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\92d18722e7df182412bb_a1",
+        "status": "complete",
+        "input_tokens": 12663,
+        "output_tokens": 557
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\a0b46442ca7ccef745c4_a1",
+        "status": "complete",
+        "input_tokens": 12275,
+        "output_tokens": 519
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\0f21f35c7318ee9bc732_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\0f21f35c7318ee9bc732_a2",
+        "status": "complete",
+        "input_tokens": 14162,
+        "output_tokens": 1059
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\1977a67eb88a79d0774a_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\1977a67eb88a79d0774a_a2",
+        "status": "complete",
+        "input_tokens": 10923,
+        "output_tokens": 1255
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\2d7eab676f6d23f55892_a1",
+        "status": "complete",
+        "input_tokens": 12988,
+        "output_tokens": 635
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\78be5e93ad70aa1cbf6d_a1",
+        "status": "complete",
+        "input_tokens": 12449,
+        "output_tokens": 1592
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\a6fadb3a7a5fcc0ce968_a1",
+        "status": "complete",
+        "input_tokens": 12603,
+        "output_tokens": 594
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\26b34bc95d35fb1dcd97_a1",
+        "status": "complete",
+        "input_tokens": 10926,
+        "output_tokens": 1200
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\663088169508aece40d7_a1",
+        "status": "complete",
+        "input_tokens": 12759,
+        "output_tokens": 1001
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\90d4783accc17db4341a_a1",
+        "status": "complete",
+        "input_tokens": 12057,
+        "output_tokens": 531
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\e298979ee93be0d798e9_a1",
+        "status": "complete",
+        "input_tokens": 12504,
+        "output_tokens": 630
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\f7d187c27a9c6815d6da_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\f7d187c27a9c6815d6da_a2",
+        "status": "complete",
+        "input_tokens": 13222,
+        "output_tokens": 1039
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\00ccef1db2b405b8d289_a1",
+        "status": "complete",
+        "input_tokens": 12593,
+        "output_tokens": 1200
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\450ad2b9ebf79ef00820_a1",
+        "status": "complete",
+        "input_tokens": 12350,
+        "output_tokens": 596
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\9717c2bc8bae3db87264_a1",
+        "status": "complete",
+        "input_tokens": 11764,
+        "output_tokens": 962
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\986690911790cc1764a1_a1",
+        "status": "complete",
+        "input_tokens": 11894,
+        "output_tokens": 575
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\cdb672c9bebd35299e6b_a1",
+        "status": "complete",
+        "input_tokens": 12207,
+        "output_tokens": 1273
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\12497deeaabaecbdddd7_a1",
+        "status": "complete",
+        "input_tokens": 12243,
+        "output_tokens": 1033
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\a47d2b1caa5c1fdcc771_a1",
+        "status": "complete",
+        "input_tokens": 10925,
+        "output_tokens": 1102
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\c6e1cacfadaf19fd0e12_a1",
+        "status": "complete",
+        "input_tokens": 11930,
+        "output_tokens": 617
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\ca766984d8ac16cc3d9e_a1",
+        "status": "complete",
+        "input_tokens": 12613,
+        "output_tokens": 1259
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\cd0e9b59eb4a8c1c442d_a1",
+        "status": "complete",
+        "input_tokens": 12335,
+        "output_tokens": 598
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\291176610264be59aa27_a1",
+        "status": "complete",
+        "input_tokens": 10916,
+        "output_tokens": 1383
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\352b9d8083313574e2fd_a1",
+        "status": "complete",
+        "input_tokens": 12737,
+        "output_tokens": 638
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\5d6bdaae4bd5ecb3cd1c_a1",
+        "status": "complete",
+        "input_tokens": 12585,
+        "output_tokens": 1416
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\842176efa95046804c53_a1",
+        "status": "complete",
+        "input_tokens": 12917,
+        "output_tokens": 1318
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\85be38a9e77de1b16413_a1",
+        "status": "complete",
+        "input_tokens": 12272,
+        "output_tokens": 664
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\09383a1f804bca1b8f24_a1",
+        "status": "complete",
+        "input_tokens": 13257,
+        "output_tokens": 533
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\20948df0624d2c3d9c67_a1",
+        "status": "complete",
+        "input_tokens": 13424,
+        "output_tokens": 1078
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\47765d036ea50ad54910_a1",
+        "status": "complete",
+        "input_tokens": 11980,
+        "output_tokens": 749
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\b900ef90b2c3a7082d6e_a1",
+        "status": "complete",
+        "input_tokens": 10925,
+        "output_tokens": 1156
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\f0fc27bc1f2a57ae882e_a1",
+        "status": "complete",
+        "input_tokens": 12293,
+        "output_tokens": 1194
+      }
+    ],
+    "review": [
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\judge1\\raw\\N01_J1_a1",
+        "status": "complete",
+        "input_tokens": 13589,
+        "output_tokens": 375
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\judge2\\raw\\N01_J2_a1",
+        "status": "complete",
+        "input_tokens": 13589,
+        "output_tokens": 339
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\judge1\\raw\\N02_J1_a1",
+        "status": "complete",
+        "input_tokens": 16627,
+        "output_tokens": 423
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\judge2\\raw\\N02_J2_a1",
+        "status": "complete",
+        "input_tokens": 16627,
+        "output_tokens": 417
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\judge1\\raw\\N03_J1_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\judge1\\raw\\N03_J1_a2",
+        "status": "complete",
+        "input_tokens": 17206,
+        "output_tokens": 425
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\judge2\\raw\\N03_J2_a1",
+        "status": "failed",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\judge2\\raw\\N03_J2_a2",
+        "status": "complete",
+        "input_tokens": 17206,
+        "output_tokens": 547
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\judge1\\raw\\N04_J1_a1",
+        "status": "complete",
+        "input_tokens": 17070,
+        "output_tokens": 444
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\judge2\\raw\\N04_J2_a1",
+        "status": "complete",
+        "input_tokens": 17070,
+        "output_tokens": 423
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\judge1\\raw\\N05_J1_a1",
+        "status": "complete",
+        "input_tokens": 16040,
+        "output_tokens": 426
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\judge2\\raw\\N05_J2_a1",
+        "status": "complete",
+        "input_tokens": 16040,
+        "output_tokens": 489
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\judge1\\raw\\N06_J1_a1",
+        "status": "complete",
+        "input_tokens": 16011,
+        "output_tokens": 463
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\judge2\\raw\\N06_J2_a1",
+        "status": "complete",
+        "input_tokens": 16011,
+        "output_tokens": 548
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\judge1\\raw\\N07_J1_a1",
+        "status": "complete",
+        "input_tokens": 15471,
+        "output_tokens": 406
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\judge2\\raw\\N07_J2_a1",
+        "status": "complete",
+        "input_tokens": 15471,
+        "output_tokens": 425
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\judge1\\raw\\N08_J1_a1",
+        "status": "complete",
+        "input_tokens": 17448,
+        "output_tokens": 455
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\judge2\\raw\\N08_J2_a1",
+        "status": "complete",
+        "input_tokens": 17448,
+        "output_tokens": 427
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\judge1\\raw\\N09_J1_a1",
+        "status": "complete",
+        "input_tokens": 15798,
+        "output_tokens": 482
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\judge2\\raw\\N09_J2_a1",
+        "status": "complete",
+        "input_tokens": 15798,
+        "output_tokens": 513
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\judge1\\raw\\N10_J1_a1",
+        "status": "complete",
+        "input_tokens": 16248,
+        "output_tokens": 452
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\judge2\\raw\\N10_J2_a1",
+        "status": "complete",
+        "input_tokens": 16248,
+        "output_tokens": 457
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\judge1\\raw\\N11_J1_a1",
+        "status": "complete",
+        "input_tokens": 13261,
+        "output_tokens": 394
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\judge2\\raw\\N11_J2_a1",
+        "status": "complete",
+        "input_tokens": 13261,
+        "output_tokens": 416
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\judge1\\raw\\N12_J1_a1",
+        "status": "complete",
+        "input_tokens": 14904,
+        "output_tokens": 431
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\judge2\\raw\\N12_J2_a1",
+        "status": "complete",
+        "input_tokens": 14904,
+        "output_tokens": 486
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\judge1\\raw\\N13_J1_a1",
+        "status": "complete",
+        "input_tokens": 16470,
+        "output_tokens": 469
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\judge2\\raw\\N13_J2_a1",
+        "status": "complete",
+        "input_tokens": 16470,
+        "output_tokens": 450
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\judge1\\raw\\N14_J1_a1",
+        "status": "complete",
+        "input_tokens": 16612,
+        "output_tokens": 406
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\judge2\\raw\\N14_J2_a1",
+        "status": "complete",
+        "input_tokens": 16612,
+        "output_tokens": 406
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\judge1\\raw\\N15_J1_a1",
+        "status": "complete",
+        "input_tokens": 16435,
+        "output_tokens": 473
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\judge2\\raw\\N15_J2_a1",
+        "status": "complete",
+        "input_tokens": 16435,
+        "output_tokens": 489
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\judge1\\raw\\N16_J1_a1",
+        "status": "complete",
+        "input_tokens": 15410,
+        "output_tokens": 455
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\judge2\\raw\\N16_J2_a1",
+        "status": "complete",
+        "input_tokens": 15410,
+        "output_tokens": 442
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\judge1\\raw\\N17_J1_a1",
+        "status": "complete",
+        "input_tokens": 17317,
+        "output_tokens": 450
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\judge2\\raw\\N17_J2_a1",
+        "status": "complete",
+        "input_tokens": 17317,
+        "output_tokens": 474
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\judge1\\raw\\N18_J1_a1",
+        "status": "complete",
+        "input_tokens": 15584,
+        "output_tokens": 516
+      },
+      {
+        "path": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\judge2\\raw\\N18_J2_a1",
+        "status": "complete",
+        "input_tokens": 15584,
+        "output_tokens": 445
+      }
+    ]
+  },
+  "limits": [
+    "Written-proposal judgments are not measured real-world outcomes.",
+    "The 18 tasks are a single frozen sample, not proof of stable superiority.",
+    "Prior 54-task EXPAND results belong to a different prompt version."
+  ]
+}

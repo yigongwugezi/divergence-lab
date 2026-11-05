@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source distinctions, dates and exceptions, disclaim authority, and test unfamiliar sorting and appropriate questions. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, teach-back correction, and shortcut prevention. Candidate 0 best directly addresses the terminology problem with a feasible, inspectable table and explicit conflict handling; the alternatives depend more on suitable source structure or volunteer interaction."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and contain no definite serious hard-constraint violation. Candidates 0 and 5 share the terminology-crosswalk mechanism; applicability checking strengthens that mechanism rather than creating a new one. The other mechanisms are procedural routing, contrast learning, teach-back correction, and calibration of when to sort or ask. Candidate 5 best combines direct terminology comparison with explicit applicability checks, preserved exceptions, traceable pilot answers, and clear correction and update rules. Its feasibility remains conditional on readable one-page coverage."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 by explicitly establishing which source applies before residents use a terminology match to choose a destination. Its source-supported pilot checks that specific failure mode alongside unfamiliar items, exceptions, uncertainty, and volunteer burden. These are relevant, inspectable improvements, without claiming authority or resolving conflicts by assumption."
+    }
+  },
+  "format_retry_of": null
+}

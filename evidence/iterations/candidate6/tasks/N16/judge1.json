@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, use available resources, leave clinical instructions unchanged, and include private month-end retrieval and misfiling checks. Their primary mechanisms are fixed storage, a locator index, checkout signals, keeping sheets with a portable folder, and receipt/transport completeness checks. Candidate 0 offers the strongest general-purpose balance of simplicity, likely loss reduction, retrieval support and inspectability. The others depend more on a particular source of loss or additional routines."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and provide private one-month checks. Candidate 6 modifies the identification method within candidate 0's fixed-storage mechanism; it is not a distinct primary mechanism. The other groups use indexing, checkout signals, portable-folder handling, periodic recovery, receipt reconciliation and consultation at storage. Candidate 0 is the strongest broadly feasible option: it provides a predictable destination and direct retrieval key without recurring sweeps, transport restrictions or extra reconciliation. Candidate 6 removes key maintenance but requires searching concealed flap descriptions."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0. It supplies a feasible, owner-controlled retrieval system, acknowledges the limits of envelope privacy, and tests retrieval and misfiling after one month without sharing medical details."
+    }
+  },
+  "format_retry_of": null
+}

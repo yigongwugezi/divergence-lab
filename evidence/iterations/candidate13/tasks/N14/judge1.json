@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source distinctions, dates and exceptions, stay within the stated resources, and test unfamiliar-item sorting and appropriate questions. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, teach-back feedback, and shortcut correction. Candidate 0 best directly addresses differing terminology with an inspectable, feasible comparison and a clear update rule."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 5 and 6 refine the crosswalk and decision-path mechanisms rather than introduce new ones. Candidate 4 primarily calibrates when to act or ask, distinct from learning item-category boundaries. Candidate 5 best combines direct terminology comparison with an auditable rule preventing consequential conditions from being lost through compression, a practical fallback, and explicit handling of updates pending review."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 strengthens A0's already suitable crosswalk by specifying what to print when complete conditions cannot fit legibly and what happens while changed sources await review. Its audit and reader test make that protection inspectable while measuring the added consultation burden. These are concrete improvements within the one-page constraint, rather than benefits from length or novelty alone."
+    }
+  },
+  "format_retry_of": null
+}

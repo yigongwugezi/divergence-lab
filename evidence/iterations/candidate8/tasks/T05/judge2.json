@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Groups represent gated inquiry, distributed evidence, paused replay, contrasting authority boundaries, identity invariance, correction and understanding checks, and persistent external notes. Candidates 6 and 7 repair existing mechanisms. Candidate 3 best combines feasible role rotation, explicit verification and balanced listening, actionable escalation with an unavailable-staff fallback, and individual assessment of routine action versus required referral."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Primary mechanisms are gated inquiry, distributed evidence, paused replay, presentation reversal, contrasting authority boundaries, shared external documentation, and repairing premature commitment. Candidate 4 offers the strongest combination of practical role-play, explicit authority distinctions, and an unseen individual assessment requiring justified action rather than automatic referral."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A3 narrowly exceeds B4 in written task quality: it specifies an unavailable-staff fallback and update arrangements, and individually assesses both routine resolution and escalation across unfamiliar cases. Both are feasible, satisfy the constraints, and use the same primary contrast-based mechanism; neither has demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

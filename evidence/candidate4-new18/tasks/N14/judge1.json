@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and employ distinct primary mechanisms: terminology comparison, procedural routing, contrast learning, teach-back feedback, and shortcut correction. Candidate 0 most directly addresses differing terminology while preserving source identity, dates, exceptions and conflicts. Its unfamiliar-item test checks both sorting and appropriate clarification, and its update rule is explicit."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable. Candidates 0 and 5 share the terminology-crosswalk mechanism; applicability checks and fallback panels improve its execution without creating a new mechanism. The remaining mechanisms are procedural routing, contrast learning, required evidence justification, teach-back repair, and act-or-ask rehearsal. Candidate 5 best combines direct terminology comparison with explicit applicability checks, readable scope, preserved exceptions, an executable fallback, and observable failure criteria."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves A0 by explicitly preventing matching terms from implying shared applicability, providing a fallback for unreliable pairings, and specifying what happens when no clarification contact exists. These practical safeguards strengthen constraint correctness and feasibility. Its trial also checks unsupported choices and time costs; neither proposal supplies actual effectiveness evidence."
+    }
+  },
+  "format_retry_of": null
+}

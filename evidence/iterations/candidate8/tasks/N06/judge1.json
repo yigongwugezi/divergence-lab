@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide concrete mechanisms using existing resources, clear aisles, sub-40-second targets and two-rehearsal evaluation plans. Their primary mechanisms are light transfer, social geometry, repeated movement, visual interruption and shadow architecture. Candidate 0 offers the strongest balance of readable spatial change, modest performer load and inspectable cues, conditional on suitable lamp control and separation."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable subject to their stated resource and script checks. Candidates 6 and 7 refine existing mechanisms rather than introduce new ones. The remaining mechanisms are repeated movement, visual interruption, continuous action, shared environmental response and shadow representation. Candidate 6 combines a clear spatial signal with an explicit arrival cue, safe fallback and comparison of comprehension, load and repeatability at both rehearsals. Candidate 3 permits movement only where remaining illumination supports safe footing, so darkness is not a definite hard-constraint violation."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves A0's operational specificity through an observable arrival cue, a delayed-arrival fallback and explicit evaluation of all three required dimensions at both rehearsals. These practical improvements outweigh its small added monitoring burden; no rehearsal success is assumed."
+    }
+  },
+  "format_retry_of": null
+}

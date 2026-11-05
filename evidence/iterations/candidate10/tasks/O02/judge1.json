@@ -1,0 +1,95 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary ownership, due dates, available resources and meeting limits, and compare completion, rework and burden. Their primary mechanisms are explicit acceptance, rotating coordination, protected execution time, delegated authority, calendar booking, backup coverage and recipient verification. Candidate 0 offers the strongest general starting point: low overhead, visible unclaimed work, distributed updates and an inspectable comparison that guards against selective acceptance."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidate 7 repairs the explicit-acceptance queue with a withdrawal procedure rather than introducing a distinct primary mechanism. The other mechanisms are rotating coordination, protected execution time, example-based clarification, delegated authority, prerequisite gating, contingent recovery and procedural reuse. Candidate 0 provides the best general balance of feasibility, likely effect and inspectability; candidate 7 adds useful recovery details but uses a weaker sequential comparison."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical explicit-acceptance queue, so their written task quality is equal."
+    }
+  },
+  "format_retry_of": null
+}

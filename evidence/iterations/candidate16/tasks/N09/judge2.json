@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve immediate protection, bounded shifts, paper handoffs and three-week measurement. The mechanisms are scheduled responder rotation, least-burden allocation, compensating routine-task exchanges, shared task division and rotation of spill-producing duties. Candidates 4 and 5 repair their respective mechanisms rather than introducing new ones. Candidate 4 best combines simple implementation with explicit interrupted-handoff recovery, closure and escalation, actual-burden review and inspectable checks. Other mechanisms remain usable but depend more on concurrent availability, transferable work or transferable duties."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their distinct mechanisms are scheduled responder rotation, least-burden allocation, compensating routine-task exchanges and paired shift swaps. Candidate 0 offers the most dependable implementation with the supplied resources: bounded responsibility, explicit acceptance, immediate protection and escalation, plus measurement of response, repeated burden and missed tasks. Its fairness limitation is acknowledged; the alternatives depend more on allocation choices, transferable duties or scheduling flexibility."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 improves on B0 with a concrete recovery rule for interrupted cleanup and handoffs, explicit closure when acceptance fails, and practical checks of those failure cases. It retains the same feasible paper rotation and shift limits while making ownership and safety easier to inspect. The advantage is substantive constraint handling, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

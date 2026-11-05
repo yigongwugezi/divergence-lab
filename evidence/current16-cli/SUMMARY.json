@@ -1,0 +1,136 @@
+{
+  "native_cli_version": "codex-cli 0.165.0-alpha.1.2",
+  "model": "gpt-6.1-sol",
+  "successful_workflows": 2,
+  "uninterrupted_workflows": 0,
+  "interrupted_then_resumed_workflows": 2,
+  "extra_interrupted_trial": "R01 start succeeded, expand P1 saved, external driver timed out before P2; no retry",
+  "routes": {
+    "R02": "wide",
+    "R04": "narrow"
+  },
+  "wide_and_narrow_observed": true,
+  "complete_wide_and_narrow_workflows": true,
+  "save_to_fresh_process_start_byte_identical": {
+    "R02": true,
+    "R04": true
+  },
+  "usage": "CLI did not return structured token usage; evaluator token accounting is separate.",
+  "R04_recovery": "Initial save failed during C: disk exhaustion after P1. The unmodified product CLI resumed save from that P1 in a new process using TEMP/TMP on E:, then a fresh start restored the same output.",
+  "R02_recovery": "Initial start saved a wide P0, then Windows GBK stdout encoding failed. A new process with local UTF-8 settings read that P0 without another model request and completed expand. The first save request timed out at the product's 300-second limit; one new process retried save from the saved expand state. The retry outcome is shown in the step records.",
+  "steps": {
+    "R02": [
+      {
+        "action": "start",
+        "result": "P0 saved; stdout GBK encoding failure"
+      },
+      {
+        "action": "start",
+        "exit_code": 0,
+        "seconds": 0.178,
+        "resumed": true
+      },
+      {
+        "action": "expand",
+        "exit_code": 0,
+        "seconds": 526.031,
+        "resumed": true
+      },
+      {
+        "action": "save",
+        "exit_code": 1,
+        "seconds": 300.591,
+        "resumed": true
+      },
+      {
+        "action": "save",
+        "exit_code": 0,
+        "seconds": 230.078,
+        "retry": true
+      },
+      {
+        "action": "start",
+        "exit_code": 0,
+        "seconds": 0.16,
+        "retry": true
+      }
+    ],
+    "R04": [
+      {
+        "action": "start",
+        "exit_code": 0
+      },
+      {
+        "action": "expand",
+        "exit_code": 0
+      },
+      {
+        "action": "save",
+        "result": "disk-full interruption after P1"
+      },
+      {
+        "action": "save",
+        "exit_code": 0,
+        "seconds": 190.439,
+        "resumed": true
+      },
+      {
+        "action": "start",
+        "exit_code": 0,
+        "seconds": 0.202,
+        "resumed": true
+      }
+    ]
+  },
+  "source_hashes": {
+    "R02": {
+      "resume_1_start.stdout.json": {
+        "source_sha256": "983ee6082423ef84c2cc136ff440045b9ff5e7851a745adbd62dedd22cb07af3",
+        "public_sha256": "c2d533f2519049893e9bd924c452e3d4c412feaf78b8f2b230498e52009702eb"
+      },
+      "resume_2_expand.stdout.json": {
+        "source_sha256": "3af63c2bccf34a626f9498669b8552d5d98acceb2755653cc142f2e224258e80",
+        "public_sha256": "c6df2b332ca1d0721cacf6902c0a8eefde0cbf3b5c62e4ed89366e0eaf4bdfad"
+      },
+      "retry_save.stdout.json": {
+        "source_sha256": "3b9426833cb63a7e894c91b15bceeee090c002f38394e4e9ef0d9cc557e92f37",
+        "public_sha256": "7de3ce2e32b4586f393eca398b7a006df4a1a0c81dfd724cc5d083369929b5ad"
+      },
+      "retry_start.stdout.json": {
+        "source_sha256": "3b9426833cb63a7e894c91b15bceeee090c002f38394e4e9ef0d9cc557e92f37",
+        "public_sha256": "7de3ce2e32b4586f393eca398b7a006df4a1a0c81dfd724cc5d083369929b5ad"
+      },
+      "task": {
+        "source_sha256": "ad6c6b86b6bb4b91e99d660f197f895e80190f7b4493cddbe67c6d14e907d1d4",
+        "public_sha256": "ad6c6b86b6bb4b91e99d660f197f895e80190f7b4493cddbe67c6d14e907d1d4"
+      }
+    },
+    "R04": {
+      "1_start.stdout.json": {
+        "source_sha256": "cbe1adb3f7450d9e2b63987cdae4f4590e495c19d5bd84fedebfa18e9839cdce",
+        "public_sha256": "d75ea7dabcda449e66ba66c72aa76432ae5bf5e87469c7a3632bf33abfd2ffc8"
+      },
+      "2_expand.stdout.json": {
+        "source_sha256": "88b3a654e4e220f97f59c0a9e856086a283c4c1d88516bc34568fd8ea176f050",
+        "public_sha256": "a1abcdc680b7561a66eef55a5ed5e87e438ff5ddf1504f86f4c3a5cdb0f71f76"
+      },
+      "resume_save.stdout.json": {
+        "source_sha256": "ec5d6ff07f25146907b5f7c846e3dee576582b107518e78484e9fa4b98d55eca",
+        "public_sha256": "5632608652242181e5275e310f09e7599e2d8538ec350516defa4625f5e31ef8"
+      },
+      "resume_start.stdout.json": {
+        "source_sha256": "ec5d6ff07f25146907b5f7c846e3dee576582b107518e78484e9fa4b98d55eca",
+        "public_sha256": "5632608652242181e5275e310f09e7599e2d8538ec350516defa4625f5e31ef8"
+      },
+      "task": {
+        "source_sha256": "ff5b30f38e969bce7a96ecf62e71798bc168114dbfccc5b9fc0c3ed2b8734e28",
+        "public_sha256": "ff5b30f38e969bce7a96ecf62e71798bc168114dbfccc5b9fc0c3ed2b8734e28"
+      }
+    },
+    "intents": {
+      "source_sha256": "4978ed8ae8406e989aa13540d212f74ea3490005ac46ffc52e296b7b436473e3",
+      "public_sha256": "975b20927af9ca3881c1a659e395bc7ae37c591efe22f8789e63fcdb8b8abfd6"
+    }
+  },
+  "intent_provenance": "The natural-language demonstration requests were written by the assistant, then converted into frozen task JSON before CLI execution; they are not quotations from a real end user."
+}

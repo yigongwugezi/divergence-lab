@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable conditional approaches with source separation, dates, exceptions, unofficial status, update rules, and tests of unfamiliar items and appropriate questions. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, teach-back feedback, and shortcut correction. Candidate 0 best directly addresses differing terms with a readily inspectable table and limited ongoing volunteer demand."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable; none definitely violates a hard constraint. Candidates 0 and 5 share terminology comparison: the coverage gate repairs that mechanism rather than creating another. Other mechanisms are procedural routing, contrast learning, teach-back feedback, action-versus-question calibration, and independent source retrieval before comparison. Candidate 5 best combines direct terminology comparison with an inspectable qualification gate, readable scope limits, source locators, and withdrawal of misleading versions. Its trial explicitly checks accuracy, uncertainty recognition, and lookup burden."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves A0's principal feasibility and correctness risk: fitting consequential qualifications on one readable page. It specifies when to withhold a shortened equivalence, how to direct readers to source sections, and when to withdraw a misleading version. These are concrete safeguards within the same mechanism, with their added referral burden explicitly tested; no effectiveness result is assumed."
+    }
+  },
+  "format_retry_of": null
+}

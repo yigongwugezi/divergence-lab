@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, allow emergency use when the bike is home, and compare the three required outcomes over two weeks. Distinct mechanisms are first-entry reservations, rotating priority periods, least-used priority, flexible-window scheduling, and bounded-loan queuing. Candidate 0 offers the strongest low-friction default: clear advance commitments, minimal bookkeeping, and inspectable unused bookings. The alternatives depend more on flexible timing, suitable trip lengths, or acceptance of a particular fairness rule."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Candidate 5 repairs handoff and recovery within candidate 0's reservation mechanism; it is not a distinct mechanism. The other groups use rotating priority, least-used priority, flexible-window scheduling, and bounded-loan queuing. Candidate 5 is strongest because it retains simple reservations while explicitly handling overdue returns and emergency displacement without moving confirmed bookings unilaterally. Its comparison measures missed trips, idle time and coordination effort consistently, while recording delays so rescheduling cannot hide inconvenience."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0's practical handling of a foreseeable conflict: the bike missing at a booked departure. Responsibility, disruption recording and recovery are explicit, and the experiment accounts for delays and added effort. These substantive improvements outweigh the modest extra procedure; the advantage does not depend on length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

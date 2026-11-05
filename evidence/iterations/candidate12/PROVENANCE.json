@@ -1,0 +1,1318 @@
+[
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/RESULTS.json",
+    "source_sha256": "b6b65076b34d80acb742ed6779b80e9bbb3e9a38903c202c6d301b9b80e2253d",
+    "export": "summary.json",
+    "export_sha256": "0e11d5291ba2dbde7f9c149fb7ebf20bec18a0e9a8017b0080109611e91471d0",
+    "transformation": "Saved summary; workspace prefix removed from provenance paths."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/FREEZE.json",
+    "source_sha256": "3640608dc2c05177fef5fe28efc0c66f8b9ba1a084bbd0e4afd9054e1fb4a603",
+    "export": "FREEZE.json",
+    "export_sha256": "8aad45d5e253891752d4bdb6a767f904fbbc9a28717ae8a942db0e58f3871878",
+    "transformation": "Saved evidence; workspace prefix removed from provenance paths."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/FLOW_COST.json",
+    "source_sha256": "99e174047237131668aa092e4dfa8774211836d7eded4a4261fe5ad694730aeb",
+    "export": "FLOW_COST.json",
+    "export_sha256": "47a2baa35398106f94e6cdc10f797ce9bd423dac68dab780e28d712e654e2216",
+    "transformation": "Saved evidence; workspace prefix removed from provenance paths."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/.gitignore",
+    "source_sha256": "14188a31de4a645fd035797f1b2e904c60b2f1428ae555ed2a281e2431b3f2d6",
+    "export": "method/.gitignore",
+    "export_sha256": "14188a31de4a645fd035797f1b2e904c60b2f1428ae555ed2a281e2431b3f2d6",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/BASELINE_PROMPT.txt",
+    "source_sha256": "0bffa1333b69c46f2e954bc770d1adfc2255fc2d9b87504e61a45e1bd94a0e07",
+    "export": "method/references/BASELINE_PROMPT.txt",
+    "export_sha256": "0bffa1333b69c46f2e954bc770d1adfc2255fc2d9b87504e61a45e1bd94a0e07",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT.txt",
+    "source_sha256": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "export": "method/references/CONTINUE_PROMPT.txt",
+    "export_sha256": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P1.txt",
+    "source_sha256": "805abf8018ff5eb7da920c8923e9f17eec48b9102203cafeb26c69452317934c",
+    "export": "method/references/CONTINUE_PROMPT_P1.txt",
+    "export_sha256": "805abf8018ff5eb7da920c8923e9f17eec48b9102203cafeb26c69452317934c",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P1_NARROW.txt",
+    "source_sha256": "228debe7fe2ca56532ada06f17430b574058ee0d748e9a5f136f9417a5e16749",
+    "export": "method/references/CONTINUE_PROMPT_P1_NARROW.txt",
+    "export_sha256": "228debe7fe2ca56532ada06f17430b574058ee0d748e9a5f136f9417a5e16749",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P2.txt",
+    "source_sha256": "79aff3ef47c055d8e685fa14fc580705f7d032ba544e369a3c882d169381b975",
+    "export": "method/references/CONTINUE_PROMPT_P2.txt",
+    "export_sha256": "79aff3ef47c055d8e685fa14fc580705f7d032ba544e369a3c882d169381b975",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P2_ASSUMPTION.txt",
+    "source_sha256": "85917b5cbb6db09f0f08a6c7e44862a5a49d6db4b4be7f91d8e8e892778fa952",
+    "export": "method/references/CONTINUE_PROMPT_P2_ASSUMPTION.txt",
+    "export_sha256": "85917b5cbb6db09f0f08a6c7e44862a5a49d6db4b4be7f91d8e8e892778fa952",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/REPAIR_PROMPT.txt",
+    "source_sha256": "df9a394518612c05852482a8ddc19b77d1ccd8961c3a485f3f01bc114ec51f2c",
+    "export": "method/references/REPAIR_PROMPT.txt",
+    "export_sha256": "df9a394518612c05852482a8ddc19b77d1ccd8961c3a485f3f01bc114ec51f2c",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/response.schema.json",
+    "source_sha256": "ba2ea82c009ec659e4da4afa7f9991a30f58b3f96452de317dcca08c8749e080",
+    "export": "method/references/response.schema.json",
+    "export_sha256": "ba2ea82c009ec659e4da4afa7f9991a30f58b3f96452de317dcca08c8749e080",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/response6.schema.json",
+    "source_sha256": "fa8a84ab415bd47e7be4ce9cf9f5b0c93f6560ce655646abdd4c0e934f549867",
+    "export": "method/references/response6.schema.json",
+    "export_sha256": "fa8a84ab415bd47e7be4ce9cf9f5b0c93f6560ce655646abdd4c0e934f549867",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/SAVE_FULL_PROMPT.txt",
+    "source_sha256": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "export": "method/references/SAVE_FULL_PROMPT.txt",
+    "export_sha256": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/references/SAVE_WIDE_PROMPT.txt",
+    "source_sha256": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
+    "export": "method/references/SAVE_WIDE_PROMPT.txt",
+    "export_sha256": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/scripts/build_prompt.py",
+    "source_sha256": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
+    "export": "method/scripts/build_prompt.py",
+    "export_sha256": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/scripts/run.py",
+    "source_sha256": "44134f478190f81715f671708fda8b8c3f255a4e4fc6c278d0a8783e1a313501",
+    "export": "method/scripts/run.py",
+    "export_sha256": "44134f478190f81715f671708fda8b8c3f255a4e4fc6c278d0a8783e1a313501",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "outputs/divergence-lab-unified-superiority-candidate12-20261103/.agents/skills/divergence-lab-unified/SKILL.md",
+    "source_sha256": "99350ca2379561c1b13ba697262d9275d7f182ff90e05c4586d1bff2f0e4e226",
+    "export": "method/SKILL.md",
+    "export_sha256": "99350ca2379561c1b13ba697262d9275d7f182ff90e05c4586d1bff2f0e4e226",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/C05/MANIFEST.json",
+    "source_sha256": "69a4af212ce32e61a2a57378e788aeaef274d022a3cf36e22f284e2885755a60",
+    "export": "tasks/C05/task-and-pools.json",
+    "export_sha256": "27c90b440fd5a4d81e656c36148743699dfda92fa764af4e8b5ef73b0ce9d2b9",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/C05/judge1/VERDICT.json",
+    "source_sha256": "2ac098d68beba7088074604ae19bc00f76d95a8d9969233edcbe26cbe60dc353",
+    "export": "tasks/C05/judge1.json",
+    "export_sha256": "2ac098d68beba7088074604ae19bc00f76d95a8d9969233edcbe26cbe60dc353",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/C05/judge2/VERDICT.json",
+    "source_sha256": "a5456ba5dcf9fc96cc9e00c77d887bc598ad549e23106504eca894fc8853a455",
+    "export": "tasks/C05/judge2.json",
+    "export_sha256": "a5456ba5dcf9fc96cc9e00c77d887bc598ad549e23106504eca894fc8853a455",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L01/MANIFEST.json",
+    "source_sha256": "4532d269c5ac8f498f6e908ed2c273660b88193db3edc046cb0502e1a091d1d7",
+    "export": "tasks/L01/task-and-pools.json",
+    "export_sha256": "9cce2e9ca76bca5fb22482baf5b6a56eb74705b9ea8b672882712e32438322e3",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L01/judge1/VERDICT.json",
+    "source_sha256": "2370804b1fc2d3eea6859b1324d8bad75b7ea9bdf81a291c2ab93eec59da395f",
+    "export": "tasks/L01/judge1.json",
+    "export_sha256": "2370804b1fc2d3eea6859b1324d8bad75b7ea9bdf81a291c2ab93eec59da395f",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L01/judge2/VERDICT.json",
+    "source_sha256": "34833f7879d4f790cdc0155bbafabd0de8c7e80420b430a68b7cc1eb9a4a8cb7",
+    "export": "tasks/L01/judge2.json",
+    "export_sha256": "34833f7879d4f790cdc0155bbafabd0de8c7e80420b430a68b7cc1eb9a4a8cb7",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L05/MANIFEST.json",
+    "source_sha256": "9b83e4baf3815c6986f9aa4dd4238079442bebbff6ee7bf380dfc2d84cdea7c3",
+    "export": "tasks/L05/task-and-pools.json",
+    "export_sha256": "33199ec4078fbb72c3b214cb2355d60a120c8c014563316709b47a55c3dd82c8",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L05/judge1/VERDICT.json",
+    "source_sha256": "6612b794e4595a43036865f6d3c0db387f9f84ed1b75d41f576436adbc5414a0",
+    "export": "tasks/L05/judge1.json",
+    "export_sha256": "6612b794e4595a43036865f6d3c0db387f9f84ed1b75d41f576436adbc5414a0",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L05/judge2/VERDICT.json",
+    "source_sha256": "6e83f39ca3e36e0e7bd5d0179e6bd1cf058c52db4495d4cf4243751fc507df06",
+    "export": "tasks/L05/judge2.json",
+    "export_sha256": "6e83f39ca3e36e0e7bd5d0179e6bd1cf058c52db4495d4cf4243751fc507df06",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N01/MANIFEST.json",
+    "source_sha256": "cd8312a03c447a8357b72a740611036956b8f0518fbcb1940df1a2f56b0520eb",
+    "export": "tasks/N01/task-and-pools.json",
+    "export_sha256": "39d1eaf970f594987b0f3aef55f09d0de2eebaf914d4c94368756bebd1506819",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N01/judge1/VERDICT.json",
+    "source_sha256": "96b95c4179c8fbd64d7d4896f1e988f49160d1365920712fc14cd00a6d7233bd",
+    "export": "tasks/N01/judge1.json",
+    "export_sha256": "96b95c4179c8fbd64d7d4896f1e988f49160d1365920712fc14cd00a6d7233bd",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N01/judge2/VERDICT.json",
+    "source_sha256": "3f976ef634db3f068d9a10e17dede432ca819d0a5f204da4e07505d94acdff02",
+    "export": "tasks/N01/judge2.json",
+    "export_sha256": "3f976ef634db3f068d9a10e17dede432ca819d0a5f204da4e07505d94acdff02",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N02/MANIFEST.json",
+    "source_sha256": "f2b001f61bcacbab3a95fb0237521ee1b720064c05823dca533a097f0903e6d1",
+    "export": "tasks/N02/task-and-pools.json",
+    "export_sha256": "367382342ab89ed81cfa6043f5618ce4a76a66a407530cec37e07a91a45b8a44",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N02/judge1/VERDICT.json",
+    "source_sha256": "4363e91854d9d288261b42c6474187a3974022e3cd29a655ad7e310e1ffd1ea8",
+    "export": "tasks/N02/judge1.json",
+    "export_sha256": "4363e91854d9d288261b42c6474187a3974022e3cd29a655ad7e310e1ffd1ea8",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N02/judge2/VERDICT.json",
+    "source_sha256": "ee34ab2bded074e601c91ce613b733577803a19d807cf46183bd29b9feeb763e",
+    "export": "tasks/N02/judge2.json",
+    "export_sha256": "ee34ab2bded074e601c91ce613b733577803a19d807cf46183bd29b9feeb763e",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N03/MANIFEST.json",
+    "source_sha256": "9870f82a12cb34f8d0feb9ffb2a720070bd10155b2e0b4cfcfeaa28d25ef2d27",
+    "export": "tasks/N03/task-and-pools.json",
+    "export_sha256": "0fa931ee0dc81afb50a00cd2ea1d7db93f2d819ec820ad346aae61e3a7d9f463",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N03/judge1/VERDICT.json",
+    "source_sha256": "024987d89fe21e6e90291459ef811fee6ea4a2e2e0ca8efd0459cba8d314de32",
+    "export": "tasks/N03/judge1.json",
+    "export_sha256": "024987d89fe21e6e90291459ef811fee6ea4a2e2e0ca8efd0459cba8d314de32",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N03/judge2/VERDICT.json",
+    "source_sha256": "45b553949a78e148b17f48376be38badbc366e0e86ef5beb71749eee0f3dfdea",
+    "export": "tasks/N03/judge2.json",
+    "export_sha256": "45b553949a78e148b17f48376be38badbc366e0e86ef5beb71749eee0f3dfdea",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N06/MANIFEST.json",
+    "source_sha256": "998a4ff8d6a8685323235fa40c52ca80b084b3d9c0c4856dcf332af05c228ab7",
+    "export": "tasks/N06/task-and-pools.json",
+    "export_sha256": "db23c0982167917091a1f8071aae6d4d4c26a1df6391995648797044186259b5",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N06/judge1/VERDICT.json",
+    "source_sha256": "16156c419ee92c88ec858fd78e197ec3bc628498f2ab7df194992c6c928c1f9f",
+    "export": "tasks/N06/judge1.json",
+    "export_sha256": "16156c419ee92c88ec858fd78e197ec3bc628498f2ab7df194992c6c928c1f9f",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N06/judge2/VERDICT.json",
+    "source_sha256": "1ffa8b4ee445e4711a4c8fe49ebd90613b605ec4b07e07e921ccc15d3e8d7de1",
+    "export": "tasks/N06/judge2.json",
+    "export_sha256": "1ffa8b4ee445e4711a4c8fe49ebd90613b605ec4b07e07e921ccc15d3e8d7de1",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N07/MANIFEST.json",
+    "source_sha256": "ad1651c9bd6371b6b4d12e70685fcbbd70c32f6966da462562f16d0852720fbd",
+    "export": "tasks/N07/task-and-pools.json",
+    "export_sha256": "08f67794b245d34e16d426a8e5f768dd41937d03c442c584f5ef54c1aa35a81a",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N07/judge1/VERDICT.json",
+    "source_sha256": "b03e0d4efde87f797eb11ee80047a245a2daac845e85cd424428cc945ed8c026",
+    "export": "tasks/N07/judge1.json",
+    "export_sha256": "b03e0d4efde87f797eb11ee80047a245a2daac845e85cd424428cc945ed8c026",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N07/judge2/VERDICT.json",
+    "source_sha256": "7de2a462f23920e60c63ab0067cea5bf296b5c0502a307b934ebfa39eed39cea",
+    "export": "tasks/N07/judge2.json",
+    "export_sha256": "7de2a462f23920e60c63ab0067cea5bf296b5c0502a307b934ebfa39eed39cea",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N10/MANIFEST.json",
+    "source_sha256": "6ada0a7cf0a2b182e962e58febae2262a68a687994a30da8c4686d0ca4d060de",
+    "export": "tasks/N10/task-and-pools.json",
+    "export_sha256": "babd8dac41b7e352184bc03ea77b311d386579172f31072500aa1659046c1443",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N10/judge1/VERDICT.json",
+    "source_sha256": "454dfe220384ac4f762b3276c8113264a6bf42a743e080e544d2c9eb7907c746",
+    "export": "tasks/N10/judge1.json",
+    "export_sha256": "454dfe220384ac4f762b3276c8113264a6bf42a743e080e544d2c9eb7907c746",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N10/judge2/VERDICT.json",
+    "source_sha256": "d6ee967bac4c94d43cf410588ea27e3c0bb70ee692283a0109325a25306d0e3c",
+    "export": "tasks/N10/judge2.json",
+    "export_sha256": "d6ee967bac4c94d43cf410588ea27e3c0bb70ee692283a0109325a25306d0e3c",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N11/MANIFEST.json",
+    "source_sha256": "3ecec512966043aaaa209b64c6b9e24f6f2b9468d1e53fdc3752706820b61c68",
+    "export": "tasks/N11/task-and-pools.json",
+    "export_sha256": "d99ce1640fe5804afce77461f27c44c2df0a62c38cd5a56dd67284f02c7155b3",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N11/judge1/VERDICT.json",
+    "source_sha256": "e8ff7d6100932d55991b582fdc62af217f43605cad6ff011656afe279efaaff1",
+    "export": "tasks/N11/judge1.json",
+    "export_sha256": "e8ff7d6100932d55991b582fdc62af217f43605cad6ff011656afe279efaaff1",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N11/judge2/VERDICT.json",
+    "source_sha256": "71805ed6759d7ddec98d2e2915e183159aae4aacaa487caa99157d15dab17407",
+    "export": "tasks/N11/judge2.json",
+    "export_sha256": "71805ed6759d7ddec98d2e2915e183159aae4aacaa487caa99157d15dab17407",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N12/MANIFEST.json",
+    "source_sha256": "3c6bcdc3fbc9ca1b6b961a25245a9928186c6de4421a8c0dd5111b1ce96c952a",
+    "export": "tasks/N12/task-and-pools.json",
+    "export_sha256": "f9c3e44d34779cc2a7818a7266c6220326165783962d3ccb642966402f60519b",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N12/judge1/VERDICT.json",
+    "source_sha256": "d5ae806d5440c4174a12c116eeb1b57b1a2f8ca8f787c672099bfc0c0a4e6d7b",
+    "export": "tasks/N12/judge1.json",
+    "export_sha256": "d5ae806d5440c4174a12c116eeb1b57b1a2f8ca8f787c672099bfc0c0a4e6d7b",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N12/judge2/VERDICT.json",
+    "source_sha256": "5d9a0fc373fd0df367443a7fa0a2ed5a588ffb903b97fcfeca19f3b165005d5b",
+    "export": "tasks/N12/judge2.json",
+    "export_sha256": "5d9a0fc373fd0df367443a7fa0a2ed5a588ffb903b97fcfeca19f3b165005d5b",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N16/MANIFEST.json",
+    "source_sha256": "4e32834324a7873179df0cc3cae4942b4d91022685f7a4c4fefc00d859ac01cb",
+    "export": "tasks/N16/task-and-pools.json",
+    "export_sha256": "af72a32d8619feb73229987a69ddba8b4aa8e3368cdf8b4fa644f563635e8c9c",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N16/judge1/VERDICT.json",
+    "source_sha256": "27714e5f978e63efbd82aa8b817da5c3343a6f312b49b710648efc5944f1d7f8",
+    "export": "tasks/N16/judge1.json",
+    "export_sha256": "27714e5f978e63efbd82aa8b817da5c3343a6f312b49b710648efc5944f1d7f8",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N16/judge2/VERDICT.json",
+    "source_sha256": "b11d566080ec1ec5f617352992158679234c23cdf4e56a7952aa870664510b86",
+    "export": "tasks/N16/judge2.json",
+    "export_sha256": "b11d566080ec1ec5f617352992158679234c23cdf4e56a7952aa870664510b86",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S01/MANIFEST.json",
+    "source_sha256": "aa652c0ad74d701eec49202f282b8522ac52aa20d354827823adc97e1674063e",
+    "export": "tasks/S01/task-and-pools.json",
+    "export_sha256": "8fb47eae286bd56768d35aa7fa15df57bfc0c84be9beaca98699fbbb7cb44f8b",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S01/judge1/VERDICT.json",
+    "source_sha256": "bfa9d6d5a12ce354018b57a5b8f9c52c1bc6ed584d7d155135cc6f089d766388",
+    "export": "tasks/S01/judge1.json",
+    "export_sha256": "bfa9d6d5a12ce354018b57a5b8f9c52c1bc6ed584d7d155135cc6f089d766388",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S01/judge2/VERDICT.json",
+    "source_sha256": "88ecaa713e767110eda4bc6a9aab9d490093899a7633f7a3b1a68351e1ea1216",
+    "export": "tasks/S01/judge2.json",
+    "export_sha256": "88ecaa713e767110eda4bc6a9aab9d490093899a7633f7a3b1a68351e1ea1216",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S03/MANIFEST.json",
+    "source_sha256": "306084474a4d6bd06dc81eb127015d363eb0c8ccfa0adde27727b9e617161504",
+    "export": "tasks/S03/task-and-pools.json",
+    "export_sha256": "d82dda04eea17e748c364dd239e528025e24aea44aa4911c6858faf5905a1565",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S03/judge1/VERDICT.json",
+    "source_sha256": "aef8e0b99d0296a0ef0d8adc95b55f2c44e4c304597221db5fb23b5bcd3729ac",
+    "export": "tasks/S03/judge1.json",
+    "export_sha256": "aef8e0b99d0296a0ef0d8adc95b55f2c44e4c304597221db5fb23b5bcd3729ac",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S03/judge2/VERDICT.json",
+    "source_sha256": "93b13d6f3da1c5a5eb1601ddb946a6bbcf6eb5daea8f82d876f64a3977c51780",
+    "export": "tasks/S03/judge2.json",
+    "export_sha256": "93b13d6f3da1c5a5eb1601ddb946a6bbcf6eb5daea8f82d876f64a3977c51780",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S05/MANIFEST.json",
+    "source_sha256": "f63866befe106351c958ef91ebe2caa91d561e8fc530c3938388f07c7bfdf4a5",
+    "export": "tasks/S05/task-and-pools.json",
+    "export_sha256": "fa7f267d4a28e773942e76a930b7097225a22db0c8f67e4630e3930fbb06b66e",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S05/judge1/VERDICT.json",
+    "source_sha256": "29f51da3f3b0903a5fa9bfb3a680a707ec2552aafa80b5013f0e6400818d697b",
+    "export": "tasks/S05/judge1.json",
+    "export_sha256": "29f51da3f3b0903a5fa9bfb3a680a707ec2552aafa80b5013f0e6400818d697b",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S05/judge2/VERDICT.json",
+    "source_sha256": "ff75f02373a96e377ee3bdc25794851ffd5dee1c84a446263fc4a9a190269ac0",
+    "export": "tasks/S05/judge2.json",
+    "export_sha256": "ff75f02373a96e377ee3bdc25794851ffd5dee1c84a446263fc4a9a190269ac0",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S06/MANIFEST.json",
+    "source_sha256": "b5bcf1ef2d22a060687927963b3949b64bfbed1c6a26786341311e4d11067fc7",
+    "export": "tasks/S06/task-and-pools.json",
+    "export_sha256": "e9b210660e42c50fa5373ac019a916c3e02f6cfb5cd92dd96dd8bc9f4cdec940",
+    "transformation": "Complete task and pools; machine-local request paths omitted."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S06/judge1/VERDICT.json",
+    "source_sha256": "8e3570c994f4fa55c1105a07b797d1e31db71fe8a81495c3cb0fdd513acb1ffa",
+    "export": "tasks/S06/judge1.json",
+    "export_sha256": "8e3570c994f4fa55c1105a07b797d1e31db71fe8a81495c3cb0fdd513acb1ffa",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S06/judge2/VERDICT.json",
+    "source_sha256": "552bbe4a3827b0f68fb805477a1817eedffb03f290e990f4b9e25edc0b77a215",
+    "export": "tasks/S06/judge2.json",
+    "export_sha256": "552bbe4a3827b0f68fb805477a1817eedffb03f290e990f4b9e25edc0b77a215",
+    "transformation": "Byte-identical saved evidence."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/O02/calls/raw/92fa701730cbc6d212f7_a1/final.txt",
+    "source_sha256": "b288194cc56c47ec0c275271d99303412d51970a7e975c2e46cbe12157035d25",
+    "export": "incomplete/O02/calls/92fa701730cbc6d212f7_a1.json",
+    "export_sha256": "7a3bc8cf0af63c2f5d5f7fadfb7c4fbf48cdf37f54ff468b66f7278a595c16dd",
+    "transformation": "Completed JSON response from an unscored/incomplete task; no missing verdict inferred."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N13/calls/raw/f4ed2eb67afccffdc641_a1/final.txt",
+    "source_sha256": "5668e13c05e63e1f17c6a662596996a20285adbc1f6f7a5b7b37128c7696c8ac",
+    "export": "incomplete/N13/calls/f4ed2eb67afccffdc641_a1.json",
+    "export_sha256": "ec7faeca19322029a23175d4c9cfba5b371f5b44653ac0c5cc0586124d693e60",
+    "transformation": "Completed JSON response from an unscored/incomplete task; no missing verdict inferred."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N01/calls/raw/1113c648cc4420d311c7_a1/metadata.json",
+    "source_sha256": "5ddba17c61640bb75b2e25cd7efb1a0880eb89a16eaafe72e28cd1012e9a89bf",
+    "export": "usage/73f84b5c51c308f835ff.json",
+    "export_sha256": "aae3cad02bfb62c761c67cf6a39f0d16d6d45d12c6ffc2c253327c8a62fab611",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N01/calls/raw/b6826246ee002ba19b67_a1/metadata.json",
+    "source_sha256": "89096eb6ec5246ebf5aa3178b655ce91ae0e60fa2e23064e7bcc7432b31a7a09",
+    "export": "usage/0464b884e02a9c2ba75f.json",
+    "export_sha256": "00530ad0f43a49e9203b92f6f4f71530b779cc6d1b3fe81c539d070fa4910c26",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N01/calls/raw/b6826246ee002ba19b67_a2/metadata.json",
+    "source_sha256": "d6dc99ed5c6ffed064b61cfd2e30ad76881592a48ffd2d777612088ed01a84bf",
+    "export": "usage/dacce4ab44fcad822398.json",
+    "export_sha256": "0c80dac1202e61717eedc9904dab76f9239243660af482bed05cd18172a101a5",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N01/calls/raw/b6826246ee002ba19b67_a3/metadata.json",
+    "source_sha256": "927884e223fcdf774366de3627d3dfb079f08bf280b8137f48edea159da5b365",
+    "export": "usage/8dcb424999c018953449.json",
+    "export_sha256": "ee4f93b79de53d99534a2ebb944fabdc46d60ef234e8fe8a47e1065f079c6fef",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N02/calls/raw/17065bfb2dfff2961ed9_a1/metadata.json",
+    "source_sha256": "8e333b5344ce8ba2603b940bd0f524fc8818cf692c36ab50cabad692ca9bf48b",
+    "export": "usage/d6e7e4fda8d713f613b6.json",
+    "export_sha256": "8eb56ebf9eab947b92aa983e347e9d16d4989e1ca73581f870adc6d61b031857",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N02/calls/raw/17065bfb2dfff2961ed9_a2/metadata.json",
+    "source_sha256": "a664e9aa2162ede73efda764bd940aa04add08c409f862277235502d945e74dd",
+    "export": "usage/0f0ac0d0c1bcd46fd293.json",
+    "export_sha256": "f9df8f56b990eb7a299d73af4cb88efc486a5530e56685b3de84172e74733645",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N02/calls/raw/17065bfb2dfff2961ed9_a3/metadata.json",
+    "source_sha256": "209e2ed348911f3cc8da5aca9c7624657a5ec10b0db1a6122727b9c83ba32477",
+    "export": "usage/684bc533287b86e33c64.json",
+    "export_sha256": "895ee901c358426b50c8e827e4edea868f8d50ae352ba9f5811d4682ea233f39",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N02/calls/raw/1ec79b1797537c34cd0e_a1/metadata.json",
+    "source_sha256": "937b69fb134dea8deb30b468cbfced188704120b53632165753c97e1af6d24ac",
+    "export": "usage/b9b78ab735e1aedd0da9.json",
+    "export_sha256": "e052a52ebb3bb808545465323c31764ff74c5ae9df8df5cd7d47574f4bb44758",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N02/calls/raw/bfe89d27a7412d3c18bb_a1/metadata.json",
+    "source_sha256": "ed201cf660c1784554c8c1f282686e7919e745e849c6c472debbe2c9eb7cb8b1",
+    "export": "usage/15d1c0d38756b176f741.json",
+    "export_sha256": "bbeb1e19915bb280dabed3488373ed63697c763d3c8088aa0015ea125169a704",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N03/calls/raw/105cee57d62a7f3f8244_a1/metadata.json",
+    "source_sha256": "3b39c76eb55eb0f3fe485fa8eb5d19f9b5cde376e55c72382f0d44111dd5f6ea",
+    "export": "usage/c1dd9f436e8442b63fd6.json",
+    "export_sha256": "228f7a7dd41342147d676b5d658863fb0aae3006f7bdab8705d95c9233938143",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N03/calls/raw/1f5a44a8fe199fbf8964_a1/metadata.json",
+    "source_sha256": "09a4ebe69241d4b3dc5941fba6328f24975666c8fea82381b39b08944282c87b",
+    "export": "usage/1923360768f15b21a289.json",
+    "export_sha256": "cb5279e55ee3b04947ff3851ec7a93de366b1413409be84c7d935013e8af7a9e",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N03/calls/raw/b11a1f23b917effc0c3c_a1/metadata.json",
+    "source_sha256": "85a91ca1688a684e1a7f35b519f9f721a8caa45cbd0e51b89d500802ffd67dbe",
+    "export": "usage/819870f0b1bffef98c8c.json",
+    "export_sha256": "a9177edede8658f8c4e3257f80d6fd52eb12ff8c79647d6067f64e13ae539e42",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N03/calls/raw/b11a1f23b917effc0c3c_a2/metadata.json",
+    "source_sha256": "bf2e3c3da4d70fb0950520d6fc36a8ae73645b94f789cea89413422fc278731e",
+    "export": "usage/d1a6042940b167c8317d.json",
+    "export_sha256": "60257756560cf04dab7dca5da3c1c3e3a9c29a216beb4f5cd38dcae465806eaa",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N06/calls/raw/134e5f875ffc46f49c7d_a1/metadata.json",
+    "source_sha256": "ababc6157f40fc8cd7ad70cd65e69d1d4e69c7aca410d12a74dc1789da827906",
+    "export": "usage/b072514c946742628e76.json",
+    "export_sha256": "e7ffbb7c6791a4e9c1542a6c7a552468e99ef6e0409443382af2945d151fe30b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N06/calls/raw/a8770d636ff18a2d0ab5_a1/metadata.json",
+    "source_sha256": "73c509240a37fc7aa863f359d06239607ae288a4bad330c1ea06cb0e1879ed75",
+    "export": "usage/ce72bd0443888d98a9a3.json",
+    "export_sha256": "7b253c7572cbe3b27bf296f65ba87b780f8bbc91af085587f4af6c3d91b2433f",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N06/calls/raw/f363d204307f2aa7a336_a1/metadata.json",
+    "source_sha256": "dc7a8b4f146b17d1be6e45ac8a9556150ff2b6e5f351aff847ad661618c4f6b1",
+    "export": "usage/e1cd8978501f2d32712a.json",
+    "export_sha256": "d68feb497f3f612cd9e749f9014062f42993bbe30b243089f927eec5d6757183",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N07/calls/raw/538e446d317be90069bf_a1/metadata.json",
+    "source_sha256": "1558c38726393eee4b8329c2673ff6f950b951cb64e04e5aa1e8c0227aaf6985",
+    "export": "usage/70df50945f5dcb5dc9de.json",
+    "export_sha256": "d43ee12d5e029e75573bf6327b85ea799c6c9be49819cb27d8cc1ce265298cdd",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N07/calls/raw/ade8229446ed0ce7df3e_a1/metadata.json",
+    "source_sha256": "5997c8cdeb9f58810e4ffe148c645c76f2f815b2c9d5e9362dfe4b3491834075",
+    "export": "usage/a57efdf205610f05fc3c.json",
+    "export_sha256": "b5659f4f7e1fe59d3b5ec5ca1d80df09fab9fed3f3fc2309a3d6bd5f130aeac8",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N07/calls/raw/feeb50aa3099b69348e4_a1/metadata.json",
+    "source_sha256": "eb5637cc1c63dc45a5082fdb7f8abe1d9ffc0d5d4bce4d0274776545423f0490",
+    "export": "usage/b9f18eee85ce8e7746cf.json",
+    "export_sha256": "a233479a753c3342180c2727e67e1feaf61527dc6a7c2d230ca55a83a3b8847e",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N10/calls/raw/70db1e1da20a463bfa86_a1/metadata.json",
+    "source_sha256": "d14bdfc10b83547c5a63a7f7f0c19acb58e92491b19e515b9301974664d07311",
+    "export": "usage/8f70df52d3ed13cbf8ab.json",
+    "export_sha256": "bbc29333fb3793b9a5e5e2452eb2b1c3c18009688228f0b12a7520f9ae57ed51",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N10/calls/raw/b12ff963952e4816f978_a1/metadata.json",
+    "source_sha256": "095c34b09d849db69f4af0a41ed03bee525095e53be013e5f3b7129576ef8879",
+    "export": "usage/032c4d65d7741e103bde.json",
+    "export_sha256": "0e184b0417eb9fd63291d0707297ffa688bb375ccf20c1a4d272e570937ca659",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N10/calls/raw/d2ac550e5bb55b413666_a1/metadata.json",
+    "source_sha256": "f71f51a9d823fe0a7276951c883e35075173eff2ac910b8e6922a876824ab6e2",
+    "export": "usage/607634b90f2101649f84.json",
+    "export_sha256": "3a0a573b5032263d11a6cc684ea733846bc651e5d5510d3fc11905cc20e01987",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N11/calls/raw/98d1af0c0833db41dc25_a1/metadata.json",
+    "source_sha256": "268d7dfa319bff87bed973fcbb03181c0a8996b209e2f8dc054b531e94ff6b1c",
+    "export": "usage/c3cf5c501f49e973f964.json",
+    "export_sha256": "b7d4768b4a0b92499a468ec7df9f554273c9fa1e3fcab3dd03a352964727583c",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N11/calls/raw/db4c6fefb70ab3e17f8b_a1/metadata.json",
+    "source_sha256": "93666e22b92da890218f8adb61d7a614ad3d9cf351e29a9239d5aa4f3fbd5d30",
+    "export": "usage/8a259e3fb251b3c772d1.json",
+    "export_sha256": "7e047d474f99ee3133a84ef5874a1ff3e36f63864b5632185c9ed6a864dfddc3",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N11/calls/raw/e4fe9543a9833ced9938_a1/metadata.json",
+    "source_sha256": "c5a13c53af55879099a5ce64eaa0e3f1a6d693afb98cf08d92602fd5d300788e",
+    "export": "usage/f68bfba02f775afc5850.json",
+    "export_sha256": "320db52b12732f1eed9285cb70da3dc9529e3f68e8c6ccc0841dc694f22392ca",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N12/calls/raw/3600992aa7dc7d768b4d_a1/metadata.json",
+    "source_sha256": "504a5a3855b96cdb08e549bcb5210599101e45a71edb20b979452d89566efdba",
+    "export": "usage/3f72b68799448ea6cd58.json",
+    "export_sha256": "19bbb96ee2ee3c3d800bb0ac7cf069a98898023727503cfa90312b385b837a96",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N12/calls/raw/92d18722e7df182412bb_a1/metadata.json",
+    "source_sha256": "cfa88e7eaa4dd0205c3867822ca63423f41df4934c4cf4e0f38c9ac107f1a112",
+    "export": "usage/a6228e9953fa4d75afd0.json",
+    "export_sha256": "67489358578cc828b20516253286305dfb692746efdb2770fc0e2b7512d4c794",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N12/calls/raw/a0b46442ca7ccef745c4_a1/metadata.json",
+    "source_sha256": "6e87a6e6c9d771cd5bdb72b0489f606682e25f5d8797ed0f34bf34d3cb7d9b65",
+    "export": "usage/ed4015d95461370470ac.json",
+    "export_sha256": "50d177dd8ccdadf5e30f87774b286024ce7f5aee9c030b0cecd86227a6002780",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N16/calls/raw/a47d2b1caa5c1fdcc771_a1/metadata.json",
+    "source_sha256": "49abcbe0551c2f8a4a196d2fafa5369b3f5a84dace2521643af1322c86e99502",
+    "export": "usage/121d43f77f83d935c611.json",
+    "export_sha256": "db71f42f8e8ccc9aab4d9fcbcee85eaf812e6a9e2d7dae7bbef82d1ce1ff4279",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N16/calls/raw/c6e1cacfadaf19fd0e12_a1/metadata.json",
+    "source_sha256": "f7d5c595f4eb3710224b3741b74d0267e69c2b0b259dd8da635f29963690484c",
+    "export": "usage/d9b22a67499f4cba1b75.json",
+    "export_sha256": "fe12529af7cfa3ebbf846e67764c74cee682036941978c432d42048384ecab09",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/candidate4-evidence-completion-20261102/quality/runs/N16/calls/raw/cd0e9b59eb4a8c1c442d_a1/metadata.json",
+    "source_sha256": "2641c056f7955ba72e60e7256a497fc8ad82159d07f92110db9ef3ae2d9985c3",
+    "export": "usage/3f3a5f9407715e94a233.json",
+    "export_sha256": "4083a00398553e45fdb5f228f0986b693b627d2c7fac8d220aa80cfba33b68e1",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/repair-validation/runs/L01/calls/raw/212ec1c570f6307dbece_a1/metadata.json",
+    "source_sha256": "65bf1b0c61ded03605c27f2ff34811b7f1f37b414f5661a8921227b8046e9d74",
+    "export": "usage/2c76370056d81e677afc.json",
+    "export_sha256": "1444bba93d76efcb2f54f1de1fc0d49a253b9789a5c818a82e6aa6d37e65ca69",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/C05/calls/raw/62b9af3e10508130c68a_a1/metadata.json",
+    "source_sha256": "18a4ceb7f688af7644a02254399c8f738486fde8ec954e2caeae532462c224c5",
+    "export": "usage/a599d1d0f5f0404f9588.json",
+    "export_sha256": "cc19a7af5148b8e0ef114445447bb69202b84e3f77da129e093af35fd089b095",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/C05/calls/raw/f2462bb91ad626458980_a1/metadata.json",
+    "source_sha256": "4c3aee6283670ee38b3e10ee872fe4f0eca4c8463a9fe4bc8e84cadc98f8b101",
+    "export": "usage/e4f36e2cc5d214c946dc.json",
+    "export_sha256": "eb68b1c941a1bac9249f24edd8795e403605e880947b72760b4b5d0788827571",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/C05/calls/raw/fd9fc373fd1be13c3ec9_a1/metadata.json",
+    "source_sha256": "dded0571c94fdd8498c6c42be90a264db57cc6e99d5b98d3a3ee0e5ed9ed5d67",
+    "export": "usage/16763baa5bccfb3df49a.json",
+    "export_sha256": "1bbd618922ff118c71fc1fc205b0f6cabd5648d839b1585f08a4cdafcf90b5f9",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/L01/calls/raw/136a65327c78f3b5567c_a1/metadata.json",
+    "source_sha256": "d071c33386bde8e6ab1e30d6f800944f5093100019125c8067de2b98f3965a05",
+    "export": "usage/6cd8b1546cf0335abd33.json",
+    "export_sha256": "f053dc85bde6d138367287c3858be8ee56f4395a32e30979cf1bfdadfe9e407c",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/L01/calls/raw/7f4a9c588d9ca3a0ee2d_a1/metadata.json",
+    "source_sha256": "55a6ba13c297c053bab36cd41a8a351e256f145433ec713e1d9889405e8cd862",
+    "export": "usage/235b5907e29fb0ef9ed8.json",
+    "export_sha256": "06a0065028f27bce853908a050c5cca1e3b3b3b81f96dbfa4628093963417df8",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/L01/calls/raw/8d278b2af72ed6366e66_a1/metadata.json",
+    "source_sha256": "e2fcba2c88c7a2382fe6ae62cebe39ee6628cee4ed06c96c2bee305fe9bd012a",
+    "export": "usage/c1a506faca1571a49b43.json",
+    "export_sha256": "8f6bf375bc7dfac5bbbda7d1c0e84aa50e64a2e79e1115a09adeeddc7e6cfebe",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/L05/calls/raw/221858d03341c757fdf5_a1/metadata.json",
+    "source_sha256": "c6eda5ba7edd5c92e9e2a79b0efba7764ac44052e334ec80292ed982b0b9c8e1",
+    "export": "usage/bd37801958996532f0bc.json",
+    "export_sha256": "2974261506dfd448e685930b10c7eae2038eeccd2c13db80043d0a62948effa5",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/L05/calls/raw/5e5a13335bffe8fe027f_a1/metadata.json",
+    "source_sha256": "5b1847ddecdbd29db2ceb0c3cb60a8990092ed5190c49bf740934f54d0b33897",
+    "export": "usage/b3e3d1f3316d0441b4b7.json",
+    "export_sha256": "2d8f71d0650c225668f27e015a0bf8c243717393198a841ee17b68bb27a1952c",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/L05/calls/raw/a1d4a67de7e71dde8db8_a1/metadata.json",
+    "source_sha256": "288ceab3d766a1db6968c4925ab9722899e745003792c4f76f7578d9ed7eef70",
+    "export": "usage/de6f3ffabdbe81aa832b.json",
+    "export_sha256": "ef31ccd09d10fd556cda6c6e2fd29853fe8a9b5efc93a04e166ba5d4e9c3c8f7",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S01/calls/raw/1b10391a3326ad816ce1_a1/metadata.json",
+    "source_sha256": "91f72e1c4fec7c50905d61e532ad5b1d03cca14654cf8623566023042c266f8c",
+    "export": "usage/585a43f3809ded8291c6.json",
+    "export_sha256": "3a15042d46db465690683decc864b78ad4b3b5f53ba8b339bab4e28699045a76",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S01/calls/raw/a89805bd84024af2ae93_a1/metadata.json",
+    "source_sha256": "63753ddad522590aee69d9ff7d31f313e2b52d14dd047abe2efdf8456ca6b3e5",
+    "export": "usage/7f7663f8ed56a142119c.json",
+    "export_sha256": "4ca86a341e367c65619bb12518956750cf55f2916c83c1d0f44221051f543346",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S01/calls/raw/ed1f9e28e04e77368bfb_a1/metadata.json",
+    "source_sha256": "1db213280f07f9c94f57f6fee8783aeb32a14b9fef18da20a7556afd04ead386",
+    "export": "usage/782afb916eab610f77ce.json",
+    "export_sha256": "64394dbb74ec5286eec50f095467c0e354130a94a6ce22ad38e6c1c0a1077495",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S03/calls/raw/9ff8681ffeb50ac483c7_a1/metadata.json",
+    "source_sha256": "95e85a73b3337c96782997c4fafcf2fd8d0f7eb735ab52faf023675edd708894",
+    "export": "usage/f901cedf0437a03900a2.json",
+    "export_sha256": "73cb1db8736bc56945cf7367bee6412d7341abdb6c0539119e9a221af55015cc",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S03/calls/raw/a85d1b99bb2381877cbb_a1/metadata.json",
+    "source_sha256": "c441c55876c46e17010c7cca0a79ee79779b54b80edbddb585796498e7f3c635",
+    "export": "usage/254db1d74e2bb0217f55.json",
+    "export_sha256": "7da725a0790463f1362ed717ec19fadd6f788f3b18c0575ac919c89e5f48213b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S03/calls/raw/b40674416a848c494b63_a1/metadata.json",
+    "source_sha256": "fc5c23bfa4584f2a0215ab59fd230c211af86882736345226db340c2a7a48d6a",
+    "export": "usage/735f02ab0b290514acd4.json",
+    "export_sha256": "72d9cd20d678944106d518251b05430280759c23579cf997a7174cd6d6482ee3",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S05/calls/raw/18554381079f8e2cdc50_a1/metadata.json",
+    "source_sha256": "3f3f2b35f28cba1e7cbfdb9289132c0886fed862d1b76468d7904941a11a3cfb",
+    "export": "usage/e93e12b42600d19b1831.json",
+    "export_sha256": "285eb18a989c67b4ee36d957e328ad21910446ceebc7266d16e80ba5499c703f",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S05/calls/raw/358090ed61fbffafc2ff_a1/metadata.json",
+    "source_sha256": "e17b9ba1a017c87857c7dbb7f304ba28305bffe91a6b65f16f4987d242a1b6f2",
+    "export": "usage/eb4dc34f18bc20ee4d51.json",
+    "export_sha256": "ec636fa9e5005aa5ee2a3fe098951f73e0accfd2b2e83738cd97e4caf650a28a",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S05/calls/raw/dffbd59e28bafdcccb5f_a1/metadata.json",
+    "source_sha256": "47d430ddd7209f12c63ea6b678eb8c5f3d62e11a0db8f8b0f87f7410dca84dc6",
+    "export": "usage/f2cc9bf10f590f2cc0b4.json",
+    "export_sha256": "1bb8a57957175b1f357ae671b8ac52e955e7122ab5f9fcb84d699b3343dc718a",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S06/calls/raw/7158bcba513e0a5624e0_a1/metadata.json",
+    "source_sha256": "69377e07192987b2173b2180bb864acf67cbfaf80912c1e8e3f64573de78f184",
+    "export": "usage/3aa3ede43a2dc18b4b6a.json",
+    "export_sha256": "508e699465f223d8a977b6844d98705ab3f0dd29468cd19f0680326005f0bcba",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S06/calls/raw/9b58f829f28e09f5bc4d_a1/metadata.json",
+    "source_sha256": "8c0ba9f8b320dfeed1a5d767c70fe190a337e69436b9bba772e4ad78e81eda53",
+    "export": "usage/f13d57e138fce79ae383.json",
+    "export_sha256": "8afa7a97a90519be5f0aba0b23304a5ce05517a3718dd33c704be90ce4c7d714",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/S06/calls/raw/fe88a42949651aa509b0_a1/metadata.json",
+    "source_sha256": "c28343b92184566106a5e2c10fee9a712842bcf2751d5048ade55933658d7868",
+    "export": "usage/1de3b9964d7104740534.json",
+    "export_sha256": "d6e412c6b39618c5d4d152e23e09e0f238422d39e3b50d5f111a77855cea23f6",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/C05/calls/raw/23cd03f4ede9789028fb_a1/metadata.json",
+    "source_sha256": "088601172f82c4748660aff8ac2eca49c627af39ab326e4b838c818b9397613d",
+    "export": "usage/dfbe4e3525ee59a72fc3.json",
+    "export_sha256": "4ae06a82d5ed0713d869e6677003b0d1ed99d936dba43333cfb239b0b2fbb384",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/C05/judge1/raw/C05_J1_a1/metadata.json",
+    "source_sha256": "576fd15e7ee5df851386df975bbea4a98e41f05702c452666f309130f17a805b",
+    "export": "usage/0ed45da1c4eb8b639079.json",
+    "export_sha256": "9e265ff5b76781a4f08dc865dacc9a6334d0523da5d2485508b0ff1c1d3b14dd",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/C05/judge2/raw/C05_J2_a1/metadata.json",
+    "source_sha256": "52e3bc54cbaa68303483128a621ab38e7a502877a0f0832e3abb9cf8af4e3281",
+    "export": "usage/507361a9f6737f360b81.json",
+    "export_sha256": "678ce3ac9ab90257e57d57968b1944b99a637e50c8938aab34ff7bc51d7220c7",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L01/calls/raw/46df57ac387e2998aa79_a1/metadata.json",
+    "source_sha256": "7b901c3a1915f64c36f7c27b20aec71d9210d891cffd799a1a09de608c98ee5f",
+    "export": "usage/10029e7a949296be57ef.json",
+    "export_sha256": "a3f9c4b49ae3ad8c46ac5c690cc4413d7468f6f91d9fa4af5396bd03105e8820",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L01/judge1/raw/L01_J1_a1/metadata.json",
+    "source_sha256": "5bd6965fc3908b97f24eab72e1f0b90dbb77b802ba8c525a52f7840798e745f9",
+    "export": "usage/a5c2198ec32364815fb9.json",
+    "export_sha256": "5d9065240f23831409ab093d9f53db44e2a6bb0be659c6d9a66fc8302847380b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L01/judge2/raw/L01_J2_a1/metadata.json",
+    "source_sha256": "512eed6016d55ce9e9e24097d8a3d6e501f9652048d87576ca1c1055bbad1816",
+    "export": "usage/8f44f68f735532d15c04.json",
+    "export_sha256": "ebc3eacb45cd3b1eb7216348423c23c52c7689a19eac6d31aaafb47e7d8c8759",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L05/calls/raw/07c8dbcef60545ccd0f3_a1/metadata.json",
+    "source_sha256": "0ca52827a717d086d3da3af979add5da5ee5af71c32f3f607ae9fcc73282eaa8",
+    "export": "usage/393f53dc1c68b183dbe8.json",
+    "export_sha256": "f093d111ea0caf2b1ee5076f749847253195a8543377bc57d423dbde29842f3b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L05/judge1/raw/L05_J1_a1/metadata.json",
+    "source_sha256": "5bc62026b809d9af75fd06d78726a65a11c919f4c3012512e2c5ebce7ac9a475",
+    "export": "usage/9382403d7eeb3477f054.json",
+    "export_sha256": "6e68b8d86c82bbc3e010b56b480fd37a44a841d8b2f3ca0ace77903408500c68",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/L05/judge2/raw/L05_J2_a1/metadata.json",
+    "source_sha256": "d8ba23b98394ba5a464e0b3f53989460f935862f1024c7ce47265796661a27f2",
+    "export": "usage/aebdf8b20584f3a3b60c.json",
+    "export_sha256": "4722df5c805831f4fd98502760d2ca25d145b259a2a2f19a480c2a993a70c96e",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N01/calls/raw/acd69008576c78ac9e09_a1/metadata.json",
+    "source_sha256": "3d8ea0b2a90d459e97160f0e61600341a8374ee55ac2682bd7649d7041ce4a75",
+    "export": "usage/3ea221afd18699dd17b5.json",
+    "export_sha256": "f11cbc88c328ba5ecc1b850ede6aa15f231ea07509f8cf2dbce17708016ab7e2",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N01/judge1/raw/N01_J1_a1/metadata.json",
+    "source_sha256": "81ea870f6a85118f40abd4047dd7446844e9e9277aca924ff14e15ffd5ec3ae6",
+    "export": "usage/79e174f8484ced0b64e7.json",
+    "export_sha256": "09d2e2345a33af420c7389b0182165910b502e8539f89b1bf61f87f8bf750970",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N01/judge2/raw/N01_J2_a1/metadata.json",
+    "source_sha256": "6d2ac1ba3600d16dd1945e5fe5bed58ec0ac354353f099b50487b0d34331a461",
+    "export": "usage/f0edd0da90b0aaba97ba.json",
+    "export_sha256": "8b0714e1d153cb21359dd9876daa60a82b0c1cc3ad3ca218911655bbec4c597b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N02/calls/raw/0932b09ffc0668e7a937_a1/metadata.json",
+    "source_sha256": "2639bede7018f2f5511acca354bb13260e5261047e43b468e81a8d7d0e1c7ce5",
+    "export": "usage/86901e5a5c619d785991.json",
+    "export_sha256": "da6f33554fe43d352a157232c13019972b1a1b1678eb8ee6736c9eeff6b3aa27",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N02/judge1/raw/N02_J1_a1/metadata.json",
+    "source_sha256": "cd8b222fc144c2e6ff6658c66a49b9c675d8047c0a6d935d404f79728fe80389",
+    "export": "usage/27007f18c5119f623097.json",
+    "export_sha256": "fc05f5778d806b7aa4fbb5b2fbb76c1f1d5e4db465e5a887224f85f091ba84cf",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N02/judge2/raw/N02_J2_a1/metadata.json",
+    "source_sha256": "d617552750e7c019a0514bf9c7de08e6d9acdab29fb136194980cb8f37267a2b",
+    "export": "usage/c2bf9e23b08421468dc9.json",
+    "export_sha256": "7c6d93952990b063ed6331e3b31cf7aeaccaf6b4fc52550dcbd6ef3b1690efe6",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N03/calls/raw/d26362c743a6d673e76e_a1/metadata.json",
+    "source_sha256": "2da9c95869d606d5e243637f6bbd4a5f61296aeaad5bb6fe0ac44d37d0085da0",
+    "export": "usage/5e8011c0879aa114c26e.json",
+    "export_sha256": "861491b79482ed70439c32c3a6e3d5370a0416e68eefcec28427b55f12e05a39",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N03/judge1/raw/N03_J1_a1/metadata.json",
+    "source_sha256": "ae477d621ff913505f257aee7f5e34f84dc5a2e3b3aee77d5920a8d06ba03c38",
+    "export": "usage/97fa432da3aa3cbfaadb.json",
+    "export_sha256": "2036ee39c515fea89e09caad516d9cbae3dea5100671bd8449e17197a9df0874",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N03/judge2/raw/N03_J2_a1/metadata.json",
+    "source_sha256": "6d5f34de337206c25b27d0163c0109902e16d7ba86c3ec290f5e14aaee10ed6d",
+    "export": "usage/4a5cb58353881cbd5643.json",
+    "export_sha256": "5f152507d7e6905a8bd6f7b897f4c404a5500d8b01b1cd6f6da19be37dde73bf",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N06/calls/raw/5739e71e7ca28bfce1a3_a1/metadata.json",
+    "source_sha256": "dd55757c54aa001253dd6dc1c3dfed6cb556a46b70edd0ff2d35f8386f398031",
+    "export": "usage/3b2e05fc8debbad3ab4c.json",
+    "export_sha256": "5918769c96201bd61a7b53eb3eeeda52d12964faeeefcb845f0de151ee2a29a6",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N06/judge1/raw/N06_J1_a1/metadata.json",
+    "source_sha256": "38b5587a1bd5c5a546cc4ebd00df58f979abf42eb68c36131c208da4e38f00fc",
+    "export": "usage/9de7f8befd3b780e5919.json",
+    "export_sha256": "eabc665a9a52d64b78fbed64aaea0dc99203c95efa83a3cb89b703a7cb295b46",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N06/judge2/raw/N06_J2_a1/metadata.json",
+    "source_sha256": "4a7fb762a57ff9cd02e580a2afcc71eda00e7bf2024c11ce520f89c0a40073a7",
+    "export": "usage/c98815f95342705e0726.json",
+    "export_sha256": "879364ab0e3ae2340505d3e8bcc8c4bec5e3e11d815d26d15314a487c1e584e1",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N07/calls/raw/ad768356cd5628b81452_a1/metadata.json",
+    "source_sha256": "5867ba2366944526610a6b808f47939721760026a2c1f53ca4362d906e3be586",
+    "export": "usage/0aeb6ef1594357a2b002.json",
+    "export_sha256": "d85d11de6602e81f1b0baac783bc451de249943c2daf29488abf5be5e5d677f8",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N07/judge1/raw/N07_J1_a1/metadata.json",
+    "source_sha256": "25609b18ef4e2364210f06a70574b806f9e5b461e535ff2ae432f960b85cce1a",
+    "export": "usage/f40e3be44d8fd19dba7f.json",
+    "export_sha256": "49ca9e2f69c9057af0b542c16f40b88cf97e8d257f29781a1426546e2f7d947d",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N07/judge2/raw/N07_J2_a1/metadata.json",
+    "source_sha256": "67eea53598e1057c7a0e2a6405b72687250078554cd0cf442963d7930bc0d3bf",
+    "export": "usage/19bbfbb306fc1d2317b3.json",
+    "export_sha256": "e08c450c6fd3fff194d65a8df187c26b02d5b7525b38d3090efca0c9cf8d7b69",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N10/calls/raw/0dd07689d9adc85fd0be_a1/metadata.json",
+    "source_sha256": "07b53b3d0ca102cd6c26cab0cc4712213fd52f8add6952bcca7a57ca216f1806",
+    "export": "usage/f97d256f2bde68863a10.json",
+    "export_sha256": "3f44361203e096e9e21c546f26bb5ad7014afb95cbb08f4ea9d6edcdd773b1a4",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N10/judge1/raw/N10_J1_a1/metadata.json",
+    "source_sha256": "ddc8ab76a35b59595f1c50b8ff726b005a0791f3e54fbf7e5ca38ea9c044a386",
+    "export": "usage/03b2412ec1dcc7fe44ff.json",
+    "export_sha256": "6f669f30a026acfe600e0cbd5f21f737028207a0391dda9e1a151467ba6699a8",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N10/judge2/raw/N10_J2_a1/metadata.json",
+    "source_sha256": "93a12b94a5a94d5460e25ad4f94c277043d78a797451c397ea535ac9cba657fa",
+    "export": "usage/718392147b7a716ef2c7.json",
+    "export_sha256": "0355edaa93fa35eed77db3c2f1cce108fcc19c185019be173bf8f4d6c351144c",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N11/calls/raw/d0484741dbd262930389_a1/metadata.json",
+    "source_sha256": "579e66ab735f842943b4b4107318c5a9143c6d0842e1afe63372aea553538cea",
+    "export": "usage/12b43575d503734ade2d.json",
+    "export_sha256": "ed26bac44a365ceccba1e8044b84597bf7d684bba499ae59c44eb71ba295814f",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N11/judge1/raw/N11_J1_a1/metadata.json",
+    "source_sha256": "a31ea08366c4adefd870f9821e3af977bc7ce4247374845bd2a1d59828b77054",
+    "export": "usage/8c29cb87a48f8d201256.json",
+    "export_sha256": "89a8621c5f4d8bd472e9a0fa92f762da0269d462b2ea86a2998e4836cf259e58",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N11/judge2/raw/N11_J2_a1/metadata.json",
+    "source_sha256": "8914fca14ea467853a8e8150106f42bf625a083fefb22559fc10a839734595df",
+    "export": "usage/630ef9c5b873ce57042f.json",
+    "export_sha256": "f31e1a048d9065f064da279b4fdd485faa58739b61b4cfd95ba55b1bbe6275c4",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N12/calls/raw/ea934adf476089c7c377_a1/metadata.json",
+    "source_sha256": "cedb3a6f52abc3ca005a71a763bfbf3607cc7c701a793606b83638d75a7ce278",
+    "export": "usage/8a5c02e7a76f41ca99da.json",
+    "export_sha256": "ac820daac18619ca2797305c9a6a4084a7f492e52a880d8b4f0cb11cd940cc54",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N12/judge1/raw/N12_J1_a1/metadata.json",
+    "source_sha256": "49ab94847ec570614e165735919346e7e9cf7edd878839a9001b8b9d04c571f7",
+    "export": "usage/643e3d760470b29f7a12.json",
+    "export_sha256": "c49e15662c662e5a0d4895d81b64026da08c3fa987f6e3f460b43471ec7f8549",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N12/judge2/raw/N12_J2_a1/metadata.json",
+    "source_sha256": "17253eaf7b861a5f8cee33ee405823064b5f6ae0827beacc8b14afd15de699f8",
+    "export": "usage/f1934a12db457622a177.json",
+    "export_sha256": "df3ee1789c140f243791acf57d40ffc3982ff6c505be4434f72cdcfc8d148e94",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N13/calls/raw/f4ed2eb67afccffdc641_a1/metadata.json",
+    "source_sha256": "91741c917d7227802883b5025081e74aa0d0cc5c6a26cb6560ce95adda841c06",
+    "export": "usage/454c4cccffc8657c03fc.json",
+    "export_sha256": "911c3b89390a9f1b0eabf4e48edd5304c0e27a2243fbfdff87faa9a8312a1fa0",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N16/calls/raw/dc27ce737d6bb0134fa4_a1/metadata.json",
+    "source_sha256": "da327c89f19e73d4515a8164e0f4b03626345db8efab50825516ab00755681c2",
+    "export": "usage/3c1a4f32933ddc341ba5.json",
+    "export_sha256": "fa3bf0f7cca0fe15fd8a0a9acd743349a02c067c98a2a4895c140f4daa83d083",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N16/judge1/raw/N16_J1_a1/metadata.json",
+    "source_sha256": "f2f341a1325667f5804168d433315b0d08d3a3a77897b635b5d9fa10acd00672",
+    "export": "usage/2d7de01ff5703b3c2344.json",
+    "export_sha256": "fc9321ff3a68d931babf282e821c4e9b018a7d132d1117916cd8b52c1b8d738b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/N16/judge2/raw/N16_J2_a1/metadata.json",
+    "source_sha256": "4d36891606ee84e0a11078daa47749dec49746f6228bb8371125926ed547e007",
+    "export": "usage/84d2a61379375bec3252.json",
+    "export_sha256": "f2f4a1b145fe4c0dd01505483202f499577a4a7d94f80a97cfbe6b9c294b795f",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/O02/calls/raw/92fa701730cbc6d212f7_a1/metadata.json",
+    "source_sha256": "a217babb578c327c0423bd87da1742d369b47ac8af65eefad1cf0b34df255280",
+    "export": "usage/2404fff54f98c14d7751.json",
+    "export_sha256": "a403bb001496cb8a1d33265d70e899fecdc427dee944aa60429e0ad9845e646b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S01/calls/raw/fefc86f70c01c757b279_a1/metadata.json",
+    "source_sha256": "6156c69b8f068478c1e1adc61dbcf8dd7bce633f22c40e8e693da606ae62f72a",
+    "export": "usage/18e42ff4ba7af39cb309.json",
+    "export_sha256": "48ff63d69ee7e6c2bfe4dfeef0d7688643f598fd742aa0120e5af97153104778",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S01/judge1/raw/S01_J1_a1/metadata.json",
+    "source_sha256": "fec5417f2b88dfca6578b577c1fa0b2a98963ca0b41dd6034a678e47ddb87c45",
+    "export": "usage/9424cc2659cdf36ab612.json",
+    "export_sha256": "e89e72c6930273a5b6a817d604346839a751204a1c07f265f2ebb4be0e6ad5bf",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S01/judge2/raw/S01_J2_a1/metadata.json",
+    "source_sha256": "77cbb9f32dd436d9c481f6d5b40999541d2174d4f0da922f90dc6bd0f09f0068",
+    "export": "usage/3ac9c603fdca80778c28.json",
+    "export_sha256": "0d520e3465bd29aeeabc9de86fae2f03420ef5e7b593d2483de31f46e0764dfe",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S03/calls/raw/b8da4b92b986861a9252_a1/metadata.json",
+    "source_sha256": "b43e604600ec292b0e965de7bb150ac5dfee1691baac3e0698e5472ed988a928",
+    "export": "usage/26c0a622163cd6be7b6e.json",
+    "export_sha256": "a221883db15ba77fa22e6136eb75b5c12d89b7e4ec8ea6173fb0e501682e2fea",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S03/judge1/raw/S03_J1_a1/metadata.json",
+    "source_sha256": "9ee4a6e8493a5332caa65a46bb410b88249c147320dfbc8da3dad82ffb4ce3d3",
+    "export": "usage/ab44a702822baf9fb425.json",
+    "export_sha256": "a6d7d961f96442f7b6aea169ba0a7e60be169fad5d6cdcc3b04859332c44f35b",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S03/judge2/raw/S03_J2_a1/metadata.json",
+    "source_sha256": "94ec7aa2f18349b5746f766df50ca6ebf87767dde44c765d9e16da1590a56da0",
+    "export": "usage/ce73727a90267fc2bdd9.json",
+    "export_sha256": "b80a036d363dcfc91f7299dca46baf132f0df0ed2e74bf28886f6502b2b4d4f4",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S05/calls/raw/99f0a40b60250d84c0a5_a1/metadata.json",
+    "source_sha256": "4d75759c45d106e0713a9663dadcea082170d04e01056d331cadeec800c26039",
+    "export": "usage/0546110589f493f68781.json",
+    "export_sha256": "a092fdcee0bafd30f22d168796d85832d685b9fef9b2ec3fc70524b56db1f81f",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S05/judge1/raw/S05_J1_a1/metadata.json",
+    "source_sha256": "17c152d3c72d10d462a76ecf27170fef2fb2d3c891ecd571df5a8e612920fd2b",
+    "export": "usage/81b7ef2e313ea662e39c.json",
+    "export_sha256": "8172fd970e36dd80c59fc0790905d954d302041fec02118cbabd03a8bc669852",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S05/judge2/raw/S05_J2_a1/metadata.json",
+    "source_sha256": "f795bca68573b07fc5ddd4de6bb0e37be5d6d4b09bea835969f16dc45c913c14",
+    "export": "usage/39675294eb3de39cf788.json",
+    "export_sha256": "deb2d4d1ecd40c44dc9dc7f11998ded7d42852849f71b374260e7dc582d59f80",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S06/calls/raw/b41b4d6d78cc3bd96ab7_a1/metadata.json",
+    "source_sha256": "567942b4ba13423002e5901db95cc34e113c76554ddc7925b609bc51bdbf893e",
+    "export": "usage/0c93853965e044b50850.json",
+    "export_sha256": "7772ec143a45be329ed00da5532d9b742a7831c1a1b8f724a992a49a8c233727",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S06/judge1/raw/S06_J1_a1/metadata.json",
+    "source_sha256": "bbe26c70ebf287252f5db4e7e4096aabddc99703a9731cad7243bbbd23b872d7",
+    "export": "usage/b4b2023f16d6995e72b7.json",
+    "export_sha256": "d6c4b5cd4e08ad0e7e911b3ee734135a91e55bb71af2d6f2dbdb49068a13afef",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate12_eval/runs/S06/judge2/raw/S06_J2_a1/metadata.json",
+    "source_sha256": "ed9bc9362a8f8ca093465480ae0f6c1c50a0abcc66c52b266226ae87cafb08c7",
+    "export": "usage/1f9a71a4a33d761c513a.json",
+    "export_sha256": "948a34f906c750ee61f638ffe486654adc6f0ff5e0ffa2fad656ca05e9b759d8",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate6_eval/runs/C05/calls/raw/fc4aa107fce48ec13a85_a1/metadata.json",
+    "source_sha256": "ee1fa38b10ec36c6f8095e255b20bcbe50b2bb172178c65286ae8fa60b3a5888",
+    "export": "usage/0bca514d9046e687efc6.json",
+    "export_sha256": "fc78a3be77bf4797c2b0395f432289caa8a4d8e36ea2c09f048d51a34391c8c7",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate6_eval/runs/N01/calls/raw/b5c77b7f57752bcba657_a1/metadata.json",
+    "source_sha256": "8567c3be1a893baffb74d78af3bb6cebb1d656ea725bd30355d8d9cd07f73f6b",
+    "export": "usage/0a21ee84f21709659ffd.json",
+    "export_sha256": "1feb3c14a39c8a39a8a3754624eba086165a1d9352ec54d8b73e806a0cb93bb7",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate6_eval/runs/N03/calls/raw/0f7062b8037151e961ec_a1/metadata.json",
+    "source_sha256": "5776ec4ad1f7a5ebf3d42d960b37fc173e0da4ce63c8112d9f54a8a341cc1eb9",
+    "export": "usage/06054ea9463a6e3409c0.json",
+    "export_sha256": "56f004904f34dc5683491bf2c1d30470901e43c53c4e81a010d984eb78f7e6db",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate6_eval/runs/N07/calls/raw/acec30bba6ab51804713_a1/metadata.json",
+    "source_sha256": "f5c185cdbcbdef29a007195e10c409034e425327edc9cf880b7e6fab2826ddf4",
+    "export": "usage/e2523d831d3f70b1518a.json",
+    "export_sha256": "2b943ebb7bd51a4052189d63ff17470e10154e5460eb2eee2e0fca7d6244120a",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate6_eval/runs/N16/calls/raw/90d629d4a6e8d10cd903_a1/metadata.json",
+    "source_sha256": "54722c64e6a5750f63d43c166974c40d49c790f3e48502fdc352a725eee56e30",
+    "export": "usage/25d16fe1d6cc75864e5a.json",
+    "export_sha256": "160dda8b60ac5f70074276cb8bd517a934d4772f4847a746ae6f30f26313f6de",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate6_eval/runs/S05/calls/raw/ec1f73fccfc703509d72_a1/metadata.json",
+    "source_sha256": "18905345710d1a158136893dde83e57650e03941240e7df487e6e5e9d8e87f04",
+    "export": "usage/5c2b50f53b3123776a2e.json",
+    "export_sha256": "172299992dd9ee9abdaa50f5cb80cbea81e98c373a273806700f69812494f852",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/L01/calls/raw/bc6cccfe0311194997df_a1/metadata.json",
+    "source_sha256": "87f77457e5a4b0bac2ee16a4e3e796fcea76279e526754b27d4f534bf85dfcf4",
+    "export": "usage/52ea411eea94e06121ce.json",
+    "export_sha256": "ee09b59e39086aa143adffd64f7414d6b01c7a67e7f7ab3099ea4c0ca36fca5f",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/L05/calls/raw/b5f807ef0b7dc51a746b_a1/metadata.json",
+    "source_sha256": "7daab9778cab75c6abe873960151e71ee20ddaa51eb81a39edfd60f6ac8f7207",
+    "export": "usage/0ce786efe413721572af.json",
+    "export_sha256": "3546f9740dea7ecb7b28118cb70cfc90d12002a6dc733f13f5d8c234c72ffd75",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/N02/calls/raw/c8174b378225394b5e6a_a1/metadata.json",
+    "source_sha256": "c3f777010c4f81764d3a5ff96bc3ea8f2d2f944795b9fe8ce59750b7ac852452",
+    "export": "usage/b8aad68ac8808069c30b.json",
+    "export_sha256": "f489cbc2638b5a0f7c24e10346202a6648e20ca4b75adca37ec1ceaf0ea3f5bd",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/N06/calls/raw/d1e268ecd3ebda48289f_a1/metadata.json",
+    "source_sha256": "f2d6bc46d51758f403a5023bb452491c7208cbc0736b0361823c9944d98403a6",
+    "export": "usage/12b99b7939308b81400d.json",
+    "export_sha256": "e0d6d1d3ae695d977e8e06ab2a948b4651feb3bae5948d9319459ab3f46ef78f",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/N10/calls/raw/f932d9820fa2b9ecdd44_a1/metadata.json",
+    "source_sha256": "7f8a44f419ba35d65f30cca3226188674ef1cc0bd8c8122f8364e95ad4f64baa",
+    "export": "usage/90609ddf92e84debabc0.json",
+    "export_sha256": "6fd8c3e2457dfde759b63d5f3e14e0e4e5f895a6dba1bc38bd0706754db0c092",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/N11/calls/raw/5b782e01b63fc5a408c0_a1/metadata.json",
+    "source_sha256": "5d837d11050d654f6364c2cd77e392fff432a62245d8309166ea53dae349a64a",
+    "export": "usage/161e135b44a31a13abb9.json",
+    "export_sha256": "757ff1196e867c12c9e44cb85af545a297b5c5f3c23cf17a120dc454d786cca5",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/N12/calls/raw/5f7d6504f0713c175667_a1/metadata.json",
+    "source_sha256": "c837db8f1aab76a6b425bd427dff64ff47c7611eec3c0bd322174e7043684376",
+    "export": "usage/746a939c65481a50b104.json",
+    "export_sha256": "127047fa14b689bda62f3e5b768b439f6ad95e59f11cce4c61230201e63163ca",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/S01/calls/raw/e3f71611525ae34f4db2_a1/metadata.json",
+    "source_sha256": "6cd928a33f2e37e5054fd5749af0269cd19b25e74ce1a34f0fb3ce1b4512aa7a",
+    "export": "usage/206c10cbbf5c6bdedb33.json",
+    "export_sha256": "449ab8263be8446c95e08987c92c2dc66f48a492077051f2a8fb87a574c7ab85",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/S03/calls/raw/274983adf63a3c0210fe_a1/metadata.json",
+    "source_sha256": "17af34ea9338d82c7be90d6629b043c495f647009455f804416ce452ab18901d",
+    "export": "usage/f3ad6de14170d84639c8.json",
+    "export_sha256": "7a688aa6eafee63ea0580919307e051749bfe41831bf289abdde3aa3c6df2dda",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/candidate8_eval/runs/S06/calls/raw/97bedc6116c0fc739bbc_a1/metadata.json",
+    "source_sha256": "0e704591cbeeb9a01aeaeeaf084d9d400b79ea92284f59aa2267b04d2f810e0c",
+    "export": "usage/e2b951e00665b399481d.json",
+    "export_sha256": "fe6e6b77308d043b6519780f037d560c0bc9d943c4d66f182fc4013d4aedeaaa",
+    "transformation": "Attempt accounting only; thread, host and transport information omitted. Null usage retained."
+  },
+  {
+    "source": "work/frozen-new-task-comparison-20261031/runs/L01/calls/8d278b2af72ed6366e66.format_error.json",
+    "source_sha256": "d72bf85295a5e64029d53b41602de443ae8880ecf41c10d977e1cbbba77dba19",
+    "export": "errors/borrowed/90449ff88e30eea38003.json",
+    "export_sha256": "d72bf85295a5e64029d53b41602de443ae8880ecf41c10d977e1cbbba77dba19",
+    "transformation": "Saved format error; workspace prefix removed from paths."
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated safeguards. Primary mechanisms are personal learning records (0,7), collective questions (1), acknowledgment of care (2), volunteer modeling (3), decision rehearsal (4), organizational improvement (5), outcome normalization (6), and expectation calibration (8). Candidate 7 best combines direct learning, private participation, explicit publication consent, and observable checks for pressure and delay. Universal delivery improves candidate 0 without creating a new mechanism."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated safeguards. Primary mechanisms are personal learning records (0), collective questions (1), acknowledgment of care (2), volunteer modeling (3), organizational improvement (4), and reconstruction of uncertainty through perspective-taking (5). Candidate 4 makes learning tangible through a verified service change without requiring visitors to reinterpret disappointment. Its comparison keeps the improvement available throughout while testing the celebratory framing, with explicit observation and opt-out checks."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A7 offers stronger personal learning support and protects against singling out unsuccessful repairs, but adds handback work. B4 offers visible organizational learning and a cleaner comparison of its framing, but depends on suitable records and authority for a useful change. Both provide concrete, feasible rituals and inspectable evaluations of learning versus discomfort; neither has a decisive overall quality advantage."
+    }
+  },
+  "format_retry_of": null
+}

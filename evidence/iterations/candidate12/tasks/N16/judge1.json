@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control and visual privacy, use available resources, and include private one-month retrieval and misfiling checks. The distinct primary mechanisms are fixed storage, indexed locations, checkout signals, keeping sheets with a portable folder, and receipt/transport reconciliation. Candidate 0 offers the strongest general fit: simple, feasible storage with little maintenance and directly inspectable results. Other approaches depend more on particular loss patterns or additional routines."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Candidates 6 and 7 repair their source mechanisms rather than introduce new ones. The remaining mechanisms are checkout signals, portable-folder handling, periodic recovery sweeps, receipt reconciliation, and stationary consultation. Candidate 6 retains the low-burden fixed storage system while adding a bounded, owner-only response to missing instructions and a safe rehearsal. Its assessment distinguishes ordinary retrieval performance from unproven recovery benefits."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 by specifying what to do when storage fails, including obtaining replacement instructions without reconstructing advice. It preserves everyday simplicity, privacy and owner control, while adding an inspectable recovery procedure and acknowledging the limits of a month without losses."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,642 @@
+{
+  "task_count": 9,
+  "totals": {
+    "DIRECT_FULL": {
+      "stage_slots": 27,
+      "unique_requests": 26,
+      "known_input_tokens": 316024,
+      "known_output_tokens": 23424,
+      "unknown_usage_requests": 0
+    },
+    "EXPAND": {
+      "stage_slots": 27,
+      "unique_requests": 27,
+      "known_input_tokens": 334019,
+      "known_output_tokens": 34628,
+      "unknown_usage_requests": 0
+    }
+  },
+  "generation_token_change_percent": 8.601906624873322,
+  "valid_output_totals": {
+    "DIRECT_FULL": {
+      "unique_requests": 26,
+      "known_input_tokens": 316024,
+      "known_output_tokens": 23424,
+      "unknown_usage_requests": 0
+    },
+    "EXPAND": {
+      "unique_requests": 27,
+      "known_input_tokens": 334019,
+      "known_output_tokens": 34628,
+      "unknown_usage_requests": 0
+    }
+  },
+  "valid_output_token_change_percent": 8.601906624873322,
+  "tasks": {
+    "C05": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37191,
+        "known_output_tokens": 3037,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\fd9fc373fd1be13c3ec9.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\raw\\fd9fc373fd1be13c3ec9_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10893,
+            "output_tokens": 1377
+          },
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\f2462bb91ad626458980.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\raw\\f2462bb91ad626458980_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12221,
+            "output_tokens": 1058
+          },
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\62b9af3e10508130c68a.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\raw\\62b9af3e10508130c68a_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14077,
+            "output_tokens": 602
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37272,
+        "known_output_tokens": 4341,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\fd9fc373fd1be13c3ec9.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\C05\\calls\\raw\\fd9fc373fd1be13c3ec9_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10893,
+            "output_tokens": 1377
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\C05\\calls\\fc4aa107fce48ec13a85.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\C05\\calls\\raw\\fc4aa107fce48ec13a85_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12695,
+            "output_tokens": 1955
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\C05\\calls\\46ef4469967a8f9c0ec1.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\C05\\calls\\raw\\46ef4469967a8f9c0ec1_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13684,
+            "output_tokens": 1009
+          }
+        ]
+      }
+    },
+    "N01": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 2,
+        "known_input_tokens": 23686,
+        "known_output_tokens": 1176,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\b6826246ee002ba19b67.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\b6826246ee002ba19b67_a3\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10974,
+            "output_tokens": 960
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\1113c648cc4420d311c7.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\1113c648cc4420d311c7_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12712,
+            "output_tokens": 216
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35987,
+        "known_output_tokens": 3418,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\b6826246ee002ba19b67.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\b6826246ee002ba19b67_a3\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10974,
+            "output_tokens": 960
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N01\\calls\\b5c77b7f57752bcba657.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N01\\calls\\raw\\b5c77b7f57752bcba657_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12237,
+            "output_tokens": 1272
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N01\\calls\\d7a25d68c379e7ee6452.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N01\\calls\\raw\\d7a25d68c379e7ee6452_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12776,
+            "output_tokens": 1186
+          }
+        ]
+      }
+    },
+    "N02": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36661,
+        "known_output_tokens": 2513,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\1ec79b1797537c34cd0e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\1ec79b1797537c34cd0e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1371
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\17065bfb2dfff2961ed9.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\17065bfb2dfff2961ed9_a3\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13070,
+            "output_tokens": 581
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\bfe89d27a7412d3c18bb.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\bfe89d27a7412d3c18bb_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12661,
+            "output_tokens": 561
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36987,
+        "known_output_tokens": 4145,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\1ec79b1797537c34cd0e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\1ec79b1797537c34cd0e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1371
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate8_eval\\runs\\N02\\calls\\c8174b378225394b5e6a.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate8_eval\\runs\\N02\\calls\\raw\\c8174b378225394b5e6a_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12632,
+            "output_tokens": 1873
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N02\\calls\\f8ecd8800fcff7e9112b.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N02\\calls\\raw\\f8ecd8800fcff7e9112b_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13425,
+            "output_tokens": 901
+          }
+        ]
+      }
+    },
+    "N03": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36113,
+        "known_output_tokens": 2779,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\b11a1f23b917effc0c3c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\b11a1f23b917effc0c3c_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1537
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\105cee57d62a7f3f8244.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\105cee57d62a7f3f8244_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12369,
+            "output_tokens": 584
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\1f5a44a8fe199fbf8964.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\1f5a44a8fe199fbf8964_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12814,
+            "output_tokens": 658
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 38377,
+        "known_output_tokens": 4774,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\b11a1f23b917effc0c3c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\b11a1f23b917effc0c3c_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1537
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N03\\calls\\0f7062b8037151e961ec.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N03\\calls\\raw\\0f7062b8037151e961ec_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13635,
+            "output_tokens": 2218
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N03\\calls\\9f4e832c5635f9b6e484.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N03\\calls\\raw\\9f4e832c5635f9b6e484_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13812,
+            "output_tokens": 1019
+          }
+        ]
+      }
+    },
+    "N07": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37241,
+        "known_output_tokens": 2808,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\feeb50aa3099b69348e4.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\feeb50aa3099b69348e4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11774,
+            "output_tokens": 1185
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\ade8229446ed0ce7df3e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\ade8229446ed0ce7df3e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11875,
+            "output_tokens": 1021
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\538e446d317be90069bf.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\538e446d317be90069bf_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13592,
+            "output_tokens": 602
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37531,
+        "known_output_tokens": 3040,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\feeb50aa3099b69348e4.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\feeb50aa3099b69348e4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11774,
+            "output_tokens": 1185
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N07\\calls\\acec30bba6ab51804713.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N07\\calls\\raw\\acec30bba6ab51804713_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12252,
+            "output_tokens": 1004
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N07\\calls\\fce07547bd8bef6f92f2.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N07\\calls\\raw\\fce07547bd8bef6f92f2_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13505,
+            "output_tokens": 851
+          }
+        ]
+      }
+    },
+    "N15": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36008,
+        "known_output_tokens": 2133,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\9717c2bc8bae3db87264.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\9717c2bc8bae3db87264_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11764,
+            "output_tokens": 962
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\986690911790cc1764a1.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\986690911790cc1764a1_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11894,
+            "output_tokens": 575
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\450ad2b9ebf79ef00820.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\450ad2b9ebf79ef00820_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12350,
+            "output_tokens": 596
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36708,
+        "known_output_tokens": 2956,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\9717c2bc8bae3db87264.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\9717c2bc8bae3db87264_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11764,
+            "output_tokens": 962
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N15\\calls\\f291b3bdd1ca93af3905.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N15\\calls\\raw\\f291b3bdd1ca93af3905_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12308,
+            "output_tokens": 1239
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N15\\calls\\7ceb59933cd1c5f53e93.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N15\\calls\\raw\\7ceb59933cd1c5f53e93_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12636,
+            "output_tokens": 755
+          }
+        ]
+      }
+    },
+    "N16": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35190,
+        "known_output_tokens": 2317,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\a47d2b1caa5c1fdcc771.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\a47d2b1caa5c1fdcc771_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 1102
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\c6e1cacfadaf19fd0e12.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\c6e1cacfadaf19fd0e12_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11930,
+            "output_tokens": 617
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\cd0e9b59eb4a8c1c442d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\cd0e9b59eb4a8c1c442d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12335,
+            "output_tokens": 598
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36203,
+        "known_output_tokens": 3335,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\a47d2b1caa5c1fdcc771.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\a47d2b1caa5c1fdcc771_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 1102
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N16\\calls\\90d629d4a6e8d10cd903.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\N16\\calls\\raw\\90d629d4a6e8d10cd903_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12344,
+            "output_tokens": 1522
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N16\\calls\\1cd5718bed6a7ed2097f.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\N16\\calls\\raw\\1cd5718bed6a7ed2097f_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12934,
+            "output_tokens": 711
+          }
+        ]
+      }
+    },
+    "S03": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37610,
+        "known_output_tokens": 3783,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\9ff8681ffeb50ac483c7.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\raw\\9ff8681ffeb50ac483c7_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10889,
+            "output_tokens": 1794
+          },
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\a85d1b99bb2381877cbb.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\raw\\a85d1b99bb2381877cbb_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13448,
+            "output_tokens": 976
+          },
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\b40674416a848c494b63.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\raw\\b40674416a848c494b63_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13273,
+            "output_tokens": 1013
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 38425,
+        "known_output_tokens": 5200,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\9ff8681ffeb50ac483c7.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S03\\calls\\raw\\9ff8681ffeb50ac483c7_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10889,
+            "output_tokens": 1794
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate8_eval\\runs\\S03\\calls\\274983adf63a3c0210fe.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate8_eval\\runs\\S03\\calls\\raw\\274983adf63a3c0210fe_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13070,
+            "output_tokens": 2074
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\S03\\calls\\a6b08b65d7640addecad.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\S03\\calls\\raw\\a6b08b65d7640addecad_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14466,
+            "output_tokens": 1332
+          }
+        ]
+      }
+    },
+    "S05": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36324,
+        "known_output_tokens": 2878,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\18554381079f8e2cdc50.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\raw\\18554381079f8e2cdc50_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10890,
+            "output_tokens": 1012
+          },
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\358090ed61fbffafc2ff.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\raw\\358090ed61fbffafc2ff_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12653,
+            "output_tokens": 1166
+          },
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\dffbd59e28bafdcccb5f.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\raw\\dffbd59e28bafdcccb5f_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12781,
+            "output_tokens": 700
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36529,
+        "known_output_tokens": 3419,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\18554381079f8e2cdc50.json",
+            "metadata": "work\\frozen-new-task-comparison-20261031\\runs\\S05\\calls\\raw\\18554381079f8e2cdc50_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10890,
+            "output_tokens": 1012
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\S05\\calls\\ec1f73fccfc703509d72.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate6_eval\\runs\\S05\\calls\\raw\\ec1f73fccfc703509d72_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12238,
+            "output_tokens": 1241
+          },
+          {
+            "output": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\S05\\calls\\76898dd182bba47692af.json",
+            "metadata": "work\\six-hour-improvement-20261103\\candidate10_eval\\runs\\S05\\calls\\raw\\76898dd182bba47692af_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13401,
+            "output_tokens": 1166
+          }
+        ]
+      }
+    }
+  },
+  "scope": "totals counts completed transport requests listed in each manifest, including historical invalid-format generations and their replacements; valid_output_totals counts only validated saved outputs. Reused origins are included. Duplicate exact requests within one task/arm count once. Excludes judging, failed transport attempts, provider-internal retries and real CLI trial. Token accounting, not money or total research expenditure."
+}

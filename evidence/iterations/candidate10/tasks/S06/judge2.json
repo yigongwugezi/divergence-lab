@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and preserve voluntary access, information-only service and referral boundaries. Candidates 0, 3 and 6 share the anonymous-turn/private-orientation mechanism; audibility conditions and missed-turn recovery refine that flow. Other mechanisms are optional self-service, shared welcome rounds, referral rehearsal and volunteer boundary calibration. Candidate 6 offers the strongest complete flow, with accessible turn announcements, recovery, closing arrangements, privacy responses and inspectable operational checks."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Their primary mechanisms are anonymous queued orientation, optional self-service, shared welcome rounds, minimizing personal information and spatial separation. Candidate 3 most directly prevents disclosure through case-free requests and respectful redirection, while maintaining assistance and qualified referral. Its evaluation checks navigation, waiting confusion, privacy concerns and whether boundaries obstruct useful help."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A6 provides stronger queue recovery and end-of-session handling; B3 provides stronger prevention of unnecessary personal disclosure and less dependence on acoustic privacy. Both are feasible with two volunteers and printed materials, respect legal-advice boundaries, acknowledge referral limitations and inspect all three required outcomes. Neither has a decisive overall advantage in written task quality."
+    }
+  },
+  "format_retry_of": null
+}

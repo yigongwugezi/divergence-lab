@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates offer bounded workflows compatible with static files, source and review-date requirements, and tracking of stale answers, conflicts and failed lookups. Conditional dependencies and maintenance risks are acknowledged rather than established violations. Candidate 7 best combines reduced duplicate editing with explicit handling of interrupted updates, unsupported guidance and unresolved conflicts. Its pilot makes publication state, recovery effort and reader success inspectable. Candidates 7 and 8 refine canonicalization and dependency tracking respectively; they are not new primary mechanisms."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five candidates are usable and represent distinct primary mechanisms. Candidate 0 most directly reduces recurring editorial work by consolidating substantive answers, while retaining public sources and review dates, a maintenance register and reader-failure intake. Its update rehearsal and reader checks test both maintenance savings and discoverability. The alternatives depend more heavily on mapping completeness, renewal workload or suitability of policy wording and branches."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 through a concrete procedure for retiring known conflicting copies and resuming interrupted updates. This addresses a practical risk for a single time-limited editor while preserving canonicalization's maintenance savings. Its extra coordination is bounded and explicitly tested; the advantage is operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

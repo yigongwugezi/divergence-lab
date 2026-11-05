@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource, anonymity and tracking constraints. Distinct mechanisms are recurring supply commitments, timed releases, voluntary category shares, staggered donation arrivals and weekly demand-responsive replenishment. Candidate 0 best supports predictable replenishment with modest coordination, clear allocation guidance and inspectable records. Its supply assumptions and limits are explicit."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable under their stated conditions. Candidates 6 and 7 repair recurring commitments and staggered arrivals respectively, rather than introduce new mechanisms. Other mechanisms are timed releases, voluntary category shares, shelf-congestion management, shortage-triggered donor substitution and usability-directed substitution. Candidate 6 offers the strongest overall routine: predictable staple commitments, universal allocation guidance, bounded recovery from missed deliveries and explicit tracking of unresolved shortages."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves A0's practical reliability by specifying ownership, explicit donor acceptance, a bounded missed-delivery response and removal of repeatedly unreliable commitments from expected supply. These operational improvements address predictable replenishment while retaining the constraints and making added work and actual recovery deliveries inspectable."
+    }
+  },
+  "format_retry_of": null
+}

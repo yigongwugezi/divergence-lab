@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both satisfy the constraints and avoid diagnosing from one reading. Candidate 0 primarily uses repeated matched comparisons; candidate 1 uses a warranted mounting correction as a causal intervention. Candidate 1 is strongest for a basic handheld meter, with a concrete repair decision, comparator checks and explicit limits on conclusions."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable, with conditional methods appropriately gated by equipment, access and ventilation prerequisites. Primary mechanisms are matched comparisons, mounting intervention, stationary-source isolation, airflow perturbation and passive rundown observation. Candidate 4 improves the mounting intervention through explicit repair-entry criteria and a restoration deadline; these refine candidate 1 rather than create a new mechanism. It offers the strongest feasible and inspectable repair sequence within the single shutdown."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 narrowly improves on A1 by explicitly reserving restoration time and making immediate repair conditional on compatibility, tools and remaining time. This strengthens compliance with the 30-minute window while preserving repeated comparisons, cautious fault differentiation and safe escalation."
+    }
+  },
+  "format_retry_of": null
+}

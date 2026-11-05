@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates support static-file maintenance within a two-hour weekly budget, require named sources and review dates, and track stale guidance, conflicts and failed searches. The primary mechanisms are canonicalization, dependency mapping, renewal, source excerpts, navigation, grouped publication and decision tables. Candidate 6 strengthens candidate 0's canonicalization mechanism rather than introducing another mechanism. It is best because it reduces duplicate edits while explicitly handling source authority, incomplete conversions, broken links and unavailable feedback channels through a bounded, inspectable pilot."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and address the hard constraints. Their distinct primary mechanisms are canonicalization, dependency mapping, renewal, source excerpts and decision tables. Candidate 0 offers the strongest general maintenance benefit: one substantive edit per changed answer, supported by source metadata, a review register, conflict tracking and reader feedback. Its pilot directly checks editing effort, missed contradictions and successful retrieval. Its reliance on an existing monitored inbox is an explicit feasibility assumption rather than a definite constraint violation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves on B0's shared canonicalization mechanism with an explicit rule for conflicting source authority, a smaller initial conversion scope and a feedback fallback. These provisions make implementation and failure handling more reliable under the editor's limited time. Its comparative pilot also checks interruption recovery and time without useful guidance. The advantage comes from operational safeguards, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

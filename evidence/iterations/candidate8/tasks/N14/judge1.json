@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source separation, dates and exceptions, disclaim authority, provide update rules, and test unfamiliar-item sorting and appropriate questions. Their primary mechanisms are terminology comparison, procedural branching, contrast-based learning, teach-back feedback, and shortcut correction. Candidate 0 most directly addresses differing terminology with a feasible, inspectable comparison and explicit conflict handling."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 5 and 6 repair the crosswalk and decision-path mechanisms rather than introduce new ones. The other mechanisms are contrast-based learning, teach-back feedback, act-versus-ask calibration, and reversible retention pending clarification. Candidate 7 is conditional on safe, practical retention and carries additional household burden. Candidate 5 best combines direct terminology comparison with an explicit coverage gate, readable scope limits, source preservation, an executable fallback, and observable failure criteria."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 by making protection against omitted conditions operational: check coverage before printing, explicitly exclude entries that cannot fit accurately, and narrow the page when necessary. This strengthens correctness and feasibility under the one-page constraint while retaining A0's direct comparison mechanism and meaningful unfamiliar-item testing. The advantage is the concrete repair, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,16 @@
+{
+  "role": "N06_J2_a1",
+  "status": "complete",
+  "exit_code": 0,
+  "seconds": 29.273250300000655,
+  "usage": {
+    "input_tokens": 16011,
+    "cached_input_tokens": 8320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 548,
+    "reasoning_output_tokens": 193
+  },
+  "total_tokens": 16559,
+  "cash_cost": null,
+  "provider_request_count": null
+}

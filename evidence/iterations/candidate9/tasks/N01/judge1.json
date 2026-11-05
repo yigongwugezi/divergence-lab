@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 best integrates timestamp correction, cleaning comparisons, physical confirmation, and post-repair checks that withdraw unsupported attribution. Candidate 1 uses a distinct physical source-tracing mechanism and is also feasible. Both appropriately acknowledge that morning observations and daily totals cannot prove overnight duration."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the strongest broadly applicable workflow with explicit confirmation and attribution rollback. Candidates 4 and 5 refine the existing consumption-screening and physical-tracing mechanisms. Candidates 2, 3, and 6 respectively introduce conditional common-branch isolation, nested-meter reconciliation, and direct meter-movement observation. Their prerequisites and uncertainty limits keep them usable, although isolation has limited baseline evidence, reconciliation requires existing matched readings, and meter movement cannot distinguish resident demand by itself."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is identical: a feasible paper-based screening and response workflow that addresses delayed entries, cleaning, privacy, confirmation, and rollback while clearly limiting claims about overnight timing."
+    }
+  },
+  "format_retry_of": null
+}

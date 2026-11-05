@@ -1,0 +1,76 @@
+{
+  "pools": {
+    "A": {
+      "best": 0,
+      "usable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "serious_violations": [],
+      "reason": "All five are conditionally usable and explicitly protect emergency access and mobility inclusion while measuring waits, disputes and workload across two events. Candidate 0 offers the simplest feasible default for two attendants, visible arrival-order fairness and inspectable safeguards. Its limitation is uncontrolled visit duration. Cohorts, call-forward registration, first-turn allocation and randomized batch order are distinct primary mechanisms, each with additional operational demands."
+    },
+    "B": {
+      "best": 6,
+      "usable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "groups": [
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "serious_violations": [],
+      "reason": "All are conditionally usable; candidate 5 explicitly requires credible turnover information before use, which the task does not establish. Candidate 6 best refines the simple accessible first-come arrangement by defining safe admission units and prohibiting improvised splitting or bypassing. Its comparison measures both benefits and costs, including unused capacity, workload and unresolved waits. Candidates 0 and 6 share one primary mechanism; safe-unit clarification is a repair. Candidate 7 separately targets turnover through voluntary completion prompts, while candidate 1 uses compulsory cohort turnover."
+    }
+  },
+  "pair": {
+    "winner": "B",
+    "reason": "B's best proposal modestly improves on A's best by resolving child-caregiver grouping and partial-capacity decisions explicitly, preserving arrival order and making the resulting capacity and workload costs inspectable. Both remain dependent on an accessible site route and established occupancy limit; neither guarantees short waits."
+  }
+}

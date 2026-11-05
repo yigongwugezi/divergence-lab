@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly tests six continuous weeks at each window with randomized matched pairs, fixed care, and predefined measurement and missingness rules. Candidate 1 is usable but tests weekly exposure effects and is more vulnerable to delayed responses and carryover."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the same fixed-window matched-pair mechanism; candidate 2 adds operational measurement, watering-resource, and distress rules. Candidate 1 uses a distinct crossover mechanism but depends on uncertain response timing and carryover assumptions. Candidate 2 narrowly offers the most executable protocol."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best proposal retains the direct six-week randomized comparison while making repeated measurements, discrepancy handling, watering delivery limitations, and plant withdrawal more explicit. These provide a modest practical advantage over A's best without changing the primary mechanism."
+    }
+  },
+  "format_retry_of": null
+}

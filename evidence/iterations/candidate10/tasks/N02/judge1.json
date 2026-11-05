@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five preserve original identity, use existing resources, provide reversible procedures and measure the required outcomes over two weeks. Their primary mechanisms are independent source verification, stable physical positions, single-sample labeling, fewer custody changes and batch identifier reconciliation. Candidate 0 best directly addresses handoffs with feasible checks, documented exception handling and an inspectable comparison."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight satisfy the hard constraints, with conditional prerequisites stated rather than assumed. Their primary mechanisms are source verification, stable physical positions, single-sample labeling, stable spreadsheet identity, explicit unfinished-transfer recovery, printed-label inventory control, fewer custody changes and physical label durability. Candidate 4 adds a substantive interruption-recovery mechanism through retained custody and mandatory restart. Candidate 0 offers the strongest direct, feasible and inspectable response without depending on an unconfirmed specialized failure mode."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical source-checked handoff proposal. Its constraint correctness, feasibility, likely effect and inspectability are therefore equal; additional alternatives do not improve the selected proposal's written quality."
+    }
+  },
+  "format_retry_of": null
+}

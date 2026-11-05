@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly contrasts measured route distance with time under explicit speed and delay assumptions, supports conditional route choices, and checks all twelve learners on scale, route choice and uncertainty. All candidates are usable; candidate 5 depends on its stated indoor-space and clock prerequisites. Compressed timing and backward arithmetic add demands in candidates 1 and 2. The individual-check schedules are tight."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 7 retains the direct route-comparison mechanism while adding checked measurements, bounded recovery and a fallback for maps with only one usable path. It preserves conditional safety and accessibility claims and an inspectable individual check of all three outcomes. Candidates 7 and 8 are procedural repairs of 0 and 3, respectively, rather than new mechanisms. The other groups use distinct primary mechanisms: timed simulation, backward planning, error repair, evidence-based planning decisions, reconstruction of required inputs, and learner-generated counterexamples. All are usable, though their one-minute checks require concise prompts."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A0 by preventing measurement disagreements from silently determining route choices and specifying a bounded recovery procedure. Its preparation and fallback make delivery more robust without changing the core teaching mechanism or dropping required individual assessment. This advantage is in feasibility and inspectability, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

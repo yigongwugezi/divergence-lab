@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, require documentary resolution, use existing resources and measure the required outcomes over two weeks. Candidates 0 and 6 share source-checked acceptance as their primary mechanism; pending custody is an operational repair. Other mechanisms are fixed placement, serialized labeling, protected spreadsheet identity, surplus-label control, reduced custody changes and label-damage prevention. Candidate 0 best balances direct relevance to handoffs, feasibility and inspectability, with explicit mismatch containment and comparable audits. The alternatives depend more heavily on unconfirmed error sources or workflow prerequisites."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and provide reversible procedures with two-week measurement. Their distinct primary mechanisms are source-checked acceptance, fixed placement, serialized labeling, reduced custody changes and batch identifier reconciliation. Candidate 0 offers the strongest direct handoff intervention with modest setup, preserved evidence and an inspectable comparison. The alternatives have explicit but more restrictive prerequisites or narrower error coverage."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical source-checked handoff procedure and experiment, so their written task quality is equal."
+    }
+  },
+  "format_retry_of": null
+}

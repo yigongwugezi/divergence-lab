@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer distinct, usable mechanisms within static files and a two-hour weekly budget, require named sources and review dates, and track all three required failure types. Candidate 0 offers the strongest balance: consolidating duplicate answers directly reduces recurring editing effort, while its register and reader checks make remaining conflicts and discovery failures inspectable. Its rollout and inbox assumptions are explicit."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and address the publication and tracking constraints without requiring a new content system. Candidates 1 and 6 share the dependency-register mechanism; 6 improves coverage accounting and fallback procedures rather than introducing a new mechanism. Candidate 0 remains the strongest overall choice because eliminating repeated policy wording directly reduces maintenance work, with a bounded rollout and concrete checks. The other mechanisms offer useful but more conditional benefits or additional upkeep."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical canonical-answer workflow, so their best written task quality is equal. Pool B's additional alternatives and refinements do not improve that selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

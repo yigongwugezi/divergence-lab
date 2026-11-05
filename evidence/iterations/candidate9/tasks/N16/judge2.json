@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, avoid changing medical advice, use available materials, and include private month-end retrieval and misfiling checks. Groups represent fixed-home storage, locator indexing, checkout tracking, whole-folder handling, recovery sweeps, receipt reconciliation, and disposal interception. Candidates 6 and 7 repair existing mechanisms rather than introduce new ones. Candidate 0 best balances simplicity, likely benefit, privacy and an inspectable baseline-to-month comparison; the alternatives add maintenance or target loss causes not established by the task."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and provide private retrieval and misfiling checks after one month. Their primary mechanisms are fixed-home storage, locator indexing, checkout tracking, whole-folder handling, and collection/transport reconciliation. Candidate 0 offers the strongest general-purpose balance of feasibility, likely effect and inspectability with little ongoing administration. Candidate 4 appropriately acknowledges that its mechanism remains untested if no new sheets arrive."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0, so their written task quality is equal. It provides practical owner-controlled storage, neutral labels, concealed contents and a private one-month evaluation, while explicitly stating the limits of envelope privacy."
+    }
+  },
+  "format_retry_of": null
+}

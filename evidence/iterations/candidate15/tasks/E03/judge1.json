@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are safe, feasible and inspectable. Candidate 0 best covers the diagnostic task through repeated matched comparisons, prioritized isolated inspection and evidence-based repair decisions. Candidate 1 uses a distinct primary mechanism: a warranted mounting correction as a controlled intervention."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 strengthens matched comparisons with targeted observation of intermittent episodes and an explicit unresolved-fault decision, while preserving safe isolation and restoration time. Candidate 5 refines the mounting-intervention mechanism with a structural-integrity gate. Candidates 2 and 3 respectively use stopped-source isolation and reversible airflow-loading changes; both are usable subject to their stated prerequisites."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 by explicitly preventing false clearance when the intermittent episode is not captured, targeting log-linked operating periods and defining a practical unresolved-fault handoff. These improve task correctness and inspectability without requiring additional equipment or shutdowns."
+    }
+  },
+  "format_retry_of": null
+}

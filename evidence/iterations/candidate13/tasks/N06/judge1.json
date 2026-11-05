@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer concrete mechanisms with plausible sub-40-second execution and clear-aisle arrangements, subject to stated room and lamp prerequisites. Their primary mechanisms are light transfer, social geometry, repeated action, visual interruption and projected shadow architecture. Candidate 3 best balances feasibility, low performer load and inspectability: performers remain still during darkness, move under restored visibility, and evaluate comprehension, effort and reliable execution across both rehearsals."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight are usable subject to their stated prerequisites. Candidates 0 and 6 share light transfer as their primary mechanism; arrival acceptance and recovery refine that mechanism. The others use social geometry, repetition, visual interruption, continuous action, shared environmental response and an empty focal space. Candidate 3's short movement under remaining light is conditional on verified safe visibility, so it is not a definite serious violation. Candidate 6 offers the strongest explicit cue ownership, arrival condition, bounded fallback and two-rehearsal evaluation, though it adds coordination."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A3 offers a simple, broadly reusable scene boundary with low movement risk and explicit evaluation at both rehearsals. B6 offers stronger destination guidance and inspectable recovery procedures, but requires two distinct light areas and more rehearsal. Neither clearly dominates in written task quality given the unspecified room, lamps and script; both provide concrete, testable mechanisms without claiming results."
+    }
+  },
+  "format_retry_of": null
+}

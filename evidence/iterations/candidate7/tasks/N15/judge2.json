@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 best balances low effort, flexible booking, privacy, emergency access and a two-week comparison of all required outcomes. Candidate 5 repairs the same reservation mechanism. Other mechanisms are rotating priority periods, ride-count priority, flexible-window scheduling, bounded checkout queues and departure clearance. All are usable, although several explicitly depend on household scheduling patterns; clearance is particularly burdensome when adults are unreachable."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the strongest general-purpose routine with minimal coordination and all required safeguards and measurements. The other distinct mechanisms are rotating priority periods, ride-count priority, flexible-window scheduling and a bounded-loan queue. Each is usable but introduces assumptions or effort that may outweigh its benefits."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a practical, destination-private reservation routine, emergency overrides and a preliminary two-week comparison of missed trips, idle time and coordination effort."
+    }
+  },
+  "format_retry_of": null
+}

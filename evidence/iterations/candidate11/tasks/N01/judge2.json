@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the constraints, with conditional routes explicitly stopping when required existing infrastructure or authority is unavailable. Mechanisms are corrected aggregate consumption, physical source tracing, common-branch isolation, nested-meter reconciliation, and refill-device challenge. Candidate 4 improves candidate 1's existing mechanism through an executable maintenance handoff, explicit ownership, and supply-preserving disposition. It combines inspectable confirmation with delayed-entry and cleaning checks, repair verification, and withdrawal of unsupported consumption attribution. Its inability to establish overnight duration or exclude concealed leaks is clearly stated."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both candidates are usable and employ distinct primary mechanisms: corrected aggregate consumption and physical source tracing. Candidate 1 provides more directly inspectable leak evidence despite variable resident consumption, distinguishes cleaning and other moisture sources, and includes confirmation and post-repair checks. Corrected meter intervals support attribution without disclosing unit consumption. Overnight duration and concealed leaks remain explicitly unresolved."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "Candidate A4 modestly improves B1 by specifying an accepted maintenance disposition, responsibility when handoff fails, and unresolved follow-up after five mornings. These make the response workflow more executable under the prohibition on interrupting occupied-apartment supply. The advantage is operational completeness, not length or a new detection mechanism."
+    }
+  },
+  "format_retry_of": null
+}

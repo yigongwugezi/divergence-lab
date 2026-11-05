@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and authority limits, preserve source differences, dates and exceptions, and test unfamiliar sorting and appropriate asking. Groups distinguish terminology comparison, procedural routing, contrast learning, item lookup, corrective teach-back and question formulation. Candidates 6 and 7 refine existing mechanisms. Candidate 6 best combines direct comparison with explicit limits on category matches, readable coverage, source checking and a test for unsupported transfer; affected guidance is unavailable until updates are checked."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, corrective teach-back and preventive correction of misleading shortcuts. Candidate 0 offers the clearest direct comparison of the two vocabularies, preserves consequential differences beside each term, and provides an inspectable update rule and unfamiliar-item test with unresolved cases."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 strengthens B0's practical comparison mechanism by restricting each match to supported item conditions and withholding affected guidance until changes are checked. Its test directly examines whether these limits reduce confident unsupported sorting while retaining usability on clear cases. These are substantive constraint and reliability improvements, despite added space demands."
+    }
+  },
+  "format_retry_of": null
+}

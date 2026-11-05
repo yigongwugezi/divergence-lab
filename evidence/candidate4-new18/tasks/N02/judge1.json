@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, use existing resources, provide reversible procedures and measure the required outcomes over two weeks. Their primary mechanisms are source verification, stable physical positions, single-sample labeling, reduced custody changes and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with independently checked acceptance and clear, inspectable exception handling."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with applicability prerequisites explicitly acknowledged and no definite serious hard-constraint violations. Candidates 0 and 6 share source-checked acceptance; pending custody is an operational repair, not a new primary mechanism. The remaining mechanisms are stable positions, single-sample labeling, spreadsheet identity protection, surplus-label control, reduced custody changes and prevention of label deterioration. Candidate 6 combines direct source verification with explicit responsibility before acceptance, a simultaneous-check fallback and inspectable stopping rules."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 by specifying custody when the receiver is unavailable and preventing processing before acceptance. It measures both active handoff work and waiting time, and provides a fallback if pending transfers threaten deadlines. These operational details improve feasibility and inspectability while preserving traceability; effectiveness remains uncertain until tested."
+    }
+  },
+  "format_retry_of": null
+}

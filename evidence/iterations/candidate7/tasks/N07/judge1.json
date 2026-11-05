@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable subject to their stated prerequisites and daily caps. Their primary mechanisms are checked expiration, paper reminders and collection planning, explicit cancellation of unwanted holds, faster retrieval, and authorized proxy collection. Candidate 2 offers a direct way to recover scarce shelf space with explicit consent, item and status checks, private records, phone-free service, and separate tracking of cancellations, pickups and release errors. Its reach is limited to visiting patrons."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable subject to their stated prerequisites and daily caps. Candidates 0 and 4 share checked expiration as their primary mechanism; the timing gate in 4 is a safeguard, not a separate mechanism. The other mechanisms are paper reminders and planning, explicit cancellation, correction of retrieval failures, and proactive pickup offers during existing visits. Candidate 5 directly targets actual pickups, checks system feasibility, preserves deadlines after refusal, protects privacy, and budgets measurement and counter work with clear stopping conditions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 provides the stronger written workflow: it turns an authenticated visit into an immediate pickup opportunity, specifies a feasibility check and practical service limits, and measures completed pickups while acknowledging that some may merely occur earlier. A2 is also practical and inspectable, but its benefit depends on finding unwanted holds and primarily produces cancellations rather than successful pickups."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,67 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide safe, conditional plans with calibration and repeated observations. Candidates 0 and 3 share the same primary mechanism; 3 improves execution rather than introducing a mechanism. The other mechanisms are runoff gradients, vertical redistribution and probe-handling sensitivity. Candidate 1 best combines matched-time sampling, dry spatial baselines, post-rain recovery checks and independent-event replication. Its spatial interpretation explicitly depends on accessible points having different runoff exposure."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Their primary mechanisms are matched-time wet–dry comparison, runoff gradients, temperature-dependent solubility and vertical redistribution. Equipment-dependent alternatives explicitly acknowledge when they cannot discriminate their mechanisms. Candidate 1 offers the strongest directly inspectable runoff comparison while checking timing, calibration, sampling order and repeatability within the available weekends."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposals are identical. They safely distinguish a localized runoff association from timing and meter artifacts through spatial baselines, matched-hour recovery observations and repeated rain events, while acknowledging weather and access limitations."
+    }
+  },
+  "format_retry_of": null
+}

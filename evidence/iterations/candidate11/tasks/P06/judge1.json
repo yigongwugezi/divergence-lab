@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints and check availability, condition, cleanup and seated access. Distinct mechanisms are centralized return processing, reader reshelving through visible destinations, an on-site reserve, optional shared tidying, and portable return reminders. Candidate 1 best supports immediate availability and routine self-maintenance with modest volunteer effort; its pilot checks whether sorting and missed damage offset those benefits."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 0 and 5 share centralized return processing; 5 adds a capacity repair rather than a new primary mechanism. Other mechanisms are visible reshelving destinations, an on-site reserve, shared tidying, reader condition screening, and departure-stage borrowing decisions. Candidate 5 offers the strongest operational plan: it checks capacity, preserves access and availability during overflow, and specifies when to abandon mandatory box returns within the volunteer budget."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 narrowly beats A1 through explicit handling of full boxes, interrupted processing and repeated workload overruns, with inspectable fallback triggers. A1 offers a strong self-maintaining ritual, but its response to sorting or inspection workload exceeding the available visits is less concrete. Neither proposal establishes effectiveness before the pilot."
+    }
+  },
+  "format_retry_of": null
+}

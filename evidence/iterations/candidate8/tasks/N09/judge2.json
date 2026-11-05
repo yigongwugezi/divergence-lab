@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide immediate protection, bounded obligations, paper-based handoffs and three-week measurement. Candidate 4 improves candidate 0's bounded duty rotation through workload correction; it is not a distinct primary mechanism. The other mechanisms are incident-time least-burden allocation, compensating task exchanges, shared task division and spill prevention. Candidate 4 best combines predictable ownership, explicit acceptance and escalation, actual-burden correction and inspectable measures within the overlap. It acknowledges staffing limits and identifies prerequisites without assuming they are established."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The distinct mechanisms are bounded duty rotation, incident-time least-burden allocation, compensating task exchanges and exposure redistribution through shift swaps. All respect immediate protection and scheduled shift boundaries, specify handoff and escalation, and measure outcomes over three weeks. Candidate 1 most directly balances observed cleanup burden using available resources, credits containment work and makes bypasses inspectable. Exchanges depend on transferable duties; swaps depend on scheduling flexibility. These acknowledged prerequisites are feasibility limits, not definite hard-constraint violations."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 combines advance named ownership with burden correction during scheduled overlaps, reducing incident-time allocation work while addressing repeated burden. Its accepted handoffs, deadlines, escalation and measurement of overlap costs make the rule more operationally complete than B1, whose cleanup ownership requires selection after each incident. Both acknowledge that solo staffing limits redistribution."
+    }
+  },
+  "format_retry_of": null
+}

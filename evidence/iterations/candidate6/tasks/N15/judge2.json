@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 best balances low effort, early conflict visibility, destination privacy, emergency access and an inspectable two-week comparison of all three outcomes. Candidate 5 repairs reservation conflict handling rather than introducing a new primary mechanism; its narrower idle-time measure weakens evaluation. Other mechanisms are usable but require more accounting, scheduling, waiting or restrictive assumptions."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 provides the strongest low-friction default with clear reservations, cancellations, key handling, privacy, emergency overrides and measurement of all three required outcomes. Rotating periods, ride-count priority, flexible scheduling and bounded queues are distinct usable mechanisms, but their benefits depend more heavily on household trip patterns or additional coordination."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0, so their best written task quality is equal."
+    }
+  },
+  "format_retry_of": null
+}

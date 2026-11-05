@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: deadline clearance, paper reminders and planning, explicit cancellation of unwanted holds, faster retrieval, and authorized proxy pickup. Each preserves private, phone-free service and includes a bounded workload and three-week outcome tracking. Candidate 0 offers the most immediately practical shelf-management workflow, with notification-based deadlines, preserved exceptions, repeated release checks and separate pickup accounting. Its limitation is explicit: earlier clearance need not reduce abandonment, so occupancy improvement alone cannot justify shortening deadlines."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: deadline clearance, paper reminders and planning, explicit cancellation of unwanted holds, correction of retrieval failures, and authorized proxy pickup. Policy-dependent actions are appropriately conditional rather than definite violations. Candidate 0 provides the strongest immediately implementable workflow for limited shelf space, with a 20-minute allocation, privacy protections, phone-free collection, release verification and three-week measurement. The other routes depend more heavily on particular abandonment causes or existing authorization procedures."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The selected proposals are identical, so their written task quality is equal. Both provide a practical, inspectable workflow while distinguishing actual pickups from releases and guarding against premature clearance."
+    }
+  },
+  "format_retry_of": null
+}

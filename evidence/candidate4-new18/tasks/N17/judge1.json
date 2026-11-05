@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates address emergency clearance, mobility access and measurement across two events without a definite hard-constraint violation. Their primary mechanisms are continuous first-come admission, timed cohorts, a call-forward register, first-turn preference with a protected repeat share, and batch random ordering. Candidate 1 best combines predictable turnover, equal play intervals, accessible transitions and an inspectable comparison, conditional on safe cohort clearance with two attendants."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are conditionally usable; none definitely violates a hard constraint. Candidates 1 and 5 share the timed-cohort mechanism: feasibility checks, queue bounds and fallback procedures are improvements rather than a new mechanism. The other mechanisms are continuous first-come admission, call-forward registration, repeated random draws, first-turn priority and bounded capacity-fit bypass. Candidate 5 best combines inclusive play intervals with explicit transition checks, emergency clearance, preserved queue order on fallback and measurable waits, disputes and workload."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 strengthens A1's timed-cohort arrangement with a concrete preopening feasibility check, bounded waiting space and an orderly fallback when transitions cannot be managed safely. These improve constraint correctness and operational feasibility. Its two-event comparison remains confounded by attendance and weather, so it supports practical assessment rather than a causal claim."
+    }
+  },
+  "format_retry_of": null
+}

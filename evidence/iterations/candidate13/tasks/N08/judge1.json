@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five fit the available resources, require evidence-supported estimates and delay disclosure, and compare the required outcomes over four weeks. Their primary mechanisms are status gates, historical calibration, supplier exception clarification, protected repair capacity, and early repair-requirement completeness. Candidate 0 is the strongest direct fit: simple paper controls, clear customer updates, realistic capacity checks, and an inspectable trial that checks estimate availability as well as misses."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable and respect the hard constraints. Ownership in 6 strengthens the status-gate process without creating a separate primary mechanism; the reservation cap in 7 similarly refines 3. Other mechanisms are historical calibration, supplier clarification, order completeness, customer understanding checks, and advance resolution of customer prerequisites. Candidate 6 best combines direct relevance, feasible paper administration, explicit responsibility for updates, recovery from interruptions, and a four-week comparison covering misses, calls and staff time."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A0 by making promised updates accountable through interruptions and handoffs, with a practical fallback if administration becomes burdensome. It preserves evidence requirements and measures the added effort and lost updates. This is a concrete operational improvement in written task quality, rather than a demonstrated performance advantage."
+    }
+  },
+  "format_retry_of": null
+}

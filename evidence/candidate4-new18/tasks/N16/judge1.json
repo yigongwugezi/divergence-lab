@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect owner control, available resources, clinical boundaries and private one-month checks. Their primary mechanisms are fixed storage, locator indexing, checkout tracking, keeping sheets together during use, and collection/transport completeness checking. Candidate 0 offers the strongest general fit: simple implementation, a predictable retrieval destination and inspectable results. Other approaches depend more on particular loss patterns or additional routines."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 0 and 5 share the fixed-storage mechanism; concealed descriptions are a labeling repair, not a new mechanism. The remaining mechanisms are locator indexing, checkout tracking, keeping sheets together during use, periodic recovery and packet reconciliation. Candidate 0 best balances simplicity, privacy, likely benefit and inspectability. Candidate 5 removes key maintenance but may require repeated envelope opening; the other candidates add routines whose value depends on the source of losses."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' strongest proposal is the identical candidate 0. It provides a feasible owner-controlled retrieval system with neutral labels, concealed contents and private one-month measurement. Both would benefit from recording a baseline misfiling count explicitly; neither provides protection against deliberate snooping, which both acknowledge."
+    }
+  },
+  "format_retry_of": null
+}

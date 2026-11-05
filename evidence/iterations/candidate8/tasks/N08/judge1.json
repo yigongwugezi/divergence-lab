@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and honesty constraints and compare the three required outcomes over four weeks. Their primary mechanisms are evidence gates, historical calibration, supplier exception handling, protected repair capacity and early repair-requirement completeness. Candidate 0 is the strongest general-purpose communication process: simple paper records, explicit update commitments, evidence-supported estimates and an inspectable trial that checks estimate coverage."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and include the required four-week comparison without requiring paid software or unsupported promises. Candidates 6 and 7 refine the evidence-gate and historical-calibration mechanisms respectively; ownership safeguards and eligibility screening do not create separate primary mechanisms. The other mechanisms are supplier exception handling, capacity reservation, order completeness verification, customer understanding checks and completion-triggered collection booking. Candidate 6 best combines evidence-supported timing with named update ownership, recoverable handoffs and explicit accounting for communication effort and overdue updates."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A0 by making customer-update responsibility and failed-contact follow-up explicit, addressing a practical failure point in a two-person shop. It retains evidence gates and a four-week comparison of missed estimates, customer calls and staff time, while checking that withholding estimates does not manufacture success. Its modest additional paperwork is feasible and inspectable."
+    }
+  },
+  "format_retry_of": null
+}

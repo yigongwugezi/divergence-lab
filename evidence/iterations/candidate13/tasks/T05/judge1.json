@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are ordered gates, distributed evidence, paused replay, presentation reversal, contrasting authority boundaries, externalized accounts, and commitment repair. Candidate 4 best combines feasible rotating practice with an inspectable distinction between authorized routine action and required escalation, assessed individually on an unseen case."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidate 6 adds handoff completion safeguards to candidate 3's boundary contrasts; candidate 7 adds late-correction recovery to candidate 5's correction loop. These are refinements rather than distinct primary mechanisms. The other mechanisms are ordered gates, distributed evidence, paused replay, presentation swapping, and shared record inspection. Candidate 3 offers the strongest balance of clear authority boundaries, practical role-play, explicit routine action and escalation, fallback instructions, and individually assessed unseen cases."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 modestly improves on A4 by explicitly teaching authorized routine action, communicating the update route, and handling unavailable staff without promising allocation. Its unseen assessment checks both close boundary distinctions and an unfamiliar exception request. These make the intended behavior and its assessment more inspectable while retaining the 45-minute, one-facilitator format."
+    }
+  },
+  "format_retry_of": null
+}

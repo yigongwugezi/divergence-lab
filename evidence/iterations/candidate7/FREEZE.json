@@ -1,0 +1,25 @@
+{
+  "package": "outputs\\divergence-lab-unified-superiority-candidate7-20261103\\.agents\\skills\\divergence-lab-unified",
+  "files": {
+    ".gitignore": "14188a31de4a645fd035797f1b2e904c60b2f1428ae555ed2a281e2431b3f2d6",
+    "references/BASELINE_PROMPT.txt": "0bffa1333b69c46f2e954bc770d1adfc2255fc2d9b87504e61a45e1bd94a0e07",
+    "references/CONTINUE_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "references/CONTINUE_PROMPT_P1.txt": "805abf8018ff5eb7da920c8923e9f17eec48b9102203cafeb26c69452317934c",
+    "references/CONTINUE_PROMPT_P1_NARROW.txt": "228debe7fe2ca56532ada06f17430b574058ee0d748e9a5f136f9417a5e16749",
+    "references/CONTINUE_PROMPT_P2.txt": "aadf354e3ea553472a2b51979d4e537235ddf5298f76f7fdb9bda9bd6f14c12f",
+    "references/CONTINUE_PROMPT_P2_ASSUMPTION.txt": "da4ade3301a9330286608258393803dd974bc626489e0bcfd85856f5b4398402",
+    "references/REPAIR_PROMPT.txt": "df9a394518612c05852482a8ddc19b77d1ccd8961c3a485f3f01bc114ec51f2c",
+    "references/response.schema.json": "ba2ea82c009ec659e4da4afa7f9991a30f58b3f96452de317dcca08c8749e080",
+    "references/response6.schema.json": "fa8a84ab415bd47e7be4ce9cf9f5b0c93f6560ce655646abdd4c0e934f549867",
+    "references/SAVE_FULL_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "references/SAVE_WIDE_PROMPT.txt": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
+    "scripts/build_prompt.py": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
+    "scripts/run.py": "4eefa04b5cfad86e915af92611b6797095c453ca6a26210acba02923ae1e5348",
+    "SKILL.md": "cd5b4f85c784a91849984c3508adfbaf14485d1f4d389a181fa6470db68d5153"
+  },
+  "task_index_sha256": "a10d3b350b5a2412c7640e683915d766048af2e98b4ab39b9dce05edadccb026",
+  "runner_sha256": "27e7e7cf94ab6264dc9dc88bea8d3ca7e49b411615dc81b882c807dcab2c502c",
+  "judge_sha256": "a983ee6c081608a42eb98526f814ff486d18ba966ac2d05eeda30b287f63f0e4",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low"
+}

@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and privacy constraints and check availability, condition, cleanup effort and seated access. Their primary mechanisms are centralized return processing, visible sorting destinations, an on-site reserve, optional shared tidying and portable return reminders. Candidate 0 offers the simplest predictable ritual and volunteer routine, with observable failure criteria. Its main weakness is that overflow is detected without a response between visits."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 0 and 5 share centralized return processing; overload handling is a repair, not a distinct primary mechanism. The other mechanisms are visible sorting destinations, an on-site reserve, optional shared tidying, reader condition screening and physical stabilization through shallow stacks. Candidate 5 best combines a simple normal ritual with explicit time limits, overflow responses and inspectable stopping rules. Direct returns weaken screening and later returns burden readers, but these tradeoffs are acknowledged."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves A0's practical handling of full boxes and unfinished inspections within the fixed volunteer allowance. It supplies concrete fallback actions and recovery criteria while retaining checks for availability, condition and seated access. Its added complexity is justified by an operational gap rather than novelty or length."
+    }
+  },
+  "format_retry_of": null
+}

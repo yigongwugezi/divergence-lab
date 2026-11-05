@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary ownership, due dates, available tools and meeting limits, and propose comparisons of completion, rework and burden. Their primary mechanisms are explicit commitment, rotating coordination, protected execution time, delegated authority, calendar booking, backup continuity and recipient verification. Candidate 0 provides the strongest general starting point: clear acceptance, bounded workload, visible unclaimed work and owner updates without chair chasing. Its prospective comparison preserves original deadlines and accounts for unclaimed work, although burden measurement should also include execution time."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; none definitely violates a hard constraint. Candidates 7 and 8 repair the commitment queue and rotating stewardship respectively, rather than introducing new primary mechanisms. The other mechanisms are protected execution, example-based clarification, delegated authority, prerequisite readiness, pre-agreed contingency recovery and reusable recipes. Candidate 7 offers the strongest broadly applicable workflow by adding explicit release and collective disposition of stalled commitments, preserving voluntary acceptance and original deadlines, and tracking outcomes across all action decisions. Its historical comparison is weaker than a prospective trial, but it explicitly acknowledges missing baseline evidence and measures execution and coordination burden."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A0 offers a cleaner prospective comparison and explicit seven-day rework observation. B7 offers more complete operational recovery when volunteers cannot continue, plus broader burden and outcome accounting, but relies on potentially incomplete historical records. These strengths balance; neither is clearly better overall for the written task."
+    }
+  },
+  "format_retry_of": null
+}

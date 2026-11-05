@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints and avoid definitive diagnosis from one reading. Primary mechanisms are repeated matched-condition comparison, controlled mounting correction, stationary-source isolation, and reversible airflow-loading comparison. Candidates 4 and 5 refine existing mechanisms. Candidate 4 best addresses the intermittent fault through targeted observations, an explicit unresolved-fault decision, safe shutdown preparation, and evidence-based repair recommendations. Candidate 5 adds a valuable structural-integrity gate but concentrates more narrowly on mounting repair."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable and constraint-compliant. Candidate 1 provides the more inspectable repair decision through a warranted mounting correction and repeated matched before/after measurements. It limits inference appropriately, checks bearings and rotor condition, and specifies safe restoration and escalation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 better handles the task's intermittent nature: it targets log-linked operating periods and explicitly prevents quiet readings or an inconclusive inspection from clearing the fan. It also establishes a restoration deadline and an accountable unresolved-fault handoff. B1 offers a strong mounting intervention, but its decision path is less explicit when the episode is never captured and no actionable defect is found."
+    }
+  },
+  "format_retry_of": null
+}

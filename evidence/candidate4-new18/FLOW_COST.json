@@ -1,0 +1,1254 @@
+{
+  "task_count": 18,
+  "totals": {
+    "DIRECT_FULL": {
+      "stage_slots": 54,
+      "unique_requests": 53,
+      "known_input_tokens": 637853,
+      "known_output_tokens": 42220,
+      "unknown_usage_requests": 0
+    },
+    "EXPAND": {
+      "stage_slots": 54,
+      "unique_requests": 54,
+      "known_input_tokens": 655051,
+      "known_output_tokens": 62605,
+      "unknown_usage_requests": 0
+    }
+  },
+  "generation_token_change_percent": 5.526318498161231,
+  "valid_output_totals": {
+    "DIRECT_FULL": {
+      "unique_requests": 53,
+      "known_input_tokens": 637853,
+      "known_output_tokens": 42220,
+      "unknown_usage_requests": 0
+    },
+    "EXPAND": {
+      "unique_requests": 54,
+      "known_input_tokens": 655051,
+      "known_output_tokens": 62605,
+      "unknown_usage_requests": 0
+    }
+  },
+  "valid_output_token_change_percent": 5.526318498161231,
+  "tasks": {
+    "N01": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 2,
+        "known_input_tokens": 23686,
+        "known_output_tokens": 1176,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\b6826246ee002ba19b67.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\b6826246ee002ba19b67_a3\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10974,
+            "output_tokens": 960
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\1113c648cc4420d311c7.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\1113c648cc4420d311c7_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12712,
+            "output_tokens": 216
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35151,
+        "known_output_tokens": 2515,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\b6826246ee002ba19b67.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\b6826246ee002ba19b67_a3\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10974,
+            "output_tokens": 960
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\f088e1d187e63a4cc7ae.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\f088e1d187e63a4cc7ae_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12136,
+            "output_tokens": 339
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\0f6fb7a2757ef5357291.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N01\\calls\\raw\\0f6fb7a2757ef5357291_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12041,
+            "output_tokens": 1216
+          }
+        ]
+      }
+    },
+    "N02": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36661,
+        "known_output_tokens": 2513,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\1ec79b1797537c34cd0e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\1ec79b1797537c34cd0e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1371
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\17065bfb2dfff2961ed9.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\17065bfb2dfff2961ed9_a3\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13070,
+            "output_tokens": 581
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\bfe89d27a7412d3c18bb.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\bfe89d27a7412d3c18bb_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12661,
+            "output_tokens": 561
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36660,
+        "known_output_tokens": 4252,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\1ec79b1797537c34cd0e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\1ec79b1797537c34cd0e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1371
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\78d7888e7f3014137866.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\78d7888e7f3014137866_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12531,
+            "output_tokens": 1569
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\86d1e03dd7c7a634a4c8.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N02\\calls\\raw\\86d1e03dd7c7a634a4c8_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13199,
+            "output_tokens": 1312
+          }
+        ]
+      }
+    },
+    "N03": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36113,
+        "known_output_tokens": 2779,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\b11a1f23b917effc0c3c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\b11a1f23b917effc0c3c_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1537
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\105cee57d62a7f3f8244.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\105cee57d62a7f3f8244_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12369,
+            "output_tokens": 584
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\1f5a44a8fe199fbf8964.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\1f5a44a8fe199fbf8964_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12814,
+            "output_tokens": 658
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37005,
+        "known_output_tokens": 4601,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\b11a1f23b917effc0c3c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\b11a1f23b917effc0c3c_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1537
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\50e75fa19a420c18e58c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\50e75fa19a420c18e58c_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12682,
+            "output_tokens": 1759
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\bdf309f8899cb8646f5c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N03\\calls\\raw\\bdf309f8899cb8646f5c_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13393,
+            "output_tokens": 1305
+          }
+        ]
+      }
+    },
+    "N04": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36406,
+        "known_output_tokens": 2916,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\9a0c0d5ccf334a786895.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\9a0c0d5ccf334a786895_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1530
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\c12da084628fe41f9cec.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\c12da084628fe41f9cec_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12480,
+            "output_tokens": 579
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\58e5fe0fc318babacd1c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\58e5fe0fc318babacd1c_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12996,
+            "output_tokens": 807
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37006,
+        "known_output_tokens": 4172,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\9a0c0d5ccf334a786895.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\9a0c0d5ccf334a786895_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10930,
+            "output_tokens": 1530
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\1b01a514014cd9ac2c7b.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\1b01a514014cd9ac2c7b_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12793,
+            "output_tokens": 1323
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\f8d187df809c6e10b8ea.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N04\\calls\\raw\\f8d187df809c6e10b8ea_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13283,
+            "output_tokens": 1319
+          }
+        ]
+      }
+    },
+    "N05": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37392,
+        "known_output_tokens": 2378,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\58041e6d49c65eee0fc5.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\58041e6d49c65eee0fc5_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11777,
+            "output_tokens": 1215
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\e7a1d0f837d98d7ae8ab.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\e7a1d0f837d98d7ae8ab_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13012,
+            "output_tokens": 538
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\b013e7d282471fba4f61.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\b013e7d282471fba4f61_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12603,
+            "output_tokens": 625
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37034,
+        "known_output_tokens": 3505,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\58041e6d49c65eee0fc5.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\58041e6d49c65eee0fc5_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11777,
+            "output_tokens": 1215
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\70938f5d1794d6929850.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\70938f5d1794d6929850_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12473,
+            "output_tokens": 1210
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\21c958e38d40d642a48d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N05\\calls\\raw\\21c958e38d40d642a48d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12784,
+            "output_tokens": 1080
+          }
+        ]
+      }
+    },
+    "N06": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36428,
+        "known_output_tokens": 2519,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\f363d204307f2aa7a336.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\f363d204307f2aa7a336_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10920,
+            "output_tokens": 1227
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\a8770d636ff18a2d0ab5.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\a8770d636ff18a2d0ab5_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12945,
+            "output_tokens": 584
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\134e5f875ffc46f49c7d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\134e5f875ffc46f49c7d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12563,
+            "output_tokens": 708
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36117,
+        "known_output_tokens": 3621,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\f363d204307f2aa7a336.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\f363d204307f2aa7a336_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10920,
+            "output_tokens": 1227
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\e7fcd60c13b4cbb9a2e9.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\e7fcd60c13b4cbb9a2e9_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12406,
+            "output_tokens": 1184
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\62ee523f5d25397d3721.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N06\\calls\\raw\\62ee523f5d25397d3721_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12791,
+            "output_tokens": 1210
+          }
+        ]
+      }
+    },
+    "N07": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37241,
+        "known_output_tokens": 2808,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\feeb50aa3099b69348e4.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\feeb50aa3099b69348e4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11774,
+            "output_tokens": 1185
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\ade8229446ed0ce7df3e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\ade8229446ed0ce7df3e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11875,
+            "output_tokens": 1021
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\538e446d317be90069bf.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\538e446d317be90069bf_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13592,
+            "output_tokens": 602
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36266,
+        "known_output_tokens": 2902,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\feeb50aa3099b69348e4.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\feeb50aa3099b69348e4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11774,
+            "output_tokens": 1185
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\5ee29bece95e417a0ea2.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\5ee29bece95e417a0ea2_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12151,
+            "output_tokens": 663
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\b1373c3a45d4e4df9cec.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N07\\calls\\raw\\b1373c3a45d4e4df9cec_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12341,
+            "output_tokens": 1054
+          }
+        ]
+      }
+    },
+    "N08": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36885,
+        "known_output_tokens": 2623,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\66385e34240aeb61f40f.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\66385e34240aeb61f40f_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10921,
+            "output_tokens": 1388
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\822ddf26d615370562ef.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\822ddf26d615370562ef_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12329,
+            "output_tokens": 578
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\ff728314d2b71e740dfd.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\ff728314d2b71e740dfd_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13635,
+            "output_tokens": 657
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37261,
+        "known_output_tokens": 4534,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\66385e34240aeb61f40f.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\66385e34240aeb61f40f_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10921,
+            "output_tokens": 1388
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\8070673291206a952573.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\8070673291206a952573_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12642,
+            "output_tokens": 2010
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\0cad1038daeb5a553a75.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N08\\calls\\raw\\0cad1038daeb5a553a75_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13698,
+            "output_tokens": 1136
+          }
+        ]
+      }
+    },
+    "N09": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 34975,
+        "known_output_tokens": 2126,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\02898c4697faadc8f6bf.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\02898c4697faadc8f6bf_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 941
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\b3324ee05f4055fc3c31.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\b3324ee05f4055fc3c31_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11793,
+            "output_tokens": 617
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\b761ad5076aaf6f4c043.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\b761ad5076aaf6f4c043_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12257,
+            "output_tokens": 568
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35315,
+        "known_output_tokens": 2693,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\02898c4697faadc8f6bf.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\02898c4697faadc8f6bf_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 941
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\a37220672151938f3e25.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\a37220672151938f3e25_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12069,
+            "output_tokens": 644
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\839d3d2224143dc2b617.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N09\\calls\\raw\\839d3d2224143dc2b617_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12321,
+            "output_tokens": 1108
+          }
+        ]
+      }
+    },
+    "N10": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35849,
+        "known_output_tokens": 2551,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\70db1e1da20a463bfa86.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\70db1e1da20a463bfa86_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10922,
+            "output_tokens": 1380
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\b12ff963952e4816f978.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\b12ff963952e4816f978_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12238,
+            "output_tokens": 583
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\d2ac550e5bb55b413666.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\d2ac550e5bb55b413666_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12689,
+            "output_tokens": 588
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36552,
+        "known_output_tokens": 3589,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\70db1e1da20a463bfa86.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\70db1e1da20a463bfa86_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10922,
+            "output_tokens": 1380
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\38def610d4ee6c8a8e18.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\38def610d4ee6c8a8e18_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12551,
+            "output_tokens": 1102
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\d3c7c45d0ed92cc7dde0.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N10\\calls\\raw\\d3c7c45d0ed92cc7dde0_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13079,
+            "output_tokens": 1107
+          }
+        ]
+      }
+    },
+    "N11": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35061,
+        "known_output_tokens": 1377,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\98d1af0c0833db41dc25.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\98d1af0c0833db41dc25_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10927,
+            "output_tokens": 626
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\e4fe9543a9833ced9938.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\e4fe9543a9833ced9938_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12260,
+            "output_tokens": 619
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\db4c6fefb70ab3e17f8b.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\db4c6fefb70ab3e17f8b_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11874,
+            "output_tokens": 132
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35363,
+        "known_output_tokens": 2064,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\98d1af0c0833db41dc25.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\98d1af0c0833db41dc25_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10927,
+            "output_tokens": 626
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\2fc1d00e3f7196838aaf.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\2fc1d00e3f7196838aaf_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12536,
+            "output_tokens": 585
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\5c6eb3617bdd50454d39.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N11\\calls\\raw\\5c6eb3617bdd50454d39_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11900,
+            "output_tokens": 853
+          }
+        ]
+      }
+    },
+    "N12": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35870,
+        "known_output_tokens": 2036,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\3600992aa7dc7d768b4d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\3600992aa7dc7d768b4d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10932,
+            "output_tokens": 960
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\92d18722e7df182412bb.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\92d18722e7df182412bb_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12663,
+            "output_tokens": 557
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\a0b46442ca7ccef745c4.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\a0b46442ca7ccef745c4_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12275,
+            "output_tokens": 519
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35475,
+        "known_output_tokens": 2637,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\3600992aa7dc7d768b4d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\3600992aa7dc7d768b4d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10932,
+            "output_tokens": 960
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\8f9fe29c757285323f8d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\8f9fe29c757285323f8d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12087,
+            "output_tokens": 594
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\86876f70f9f521ee4db5.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N12\\calls\\raw\\86876f70f9f521ee4db5_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12456,
+            "output_tokens": 1083
+          }
+        ]
+      }
+    },
+    "N13": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36514,
+        "known_output_tokens": 2484,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\1977a67eb88a79d0774a.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\1977a67eb88a79d0774a_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10923,
+            "output_tokens": 1255
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\2d7eab676f6d23f55892.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\2d7eab676f6d23f55892_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12988,
+            "output_tokens": 635
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\a6fadb3a7a5fcc0ce968.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\a6fadb3a7a5fcc0ce968_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12603,
+            "output_tokens": 594
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 37534,
+        "known_output_tokens": 3906,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\1977a67eb88a79d0774a.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\1977a67eb88a79d0774a_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10923,
+            "output_tokens": 1255
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\78be5e93ad70aa1cbf6d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\78be5e93ad70aa1cbf6d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12449,
+            "output_tokens": 1592
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\0f21f35c7318ee9bc732.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N13\\calls\\raw\\0f21f35c7318ee9bc732_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 14162,
+            "output_tokens": 1059
+          }
+        ]
+      }
+    },
+    "N14": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35487,
+        "known_output_tokens": 2361,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\26b34bc95d35fb1dcd97.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\26b34bc95d35fb1dcd97_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10926,
+            "output_tokens": 1200
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\90d4783accc17db4341a.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\90d4783accc17db4341a_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12057,
+            "output_tokens": 531
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\e298979ee93be0d798e9.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\e298979ee93be0d798e9_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12504,
+            "output_tokens": 630
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36907,
+        "known_output_tokens": 3240,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\26b34bc95d35fb1dcd97.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\26b34bc95d35fb1dcd97_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10926,
+            "output_tokens": 1200
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\f7d187c27a9c6815d6da.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\f7d187c27a9c6815d6da_a2\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13222,
+            "output_tokens": 1039
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\663088169508aece40d7.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N14\\calls\\raw\\663088169508aece40d7_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12759,
+            "output_tokens": 1001
+          }
+        ]
+      }
+    },
+    "N15": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36008,
+        "known_output_tokens": 2133,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\9717c2bc8bae3db87264.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\9717c2bc8bae3db87264_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11764,
+            "output_tokens": 962
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\986690911790cc1764a1.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\986690911790cc1764a1_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11894,
+            "output_tokens": 575
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\450ad2b9ebf79ef00820.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\450ad2b9ebf79ef00820_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12350,
+            "output_tokens": 596
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36564,
+        "known_output_tokens": 3435,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\9717c2bc8bae3db87264.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\9717c2bc8bae3db87264_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11764,
+            "output_tokens": 962
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\cdb672c9bebd35299e6b.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\cdb672c9bebd35299e6b_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12207,
+            "output_tokens": 1273
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\00ccef1db2b405b8d289.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N15\\calls\\raw\\00ccef1db2b405b8d289_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12593,
+            "output_tokens": 1200
+          }
+        ]
+      }
+    },
+    "N16": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35190,
+        "known_output_tokens": 2317,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\a47d2b1caa5c1fdcc771.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\a47d2b1caa5c1fdcc771_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 1102
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\c6e1cacfadaf19fd0e12.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\c6e1cacfadaf19fd0e12_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11930,
+            "output_tokens": 617
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\cd0e9b59eb4a8c1c442d.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\cd0e9b59eb4a8c1c442d_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12335,
+            "output_tokens": 598
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35781,
+        "known_output_tokens": 3394,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\a47d2b1caa5c1fdcc771.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\a47d2b1caa5c1fdcc771_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 1102
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\12497deeaabaecbdddd7.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\12497deeaabaecbdddd7_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12243,
+            "output_tokens": 1033
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\ca766984d8ac16cc3d9e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N16\\calls\\raw\\ca766984d8ac16cc3d9e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12613,
+            "output_tokens": 1259
+          }
+        ]
+      }
+    },
+    "N17": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 35925,
+        "known_output_tokens": 2685,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\291176610264be59aa27.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\291176610264be59aa27_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10916,
+            "output_tokens": 1383
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\85be38a9e77de1b16413.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\85be38a9e77de1b16413_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12272,
+            "output_tokens": 664
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\352b9d8083313574e2fd.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\352b9d8083313574e2fd_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12737,
+            "output_tokens": 638
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36418,
+        "known_output_tokens": 4117,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\291176610264be59aa27.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\291176610264be59aa27_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10916,
+            "output_tokens": 1383
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\5d6bdaae4bd5ecb3cd1c.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\5d6bdaae4bd5ecb3cd1c_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12585,
+            "output_tokens": 1416
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\842176efa95046804c53.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N17\\calls\\raw\\842176efa95046804c53_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12917,
+            "output_tokens": 1318
+          }
+        ]
+      }
+    },
+    "N18": {
+      "DIRECT_FULL": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36162,
+        "known_output_tokens": 2438,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\b900ef90b2c3a7082d6e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\b900ef90b2c3a7082d6e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 1156
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\47765d036ea50ad54910.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\47765d036ea50ad54910_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 11980,
+            "output_tokens": 749
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\09383a1f804bca1b8f24.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\09383a1f804bca1b8f24_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13257,
+            "output_tokens": 533
+          }
+        ]
+      },
+      "EXPAND": {
+        "stage_slots": 3,
+        "unique_requests": 3,
+        "known_input_tokens": 36642,
+        "known_output_tokens": 3428,
+        "unknown_usage_requests": 0,
+        "records": [
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\b900ef90b2c3a7082d6e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\b900ef90b2c3a7082d6e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 10925,
+            "output_tokens": 1156
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\f0fc27bc1f2a57ae882e.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\f0fc27bc1f2a57ae882e_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 12293,
+            "output_tokens": 1194
+          },
+          {
+            "output": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\20948df0624d2c3d9c67.json",
+            "metadata": "work\\candidate4-evidence-completion-20261102\\quality\\runs\\N18\\calls\\raw\\20948df0624d2c3d9c67_a1\\metadata.json",
+            "valid_output_saved": true,
+            "format_error_record": false,
+            "input_tokens": 13424,
+            "output_tokens": 1078
+          }
+        ]
+      }
+    }
+  },
+  "scope": "totals counts completed transport requests listed in each manifest, including historical invalid-format generations and their replacements; valid_output_totals counts only validated saved outputs. Reused origins are included. Duplicate exact requests within one task/arm count once. Excludes judging, failed transport attempts, provider-internal retries and real CLI trial. Token accounting, not money or total research expenditure."
+}

@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are safe, conditional where equipment capabilities matter, and require repeated observations. Primary mechanisms are matched-time comparison with calibration control (0,4), runoff gradient and recovery (1), probe-procedure artifact (2), vertical redistribution (3), and temperature-dependent solubility (5). Candidate 4 best integrates timing, calibration and runoff comparisons with explicit recovery and stopping rules; its calibration repair does not create a new mechanism."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All satisfy the constraints with appropriate limitations and repeat checks. Primary mechanisms are matched-time comparison (0), runoff gradient and recovery (1), temperature-dependent solubility (2), and vertical redistribution (3). Candidate 1 offers the clearest runoff discriminator through changes in spatial differences and subsequent recovery, supported by matched hours, morning checks, calibration verification and repeat rain events."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 provides the strongest overall plan for the stated task: consistent morning and afternoon comparisons, runoff-associated spatial comparisons, independent duplicates, and actionable calibration-failure recovery. B1 has a stronger targeted runoff recovery test, but less complete daily timing coverage. A4 narrowly wins on integrated constraint coverage and inspectability."
+    }
+  },
+  "format_retry_of": null
+}

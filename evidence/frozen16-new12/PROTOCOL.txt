@@ -1,0 +1,13 @@
+Frozen candidate16 — new-task evidence batch, 2026-11-05
+
+Purpose: measure this already selected version on 12 newly authored tasks, without tuning it to the outcomes. These tasks were authored within this project, not supplied by an independent benchmark provider. Engineering, teaching and open creativity each have four tasks. The earlier 31 development/regression tasks remain separate.
+
+Method: gpt-6.1-sol, low reasoning effort. Each task has one shared P0, DIRECT_FULL P1/P2 and candidate16 EXPAND P1/P2: five distinct generation requests, three logical generations per arm. Two anonymous, reversed-order model reviews use the unchanged archived judge prompt. Model reviews are not independent human assessments. Equal call counts do not guarantee equal token use; report complete input+output tokens separately.
+
+Acceptance rule retained from development: at least one win and one tie (or two wins), no loss, usable mechanism count no lower in either review, no serious candidate-pool constraint violation and no generation format failure. Ties remain ties. A failed task is kept in the report; no prompt edits, additional valid judge votes or random resampling to obtain a pass.
+
+FREEZE.json records task, runner, method and judge hashes before generation. TASKS.json contains all tasks. The runtime method is under method/. The exact judge text is ../iterations/JUDGE_PROMPT.txt. summary.json and task verdicts retain all scored outcomes; PROVENANCE.json lists source/export hashes. Usage and format-error records remain distinct from quality scores. Unknown usage is not zero.
+
+Two additional actual CLI workflows exercise start, expand, save and fresh-process restoration on candidate16. They establish operational behavior, not extra quality votes. Their outputs, actual routes and any failures are reported separately; model outputs are never altered to force route coverage.
+
+This batch does not establish field effectiveness, cross-model robustness, expert validation or universal superiority. It does not resolve the existing Q05 review disagreement.

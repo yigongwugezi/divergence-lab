@@ -1,0 +1,55 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly tests six-week window exposure with randomized matched pairs, fixed watering, predefined measurement and missingness rules, and appropriately local inference. Candidate 1 is usable but estimates short-term exposure effects and is more vulnerable to carryover."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 preserves the direct matched-pair mechanism while improving watering-record recovery and handling of mortality and withdrawals. These are procedural repairs, so it belongs with 0. Candidate 1 uses crossover exposure; candidate 3 independently randomizes pot rotation in a factorial design. Both are usable but introduce complexity and interpretive limitations."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B2 modestly improves on A0 through actionable watering-interruption rules and clearer protection against conclusions based only on surviving plants, while retaining the direct six-week comparison. Its advantage is operational clarity and cautious inference, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

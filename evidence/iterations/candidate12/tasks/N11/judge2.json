@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 best preserves the direct six-week randomized comparison while explicitly preventing survivor-only results from supporting an overall growth claim. It provides feasible care, measurement, loss and reporting rules. Candidate 0 uses the same primary mechanism; candidate 2 is a repair, not a new mechanism. Candidate 1 uses a two-period crossover and is usable, but carryover and developmental changes weaken its fit to sustained window exposure."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly compares six-week growth under fixed randomized window assignments, with practical controls and prespecified measurement and missingness rules. Candidate 1 uses repeated weekly randomization and is usable for its stated short-term estimand, but delayed responses and exposure history make it less suitable for assessing sustained window effects."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A2 improves on B0 through explicit handling of selective plant loss and a clearer preassignment measurement consistency rule. These strengthen cautious inference and inspectability without changing the feasible primary design or violating the care constraints."
+    }
+  },
+  "format_retry_of": null
+}

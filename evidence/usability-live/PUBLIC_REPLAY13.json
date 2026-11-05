@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-02T20:25:25+00:00",
+  "source_candidate": "outputs/divergence-lab-unified-superiority-candidate13-20261103",
+  "source_freeze_manifest": "work/six-hour-improvement-20261103/usability/FREEZE13.json",
+  "destination": "outputs/divergence-lab-github-20261102/.agents/skills/divergence-lab-unified",
+  "skill_files_synced": 15,
+  "skill_byte_identical": true,
+  "replay_script": "outputs/divergence-lab-github-20261102/tools/check_local_replay.py",
+  "replay_script_change": "mock generate accepts model=None to match run.py.generate signature",
+  "replay_command": "PYTHONDONTWRITEBYTECODE=1 python -X utf8 tools/check_local_replay.py",
+  "replay_exit_code": 0,
+  "replay_output": "PASS: state, history, task guard, modes, schemas, and new-process resume (archived replay)",
+  "model_requests": 0,
+  "publication": "local staging only; no commit or push"
+}

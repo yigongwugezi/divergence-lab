@@ -1,0 +1,7 @@
+{
+  "error": "Extra data: line 1 column 706 (char 705)",
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, use available resources and include private one-month retrieval and misfiling checks. Primary mechanisms are fixed storage, locator indexing, checkout signaling, whole-folder transport, periodic recovery, receipt reconciliation and stationary reading. Candidates 6 and 7 repair their source mechanisms rather than introduce new ones. Candidate 6 offers simple fixed storage with a bounded missing-paper response, professional replacement instructions and inspectable testing. Its privacy protection is appropriately limited to casual visibility."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their distinct primary mechanisms are fixed storage, locator indexing, checkout signaling, whole-folder transport and receipt reconciliation. Candidate 0 is the strongest general-purpose choice: a predictable destination, owner-controlled coded envelopes and a private key provide feasible retrieval with little maintenance. Its one-month test measures retrieval and misfiling without sharing medical contents."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 by adding a bounded response to missing instructions and a clear route to obtain replacements without reconstructing clinical advice. It preserves the same practical storage mechanism and adds little routine burden. Its rehearsal explicitly distinguishes usability evidence from demonstrated recovery effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

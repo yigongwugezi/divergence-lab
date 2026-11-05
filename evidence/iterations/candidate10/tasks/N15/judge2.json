@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency use and compare the three required outcomes over two weeks. Candidate 5 best combines simple reservations with explicit handling of late returns and displaced bookings, while counting delays and coordination costs. It repairs candidate 0's handoff weakness without introducing a new primary mechanism. Rotation, usage-based priority, flexible scheduling and bounded checkout queues are distinct mechanisms; their stated limitations affect suitability rather than constitute definite violations."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Candidate 0 offers the strongest default for low-friction sharing: minimal recording, early conflict visibility, cancellation release and emergency override, with an inspectable two-week comparison. The other mechanisms depend more heavily on flexible timing, accepted fairness rules or tolerance for waiting and checkout limits."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly improves on B0 by assigning responsibility for impending late returns and specifying recovery without silently moving confirmed bookings. Its measurement also distinguishes delayed trips from missed trips. These concrete improvements address last-minute conflicts; the added coordination remains a cost to assess during the trial."
+    }
+  },
+  "format_retry_of": null
+}

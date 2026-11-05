@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four respect safety, equipment limits and repeated checking. Their primary mechanisms are matched-time comparison, runoff gradients, temperature-dependent solubility and vertical redistribution. Candidate 0 is the strongest general plan: it directly checks timing and calibration while retaining runoff observations, without requiring optional meter capabilities or depth access. Its runoff discrimination is limited, which it acknowledges."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable, with capability-dependent routes explicitly conditional. Candidates 0 and 4 share the matched-time mechanism; calibration recovery is an execution improvement, not a separate mechanism. The remaining mechanisms are runoff gradients, probe-response artifacts, vertical redistribution and temperature-dependent solubility. Candidate 4 best integrates matched-hour comparisons, spatial runoff checks, duplicates and calibration recovery within safe sampling windows."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 with explicit handling and replacement of calibration-compromised observations, alternating circuit direction and comparison of runoff-associated spatial differences. These practical additions make the plan more discriminating and inspectable while preserving feasibility and appropriate uncertainty."
+    }
+  },
+  "format_retry_of": null
+}

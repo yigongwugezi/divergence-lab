@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites and time caps. Candidates 0 and 4 share deadline-based clearance; the readiness gate is an error-control repair. Other mechanisms are paper planning cues, explicit cancellation of unwanted holds, retrieval-error correction, and collecting additional ready holds during an existing visit. Candidate 5 best combines a direct route to actual pickups, unchanged collection entitlements, private phone-free service, bounded work and inspectable outcomes. Its feasibility depends on quick access to ready-hold records."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable conditionally, with no definite serious hard-constraint violations. Their mechanisms are deadline clearance, paper planning cues, explicit cancellation of unwanted holds, faster retrieval, and authorized proxy collection. Candidate 2 offers practical, immediate shelf recovery using existing interactions and records, with explicit consent, item checks and separate accounting for cancellations and actual pickups. Its reach is limited to visiting patrons."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 has a slight edge over B2: it can turn an existing visit into additional actual pickups while preserving patrons' holds and deadlines. Both provide bounded workflows and inspectable error checks, but A5 also explicitly tests whether gains represent fewer expirations rather than merely earlier collection. Neither proposal establishes effectiveness before the trial."
+    }
+  },
+  "format_retry_of": null
+}

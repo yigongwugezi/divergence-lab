@@ -1,0 +1,352 @@
+{
+  "interpretation": "Each row is one frozen version. Different subsets are not comparable pass rates. Missing or stopped tasks are not failures. No per-task best-version pooling.",
+  "scope": "31 development/regression tasks; not unseen generalization or measured field outcomes.",
+  "research_cost_scope": "New local generation and judge attempts for each iteration, including failed attempts when metadata exists. Reused requests are not charged again here. Missing usage stays unknown; these are not independent full-flow costs or cash costs. Use each candidate FLOW_COST.json for matched full-flow comparison.",
+  "iterations": [
+    {
+      "version": 6,
+      "scope": "focused_subset",
+      "scope_task_universe": 31,
+      "focused_screen_size": 8,
+      "completed_tasks": 8,
+      "passed_tasks": 2,
+      "failed_ids": [
+        "S05",
+        "E03",
+        "N01",
+        "N03",
+        "N07",
+        "N16"
+      ],
+      "votes": {
+        "L": 1,
+        "T": 13,
+        "W": 2
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 32,
+      "new_local_attempt_statuses": {
+        "complete": 32
+      },
+      "known_research_input_tokens": 463491,
+      "known_research_output_tokens": 26659,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate6/summary.json",
+      "freeze": "candidate6/FREEZE.json",
+      "source_summary_sha256": "d4395b6ab6fc1707de326560dd382f192bc1cbc4d84f9b7de495b1c2cccf40bf",
+      "frozen_component_hashes": "candidate6/FREEZE.json"
+    },
+    {
+      "version": 7,
+      "scope": "focused_subset",
+      "scope_task_universe": 31,
+      "focused_screen_size": 8,
+      "completed_tasks": 8,
+      "passed_tasks": 5,
+      "failed_ids": [
+        "S05",
+        "N03",
+        "N15"
+      ],
+      "votes": {
+        "L": 1,
+        "W": 9,
+        "T": 6
+      },
+      "unknown_usage_attempts": 1,
+      "new_local_research_attempts": 25,
+      "new_local_attempt_statuses": {
+        "complete": 24,
+        "failed": 1
+      },
+      "known_research_input_tokens": 363983,
+      "known_research_output_tokens": 17080,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate7/summary.json",
+      "freeze": "candidate7/FREEZE.json",
+      "source_summary_sha256": "bf1821fa013df4368949dce73211729004e88e0e543a200dcc4c99f8e808867c",
+      "frozen_component_hashes": "candidate7/FREEZE.json"
+    },
+    {
+      "version": 8,
+      "scope": "full31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 31,
+      "passed_tasks": 28,
+      "failed_ids": [
+        "S03",
+        "N01",
+        "N02"
+      ],
+      "votes": {
+        "W": 50,
+        "T": 12
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 117,
+      "new_local_attempt_statuses": {
+        "complete": 117
+      },
+      "known_research_input_tokens": 1775391,
+      "known_research_output_tokens": 115105,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate8/summary.json",
+      "freeze": "candidate8/FREEZE.json",
+      "source_summary_sha256": "18198d48d8d8bbe1181fb035c415cd740c5bc5eaf349c4da9b414ae6ca82fa76",
+      "frozen_component_hashes": "candidate8/FREEZE.json"
+    },
+    {
+      "version": 9,
+      "scope": "focused_subset",
+      "scope_task_universe": 31,
+      "focused_screen_size": 8,
+      "completed_tasks": 8,
+      "passed_tasks": 6,
+      "failed_ids": [
+        "N01",
+        "N16"
+      ],
+      "votes": {
+        "W": 10,
+        "T": 6
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 24,
+      "new_local_attempt_statuses": {
+        "complete": 24
+      },
+      "known_research_input_tokens": 368355,
+      "known_research_output_tokens": 19069,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate9/summary.json",
+      "freeze": "candidate9/FREEZE.json",
+      "source_summary_sha256": "671ef4d23466200f1a40b48f94036c44591b20dc20e8a796c226c45538061940",
+      "frozen_component_hashes": "candidate9/FREEZE.json"
+    },
+    {
+      "version": 10,
+      "scope": "early_stopped_partial31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 25,
+      "passed_tasks": 19,
+      "failed_ids": [
+        "L05",
+        "I03",
+        "P06",
+        "N02",
+        "N07",
+        "N12"
+      ],
+      "votes": {
+        "W": 33,
+        "T": 17
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 75,
+      "new_local_attempt_statuses": {
+        "complete": 75
+      },
+      "known_research_input_tokens": 1147712,
+      "known_research_output_tokens": 48961,
+      "additional_interrupted_requests_without_metadata": 3,
+      "summary": "candidate10/summary.json",
+      "freeze": "candidate10/FREEZE.json",
+      "source_summary_sha256": "59b7fe163852f9dc13ee89ba27776ac6fcbed690df31facdcd61355f5ed19482",
+      "frozen_component_hashes": "candidate10/FREEZE.json"
+    },
+    {
+      "version": 11,
+      "scope": "early_stopped_partial31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 24,
+      "passed_tasks": 21,
+      "failed_ids": [
+        "S03",
+        "L05",
+        "N06"
+      ],
+      "votes": {
+        "W": 35,
+        "L": 1,
+        "T": 12
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 76,
+      "new_local_attempt_statuses": {
+        "complete": 76
+      },
+      "known_research_input_tokens": 1201426,
+      "known_research_output_tokens": 58793,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate11/summary.json",
+      "freeze": "candidate11/FREEZE.json",
+      "source_summary_sha256": "e3cd24dd2069c6bc6327f9437790379caa66005201fe1c5f1cd04469e29dc48e",
+      "frozen_component_hashes": "candidate11/FREEZE.json"
+    },
+    {
+      "version": 12,
+      "scope": "early_stopped_partial31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 16,
+      "passed_tasks": 13,
+      "failed_ids": [
+        "S01",
+        "S06",
+        "N03"
+      ],
+      "votes": {
+        "T": 5,
+        "W": 26,
+        "L": 1
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 50,
+      "new_local_attempt_statuses": {
+        "complete": 50
+      },
+      "known_research_input_tokens": 788183,
+      "known_research_output_tokens": 43270,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate12/summary.json",
+      "freeze": "candidate12/FREEZE.json",
+      "source_summary_sha256": "b6b65076b34d80acb742ed6779b80e9bbb3e9a38903c202c6d301b9b80e2253d",
+      "frozen_component_hashes": "candidate12/FREEZE.json"
+    },
+    {
+      "version": 13,
+      "scope": "full31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 31,
+      "passed_tasks": 29,
+      "failed_ids": [
+        "S06",
+        "N09"
+      ],
+      "votes": {
+        "W": 52,
+        "T": 8,
+        "L": 2
+      },
+      "unknown_usage_attempts": 2,
+      "new_local_research_attempts": 95,
+      "new_local_attempt_statuses": {
+        "complete": 93,
+        "failed": 2
+      },
+      "known_research_input_tokens": 1490070,
+      "known_research_output_tokens": 82142,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate13/summary.json",
+      "freeze": "candidate13/FREEZE.json",
+      "source_summary_sha256": "6d9d14263f3a322f2feba68815de7bad7f9e733415e05c2d97a817f86442bd89",
+      "frozen_component_hashes": "candidate13/FREEZE.json"
+    },
+    {
+      "version": 14,
+      "scope": "early_stopped_partial31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 6,
+      "passed_tasks": 3,
+      "failed_ids": [
+        "S03",
+        "S06",
+        "N02"
+      ],
+      "votes": {
+        "L": 2,
+        "T": 4,
+        "W": 6
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 22,
+      "new_local_attempt_statuses": {
+        "complete": 22
+      },
+      "known_research_input_tokens": 358897,
+      "known_research_output_tokens": 21565,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate14/summary.json",
+      "freeze": "candidate14/FREEZE.json",
+      "source_summary_sha256": "3423dbac089b7394385657d05c56202078179fc5489876713613f028e4889796",
+      "frozen_component_hashes": "candidate14/FREEZE.json"
+    },
+    {
+      "version": 15,
+      "scope": "full31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 31,
+      "passed_tasks": 29,
+      "failed_ids": [
+        "S06",
+        "Q05"
+      ],
+      "votes": {
+        "W": 59,
+        "L": 1,
+        "T": 2
+      },
+      "unknown_usage_attempts": 3,
+      "new_local_research_attempts": 97,
+      "new_local_attempt_statuses": {
+        "complete": 94,
+        "failed": 3
+      },
+      "known_research_input_tokens": 1507203,
+      "known_research_output_tokens": 81912,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate15/summary.json",
+      "freeze": "candidate15/FREEZE.json",
+      "source_summary_sha256": "4659d574b7d375b8f927da8c792d1bc32f2db2fe80355ec282ffcbd9394d4221",
+      "frozen_component_hashes": "candidate15/FREEZE.json"
+    },
+    {
+      "version": 16,
+      "scope": "full31",
+      "scope_task_universe": 31,
+      "focused_screen_size": null,
+      "completed_tasks": 31,
+      "passed_tasks": 31,
+      "failed_ids": [],
+      "votes": {
+        "W": 59,
+        "T": 3
+      },
+      "unknown_usage_attempts": 0,
+      "new_local_research_attempts": 92,
+      "new_local_attempt_statuses": {
+        "complete": 92
+      },
+      "known_research_input_tokens": 1427363,
+      "known_research_output_tokens": 100521,
+      "additional_interrupted_requests_without_metadata": 0,
+      "summary": "candidate16/summary.json",
+      "freeze": "candidate16/FREEZE.json",
+      "source_summary_sha256": "326919d75e5a33407f55f0d929995eb144a5bdd4570ed5d7078089aba8b70000",
+      "frozen_component_hashes": "candidate16/FREEZE.json"
+    },
+    {
+      "version": 17,
+      "scope": "interrupted_partial31_changed_shared_prefix",
+      "completed_tasks": 2,
+      "passed_tasks": 1,
+      "failed_ids": [
+        "N02"
+      ],
+      "votes": {
+        "W": 2,
+        "T": 2
+      },
+      "summary": "candidate17/summary.json",
+      "freeze": "candidate17/FREEZE.json",
+      "reason_stopped": "Account usage limit interrupted the authorized six-hour run; deadline then elapsed. Not resumed.",
+      "interpretation": "New shared P0 and matched DIRECT outputs; not a same-prefix score improvement over16. Partial results cannot qualify17 as release replacement."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious constraint violations. Primary mechanisms are a personal learning record (0,7), collective questions (1), acknowledgment of care (2), volunteer modeling (3), decision rehearsal (4), organizational follow-through (5), and outcome normalization (6). Candidate 7 improves the learning-record mechanism by offering a factual draft instead of requiring disappointed visitors to formulate a lesson. It preserves uncertainty, separates publication consent, and explicitly checks embarrassment, refusal, and service burden."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious constraint violations. Primary mechanisms are a personal learning record (0), collective questions (1), acknowledgment of care (2), volunteer modeling (3), organizational responsiveness (4), and perspective-taking through reconstructed uncertainty (5). Candidate 0 offers the strongest balance of simplicity, direct personal learning, privacy, and an inspectable comparison measuring learning, embarrassment, pressure, delays, and accepted refusals."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 improves on B0's shared mechanism by reducing the visitor's work while allowing correction, refusal, and an honestly unresolved ending. Its pilot checks factual clarity, ease of opting out, embarrassment, and volunteer burden more explicitly. These practical improvements give A a modest advantage; neither proposal establishes effectiveness before the pilot."
+    }
+  },
+  "format_retry_of": null
+}

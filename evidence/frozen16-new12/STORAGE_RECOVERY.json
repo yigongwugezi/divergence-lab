@@ -1,0 +1,9 @@
+{
+  "task": "R11",
+  "review": 2,
+  "incident": "Verdict file write interrupted by full disk; original complete response retained",
+  "recovery": "Existing evaluator rebuilt VERDICT from saved response; no additional model request",
+  "raw_response_sha256": "cc65adacf6361a87275dd082bf9abe3dffcaeb5ca5cd0c80523f749935b0cf93",
+  "published_verdict_sha256": "ccd1b6e408b85bd8aec2a94b9834191bf950b5dc343cb0f38cc29e91a06239c5",
+  "answer_equals_saved_response": true
+}

@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, allow available-bike emergency use, and compare the three required measures over two weeks. Groups distinguish reservations and protected departure claims, rotating priority periods, usage-based priority, ready-user queuing, and flexible scheduling. Candidates 5 and 6 repair existing mechanisms; 7 changes reservation boundaries and borrowing rules without fundamentally changing advance time claims. Candidate 0 offers the strongest low-friction default: clear commitments, minimal bookkeeping, early conflict detection, and an inspectable comparison. More elaborate alternatives depend on household flexibility or add checks and negotiation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints in their written designs. Their primary mechanisms are advance reservations, rotating priority periods, usage-based priority, flexible scheduling, and bounded-loan queuing. Candidate 0 best balances simplicity, predictable access, privacy, emergency handling, and measurable outcomes. Flexible scheduling could preserve more trips when timing is adjustable, but requires a shared evening check; queuing offers weaker protection for fixed departures."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' strongest proposals are the identical reservation routine and two-week comparison. Neither pool establishes a better default for this household's unspecified travel patterns; additional detail or alternative mechanisms alone do not improve the selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

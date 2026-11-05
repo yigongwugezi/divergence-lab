@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide conditional, practical workflows compatible with privacy, phone-free pickup and the daily time limit, and track the required outcomes. Candidate 1 best balances prevention of forgotten pickups, unchanged collection rights, straightforward delivery and inspectable comparison. Its reach is limited to participating in-person requests. The mechanisms are deadline clearance, paper planning cues, explicit cancellation, faster retrieval and authorized proxy collection."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and include the required safeguards and measurements. Candidates 0 and 4 share deadline clearance as their primary mechanism; the readiness gate is a safeguard rather than a new mechanism. Candidate 5 best combines a direct opportunity for additional actual pickups with explicit feasibility gates, consent, item checks, retrieval time accounting and measurable outcomes. Its benefit depends on staff not already routinely offering all ready holds."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 acts during an existing pickup visit, allowing willing patrons to collect additional ready items immediately. Compared with A1's earlier reminder, it has a more direct path to freeing shelf space through actual pickups and clearly distinguishes accelerated collection from avoided abandonment. Its explicit prerequisites, time cap and error checks make the proposal practical and inspectable, although effectiveness remains unproven."
+    }
+  },
+  "format_retry_of": null
+}

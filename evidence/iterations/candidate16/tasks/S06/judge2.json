@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are anonymous queued orientation (0,6), optional self-service browsing (1), shared welcome rounds (2), identical information packets (3), optional written exchange (4), referral rehearsal (5), and eliminating personal-case intake (7). Candidate 6 repairs interruption handling without changing 0's mechanism. Candidate 7 best combines privacy independent of room acoustics, accessible human assistance, explicit advice boundaries, honest referral-gap handling and inspectable checks of navigation, waiting confusion and privacy complaints."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are anonymous queued orientation (0), optional self-service browsing (1), shared welcome rounds (2), eliminating personal-case intake (3), and spatial separation of waiting and assistance (4). Candidate 3 offers the strongest feasible privacy protection without assuming acoustic confidentiality, with neutral request options, clear volunteer boundaries and relevant evaluation measures. Its potential exclusion of visitors unable to separate questions from personal circumstances is acknowledged and tested."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B3 by explicitly preserving assistance for visitors unable to frame a general question, providing reading assistance and interruption recovery, and specifying honest handling of missing referrals. Both respect the constraints and propose inspectable trials; A7 more completely resolves inclusion and operational failure cases."
+    }
+  },
+  "format_retry_of": null
+}

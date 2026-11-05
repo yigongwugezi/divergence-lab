@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly addresses crowd exposure through a feasible, dignified layout and compares use, spillover and effort across both afternoons. All candidates are usable; candidate 3 is explicitly conditional on existing operator cooperation. The five primary mechanisms are spatial shelter, shared quiet behavior, voluntary seat turnover, source-volume reduction and predictable self-service."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 strengthens spatial shelter with checks during actual fair activity, accessible placement criteria and practical fallbacks. Its trial covers use, spillover and volunteer effort, although assigning each arrangement to a different afternoon weakens attribution. Candidates 0 and 5 share one mechanism; the others use shared quiet behavior, voluntary turnover, source-volume reduction, advance seat-status information and predictable self-service. Conditional operator cooperation in candidate 3 is not a definite staffing violation."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best proposal modestly improves feasibility and likely usefulness by checking actual conditions and specifying fallbacks before committing to placement. A's within-afternoon comparisons are stronger for attribution, but B's operational safeguards give it a narrow overall advantage."
+    }
+  },
+  "format_retry_of": null
+}

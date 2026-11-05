@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: deadline enforcement, paper planning cues, voluntary cancellation, retrieval-error correction and authorized proxy pickup. Candidate 0 offers the most immediately practical shelf-space workflow, with notification-based deadlines, preserved exceptions, repeated status checks, a daily time budget and separate pickup/error tracking. Its limitation is that faster clearance need not reduce abandonment; its evaluation explicitly guards against that tradeoff."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: deadline enforcement, paper planning cues, voluntary cancellation, faster retrieval and authorized proxy pickup. Candidate 0 best combines immediate shelf-space relevance, feasible daily operation, privacy, phone-free collection and inspectable release safeguards. It appropriately makes shorter deadlines conditional and rejects occupancy gains accompanied by materially worse pickups or more errors."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a practical, bounded workflow and meaningful measurement while acknowledging that clearing shelves sooner alone does not establish reduced abandonment."
+    }
+  },
+  "format_retry_of": null
+}

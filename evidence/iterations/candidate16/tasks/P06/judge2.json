@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and privacy constraints and check availability, condition, effort and seated access. Candidates 0 and 5 share centralized return-box inspection; 5 adds capacity handling rather than a new primary mechanism. Other mechanisms are reader reshelving, an on-site reserve, optional-return exchange, donation intake control and optional recovery of stray books. Candidate 5 best combines a simple ritual with explicit overflow responses, bounded volunteer work and inspectable pilot criteria. Its full-box instruction can delay returns, a cost it acknowledges."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the constraints and include the required checks. Their primary mechanisms are centralized return-box inspection, reader reshelving, an on-site reserve, optional shared tidying and portable return reminders. Candidate 0 offers the clearest low-burden ritual and predictable volunteer routine, with direct measures of availability, condition and cleanup. The alternatives introduce classification, divided permissions, discretionary reader help or paper handling whose benefits remain uncertain."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 preserves B0's practical return-box mechanism while addressing overflow and interrupted sorting with concrete actions within the existing visits. Its explicit fallback and decision rules make the pilot more operationally complete and inspectable. This is a modest advantage in execution detail, despite the acknowledged burden of asking readers to retain returns when the box is full."
+    }
+  },
+  "format_retry_of": null
+}

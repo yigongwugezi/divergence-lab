@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the stated resources and class duration and assess new-chart transfer and completion time. Primary mechanisms are extreme-value manipulation, claim auditing, prediction against revealed distributions, count reconstruction, arithmetic scaffolding, information-sufficiency decisions, retrieval, and worked-error diagnosis. Candidate 7 refines candidate 1 rather than adding a mechanism. It is strongest because its bounded arithmetic recovery keeps novice learners working toward justified interpretations while separately recording assisted and independent numerical performance. Candidate 3 is usable conditionally on suitable data."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible 50-minute plans with mean–median instruction, individual transfer, and time measurement. Their distinct primary mechanisms are extreme-value manipulation, claim auditing, prediction against revealed distributions, worked-error repair, and comparison of decision consequences. Candidate 1 most directly connects numerical summaries to public-health claims, includes a transfer question where the mean is useful, and separates calculation from justified interpretation. Candidate 4 is conditionally usable but adds substantial arithmetic burden."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 preserves B1's direct alignment with evaluating chart claims and adds a concrete, time-bounded response to novice arithmetic difficulties. This improves feasibility within the fixed class and assessment windows. Its explicit separation of assisted comparison from independent calculation makes the resulting assessment inspectable without treating supplied answers as calculation mastery."
+    }
+  },
+  "format_retry_of": null
+}

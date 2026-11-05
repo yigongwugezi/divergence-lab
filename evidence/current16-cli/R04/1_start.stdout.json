@@ -1,0 +1,16 @@
+{
+  "task_state": "<CLI_TASK_STATE>",
+  "rounds": [
+    {
+      "round": 0,
+      "phase": "P0",
+      "candidates": [
+        {
+          "title": "Controlled isolation with a rehearsed recovery routine",
+          "proposal": "Use one-change-at-a-time trials to identify which recoverable state accompanies the disconnection, then retain only an intervention that shows repeatable benefit. This needs the existing cable, outlet, queue view, printing application and blank or synthetic document; no installation or privileged settings.\n\nReserve about 40 minutes after hours. Begin only when authorized staff confirm that both the queue and printer have no outstanding client jobs. Observe counts and status without opening documents, previews or job details. Use an explicitly synthetic page if the application suppresses empty pages.\n\nRun this sequence, recording connection status, queue progress and whether each test page emerges:\n\n1. Baseline: send two identical test jobs separately, with a short idle interval.\n2. Queue: if a test stalls, cancel only that synthetic job using ordinary user controls, wait for removal, then repeat. If cancellation is unavailable, stop that branch.\n3. Application: close and reopen the same application with only the test document, then repeat. Improvement supports an application-state explanation; shared driver faults remain unresolved.\n4. Cable: with no jobs pending, disconnect and firmly reconnect the existing USB cable, remove obvious tension, and repeat. Improvement supports the USB connection path, but cannot distinguish contact trouble from USB re-enumeration.\n5. Power/device: with no pending jobs, perform a normal printer power-off/on at the existing outlet and repeat. Improvement supports a device/reset-sensitive explanation; it does not establish an outlet fault because restarting also resets software.\n\nKeep the original port, outlet and settings. Restore cable routing after the comparison if safe. Recreate canceled synthetic jobs when needed; never clear the whole queue.\n\nFor opening day, rehearse the shortest successful recovery while the system is empty, then verify readiness with one synthetic page. Submit client jobs individually. If disconnection recurs, pause submissions and have authorized staff reconcile job status before resending, avoiding duplicate confidential output.",
+          "experiment": "Compare each intervention with the immediately preceding identical test. Rechallenge any apparent improvement with the same job and idle interval. A recurrence falsifies the claim that the intervention reliably fixes it. If baseline never fails, report ��not reproduced�� and retain only the readiness check and pause/reconcile fallback. No cable substitution, electrical measurement or driver-level diagnosis is available; intermittent faults may remain unresolved."
+        }
+      ]
+    }
+  ]
+}

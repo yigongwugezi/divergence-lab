@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates support static-file maintenance, named sources and review dates, and tracking of stale answers, conflicts and reader failures. Groups represent canonical answers, dependency tracking, scheduled renewal, source excerpts, navigation routing and grouped publication. Candidate 6 best combines reduced duplicate editing with explicit checks of policy applicability and effective dates, a bounded weekly routine and an inspectable pilot. Candidate 7 repairs dependency-workflow completion; it does not introduce a separate primary mechanism."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within the stated constraints. Their primary mechanisms are canonical answers, dependency tracking, scheduled renewal, source excerpts and decision tables. Candidate 0 most directly reduces ongoing editing work while retaining source metadata, issue tracking and reader checks. Its small pilot makes maintenance savings and remaining contradictions inspectable. The other approaches are credible but introduce mapping overhead, renewal workload or dependence on suitable policy structure."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 preserves B0's practical canonical-answer workflow while addressing a consequential correctness gap: a newer memo may govern a future date or different audience. Its explicit applicability checks and dated transition wording improve policy accuracy without requiring new infrastructure. This is a substantive improvement despite modest additional editorial work."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source distinctions, dates and exceptions, disclaim authority, and test unfamiliar-item decisions and when to ask. Groups represent terminology comparison, procedural routing, contrast learning, teach-back, action-versus-ask calibration, and reversible holding. Candidates 5 and 6 repair existing mechanisms. Candidate 5 is best: its coverage gate directly addresses misleading compression within one readable page, provides an executable fallback, and pairs a complete update rule with observable error and lookup checks."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and offer distinct primary mechanisms: terminology comparison, procedural routing, contrast learning, teach-back, and preventive shortcut correction. Candidate 0 best matches the comparison task with a readily inspectable table, explicit non-equivalence and conflicts, adjacent exceptions, source metadata, an update rule, and source-scored unfamiliar-item testing. Other approaches depend more on suitable rule structures, transferable examples, volunteer interaction, or demonstrated shortcuts."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0's strong crosswalk by explicitly checking whether compression loses answer-changing conditions and requiring visible exclusions or narrower coverage when necessary. That makes the one-page constraint more executable and the comparison less likely to imply unsupported equivalence, without changing the primary mechanism."
+    }
+  },
+  "format_retry_of": null
+}

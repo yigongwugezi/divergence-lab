@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and honesty constraints and compare the three required outcomes over four weeks. Candidates 0 and 7 share the evidence-gated commitment mechanism; expiry rules and revision tracking refine it rather than create a new mechanism. Other candidates use distinct primary mechanisms. Candidate 7 is strongest: clear ownership, evidence requirements, expiry triggers, preserved original windows and card audits make a feasible communication process inspectable. Candidate 6 is usable only where existing alternative suppliers are available, as explicitly acknowledged."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five candidates satisfy the hard constraints and use distinct primary mechanisms: evidence gates, historical calibration, exception clarification, protected repair capacity and requirement completeness. Candidate 0 most directly addresses variable parts arrival with a practical paper-based communication process, supported pickup windows, prompt delay disclosure and a four-week comparison that tracks estimate availability. The other approaches depend more heavily on unestablished causes or resources."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 improves the shared evidence-gate proposal with explicit withdrawal of unsupported windows and preservation of original estimates. These practical controls reduce stale promises and prevent revisions from concealing misses, while retaining feasible staffing, existing tools and the required four-week comparison. Its advantage is operational clarity and inspectability, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

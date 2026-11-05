@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites and limits. The primary mechanisms are controlled fault isolation, idle/wake management, cable-route separation and USB-port substitution. Candidate 3 best covers all four required explanations with reversible checks, explicit synthetic-job cleanup, reserved recovery time and a practical opening-day fallback. Its recovery gate improves the original mechanism without creating a new one."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The distinct mechanisms are controlled fault isolation, printer-internal self-testing and idle-trigger diagnosis. Candidate 0 most reliably covers all four required explanations using the stated resources. Candidate 1 offers useful independent-path evidence but depends on an available internal self-test; candidate 2 depends more heavily on reproducing an idle-related fault within the session."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A3 improves on B0 through explicit stop-and-clear behavior after failures, recovery time and a verified clear queue before handoff. These concrete safeguards make its next-day fallback more inspectable and reduce uncertain or duplicate printing while preserving the required diagnostic coverage."
+    }
+  },
+  "format_retry_of": null
+}

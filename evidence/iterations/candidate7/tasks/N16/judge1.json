@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, use available materials, protect contents from casual viewing, and include private one-month retrieval and misfiling checks. Candidate 0 offers the strongest general fit: one predictable destination with little maintenance. The other mechanisms are a locator index, checkout signals, keeping sheets with a portable folder, and receipt/transport completeness checks; their benefits depend more on where losses occur."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious constraint violations. Candidates 0 and 6 share the fixed-home mechanism; 6 adds recovery and evaluation refinements rather than a distinct primary mechanism. The remaining mechanisms are indexing, checkout signals, portable-folder handling, periodic recovery sweeps, receipt reconciliation, and preventing disposal during shared tidying. Candidate 6 best combines low-burden prevention, owner-only recovery, explicit limits on page counts, and an inspectable trial that records missing sets and maintenance costs."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 with a concrete response when papers remain missing and a stronger evaluation that records baseline misfiling, missing targets, and shifted search or maintenance costs. These are practical quality improvements while preserving the same feasible, privacy-conscious storage mechanism."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide workable static-site workflows, source and review-date requirements, and tracking for stale guidance, conflicts and failed lookups. Their primary mechanisms are answer consolidation, dependency mapping, review expiration, source excerpts and decision tables. Candidate 0 best balances reduced update effort, manageable overhead and an inspectable pilot; migration can proceed within the weekly allowance."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable and address the hard constraints. Candidates 0 and 6 share canonical-answer consolidation; explicit source-supersession checks refine that mechanism rather than create another. The other mechanisms are dependency mapping, review expiration, source excerpts, reader-vocabulary routing and grouped publication. Candidate 6 offers the strongest balance: consolidation reduces repeated edits, applicability checks handle conflicting memos, and a bounded pilot measures maintenance effort, unresolved guidance and reader failures."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 preserves A0's practical consolidation workflow while specifying how to handle ambiguous or future-effective sources without guessing, retaining supported portions where possible. It also supplies a fallback for collecting reader failures and clearer pilot checks. These are useful correctness and feasibility improvements, although the added review overhead remains unproven."
+    }
+  },
+  "format_retry_of": null
+}

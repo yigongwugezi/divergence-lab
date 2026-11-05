@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source identifiers, support reversible implementation with existing resources, and measure the three required outcomes over two weeks. Their primary mechanisms are independent source verification, stable physical positions, single-sample labeling, reduced custody transfers, and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with a feasible acceptance check and a controlled, inspectable trial."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; conditional routes explicitly require relevant workflow conditions before implementation. Candidate 7 repairs candidate 0's acceptance procedure through explicit pending custody and interruption recovery, so they share one mechanism. The other mechanisms are stable positions, single-sample labeling, reduced custody transfers, identifier-keyed spreadsheet navigation, obsolete-label control, recorded-stage restart, and elimination of avoidable container changes. Candidate 7 provides the strongest direct handoff procedure, with documentary resolution, explicit responsibility, reversible implementation and inspectable two-week measurement."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A0 by specifying who retains responsibility before acceptance and how an interrupted transfer resumes. These operational details close a plausible custody gap while preserving traceability and using existing resources. Its trial also measures waiting separately from active handoff time, making the coordination burden easier to assess. The advantage is practical completeness, not length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

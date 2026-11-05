@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control and clinical instructions, use available resources, and include private month-end retrieval and misfiling checks. Candidate 0 offers the strongest general-purpose fit: one predictable destination, modest upkeep, concealed contents, and a clear evaluation. Other mechanisms depend more on where losses occur or add maintenance."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with privacy limitations acknowledged and owner-controlled evaluation. Candidates 6 and 7 repair the fixed-home and locator mechanisms rather than introduce distinct primary mechanisms. Candidate 0 provides the best general-purpose balance of correctness, feasibility, likely effect, and inspectability; added intake, tracking, recovery, or interception routines offer conditional benefits with additional work."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0, so their best written task quality is equal."
+    }
+  },
+  "format_retry_of": null
+}

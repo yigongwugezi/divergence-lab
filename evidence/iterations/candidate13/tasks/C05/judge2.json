@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated safeguards and conditional fallbacks. Candidates 0 and 7 share the private learning-record mechanism; 7 adds evidence and handoff safeguards rather than a new mechanism. The other primary mechanisms are shared uncertainty, personal acknowledgment, volunteer modeling, decision rehearsal, organizational follow-through, outcome normalization, and visitor-defined learning goals. Candidate 7 best combines a concrete optional ritual, supportable learning, explicit publication review, queue stop rules, and checks for embarrassment and refusal handling."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Their distinct primary mechanisms are private learning records, shared uncertainty, personal acknowledgment, volunteer modeling, organizational responsiveness, and perspective-taking through staged information. Candidate 4 makes learning observable through an implemented service improvement. Its comparison keeps that improvement available while testing the celebratory framing, and separately checks understanding, dismissal, actual implementation, congestion, and opt-out behavior."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A7 offers a direct, lightweight personal ritual with particularly strong safeguards against invented learning. B4 provides tangible organizational learning and a cleaner comparison of its celebratory framing, but depends on suitable recurring evidence and authority to change a practice. Both are concrete, feasible within their stated conditions, and candid about embarrassment and evaluation limits; neither clearly dominates overall."
+    }
+  },
+  "format_retry_of": null
+}

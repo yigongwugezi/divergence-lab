@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide a 50-minute, paper-based lesson, novice instruction comparing mean and median, and timed assessment on an unseen chart. Their primary mechanisms are value manipulation, claim auditing, prediction and distribution reveal, error repair, and comparing numerical consequences. Candidate 1 best aligns practice with recognizing misleading public-health claims, assesses arithmetic and interpretation separately, and tests transfer before discussion. Candidate 4 imposes greater arithmetic demands; candidate 0 allows discussion before its main transfer comparison."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints on their stated data prerequisites; none requires internet or personal medical information. The primary mechanisms are value manipulation, claim auditing, prediction and reveal, reconstructing pooled averages through counts, arithmetic scaffolding, information-sufficiency decisions, retrieval with correction, and counterexample testing. Candidate 8 repairs the manipulation demonstration; candidate 7 adds recovery to claim auditing, so neither creates a new primary mechanism. Candidate 7 offers the strongest balance: a concrete arithmetic rescue protects interpretation time, while retained initial attempts, separate scoring, assistance records, and timed unseen transfer make its benefits and limitations inspectable."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A1 by specifying what the instructor does when novice arithmetic stalls, making completion of meaningful interpretation more feasible within 50 minutes. Its staged transfer preserves evidence of independent calculation while separately assessing supported interpretation. Supplied summaries limit claims about independent numerical mastery, but the proposal explicitly records that distinction."
+    }
+  },
+  "format_retry_of": null
+}

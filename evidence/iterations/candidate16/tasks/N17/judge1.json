@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates condition operation on safe, accessible space and track the required measures across two events. Groups distinguish continuous first-come admission, timed cohorts, first-turn priority and batch random ordering; a call-forward register changes waiting logistics rather than admission priority. Candidate 0 offers the simplest feasible arrangement for two attendants, preserves accessible arrival order and provides inspectable monitoring. Long visits remain its main limitation."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable subject to their stated site prerequisites; none definitely violates a hard constraint. Queue overflow and interruption recovery refine existing mechanisms rather than create new ones. Candidate 5 best combines simple first-come allocation with explicit accessible overflow limits, emergency-access recovery, occupancy responsibility and measurement across both events. Its effects on waiting time remain uncertain."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 by specifying how two attendants preserve order and occupancy control when safe waiting space fills or operations pause. These concrete procedures strengthen feasibility and emergency-access protection, while its monitoring includes queue closures and unserved departures. The advantage is operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

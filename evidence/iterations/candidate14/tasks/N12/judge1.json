@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four are usable, with temperature and depth routes conditional on existing meter capabilities and safe reach. Their primary mechanisms are timing/weather comparison, localized runoff, temperature-dependent solubility, and vertical redistribution. Candidate 0 best addresses the full task with feasible matched-hour observations, calibration checks, independent repeats and explicit limits on attribution."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable subject to their stated prerequisites. Candidates 4 and 5 refine existing comparison mechanisms rather than introduce new ones. The five mechanisms are timing/weather comparison, localized runoff, probe-response artifacts, vertical redistribution, and temperature-dependent solubility. Candidate 4 offers the strongest overall plan: it checks control eligibility and background change, treats independent rain events as repeats, and retains safe sampling, calibration and time-of-day checks without extra trips."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 by requiring usable dry controls, checking background trends and explicitly avoiding treating shoreline points as independent rain-event repeats. These changes make rain attribution more defensible within the same resources and schedule; both appropriately leave unresolved mechanisms and inadequate weather contrasts unresolved."
+    }
+  },
+  "format_retry_of": null
+}

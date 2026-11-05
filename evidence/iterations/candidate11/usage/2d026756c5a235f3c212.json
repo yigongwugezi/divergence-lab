@@ -1,0 +1,16 @@
+{
+  "role": "dd3e3b500afaa242588f_a1",
+  "status": "complete",
+  "exit_code": 0,
+  "seconds": 58.10377019999942,
+  "usage": {
+    "input_tokens": 15009,
+    "cached_input_tokens": 8320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1502,
+    "reasoning_output_tokens": 172
+  },
+  "total_tokens": 16511,
+  "cash_cost": null,
+  "provider_request_count": null
+}

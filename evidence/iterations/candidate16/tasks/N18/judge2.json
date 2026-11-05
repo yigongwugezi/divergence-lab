@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Placement checks and disturbance recovery refine their original mechanisms. Candidate 4 combines voluntary entry, explicit quiet expectations, accessible circulation and available assistance with a controlled two-afternoon comparison covering use, spillover and effort. Its stopping rules make the trial especially inspectable."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidate 3 depends explicitly on cooperation from existing sound operators within normal duties; it does not definitely require extra staff. Candidate 4 offers a feasible, dignified layout and clear self-directed access using available resources, with a comparison covering all required outcomes."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 has a slight advantage over B4: it states quiet behavior expectations explicitly, tests the interpersonal entry barrier directly, and provides clearer stopping conditions for confusion, unanswered assistance and unsafe circulation. Both remain provisional trials whose benefits depend on fair noise and available capacity."
+    }
+  },
+  "format_retry_of": null
+}

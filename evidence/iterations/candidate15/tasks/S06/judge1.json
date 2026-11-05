@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and respect volunteer scope, anonymous access and the required checks. Their primary mechanisms are predictable anonymous turns, visitor-controlled self-service, shared welcome rounds, case-information minimization and spatial separation. Candidate 0 offers the strongest overall balance: a clear inclusive arrival flow, practical volunteer roles, an audibility-dependent fallback and explicit referral boundaries. Its usability and privacy checks are directly inspectable."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable; dependence on room conditions, stock or existing referral listings is acknowledged rather than concealed. Primary mechanisms are anonymous turns, self-service, welcome rounds, environmental exposure control, referral comprehension, volunteer boundary calibration and topic-indistinguishable bundles. Candidates 6 and 7 repair their respective source mechanisms rather than creating new ones. Candidate 6 best combines accessible anonymous arrival with observable privacy conditions, preserved turns during interruptions, bounded recovery and a general-information fallback. Its rehearsal checks completion, waiting confusion, privacy concerns and operational costs."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 strengthens A0's privacy-dependent orientation with a concrete response when conditions deteriorate: stop without repeating details, preserve the visitor's turn, attempt bounded recovery and finish general navigation if separation cannot be restored. This addresses a material operating failure while retaining volunteer limits and inspectable checks. Neither proposal establishes actual access to qualified help beyond the available listings."
+    }
+  },
+  "format_retry_of": null
+}

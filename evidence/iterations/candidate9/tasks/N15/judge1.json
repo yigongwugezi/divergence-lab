@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency use when the bike is home, and specify two-week comparisons of the required measures. Their primary mechanisms are first-entry reservations, rotating priority, recent-use fairness, flexible-window scheduling, and bounded queueing. Candidate 0 best fits the low-friction goal: it exposes conflicts early with little administration and measures unused reservations as well as overall idle time."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Late-return recovery in 5 repairs reservations, and partial-period release in 6 repairs rotating priority; neither creates a new primary mechanism. Candidate 7 adds a distinct mechanism by physically returning the bike during otherwise unavailable gaps. Candidate 0 remains the strongest low-friction default without evidence that added administration is needed. Several later experiments measure only home-and-unclaimed idle time, which can omit idle time during unused claims and weakens their comparison."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0: a feasible, private reservation routine with emergency overrides and an inspectable two-week comparison. The additional alternatives in B do not improve the written quality of that selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

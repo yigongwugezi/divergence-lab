@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency use when the bike is present, and compare the three required measures over two weeks. Mechanisms are first-entry reservations, rotating priority, recent-use fairness, flexible scheduling, bounded checkout queues, and voluntary return between riding legs. Candidate 5 best combines low administration, early conflict detection and explicit late-return recovery. Its idle-time measure should include booked-but-unused time as well as unclaimed time."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their distinct mechanisms are first-entry reservations, rotating priority, recent-use fairness, flexible scheduling, and bounded checkout queues. Candidate 0 is the strongest default: simple, practical for irregular trips, private, and directly inspectable through missed trips, unused time and coordination effort. The alternatives depend more on predictable demand, acceptable fairness rules or flexible departure times."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly improves on B0 by addressing late returns, a concrete source of last-minute conflicts, without requiring daily scheduling or usage-history bookkeeping. B0 has the cleaner overall idle-time measure, but A5's recovery rule offers a practical reliability benefit with little routine overhead. Neither proposal establishes results before the trial."
+    }
+  },
+  "format_retry_of": null
+}

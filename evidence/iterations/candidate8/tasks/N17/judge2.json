@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 6 offers the strongest practical fit: simple arrival-order admission, explicit safe queue boundaries, preserved places for children unable to stand, clear attendant roles, and measurable evaluation across two events. All candidates are conditionally usable; candidate 5 explicitly prohibits operation without credible turnover information. Repairs 6 and 7 retain the mechanisms of 0 and 1. Candidate 8 primarily changes voluntary departure behavior, so it is distinct from ordinary continuous admission."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 best balances visible arrival-order fairness, accessibility, two-attendant feasibility and inspectable evaluation. The other candidates are usable under their stated prerequisites but add transition, notification, classification or drawing work without an established benefit. No proposal definitely violates a hard constraint."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves on B0's broadly similar arrangement by specifying when to stop accepting joins, preventing untracked overflow, and recording refused joins and unfinished waits. These concrete operating and evaluation rules strengthen emergency-access protection and expose displaced waiting costs without adding substantial administration."
+    }
+  },
+  "format_retry_of": null
+}

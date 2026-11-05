@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: deadline clearance, paper reminders, explicit cancellation, faster retrieval, and authorized collection. Candidate 0 offers the most directly executable shelf-space workflow, with a policy-compliant fallback, notification-based deadlines, private phone-free pickup, release checks, and all required trial measures. Shortening the window remains conditional and must not be judged successful from occupancy alone."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: deadline clearance, paper reminders, explicit cancellation, retrieval-error correction, deferred fulfillment, and authorized collection. Conditional capabilities have explicit prerequisites or fallbacks. Candidate 0 best combines immediate feasibility, direct shelf-space benefit, error controls, and inspectable measurement within the daily allowance; the other routes depend more on unverified causes or narrower patron groups."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both meet the constraints with a practical checked-release workflow and distinguish actual pickups from other removals, while explicitly limiting claims about shorter deadlines."
+    }
+  },
+  "format_retry_of": null
+}

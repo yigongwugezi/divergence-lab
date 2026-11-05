@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their primary mechanisms are, respectively, a gated sequence, distributed evidence, paused replay, presentation-style reversal, contrasting authority cases, externalized attributed accounts, and commitment repair. Candidate 4 best connects verified evidence and policy authority to actionable decisions, with feasible rotating practice and an unseen individual assessment. Its contrasts make both unsupported allocation and unnecessary escalation inspectable."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Candidates 6 and 7 repair the gated-sequence and distributed-evidence mechanisms rather than introduce new ones. The remaining mechanisms are paused replay, contrasting authority cases, claimant-presentation swaps, conversational correction and confirmation, and externalized information continuity. Candidate 3 offers the strongest balance of clear authority boundaries, feasible practice, explicit routine action versus handoff, and individually inspectable transfer to unseen cases. It also specifies update and unavailable-staff routes."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 modestly improves on A4's strong contrasting-case design by explicitly completing the routine-action branch, explaining updates and unavailable-staff fallback, and assessing both close contrasts and an unfamiliar exception individually. These additions improve operational completeness and inspectability; neither proposal establishes effectiveness beyond a proposed trial."
+    }
+  },
+  "format_retry_of": null
+}

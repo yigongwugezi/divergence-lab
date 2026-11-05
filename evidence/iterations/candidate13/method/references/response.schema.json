@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"required":["candidates"],"properties":{"candidates":{"type":"array","maxItems":3,"items":{"type":"object","additionalProperties":false,"required":["title","proposal","experiment"],"properties":{"title":{"type":"string"},"proposal":{"type":"string"},"experiment":{"type":"string"}}}}}}

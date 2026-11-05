@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates offer bounded, safety-preserving processes with time and material records and appropriately qualified diagnoses. The primary mechanisms are controlled substitution, historical-reference comparison, spatial localization, actual-job prefix testing, and evidence tracing. Candidates 4 and 5 refine existing mechanisms. Candidate 4 is strongest: its approved loading/purge check makes the filament comparison more interpretable, while explicit stop rules and uncertainty labels support novice use. Historical and slicer-dependent alternatives have additional prerequisites."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four are usable and preserve the hard constraints. Their primary mechanisms are controlled substitution, historical-reference comparison, function-specific diagnostic shapes, and preview-to-print conformance checking. Candidate 0 offers the clearest controlled comparison of setup and material, with sensible machine referral when evidence remains ambiguous. The alternatives depend more on historical records, prepared geometries, or directly observable evidence."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 improves on B0 by requiring a valid approved filament transition before interpreting the sample result, accounting for its purge consumption, and stopping when the control is unreliable. This addresses a concrete confound without exceeding three test starts or adding equipment. The advantage is diagnostic correctness and inspectability, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

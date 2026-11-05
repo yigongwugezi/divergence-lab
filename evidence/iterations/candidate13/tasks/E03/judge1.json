@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible and respect the safety constraints. Candidate 0 offers the strongest overall diagnostic sequence through repeated matched comparisons, qualified defect indicators, prioritized inspection and conditional repair. Candidate 1 uses a distinct primary mechanism: a warranted mounting correction as a causal intervention."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable; candidate 3 explicitly conditions its airflow trial on available approved controls and adequate ventilation. The primary mechanisms are matched comparisons, mounting intervention, stopped-fan source isolation and airflow-loading intervention. Candidate 4 best addresses the intermittent fault by targeting likely episodes, checking comparator stability and explicitly preventing clearance from quiet readings. It preserves safe inspection, conditional repair and escalation within the single shutdown."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 by explicitly handling missed episodes and changing conditions, preventing false reassurance while retaining a feasible diagnostic and repair sequence. Its advantage is a clearer decision boundary for the stated intermittent fault."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve documentary traceability, avoid purchases, provide reversible procedures and measure the required outcomes over two weeks. Groups represent independent verification, physical continuity, custody control, eliminating routine relabeling, isolating print jobs, carrying identifiers forward, eliminating handoffs and separating confusing identifiers. Candidates 7 and 8 refine existing mechanisms. Candidate 0 best balances broad applicability, practical checks and a comparable evaluation that distinguishes intercepted discrepancies from errors escaping acceptance; rare-error uncertainty is explicit."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are independent verification, physical continuity, custody control, printing at the point of use, electronic identifier carry-forward, separating confusing identifiers and preserving spreadsheet row integrity. Candidate 0 offers the strongest broadly applicable procedure and comparative evaluation. Other mechanisms depend more on confirming particular error sources or software capabilities; candidate 6 explicitly acknowledges its weaker live-trial baseline."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0, with the same feasible, reversible handoff check, traceability safeguards and two-week comparative measurement plan."
+    }
+  },
+  "format_retry_of": null
+}

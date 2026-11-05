@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer distinct allocation mechanisms, protect emergency access, accommodate mobility needs and track the required outcomes across two events. Candidate 0 is the strongest default: visible arrival order and simple admission duties fit two attendants, with explicit preservation of accessible waiting positions. Cohorts require enforceable endings; registers, priority shares and draws add administrative demands. Feasibility remains conditional on the stated site prerequisites."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 6 and 7 refine continuous admission and timed cohorts respectively rather than introduce new mechanisms. The other mechanisms are nearby call-forward registration, first-turn priority, batch draws and scheduled return windows. Candidate 5 is usable only with credible turnover information or an existing enforceable duration rule, as explicitly required. Candidate 6 best fits the staffing limit while preserving accessible arrival order: it specifies safe pauses, reconciliation, restart conditions and closing arrangements, and measures waits, disputes and workload across both events."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 through concrete interruption and closing procedures that directly address two-attendant operation and preservation of accessible waiting places. Its evaluation also records unfinished waits and distinguishes rehearsed recovery from observed live recovery. These are practical, inspectable improvements within the same primary mechanism."
+    }
+  },
+  "format_retry_of": null
+}

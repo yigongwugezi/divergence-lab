@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the service limits and include the required checks. Groups distinguish anonymous access, visitor-controlled browsing, shared orientation, audibility control, referral rehearsal, volunteer calibration and visitor control of companions. Candidates 6 and 7 repair their source flows rather than introduce new primary mechanisms. Candidate 6 offers the strongest complete flow: accessible anonymous turns, explicit privacy limits, qualified-help directions and recovery from missed or interrupted turns, with waiting costs checked."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with explicit assumptions and rejection conditions rather than definite constraint violations. Their primary mechanisms are anonymous access, optional browsing, shared orientation, information minimization and spatial separation. Candidate 3 best combines clear service boundaries, accessible anonymous waiting and qualified-help navigation while reducing the need to disclose personal facts even during individual assistance. Its experiment checks navigation, waiting confusion, privacy concerns and whether redirection undermines useful help."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 more directly prevents unnecessary disclosure throughout the visit and reduces reliance on an acoustically private corner. A6 provides stronger interruption recovery, but B3's case-free requests and explicit handling of spontaneous disclosure better address the central privacy goal with a feasible, inspectable flow. Both appropriately acknowledge that missing referral information leaves escalation unresolved."
+    }
+  },
+  "format_retry_of": null
+}

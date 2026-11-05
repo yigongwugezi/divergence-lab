@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and provenance constraints and compare understanding and discomfort with plain facts. Primary mechanisms are close observation, evidential boundaries, personal association, simulated interrupted use, institutional valuation, and conservation tradeoffs. Candidate 5 strengthens close observation through an actual case-viewing check, clear responsibility, and workable fallback and stopping rules. This is an implementation improvement, not a new mechanism."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and include the required comparison without fabricating history. Their primary mechanisms are close observation, evidential boundaries, personal association, evaluation of museum selection, and understanding present care. Candidate 4 connects documented damage to a concrete present relationship and an inspectable care decision. Its explicit limits on expertise, mounting, and resources make its conditional implementation feasible."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 offers the stronger written plan: it checks whether visitors can actually see the evidence before testing interpretation, includes seated viewing, and specifies actionable fallback and confusion thresholds. B4 provides a strong meaningful connection through present care, but depends on a suitable substantiated care decision and checks its public visibility less directly. A5's advantage is practical verification, not novelty or length."
+    }
+  },
+  "format_retry_of": null
+}

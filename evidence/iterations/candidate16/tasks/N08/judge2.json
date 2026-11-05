@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within the stated resources and honesty requirements, with four-week comparisons of misses, calls and staff time. Groups distinguish evidence gates, historical calibration, supplier clarification, capacity reservation, order verification, early independent work, customer expectation checks and scope separation. Candidate 7 refines candidate 0 with notification ownership; candidate 8 refines candidate 3 with a release threshold. Candidate 7 is best because it combines supported estimates, dependable updates and inspectable handling of failed contacts with modest paper administration."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and communication constraints and include the required four-week measurements. Their primary mechanisms are evidence gates, historical calibration, supplier clarification, protected repair capacity and repair-requirement completeness. Candidate 0 offers the strongest broadly applicable service communication process, with clear evidence standards, practical staff roles and checks against improving apparent accuracy merely by withholding estimates."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 by assigning responsibility until changed information reaches the customer and making failed contacts and handovers inspectable. This addresses a concrete communication failure with little added overhead while retaining the same evidence standards and required evaluation."
+    }
+  },
+  "format_retry_of": null
+}

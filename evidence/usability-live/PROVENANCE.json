@@ -1,0 +1,37 @@
+[
+  {
+    "source": "work/six-hour-improvement-20261103/usability/CLI_TRIAL.json",
+    "source_sha256": "9216b441e72ac02cc4169de119ae348bccfcd1dee4e864a86f6304e8b64cb5e2",
+    "export": "CLI_TRIAL.json",
+    "export_sha256": "3d4d7db70b8334154112bf0ca349803900a072cc2857f123668eb37d0b6e28e7",
+    "transformation": "Parsed utf-8 JSON; workspace prefix removed. Candidate text unchanged."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/usability/CLI6_NATIVE_N01_START.stdout.json",
+    "source_sha256": "0b4d93c69c7e09310da63414abbddb3d020ff1f441144d95aa8e3093686cf64e",
+    "export": "CLI6_NATIVE_N01_START.stdout.json",
+    "export_sha256": "5977a3b074a1e955dadce27500420954eb64a16a055c70bf77236bd0e5933b3b",
+    "transformation": "Parsed gb18030 JSON; workspace prefix removed. Candidate text unchanged."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/usability/CLI6_NATIVE_N01_CONTINUE.stdout.json",
+    "source_sha256": "e9655450aafbfc6493e7af15aea13195c171804b57346b97e691083dc704fc90",
+    "export": "CLI6_NATIVE_N01_CONTINUE.stdout.json",
+    "export_sha256": "4955b6dbb6e42e2231751537fb27f27bc405fe38c787b07e0df1313e35d7cb12",
+    "transformation": "Parsed gb18030 JSON; workspace prefix removed. Candidate text unchanged."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/usability/CLI6_NATIVE_N01_SAVE.stdout.json",
+    "source_sha256": "7f0c555449a8317742cfa1715ccf3ec550811c29032dfb5b5faf8e1f37585fb5",
+    "export": "CLI6_NATIVE_N01_SAVE.stdout.json",
+    "export_sha256": "6ce6599e457938a0ec9daa676732a18b2b444057bb2dbe927cf23b117e1dbde1",
+    "transformation": "Parsed gb18030 JSON; workspace prefix removed. Candidate text unchanged."
+  },
+  {
+    "source": "work/six-hour-improvement-20261103/usability/CLI6_NATIVE_N01_RESTORE.stdout.json",
+    "source_sha256": "7f0c555449a8317742cfa1715ccf3ec550811c29032dfb5b5faf8e1f37585fb5",
+    "export": "CLI6_NATIVE_N01_RESTORE.stdout.json",
+    "export_sha256": "6ce6599e457938a0ec9daa676732a18b2b444057bb2dbe927cf23b117e1dbde1",
+    "transformation": "Parsed gb18030 JSON; workspace prefix removed. Candidate text unchanged."
+  }
+]

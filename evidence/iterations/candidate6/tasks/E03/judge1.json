@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both satisfy the constraints and avoid diagnosis from one reading. Candidate 0 primarily uses repeated matched-condition comparisons; candidate 1 uses a warranted mounting correction as a controlled intervention. Candidate 1 is best for its practical preparation, explicit safe restoration, and inspectable before/after evidence, while acknowledging unresolved imbalance or bearing wear."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with their stated prerequisites. Their primary mechanisms are matched-condition comparison, controlled mounting correction, stopped-fan source isolation, reversible airflow-loading perturbation, and historical repair-response ranking. Candidate 1 offers the strongest combination of feasibility with the available resources, justified repair decisions, safe restoration, and interpretable verification. The additional approaches are conditional diagnostic options rather than demonstrated improvements."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 1. Its written task quality is therefore equal; the additional candidates in B do not improve the selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

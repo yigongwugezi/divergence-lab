@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource limits, disclose unknown provenance, avoid fabricated biography, and compare understanding and discomfort with a factual label. Primary mechanisms are close observation, evidential boundaries, personal association, embodied action, institutional selection, future care tradeoffs, and aesthetic reframing. Candidates 6 and 7 refine existing mechanisms. Candidate 6 is strongest because it verifies that visitors can see the evidence, assigns responsibility, provides a feasible fallback, and tests understanding, significance, misconception, and discomfort."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are close observation, evidential boundaries, personal association, curatorial judgment, and present care. Candidate 4 connects meaning to a verifiable current care decision, explicitly gates feasibility on existing resources and expertise, and tests whether visitors understand that decision without inventing past relationships."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly offers the stronger written proposal: its visibility check, preparation fallback, and explicit early failure criteria make implementation and evaluation especially inspectable. B4 is responsible and compelling, but depends on a suitable condition-specific care decision and has less explicit operational fallback."
+    }
+  },
+  "format_retry_of": null
+}

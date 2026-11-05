@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 best combines repeatable source confirmation, correction for delayed readings, cleaning checks, and explicit supply-preserving repair and recovery gates. Candidates 1 and 4 share physical source tracing as their primary mechanism. Isolation, nested-meter reconciliation, and listening are distinct conditional approaches; their prerequisites and limitations are stated. None can establish overnight duration from daily observations alone."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 provides directly inspectable evidence through recurring water at its source, checks cleaning and alternative moisture explanations, and includes confirmation and post-repair reassessment. Candidate 0 is a feasible complementary consumption screen but is more vulnerable to variable resident demand. Both acknowledge that overnight timing remains unproven."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 narrowly improves on B1 through an explicit gate requiring an identified defect and a repair method that preserves apartment supply, plus a concrete response if repair worsens conditions. This strengthens the requested response and rollback workflow without changing the primary detection mechanism."
+    }
+  },
+  "format_retry_of": null
+}

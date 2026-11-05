@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints. Candidates 0 and 5 share recurring staple commitments; missed-delivery recovery improves that mechanism rather than creating another. The other mechanisms are timed release, voluntary category shares, low-stock-triggered replenishment, loss prevention, and optional meal combinations. Candidate 5 best combines predictable replenishment, clear ownership, capacity-aware recovery, equal access and inspectable records within existing contacts."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and use distinct primary mechanisms: recurring commitments, timed release, voluntary category shares, staggered arrivals, and weekly demand-responsive donation requests. Candidate 0 offers the strongest practical fit for predictable staple availability with simple weekly records. Candidate 4 adapts supply to gaps, but requires more complete movement records and calculations; its targets remain sensitive to incomplete requests and weekly feedback delays."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 strengthens the recurring-commitment routine in B0 with explicit responsibility and a bounded response to missed deliveries, including duplicate-delivery prevention and a fallback when replacements fail. These operational improvements address supply uncertainty without requiring extra trips, storage, cash or recipient tracking. The advantage is in implementation quality, not a distinct mechanism."
+    }
+  },
+  "format_retry_of": null
+}

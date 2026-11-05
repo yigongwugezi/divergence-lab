@@ -1,0 +1,95 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are feasible with shared notes and a calendar, preserve voluntary acceptance, and compare completion, rework and burden. Candidates 0 and 7 share the explicit-acceptance queue mechanism; recoverable ownership is a repair to that mechanism. Candidate 7 best combines a lightweight default process, visible uncommitted work, continuity without chair rescue, and measurement of all volunteer time. Its one-week baseline limits confidence in the comparison."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource, meeting-time and voluntary-ownership constraints. Their primary mechanisms are distinct: explicit acceptance, rotating coordination, protected execution, delegated authority, execution scheduling, backup coverage and recipient verification. Candidate 0 offers the strongest general starting point without assuming a particular cause of stalled work. Its comparison preserves original deadlines and reports unclaimed work, although burden measurement should include execution time as well as administration and chasing."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly exceeds B0 through a concrete withdrawal and transfer procedure that avoids default chair rescue, plus broader volunteer-burden measurement. B0 has the stronger comparative trial design; A7's advantage is practical completeness, with only modest added process."
+    }
+  },
+  "format_retry_of": null
+}

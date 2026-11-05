@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All proposals fit the 50-minute, offline class and assess mean–median comparison, unseen-chart transfer and time. Distinct primary mechanisms are value manipulation, claim auditing, prediction followed by distribution inspection, error repair, and comparing planning consequences. Candidate 1 best balances direct relevance, manageable arithmetic and inspectable assessment: it tests claim justification separately from calculation, includes a useful application of the mean, and assesses transfer before discussion."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All proposals are usable within the stated constraints and include individual transfer and timing. Candidates 0 and 6 share physical value manipulation; explicit caption comparison refines that mechanism. Other mechanisms are claim auditing, prediction and inspection, evidence-sufficiency decisions, error repair, listener-tested explanation, and persuasive chart production followed by reader feedback. Candidate 1 offers the strongest balance of task alignment, feasibility and inspectability without the additional procedural demands of several alternatives."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical headline-audit proposal. It provides a feasible lesson and a transparent assessment of calculation, justified interpretation, transfer and completion time; neither pool's selected proposal has a written-quality advantage."
+    }
+  },
+  "format_retry_of": null
+}

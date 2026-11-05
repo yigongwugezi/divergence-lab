@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and address availability, condition, cleanup effort and seated access without prohibited monitoring. Primary mechanisms are centralized returns, visible shelving destinations, an on-site reserve, shared recovery, reader damage screening and controlled donation intake. Candidate 5 repairs candidate 0's capacity risk rather than introducing a new mechanism. It is strongest because it checks return capacity before opening, supplies a concrete fallback and tests availability and unfinished work within the volunteer limit."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Their primary mechanisms are centralized returns, visible shelving destinations, an on-site reserve, shared recovery and portable return reminders. Candidate 0 offers the clearest low-burden borrowing ritual, a practical inspection routine and a pilot covering all required checks. Its main unresolved risk is return-box capacity and delayed availability between visits."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0's otherwise identical core ritual by checking capacity before launch and specifying a workable fallback and stopping rules. These directly address overflow, unavailable stock and volunteer workload under the hard limits; the advantage is operational correctness rather than length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

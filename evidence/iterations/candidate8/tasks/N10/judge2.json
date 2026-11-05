@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and track the required outcomes without cash collection or recipient-based eligibility. Primary mechanisms are recurring donor commitments, scheduled stock releases, voluntary category shares, low-stock-triggered replenishment, loss prevention, and staggered donation arrivals. Candidates 5 and 6 repair existing mechanisms. Candidate 5 is strongest: realistic recurring contributions support predictability, while a bounded missed-delivery fallback, corrected public expectations, immediate access and explicit volunteer roles make the routine feasible and inspectable. Buffering remains usable but can worsen immediate access."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Their distinct primary mechanisms are recurring donor commitments, scheduled stock releases, voluntary category shares, staggered donation arrivals, and weekly demand-responsive replenishment. Candidate 0 best balances predictability, simplicity and inspectability within three volunteers and a weekly count. Candidate 4 offers useful feedback but requires more complete movement records and calculations, and anonymous request tallies make its targets uncertain."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0's recurring-commitment routine with a concrete missed-delivery response, cancellation of replacement requests when appropriate, and a one-contact limit on unsuccessful replacement chasing. These provisions address supply uncertainty while bounding volunteer work. Both respect the constraints and acknowledge uncertain results; A5 provides the more operationally complete routine."
+    }
+  },
+  "format_retry_of": null
+}

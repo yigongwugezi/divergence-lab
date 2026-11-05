@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a 50-minute paper-based lesson, novice instruction comparing mean and median, and timed assessment on unseen data. Their primary mechanisms are extreme-value manipulation, claim auditing, prediction and distribution inspection, error repair, and decision-consequence comparison. Candidate 1 best matches recognizing misleading public-health claims, balances calculation with interpretation, and assesses transfer before discussion. Candidate 4 adds substantial arithmetic demands; candidate 0 weakens its comparison through discussion before transfer."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints, subject to their stated dataset checks. Distinct primary mechanisms are extreme-value manipulation, claim auditing, prediction and inspection, count-weighted reconstruction, calculation scaffolding, information-sufficiency decisions, and retrieval with correction. Candidate 7 remains the claim-audit mechanism of candidate 1: timing and calculation recovery are assessment and support refinements. It offers the strongest inspectability by preserving initial answers and distinguishing independent calculation from interpretation supported by verified summaries. Its staged handout adds manageable classroom complexity."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A1 through an explicit, timed recovery procedure that separates arithmetic difficulty from failure to interpret a new chart. Preserved initial and revised responses make that distinction inspectable while retaining the same feasible 50-minute claim-audit lesson. A1 already measures completion time, so timing alone is not an upgrade; the advantage is the specified recovery and separate scoring, not length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

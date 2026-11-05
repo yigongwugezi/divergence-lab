@@ -1,0 +1,1157 @@
+{
+  "task_count": 12,
+  "complete_count": 12,
+  "pass_count": 12,
+  "failed_ids": [],
+  "incomplete_ids": [],
+  "unreviewed_ids": [],
+  "votes": {
+    "W": 24
+  },
+  "cost": {
+    "attempts": 84,
+    "statuses": {
+      "complete": 84
+    },
+    "known_input_tokens": 1158236,
+    "known_output_tokens": 81153,
+    "unknown_usage_attempts": 0,
+    "attempt_records": [
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\2e82263d0857701e2b1a_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12383,
+        "output_tokens": 676
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\389bd804767f790ff607_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11945,
+        "output_tokens": 605
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\6c5d5e30b2d5c5aaff73_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11788,
+        "output_tokens": 1105
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\8b646051145f21283ab7_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13297,
+        "output_tokens": 1536
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R01\\calls\\raw\\be5341926c69ecb5ead4_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13962,
+        "output_tokens": 1380
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R01\\judge1\\raw\\R01_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16018,
+        "output_tokens": 383
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R01\\judge2\\raw\\R01_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16018,
+        "output_tokens": 489
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\20468d00398565bf4bae_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13669,
+        "output_tokens": 1152
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\73919746bf55feed68b3_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11799,
+        "output_tokens": 1249
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\b4b35e04050277658272_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12644,
+        "output_tokens": 1223
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\b5c4c3991ca6068733f4_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12584,
+        "output_tokens": 116
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R02\\calls\\raw\\fc65368a78116206598b_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12144,
+        "output_tokens": 563
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R02\\judge1\\raw\\R02_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15440,
+        "output_tokens": 606
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R02\\judge2\\raw\\R02_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15440,
+        "output_tokens": 431
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\04f4560ec7b4096a1019_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12147,
+        "output_tokens": 980
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\7e2bb825b4a5045d9dd1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11785,
+        "output_tokens": 885
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\869565a8a48436357982_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11770,
+        "output_tokens": 676
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\c1fc583a2b9d722a81ec_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12270,
+        "output_tokens": 737
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R03\\calls\\raw\\d26cfb0dd63c3272b3e2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13370,
+        "output_tokens": 1969
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R03\\judge1\\raw\\R03_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15899,
+        "output_tokens": 385
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R03\\judge2\\raw\\R03_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15899,
+        "output_tokens": 459
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\45a7b34a7ba5e91049d3_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11787,
+        "output_tokens": 1211
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\5aea19c1b3090f1d8518_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11931,
+        "output_tokens": 571
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\6fd1e658c1d08991182d_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11784,
+        "output_tokens": 639
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\a06358b7c892530e24de_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13031,
+        "output_tokens": 1775
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R04\\calls\\raw\\b6ae660a8e647bceb37e_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11410,
+        "output_tokens": 739
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R04\\judge1\\raw\\R04_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15359,
+        "output_tokens": 404
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R04\\judge2\\raw\\R04_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15359,
+        "output_tokens": 432
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\18124fcc113f6325362c_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12363,
+        "output_tokens": 1076
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\40d1bd7acde8df344939_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11785,
+        "output_tokens": 1494
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\677720fc8d7d9b94b3d1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14966,
+        "output_tokens": 2081
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\76868e74da93f072185f_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13383,
+        "output_tokens": 854
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R05\\calls\\raw\\b5b9d3c97913e1624736_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12863,
+        "output_tokens": 2076
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R05\\judge1\\raw\\R05_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18971,
+        "output_tokens": 477
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R05\\judge2\\raw\\R05_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18971,
+        "output_tokens": 496
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\35e385e018af7688a4da_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12404,
+        "output_tokens": 757
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\597d9f91dc1e817d85b4_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 10933,
+        "output_tokens": 979
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\5acd0f88beda3a8f63c3_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14462,
+        "output_tokens": 1701
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\955635f781dd906f39f3_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12228,
+        "output_tokens": 1239
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R06\\calls\\raw\\df5b66445f0ad0b3d33f_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11851,
+        "output_tokens": 829
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R06\\judge1\\raw\\R06_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16836,
+        "output_tokens": 678
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R06\\judge2\\raw\\R06_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15984,
+        "output_tokens": 758
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\06e8211255cf3dace7db_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12253,
+        "output_tokens": 1297
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\2ba86cc37e7caba43ec0_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13598,
+        "output_tokens": 1669
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\65c934aa735ab36fc9e5_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 10929,
+        "output_tokens": 1016
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\a0d5ef10c61004d3a177_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11876,
+        "output_tokens": 603
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R07\\calls\\raw\\fc17f24bc72f73c252cd_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12394,
+        "output_tokens": 154
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R07\\judge1\\raw\\R07_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15484,
+        "output_tokens": 385
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R07\\judge2\\raw\\R07_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15484,
+        "output_tokens": 382
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\2e696ffe582f6a0cb8c6_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12135,
+        "output_tokens": 752
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\5e75faa2450fb1164185_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12635,
+        "output_tokens": 1674
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\609bbb9025c5852e44a6_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11793,
+        "output_tokens": 1174
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\a0939deddb97d1aa65e5_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14996,
+        "output_tokens": 1786
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R08\\calls\\raw\\ad891b4fd8b48eed71d6_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12603,
+        "output_tokens": 634
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R08\\judge1\\raw\\R08_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16956,
+        "output_tokens": 448
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R08\\judge2\\raw\\R08_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16956,
+        "output_tokens": 437
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\049eaa5505c2e83ca3bb_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12634,
+        "output_tokens": 1995
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\32b2e60d7f3336d40557_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12986,
+        "output_tokens": 1083
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\331264d14848a1901cee_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11795,
+        "output_tokens": 1263
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\8699494677cd67f7da3c_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 15394,
+        "output_tokens": 1878
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R09\\calls\\raw\\da097219732ba796672f_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13078,
+        "output_tokens": 1028
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R09\\judge1\\raw\\R09_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18301,
+        "output_tokens": 490
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R09\\judge2\\raw\\R09_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18301,
+        "output_tokens": 598
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\0639f48d72ca6015817b_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12922,
+        "output_tokens": 1849
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\39991b006d77e056a9e9_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12422,
+        "output_tokens": 1227
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\68a03302113e1bba7812_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14697,
+        "output_tokens": 2209
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\75be0f085aff3365da82_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14412,
+        "output_tokens": 743
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R10\\calls\\raw\\79acd772f2257c0fd232_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 10934,
+        "output_tokens": 1546
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R10\\judge1\\raw\\R10_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18993,
+        "output_tokens": 473
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R10\\judge2\\raw\\R10_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18993,
+        "output_tokens": 537
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\35d369f7965508637ae4_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12747,
+        "output_tokens": 597
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\b4cca909636e1bc12bf1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12279,
+        "output_tokens": 595
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\cc39b0e05e0cad6287ed_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12779,
+        "output_tokens": 1274
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\d58071367c565cc5c266_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13892,
+        "output_tokens": 1381
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R11\\calls\\raw\\e96da2133f0296c6b4c8_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 10938,
+        "output_tokens": 1321
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R11\\judge1\\raw\\R11_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16528,
+        "output_tokens": 425
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R11\\judge2\\raw\\R11_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16528,
+        "output_tokens": 439
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\45f7c5ca31c28eda45bc_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 10937,
+        "output_tokens": 1079
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\64a99e38988dc4b94ce3_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12036,
+        "output_tokens": 647
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\6f9e37f69345cfe986d6_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14130,
+        "output_tokens": 1730
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\c28bedbf887a01253816_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12536,
+        "output_tokens": 1699
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R12\\calls\\raw\\ec504197147638b0546d_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12500,
+        "output_tokens": 922
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R12\\judge1\\raw\\R12_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16760,
+        "output_tokens": 433
+      },
+      {
+        "path": "work\\release-evidence-20261105\\eval\\runs\\R12\\judge2\\raw\\R12_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 16760,
+        "output_tokens": 410
+      }
+    ]
+  },
+  "tasks": {
+    "R01": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6 narrowly improves on A0 by specifying how to resolve an interrupted, uncertain scan without guessing or automatically rescanning. Its feasibility checks and stopping rules make that improvement reviewable while retaining the same low-overhead primary mechanism. Both trials appropriately compare errors and time without assuming equivalent sessions."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6 improves on B0 by specifying what to do when an interruption leaves a book's recorded status uncertain, avoiding a guessed rescan or omission. It also clearly separates corrections from residual errors and includes recovery time in the trial. These operational improvements give it a modest advantage, conditional on usable transaction visibility and sufficiently brief checks."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R02": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 improves on A0 through repeatability checks, explicit measurement uncertainty and clear conditions for withholding corrections. These materially improve inspectability and constraint correctness with modest additional effort; neither proposal claims that successful calibration establishes equal rainfall at both locations."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 4
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 4
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 improves on B0 through repeated calibration pours, explicit uncertainty ranges and stopping rules, and a stricter condition for numerical correction. These materially improve diagnostic reliability and inspectability using the same permitted resources, without treating the public reading as local ground truth."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R03": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 5
+          },
+          "usable": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B4 improves A0's diagnostic validity by explicitly checking filament-transition completion and stopping when that comparison is invalid. This is a practical constraint-compatible improvement, with purge time and material accounted for, rather than a benefit from additional length or novelty."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 4
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 4
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A4 improves on B0 by requiring a valid approved filament transition before interpreting the sample result, accounting for its purge consumption, and stopping when the control is unreliable. This addresses a concrete confound without exceeding three test starts or adding equipment. The advantage is diagnostic correctness and inspectability, not length or novelty."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R04": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 3,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 3,
+            "EXPAND": 6
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B3 preserves A0's broad, reversible diagnosis while explicitly stopping after failures and verifying synthetic-job clearance before further intervention or reopening. This improves recovery and reduces uncertain or duplicate output without requiring additional resources. The advantage is operational completeness, not length or novelty."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 3
+          },
+          "usable": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 3
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A3 improves on B0 through explicit stop-and-clear behavior after failures, recovery time and a verified clear queue before handoff. These concrete safeguards make its next-day fallback more inspectable and reduce uncertain or duplicate printing while preserving the required diagnostic coverage."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R05": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 8
+          },
+          "usable": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 10
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B7 modestly improves on A0 by preventing measurement disagreements from silently determining route choices and specifying a bounded recovery procedure. Its preparation and fallback make delivery more robust without changing the core teaching mechanism or dropping required individual assessment. This advantage is in feasibility and inspectability, not length or novelty."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 6
+          },
+          "usable": {
+            "EXPAND": 10,
+            "DIRECT_FULL": 6
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A7 modestly improves on B0 through teacher-checked route measurements, a bounded response to consequential measurement disagreements and explicit fallback conditions. These strengthen feasibility and the reliability of the comparison while retaining the core teaching mechanism and individual checks. The advantage concerns practical recovery and inspectability, not length or novelty."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R06": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 3,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 6
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B's best proposal retains A's direct physical demonstration and adds explicit verification by identity plus a valid-table control. These address a consequential beginner misconception and make the learning check more diagnostic. The advantage is in the written teaching and assessment design; no empirical superiority is established."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 4
+          },
+          "usable": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 4
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A4 combines a direct physical explanation of how associations break with a stronger transfer check: learners distinguish legitimate reordering from corruption, repair by stable identity and demonstrate safe sorting. B1 provides a clear, feasible audit-and-repair lesson, but its causal demonstration and final assessment of safe sorting are less direct. The advantage concerns instructional alignment and observable performance, not length or demonstrated effectiveness."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R07": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 3,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 3,
+            "EXPAND": 6
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 improves on A1 by checking whether the staged shadow is distinguishable and providing a timed Earth-removal fallback that preserves the causal comparison. This makes the lesson more robust with the available equipment while retaining safety, the phase–eclipse distinction, and prediction at a new position."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 3
+          },
+          "usable": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 3
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 preserves B1's useful causal contrast while providing a concrete fallback and stopping rule for ambiguous cast shadows. This improves classroom feasibility and interpretability within the same time limit without introducing a different primary mechanism."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R08": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6 modestly improves on A0 by specifying when assembly stops and how learners continue through a prepared model while preserving their predictions and measurement roles. This directly supports completion within 40 minutes across differing handling abilities. The advantage is practical robustness in the written lesson, not demonstrated learning superiority."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 9,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6 narrowly improves on B0 by bounding assembly difficulties and preserving prediction, measurement, and transfer within the required time. Both have correct geometry and accessible non-sewing routes; A6's advantage is practical recovery when construction stalls, not greater length or novelty."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R09": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 8
+          },
+          "usable": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 10
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B9 more directly specifies combining multiple incidentally overheard words, while keeping the procedure flexible and feasible with the stated materials. Its optional comfort feedback and operational stopping conditions make the proposal slightly more inspectable than A1, although neither trial can establish comparative effectiveness or silent visitors’ comfort."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 7
+          },
+          "usable": {
+            "EXPAND": 10,
+            "DIRECT_FULL": 7
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A7 modestly improves on B1 through a concrete, permission-based display screening procedure and a clear response to volunteer bottlenecks, while retaining the same accessible creative mechanism. Its observation plan also checks that added workload. This is a practical improvement in constraint reliability and feasibility, rather than an advantage from length or novelty."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R10": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6 modestly improves on A0 through a rehearsable restart, clearer responses to access problems and explicit heat and support precautions. These operational improvements strengthen repeatability and constraint handling while preserving the expressive story; the advantage does not depend on length or novelty."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 6
+          },
+          "usable": {
+            "EXPAND": 9,
+            "DIRECT_FULL": 6
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6 preserves B0's effective story while adding a concrete interruption recovery, explicit lamp-heat and support precautions, and clearer responses to access or sound problems. These improve repeatability and inspectability within the same preparation budget; the advantage rests on practical refinements, not length or novelty."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R11": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 modestly improves on A0 through clearer sharing-authority checks, an explicit editorial handoff, renewed checks after interruption, and an explicit black-and-white limit. Both offer feasible, inviting concepts and checkable consent processes; B5 makes the production safeguards more inspectable without materially complicating the page."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 modestly improves on B0 through an explicit check for unresolved sharing authority, clear responsibility for pending approvals and renewed checks after interruption. These strengthen consent correctness and inspectability while preserving the same feasible, inviting boxed-recipe concept."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "R12": {
+      "source": "frozen_new_12",
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6 improves on A0 by checking seated visibility before participation and specifying cancellation if visibility cannot be achieved within the permitted corner. Its explicit feedback allowance and operational stop conditions make the same simple rhythmic mechanism more feasible and inspectable, without adding substantial participant burden."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 9,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6 improves on B0 through a concrete seated visibility check and cancellation rule, reducing foreseeable leaning, crowding and obstruction before participation begins. Its explicit feedback allowance and stop conditions make the single-session pilot more operationally complete while preserving the same simple rhythmic mechanism."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    }
+  },
+  "limits": [
+    "These 12 tasks were frozen after candidate 16 and before their first evaluation request.",
+    "Judgments concern written proposals, not measured effects.",
+    "Unknown usage and provider-side retries are not included in known token totals."
+  ]
+}

@@ -1,19 +1,67 @@
 # 证据索引与计算口径
 
-## 当前发布版本：候选 4
+## 冻结候选16：12道新题
 
-候选 4 的直接证据是 **13 道开发回归题**，11 题达到既定质量与机制保持目标；26 次反序评审为 19 胜、6 平、1 负。S05 两平，C05 一胜一负。经过候选比较选出的开发结果，不能当作未见新题胜率。
+2026-11-05先冻结版本、题目、评估脚本和原评审提示，再执行工程、教学、开放创意各4题。结果为 **12/12达标，24胜、0平、0负**，各类均4/4。逐题使用下节相同规则，没有改提示、追加有效裁判票或重抽输出来刷通过。
 
-- [逐题汇总、机制数与判决理由](evidence/candidate4/summary.json)
-- [13 题方案池、26 份原判决的来源与校验值](evidence/candidate4/PROVENANCE.json)
-- [候选 4 与原冻结版的组件哈希对照](evidence/candidate4/component-identity.json)
-- [逐题图](assets/candidate4-regression.png)
+24次评审的有效机制均值为拓展5.8750、对照4.7083，平均多1.1667；22次更多、2次相同、0次更少。拓展池没有被标严重违例，生成及评审格式事件均为0。生成与评审共84个新请求，已知输入1,158,236、输出81,153 token；完整生成流单独计算为拓展510,606、强提示466,040，**增加9.563%**。每臂三次生成不等于token完全相等；本版默认拓展不声称成本优势。
 
-精修、省费相关模板与执行脚本未变，以下旧版对应流程可保留为历史组件证据。拓展模板已变化，旧版 54 题拓展成绩不能直接归给候选 4。新版 18 道新题补测正在准备或执行中，尚无完整结论。
+- [冻结协议](evidence/frozen16-new12/PROTOCOL.txt) · [全部12题](evidence/frozen16-new12/TASKS.json) · [版本、任务与评审哈希](evidence/frozen16-new12/FREEZE.json)
+- [完整汇总](evidence/frozen16-new12/summary.json) · [完整方案、原始判决、用量及导出校验值](evidence/frozen16-new12/PROVENANCE.json)
+- [逐请求完整生成用量](evidence/frozen16-new12/FLOW_COST.json) · [图表](assets/frozen16-new12.png)
 
-## 本地使用流程验证
+这些题由项目内新编写并避开旧题具体场景，不是第三方标准测试集。生成与评审均为gpt-6.1-sol、low effort；反序减少顺序偏差，不等于独立真人评审。本批支持固定版本在这12题上的结果，不能推出普遍、跨模型或实际业务效果。新题没有参与本次版本优化，也不解决Q05旧方案的评审分歧。
 
-[离线回放报告](evidence/usability/LOCAL_REPLAY.json)与[可复跑脚本](tools/check_local_replay.py)覆盖状态保存、已有轮次保留、任务变更保护和新进程恢复；另检查八种提示的占位符渲染及 schema 的 3/6 数量上限。运行 `python tools/check_local_replay.py` 无需模型调用。存档 N01 响应只是状态测试夹具，省费阶段也使用回放输出，不构成该模式的新题质量结果或真实 CLI 端到端证据。
+期间C盘写满导致R11第二份判决文件写入不完整；原始模型响应和用量已成功保存，因此从原响应重建文件，没有增加模型请求或改变判决。[恢复记录](evidence/frozen16-new12/STORAGE_RECOVERY.json)包含原响应哈希及逐字段一致性检查。CLI操作验证另行记录，不加入上述质量票和用量。
+
+## 同一候选16：31道开发回归题
+
+同一个冻结版本在31道开发回归题中 **31题达标**，62张反序评审票为 **59胜、3平、0负**。逐题规则是至少一胜一平、无负票、两次有效机制数均不低于匹配基线、无严重违例和生成格式失败。不是要求每张票都胜，也不是不同版本逐题拼接。
+
+有效机制均值为6.2742，对照4.7097，平均差1.5645；62次评审中50次更多、12次相同，没有更少。本版的有效评审没有标扩展池严重违规，生成及评审格式事件均为0。23道宽题的新P1、P2和双评重新生成；8道窄题的完整任务、请求、输出池和评审身份与候选15相同，因此精确复用。它们共同对应当前这一份统一Skill。
+
+- [31题汇总与全部评审理由](evidence/iterations/candidate16/summary.json)
+- [完整方案、判决、方法源文件与导出校验值](evidence/iterations/candidate16/PROVENANCE.json)
+- [冻结组件哈希、模型与评审提示哈希](evidence/iterations/candidate16/FREEZE.json) · [评审提示原文](evidence/iterations/JUDGE_PROMPT.txt)
+- [完整生成用量与逐请求来源](evidence/iterations/candidate16/FLOW_COST.json)
+- [31题前后对照图](assets/candidate16-comparison.png)
+- 具体修复：[S06方案](evidence/iterations/candidate16/tasks/S06/task-and-pools.json)、[第一评审](evidence/iterations/candidate16/tasks/S06/judge1.json)、[反序评审](evidence/iterations/candidate16/tasks/S06/judge2.json)
+
+这31题由原13道回归题和后续18题组成，都已用于开发修复，不能再当作当前版本未见题。方案没有在现实中实施验证。此前候选15为29/31、59胜2平1负，候选13为29/31、52胜8平2负，候选8为28/31且成本较低。当前按完整达标题数优先选出，但不宣称成本也改善。所有旧版原件和失败记录保留；[三个代表案例](docs/CASES.md)展示具体收益、复杂度取舍和争议。
+
+### Q05：保留跨次评审的不一致
+
+原题只允许过去一年的公开汇总记录和志愿者出勤表。早期P0方案在“下一步可证伪观察”中依赖未来时段资料。候选13与15的前六条旧方案逐字相同，13的两评未判严重、15的两评均判严重；15因此即使最佳质量双胜，也仍然失败。候选16更换了P1，但共享P0的三条原文未变，这次两评未标严重。不能将这种评审差异当作共享P0源头风险已经修复。
+
+两版原票和16的新票全部保留，不补裁判、不追改旧分数。参见[同源方案与判定差异记录](evidence/Q05_SCOPE_DISAGREEMENT.json)、[15的严重违规判决](evidence/iterations/candidate15/tasks/Q05/judge1.json)、[16的判决](evidence/iterations/candidate16/tasks/Q05/judge1.json)。这限制了“31/31”能够支持的结论：它是本次固定模型评审的完整成绩，不是所有约束风险已在现实中排除。
+
+## 31题开发集成本的两个口径
+
+| 口径 | 匹配强提示 | 当前拓展 | 差异 |
+|---|---:|---:|---:|
+| 有效保存输出的完整生成 token | 1,180,843 | 1,313,045 | +11.196% |
+| 清单中所有传输完成的生成请求 | 1,194,169 | 1,313,045 | +9.955% |
+
+差值13,326来自历史L01对照的一次无效格式生成；第二行保留它及其后续替代请求，第一行只比较有效保存输出。两种口径都保留，不能把无效输出成本抹掉。数字是完整流程的已知输入加输出，包含各臂独立执行时所需的共同前缀；不含裁判、研究迭代、失败请求未知用量或现金价格。当前默认拓展不声称省费。
+
+## 旧发布版补齐的18道冻结新题
+
+候选4在题目冻结、版本不变时完成18题：**14/18达标，22胜13平1负**。未过N03、N07、N15、N16；N07还出现有效机制4:5。新18题完整有效生成token为拓展717,656、强提示680,073，增加5.526%。这批是候选4的新题证据；后来用于修复后，不能再算当前版的未见题证据。
+
+[18题汇总](evidence/candidate4-new18/summary.json) · [方案与判决来源](evidence/candidate4-new18/PROVENANCE.json) · [用量](evidence/candidate4-new18/FLOW_COST.json) · [候选4原13题](evidence/candidate4/summary.json)
+
+## 使用流程与复现
+
+下载仓库后运行 `python -X utf8 tools/check_evidence.py new12`，可从新题存档判决独立重算通过数、胜平负、逐评机制对比，并核对任务、评审提示、导出文件与运行文件哈希。不传参数时检查当前31题开发记录；也可传版本号，例如 `python -X utf8 tools/check_evidence.py 13`。它不会调用模型，只验证公开记录内部是否一致。安装matplotlib后运行 `python -X utf8 tools/render_new12.py` 可从公开判决重画新题图。
+
+- [候选16真实CLI流程](evidence/current16-cli/SUMMARY.json)：R04实际窄路由、R02实际宽路由，共2条完成start→expand→save→新进程start恢复；已完成流程的保存与恢复输出逐字相同。两条都经历中断，不是无故障完成：R04在磁盘满后从已保存P1接续，R02在GBK打印失败后用进程局部UTF-8读回已保存P0。R02的save首次300秒超时，有限重试后完成保存与恢复。均使用原版脚本且没有重跑成功阶段。另保留[R01外层驱动超时未完成记录](evidence/current16-cli/EXTRA_INTERRUPTED_TRIAL.json)。完整任务、输出与来源哈希均在该目录；私人传输日志不公开。
+- 本次CLI使用Windows原生codex-cli 0.165.0-alpha.1.2、显式gpt-6.1-sol，需要时指定进程局部UTF-8和有空间的临时目录；没有修改全局设置。CLI未提供结构化token用量，不能与新12题生成用量混算。自然语言示例由助手编写并转换成内部任务JSON，证明操作路径，未进行真人易用性测试。
+- [发布目录离线回放](evidence/usability-live/PUBLIC_REPLAY13.json)：在候选13运行目录验证状态保存、历史保留、任务变更保护、各模式渲染、schema上限和新进程恢复。候选16改变发散提示，运行脚本与13相同；该记录是复用的组件证据，不是16新模型成绩。 [当前16文件身份核对](evidence/usability-live/PUBLIC_STAGE16.json)。运行 `python -X utf8 tools/check_local_replay.py` 无需模型调用。
+- [真实CLI组件流程](evidence/usability-live/CLI_TRIAL.json)：在较早候选6上，用可用本地CLI和显式模型，实际完成start、legacy continue、save及新进程恢复，恢复状态一致。[实际输出及转换校验](evidence/usability-live/PROVENANCE.json)。它不是当前提示质量或默认expand的独立端到端效果验证；CLI用量未知。
+- 当前普通自然语言“继续”映射到expand；CLI字面动作continue保留旧模式兼容。任务JSON由助手内部处理，用户无需手写。独立请求不可用时可在当前对话探索，但不能套用独立请求的成本数字。
+- [各次迭代的完整/部分覆盖与研究用量索引](evidence/iterations/ITERATIONS.json)：失败、停止和未评题分别记录。不同筛选子集不能比较百分比；请求、题目、资源、输出池与评审完全匹配才复用。研究用量含裁判，与上面的产品完整流程用量分开。
+
+精修与省费模板未变，下面旧记录只作为相同请求的历史组件证据。三种动作的收益不能拼成一次运行同时更广、更好、更便宜。
 
 ## 历史冻结实验：2026-10-31
 

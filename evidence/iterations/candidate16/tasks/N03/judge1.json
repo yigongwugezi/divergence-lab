@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five fit the stated constraints and assess individual transfer and completion time. Their primary mechanisms are extreme-value manipulation, claim-to-question auditing, prediction followed by distribution inspection, error diagnosis and repair, and comparison of numerical consequences. Candidate 1 best aligns practice and assessment with evaluating misleading public-health claims, includes a useful role for the mean, and keeps the unfamiliar assessment before discussion. Candidate 4 adds substantial arithmetic burden; candidate 0 weakens its experimental comparison through discussion before transfer."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            3,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight are usable; conditional dataset requirements and workload risks are acknowledged rather than definite hard-constraint violations. Candidates 1, 3, and 6 share claim-focused interpretation as their primary mechanism; supplying calculations and timed arithmetic recovery are scaffolding changes, not distinct mechanisms. The remaining mechanisms are extreme-value manipulation, prediction and inspection, denominator reconstruction, evidence-sufficiency decisions with targeted requests, and direct claim testing by counting. Candidate 6 preserves the strong headline audit while providing a concrete recovery path for arithmetic difficulties. Its staged transfer assessment separately exposes unaided comparison and supported interpretation, with completion times, unfinished work, and explicit limits on efficacy claims."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A1 by addressing a plausible classroom bottleneck within the same 50 minutes: learners stalled by arithmetic can still demonstrate claim evaluation. Verified recovery strips, a marked unaided assessment phase, and common subsequent support make the lesson more feasible and its outcomes easier to inspect. This is a practical refinement, not evidence of demonstrated superiority."
+    }
+  },
+  "format_retry_of": null
+}

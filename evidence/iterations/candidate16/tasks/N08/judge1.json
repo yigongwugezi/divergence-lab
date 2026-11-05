@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the resources, require supported estimates and honest delay disclosure, and compare the three required measures over four weeks. Their primary mechanisms are evidence gates, historical calibration, supplier exception handling, protected repair capacity, and repair-requirement completeness. Candidate 0 best directly addresses variable arrivals through a simple, inspectable communication process, while tracking estimate availability to guard against apparent gains from withholding estimates."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints; narrower operational approaches explicitly acknowledge their eligibility limits. Candidates 0 and 7 share evidence gates, with 7 repairing notification ownership. Candidates 3 and 8 share capacity reservation, with 8 adding a release rule. The remaining mechanisms are historical calibration, supplier exception handling, order verification, earlier independent work, customer expectation verification, and authorized scope separation. Candidate 7 offers the strongest practical communication process: supported estimates, explicit ownership of undelivered updates, and inspectable four-week measures that distinguish communication gains from estimate accuracy."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A0 by assigning ownership through failed contact attempts and handovers, addressing a concrete way customers can retain obsolete expectations. Its added paper tracking is feasible for two staff, and its trial measures delivered notice and added effort without claiming that notification alone improves estimate accuracy."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints with practical limitations acknowledged. Their primary mechanisms are internal pulse prediction, divided pulse roles, error diagnosis and repair selection, subdivision, and continuous movement. Candidate 2 most directly teaches both hearing and correcting errors, uses private responses, and separately checks recognition and performance on unfamiliar patterns."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidates 6 and 7 refine the mechanisms of 1 and 2 rather than introduce new ones. The other mechanisms are internal pulse prediction, continuous movement, chunking, visual tracking, and adaptive tempo. Candidate 7 best combines explicit listening discrimination, appropriate repairs, private decisions, collective practice, and an unfamiliar-pattern check with repair prompts removed."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A2 by explicitly testing repair without instructor selection and providing a practical fallback when classification remains unclear. This strengthens evidence of independent group correction while preserving the resource, time, and low-pressure constraints."
+    }
+  },
+  "format_retry_of": null
+}

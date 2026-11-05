@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six offer feasible, optional, silent participation with privacy safeguards, bounded content, and pilots checking discomfort and access. Their primary mechanisms are respectively personal learning records, collective questioning, acknowledgment of care, volunteer modeling, institutional responsiveness, and hindsight perspective-taking. Candidate 0 best combines a concrete learning ritual, minimal burden, an honest unresolved option, and direct comparison of learning against embarrassment and delay."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight are usable; conditional prerequisites and operational risks do not establish serious violations. Candidates 0 and 7 share the personal learning-record mechanism; volunteer drafting improves its delivery rather than creating a new mechanism. Other mechanisms are collective questioning, acknowledgment of care, volunteer modeling, decision rehearsal, institutional responsiveness, and normalization through outcome context. Candidate 7 best reduces visitor effort while preserving correction, refusal, unresolved outcomes, publication consent, and service-priority limits. Its pilot explicitly checks learning, embarrassment, ease of opting out, and volunteer workload."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves A0's central practical weakness: asking a disappointed visitor to formulate the lesson. A supported volunteer draft that can be corrected or declined makes learning more accessible and inspectable. Its explicit suspension rules and workload evaluation address the added volunteer burden. This is a substantive implementation improvement, not a reward for length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

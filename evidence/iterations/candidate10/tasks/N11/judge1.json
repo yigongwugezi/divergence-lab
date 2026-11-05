@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly tests six-week exposure with paired randomization, fixed watering, predefined measurements and loss rules, and cautious inference. Candidate 1 is usable but estimates short-term exposure effects and is vulnerable to carryover."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the same primary mechanism: a parallel matched-pair randomized comparison. Candidate 2 modestly strengthens handling of condition-dependent losses and care departures. Candidate 1 uses a distinct crossover mechanism but introduces carryover and developmental confounding."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B2 narrowly improves on A0 by explicitly treating condition-dependent losses as potentially invalidating the height comparison and documenting rescue-care departures. Both otherwise provide feasible, controlled experiments with appropriately limited inference."
+    }
+  },
+  "format_retry_of": null
+}

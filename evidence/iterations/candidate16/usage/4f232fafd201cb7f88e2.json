@@ -1,0 +1,16 @@
+{
+  "role": "e70013ab320dc81615bc_a1",
+  "status": "complete",
+  "exit_code": 0,
+  "seconds": 72.87958620000063,
+  "usage": {
+    "input_tokens": 13156,
+    "cached_input_tokens": 8320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2086,
+    "reasoning_output_tokens": 196
+  },
+  "total_tokens": 15242,
+  "cash_cost": null,
+  "provider_request_count": null
+}

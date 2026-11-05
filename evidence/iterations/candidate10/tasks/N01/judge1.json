@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers the most directly inspectable evidence within five mornings: fresh water traced to an accessible source before cleaning, with confirmation and post-repair checks. Candidate 0 is a usable consumption screen but depends more on comparable records and variable resident demand. Neither establishes overnight duration."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 combines feasible source tracing with an explicit maintenance handoff, supply-preserving repair conditions, and physical recovery checks. Candidates 0 and 5 share corrected-consumption screening; 1 and 4 share physical source tracing. Branch isolation and nested-meter reconciliation are distinct, conditionally usable mechanisms whose prerequisites are explicitly checked. No proposal guarantees overnight attribution."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 modestly improves on A1 through a concrete responsible-maintainer handoff, explicit limits on caretaker authority, and an unresolved-case route when safe repair is unavailable. These improve response feasibility; the underlying detection mechanism is unchanged."
+    }
+  },
+  "format_retry_of": null
+}

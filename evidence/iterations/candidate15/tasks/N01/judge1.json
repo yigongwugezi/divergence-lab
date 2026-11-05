@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 screens timestamp-corrected aggregate consumption against cleaning activity; candidate 1 traces recurring water directly to accessible sources. Both respect supply and privacy constraints and provide confirmation and rollback checks. Candidate 1 offers more directly inspectable evidence of an active leak within five mornings, although concealed leaks and overnight duration remain unresolved."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Distinct mechanisms are corrected aggregate consumption, physical source tracing, verified common-branch isolation, and reconciliation of existing nested meters. Candidate 4 shares candidate 1's detection mechanism; its accepted maintenance handoff improves response accountability rather than creating a new mechanism. Candidates 2 and 3 are usable conditionally, with explicit prerequisite checks and inconclusive outcomes when prerequisites fail. Candidate 4 best combines inspectable confirmation, delayed-entry and cleaning checks, supply protection, and assigned follow-up."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's candidate 4 retains A's strongest direct source inspection and adds a concrete accepted handoff, escalation, and ownership of outstanding verification. This improves the feasibility of completing the response without interrupting apartment supply. Neither proposal can establish overnight timing from daily readings alone, and both acknowledge that limitation."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary ownership, due dates, available tools and meeting limits, and compare completion, rework and burden. Candidate 7 is the strongest general mechanism: explicit acceptance, limited work in progress and owner updates make commitments inspectable, while release and explicit reassignment prevent abandoned tasks from becoming chair responsibilities. Its comparison retains original deadlines and all decisions, reducing misleading success through deferral. Candidates 7 and 8 repair existing mechanisms rather than introduce new ones."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and offer distinguishable primary mechanisms. Candidate 0 is the best general starting point because explicit acceptance, bounded tasks, owner updates and a rotating recorder address unclear commitments without adding a coordination or review dependency. Its experiment preserves original deadlines, reports unclaimed work and measures rework and administrative burden. Other candidates are plausible but depend more on an unestablished cause of failure, such as approval delays, scheduling problems or disrupted availability."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 by specifying how withdrawal, disappearance and reassignment work without making the chair responsible by default. That directly strengthens continuity under voluntary participation with modest conditional handoff effort. Its experiment also measures execution burden and retains released and abandoned decisions. Both are feasible and inspectable; the advantage comes from closing a relevant operational gap."
+    }
+  },
+  "format_retry_of": null
+}

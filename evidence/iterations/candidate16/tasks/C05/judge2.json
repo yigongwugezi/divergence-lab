@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with no definite serious constraint violations. Primary mechanisms are learning records (0,7), collective questions (1), personal recognition (2), advance expectation setting (3), volunteer modeling (4), institutional responsiveness (5), hindsight correction (6), and emotional permission (8). Candidate 7 best combines a concrete ritual with supported learning claims, separate publication consent, a practical interruption fallback, observed opt-outs, and explicit delay and accuracy stop rules."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with no definite serious constraint violations. Primary mechanisms are learning records (0), collective questions (1), personal recognition (2), volunteer modeling (3), institutional responsiveness (4), and hindsight correction (5). Candidate 4 makes learning tangible through an implemented communication improvement. Its comparison keeps that improvement available while testing whether crediting failed attempts adds understanding or dismisses disappointment; implementation and opt-outs are directly inspectable."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 more directly connects an individual's unsuccessful repair to verified learning while allowing an inconclusive ending. Its accuracy ownership, fallback, consent boundaries, and concrete stopping rules make the ritual particularly feasible and inspectable. B4 is strong, but its benefit depends on finding a recurring communication problem, and service improvement may contribute less to visitors' own learning or reduced embarrassment."
+    }
+  },
+  "format_retry_of": null
+}

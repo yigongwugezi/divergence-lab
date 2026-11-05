@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identity evidence, avoid purchases and memory-based relabeling, provide reversible procedures, and measure the three required outcomes over two weeks. Candidates 0, 4 and 7 belong to one source-checked acceptance mechanism; pending custody and interruption recovery refine that procedure. Other groups respectively use stable physical positions, single-sample labeling, stable spreadsheet identities, label issuance control, fewer custody changes and label durability. Candidate 0 offers the strongest balance of direct handoff relevance, low implementation burden and inspectable verification, with common audits and explicit uncertainty."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints and provide reversible, measurable trials. Their distinct primary mechanisms are source-checked acceptance, stable physical positions, single-sample labeling, fewer custody changes and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with existing resources and a clear independent check. The alternatives depend more strongly on particular error patterns or workflow prerequisites."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality, feasibility, traceability safeguards and evaluation design."
+    }
+  },
+  "format_retry_of": null
+}

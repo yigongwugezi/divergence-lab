@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect privacy, phone-free pickup and the daily time cap, and track the required outcomes. Candidate 0 offers the most direct, inspectable response to limited shelf space through checked expiration clearance. Shortening is conditional on policy and notification evidence, with existing deadlines as a workable fallback. Its effect on actual abandonment remains uncertain."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated prerequisites and time limits. Candidates 0 and 4 share deadline clearance as their primary mechanism; interruption handling and recovery improve that mechanism rather than create another. Candidate 4 best combines direct shelf-space recovery with executable checks, secure handling of unfinished releases and error recovery. The other mechanisms are paper reminders, explicit cancellation, retrieval-error correction and offering ready holds during checkout."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 narrowly improves on A0 through concrete handling of interrupted transactions and mistaken releases, strengthening the requested practical workflow and error checks. Both preserve collection entitlements and distinguish actual pickups from other removals; neither establishes that faster clearance itself reduces abandonment."
+    }
+  },
+  "format_retry_of": null
+}

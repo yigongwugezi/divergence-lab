@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, require documentary correction, avoid barcode purchases, and measure the required outcomes over two weeks. Groups distinguish source-checked handoffs, fixed physical positions, one-sample labeling, stable spreadsheet identity, label issuance control, reduced transfers, and label protection. Pending states and container-change safeguards repair existing mechanisms. Candidate 7 offers the strongest handoff procedure: independent source checks, explicit custody, interruption recovery, measurable waiting costs, and a reconciled rollback."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are source-checked acceptance, fixed positions, one-sample labeling, reduced custody changes, and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with existing resources, preserves evidence, and provides a comparable two-week trial. Other candidates depend more strongly on particular error causes or workflow prerequisites."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "Candidate A7 narrowly improves on B0 by specifying custody before acceptance, recovery after interruptions, waiting-inclusive timing, and reconciliation before rollback. These operational safeguards make the procedure more inspectable and reversible, while its comparison measures whether their added burden is justified. This judges the written procedure, not demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints and track the required measures. Groups represent recurring staple commitments, timed releases, voluntary category shares, staggered deliveries, shelf-congestion management, shortage-triggered substitution, and usability-driven substitution. Candidates 6 and 7 repair their source routines rather than introduce new primary mechanisms. Candidate 6 is strongest: recurring commitments support predictable supply, while bounded recovery, explicit donor acceptance and removal of repeatedly missed expectations make failures manageable and inspectable within existing visits and resources."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and represent distinct primary mechanisms: recurring commitments, timed releases, voluntary category shares, staggered deliveries, and weekly demand-responsive replenishment. Candidate 0 offers the clearest feasible route to predictable staples with modest coordination and transparent availability. Candidate 4 provides useful feedback but requires more complete arrival records and calculations from noisy consumption and request estimates. Candidate 1 explicitly accounts for unmet requests while stock is buffered; this tradeoff is not a definite hard-constraint violation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 through a concrete, bounded response to missed commitments and a rule for withdrawing unreliable expectations. It preserves anonymous access and existing delivery trips, limits added work, and records whether recovery produces actual food. These operational safeguards improve feasibility and inspectability, although neither proposal can guarantee sufficient supply."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide concrete mechanisms with feasible conditional requirements, clear aisles, sub-40-second targets and two-rehearsal evaluation plans. Their primary mechanisms are light transfer, spatial relationships, repeated movement, interrupted visibility and projected shadows. Candidate 0 offers the strongest balance of simple operation, readable relocation and reuse. Its second-rehearsal performer-load assessment could be more explicit."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable subject to their stated equipment, space and script conditions. Candidate 3 permits only short unobstructed movement with sufficient remaining light, so darkness is not a definite safety violation. Candidates 0 and 6 share the light-transfer mechanism; destination confirmation and fallback are refinements. The other mechanisms are spatial relationships, repeated movement, interrupted visibility, continuous action and shared environmental response. Candidate 6 best combines clear cues, feasible operation, recovery instructions and explicit evaluation of comprehension, performer load and repeatability at both rehearsals."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves A0's existing mechanism through observable movement-release and arrival cues, a specified missed-cue response, and more inspectable testing across both rehearsals, including reuse and performer-load assessment. Its extra fallback formation adds learning burden, but the proposal explicitly tests whether that burden is justified."
+    }
+  },
+  "format_retry_of": null
+}

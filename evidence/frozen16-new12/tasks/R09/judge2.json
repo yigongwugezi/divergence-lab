@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates offer feasible, optional participation within the stated constraints. Primary mechanisms are shared-word exchange, spatial selection, substitution, sound association, question–answer juxtaposition, concealed collaborative revelation, expressive typography, and subtraction. Candidates 7 and 8 repair existing mechanisms rather than introduce new ones. Candidate 7 is strongest overall: its accessible map supports private participation, its explicit display handoff screens identifying material, and its small prototype observes participation, comfort signals, and volunteer workload. It avoids attachment assumptions and provides a practical fallback when copying creates waiting."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with no definite serious hard-constraint violations. Their primary mechanisms are shared-word exchange, spatial selection, substitution, sound association, random ordering, subtraction, and reciprocal continuation. Candidate 1 offers a particularly accessible entry through choosing words, permits entirely private participation, and includes a manageable comparison with optional feedback. Its limits concerning display counts and invisible participation are stated clearly. Other formats add recall, handling, or social demands without a clear overall advantage."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 modestly improves on B1 through a concrete, permission-based display screening procedure and a clear response to volunteer bottlenecks, while retaining the same accessible creative mechanism. Its observation plan also checks that added workload. This is a practical improvement in constraint reliability and feasibility, rather than an advantage from length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

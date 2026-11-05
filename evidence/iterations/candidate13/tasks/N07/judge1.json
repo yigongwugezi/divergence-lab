@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with stated prerequisites limiting deployment where necessary. Their primary mechanisms are deadline clearance, paper reminders, explicit cancellation, faster retrieval and authorized proxy collection. Candidate 0 most directly addresses limited shelf space through a bounded daily workflow, notification-aware deadlines, release checks and separate pickup measurement. Its trial explicitly rejects space savings bought through materially fewer pickups."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidates 4 and 5 strengthen interruption handling within the clearance and cancellation mechanisms rather than introducing new mechanisms. Candidate 3 repairs retrieval failures; candidate 6 consolidates wanted pickups into existing visits. Candidate 6 best balances actual collection, shelf-space recovery, privacy, phone-free access and the daily time limit. It specifies verified checkout, unchanged deadlines after declines, measurable completed pickups and service-disruption stop rules; its benefit remains conditional on efficient lookup and sufficient eligible visits."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 offers a practical opportunity to reduce abandonment by completing wanted pickups during existing visits while preserving collection windows. Compared with A0, it more directly supports actual pickups and avoids relying primarily on earlier clearance. Its comparison tracks shelf dwell, expirations, completed pickups, errors and staff time, while acknowledging that accepted offers alone do not establish benefit."
+    }
+  },
+  "format_retry_of": null
+}

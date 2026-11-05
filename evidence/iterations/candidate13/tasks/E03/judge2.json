@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Four primary mechanisms: repeated matched-condition comparison, controlled mounting correction, source isolation through stationary measurements, and reversible airflow-loading perturbation. Candidates 4 and 5 refine existing mechanisms. Candidate 4 is best because it directly addresses intermittency, rejects unmatched comparisons, prevents clearance after missed episodes, and connects repeated evidence and shutdown inspection to bounded repair and safe operating decisions. All candidates respect the constraints and acknowledge diagnostic uncertainty; candidate 3 is conditional on approved controls and adequate ventilation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 uses repeated matched-condition comparison; candidate 1 uses a controlled mounting correction. Both are usable and avoid unsupported causal claims. Candidate 0 is best for the overall diagnostic task because it more explicitly prioritizes evidence distinguishing all three target faults while accommodating limited meter capabilities and restricting shutdown work to warranted, feasible repairs."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "Candidate A4 improves on B0 by explicitly handling missed intermittent episodes and changing comparator conditions, making an unjustified clearance less likely. Its inspection, repair, handoff and escalation decisions remain feasible within the stated resources and single shutdown."
+    }
+  },
+  "format_retry_of": null
+}

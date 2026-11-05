@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, require documentary resolution, use existing resources and measure the three required outcomes over two weeks. Their primary mechanisms are source verification, stable physical placement, single-sample labeling, fewer custody transfers and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with a feasible, inspectable acceptance check and a balanced comparison."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints, with conditional feasibility requirements stated where needed. Candidates 7 and 8 refine source verification and single-sample labeling respectively rather than introduce new primary mechanisms. The other mechanisms are stable placement, fixed spreadsheet identities, explicit unfinished-transfer states, label issuance accounting, fewer custody transfers and eliminating repeated identifier transcription. Candidate 7 offers the strongest direct handoff procedure: source-based acceptance, an ambiguity stop, explicit custody and documentary correction, with measurable workload and outcome checks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A0 by preventing acceptance of an ambiguous identifier match and specifying custody and recovery during unfinished transfers. Its comparison isolates the added acceptance rule and measures preparation time and holds, making the extra burden inspectable. Both remain feasible and appropriately cautious about sparse errors."
+    }
+  },
+  "format_retry_of": null
+}

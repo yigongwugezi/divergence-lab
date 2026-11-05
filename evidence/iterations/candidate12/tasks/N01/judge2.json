@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Distinct primary mechanisms are corrected aggregate consumption screening, physical source tracing, verified common-branch isolation, nested-meter reconciliation, and direct meter-movement observation. All are usable, with conditional routes explicitly stopping when prerequisites fail. Candidate 4 best combines feasible screening, actual whole-interval cleaning verification, delayed-entry correction, physical confirmation, and explicit rollback and unresolved-case handoff. Daily readings cannot establish overnight timing, which it acknowledges."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable and use distinct primary mechanisms: corrected aggregate consumption screening and physical source tracing. Candidate 0 provides the stronger overall workflow for separating delayed entries and cleaning use from suspected losses, with physical confirmation and a post-repair rollback check. Candidate 1 is useful for accessible visible leaks but less complete on meter-entry reconciliation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "Candidate A4 improves on B0 by requiring verified cleaning status across the entire meter interval, avoiding the mistaken inference that cleaning after a morning reading makes the next daily interval cleaning-free. It also specifies responsibility and unresolved follow-up while preserving confirmation, rollback, privacy, and occupied-apartment supply."
+    }
+  },
+  "format_retry_of": null
+}

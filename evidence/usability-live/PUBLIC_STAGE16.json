@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-02T21:22:37+00:00",
+  "staged_candidate": "outputs/divergence-lab-unified-superiority-candidate16-20261103",
+  "package_sha256": "36b4ecd27e65869b18565057a47bcf004362740003f32b326a155fc0cd74da48",
+  "destination": "outputs/divergence-lab-github-20261102/.agents/skills/divergence-lab-unified",
+  "skill_files": 15,
+  "skill_byte_identical": true,
+  "changed_staged_components_from_candidate15": [
+    "references/CONTINUE_PROMPT_P1.txt"
+  ],
+  "run_py_unchanged_from_candidate13": true,
+  "offline_replay_result": "PASS: state, history, task guard, modes, schemas, and new-process resume (archived replay)",
+  "model_requests": 0,
+  "publication": "local staging only; no commit or push",
+  "quality": "candidate16 complete 31/31, 59W3T0L, zero serious and format events; Q05 cross-version judge disagreement disclosed"
+}

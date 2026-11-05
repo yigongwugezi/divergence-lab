@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a 50-minute paper-based lesson, novice mean–median instruction, unseen-chart transfer and timing checks. Mechanisms are extreme-value manipulation, claim auditing, prediction and distribution reveal, count reconstruction, arithmetic scaffolding, information-sufficiency decisions, retrieval with correction, and coverage sensitivity. Candidates 7 and 8 refine their source mechanisms rather than introduce new ones. Candidate 7 best balances claim interpretation, arithmetic support, feasibility and inspectable assessment: it preserves initial calculations while recording assistance, completed judgments and time. Dataset-dependent prerequisites and arithmetic burdens are limitations, not definite hard-constraint violations."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the stated classroom, novice-instruction, transfer and timing requirements. Their primary mechanisms are extreme-value manipulation, claim auditing, prediction and distribution reveal, worked-error repair, and comparison of decision consequences. Candidate 1 most directly connects numerical summaries to public-health claims, with manageable practice and separately assessable calculation and interpretation. Candidate 4 adds substantial arithmetic and conceptual demands, but this is a feasibility concern rather than a definite violation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B1 by specifying timed arithmetic assistance while retaining evidence of independent calculation. This makes completed interpretation more feasible for novices and makes calculation barriers, assistance use and transfer performance separately inspectable. The advantage is in the written implementation; neither proposal supplies observed effectiveness results."
+    }
+  },
+  "format_retry_of": null
+}

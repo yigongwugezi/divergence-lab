@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect owner control, available resources and clinical boundaries, and include private one-month retrieval and misfiling checks. Distinct primary mechanisms are fixed storage, locator indexing, checkout signals, keeping the folder with sheets, periodic recovery, receipt reconciliation and preventing disposal during tidying. Candidate 6 improves the fixed-storage mechanism rather than creating a new one. It is strongest for its low-burden storage routine, explicit missing-paper response and evaluation that includes missing sets and shifted search costs. Envelope privacy protects against casual viewing only, as acknowledged."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints and provide private one-month retrieval and misfiling checks. Their primary mechanisms are fixed storage, locator indexing, checkout signals, keeping sheets with the folder and source collection checks. Candidate 0 offers the strongest general-purpose balance of simplicity, privacy and likely benefit without depending on an unverified source of loss or additional tracking habits."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 retains B0's feasible fixed-storage approach while specifying safe recovery when papers are missing and a more inspectable trial that records missing targets, maintenance and replacement-search costs. These substantive additions improve task coverage; its greater length and comparisons with alternatives do not themselves earn credit."
+    }
+  },
+  "format_retry_of": null
+}

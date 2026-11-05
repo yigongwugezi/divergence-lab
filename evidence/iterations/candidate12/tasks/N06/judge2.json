@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide concrete mechanisms with conditional feasibility, clear aisles, sub-40-second targets and two-rehearsal evaluation plans; none definitely violates a hard constraint. Groups distinguish light relocation, social geometry, repeated action, concealed reset, continuous-action bridge, shared environmental response and learned light punctuation. Candidates 6 and 7 repair their source mechanisms rather than create new ones. Candidate 6 best combines a legible relocation cue, explicit responsibilities, safely illuminated recovery and inspectable normal and disrupted runs."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable subject to their stated equipment, space and script assumptions, with no definite serious hard-constraint violations. Their primary mechanisms are light relocation, social geometry, repeated action, dark visual punctuation and projected shadow architecture. Candidate 0 offers the strongest balance of clear audience attention, modest performer load, practical operation and comparative evaluation across two rehearsals."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 preserves B0's concrete light-handoff mechanism while making movement authorization and recovery explicit. Its illuminated fallback and timed disruption trials improve feasibility and repeatability assessment. These operational improvements give it a modest written-quality advantage; their benefits remain proposed, not demonstrated."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates offer concrete mechanisms within the stated resources and timing, with two-rehearsal evaluation plans. Candidate 3 permits only a rehearsed, unobstructed step under sufficient remaining light, so it is conditional rather than a definite safety violation. Candidates 0 and 6 share the light-handoff mechanism; 6 improves its cue and recovery rules without creating a new mechanism. Candidate 6 is strongest for clear operational cues, safe failure handling, measured performer load, and repeatability checks across rehearsals and scene pairs."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide concrete, resource-compatible staging and evaluate comprehension, performer load, and repeatability over two rehearsals. Their primary mechanisms are light transfer, social formation, repeated movement, dark visual punctuation, and projected shadow architecture. Candidate 0 offers the strongest broadly reusable relocation cue with modest performer demands and straightforward inspection. The shadow option depends more heavily on unverified lamp, wall, and audience sightline conditions."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 strengthens B0's shared light-handoff mechanism with an explicit visible-light release cue, arrival confirmation, a bounded fallback, and a simulated failure check. Its second rehearsal also tests retention from notes and reuse with another scene pair. These improve constraint correctness and inspectability, although the alternative formation adds learning load that the proposal explicitly evaluates."
+    }
+  },
+  "format_retry_of": null
+}

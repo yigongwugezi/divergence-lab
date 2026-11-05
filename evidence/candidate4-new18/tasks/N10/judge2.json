@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The six primary mechanisms are recurring staple commitments, scheduled buffer releases, universal flexible shares, count-triggered replenishment requests, spoilage prevention and staggered donor arrivals. Candidate 5 improves the commitment mechanism with recorded deliveries, expiring commitments, shelf-capacity limits and a bounded workload. It uses the existing schedule without assuming an additional contact channel, preserves equal open access and tracks all required outcomes. Its effectiveness remains conditional on donor participation; its short trial establishes no proven advantage."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The five primary mechanisms are recurring staple commitments, scheduled buffer releases, universal flexible shares, staggered donor arrivals and demand-responsive replenishment. Candidate 0 offers the strongest balance of predictable staple supply, simple allocation guidance, feasible volunteer roles and inspectable outcomes. Its donor-contact assumption is explicit. Candidate 4 offers responsive replenishment but adds calculation and recording burdens and depends on incomplete demand observations. No candidate definitely violates a hard constraint."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly improves on B0 through concrete delivery confirmation, expiration of missed commitments and capacity-aware replacement requests. These operational safeguards make the replenishment routine more reviewable and feasible with paper and the existing schedule. The advantage is in written implementation quality, not demonstrated results or a distinct new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

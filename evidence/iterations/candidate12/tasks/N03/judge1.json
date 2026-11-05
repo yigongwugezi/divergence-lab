@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the stated classroom constraints and assess unseen-chart transfer and time. Their primary mechanisms are value manipulation, claim auditing, prediction and distribution reveal, error repair, and consequence comparison. Candidate 1 best combines direct relevance to misleading claims, accessible numerical instruction, feasible pacing, and separately inspectable calculation and interpretation outcomes. Candidate 4 adds substantial arithmetic demands for novices; candidate 0 discusses the lesson before transfer, weakening its experimental comparison."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a feasible conditional route within 50 minutes and assess transfer and time; dataset suitability remains unverified. Candidates 0 and 7 share value manipulation as their primary mechanism: the retention prompt repairs a possible misconception rather than creating a new mechanism. The other mechanisms are claim auditing, prediction and distribution reveal, count reconstruction, calculation scaffolding, conditional information seeking, retrieval with correction, and peer explanation following private commitment. Candidate 1 offers the strongest balance of task alignment, novice accessibility, manageable workload, and inspectable assessment. The alternatives introduce useful but less directly established benefits or additional demands."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical headline-audit lesson. It explicitly teaches mean and median, tests justified interpretation on an unseen chart before discussion, and records completion time and unfinished work. Additional candidates do not improve the written quality of that shared best proposal."
+    }
+  },
+  "format_retry_of": null
+}

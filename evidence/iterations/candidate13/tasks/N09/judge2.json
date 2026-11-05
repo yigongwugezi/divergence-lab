@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide immediate protection, bounded shift obligations, paper handoffs, escalation and three-week measurement. The five primary mechanisms are scheduled duty rotation, least-burden allocation, compensating routine-task exchanges, shared incident work and roster exposure exchanges. Candidates 4 and 5 repair their respective mechanisms rather than introduce new ones. Candidate 4 best combines actual-burden allocation with explicit capacity checks, interruption recovery, accepted transfers and an inspectable fallback. Its fairness effect remains limited during solo shifts."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four are usable and employ distinct primary mechanisms: duty rotation, least-burden allocation, compensating task exchanges and roster exposure exchanges. Candidate 2 offers practical compensation even when brief overlap leaves no choice of urgent responder. Explicitly accepted exchanges, actual-time reconciliation, aged balances and a first-redemption feasibility check make delivered relief inspectable. Transferable routine work is a stated prerequisite, and equal minutes do not resolve every aspect of repeated unpleasant work."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B2 better addresses fairness when volunteers mostly work separately: routine-task relief can compensate unavoidable urgent work, whereas A4 can redistribute cleanup only when multiple eligible volunteers are present. B2 also tests whether relief is actually delivered while tracking response, repeated burden and missed tasks. Its advantage depends on sufficient transferable work, which it explicitly checks."
+    }
+  },
+  "format_retry_of": null
+}

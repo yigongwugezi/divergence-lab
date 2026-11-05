@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the case, label, time, provenance and comparison constraints. Primary mechanisms are close observation; evidential boundaries; personal association; simulated interrupted use; institutional valuation; and hypothetical repair deliberation. Candidate 5 best combines feasibility and inspectability: it checks that visitors can see the relevant feature, verifies claims, and compares understanding, significance and discomfort with plain facts. Its visibility check refines candidate 0 rather than creating a new mechanism."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with conditional prerequisites appropriately stated. Their primary mechanisms are close observation, evidential boundaries, personal association, institutional valuation and present care. Candidate 0 offers the strongest overall balance of direct object engagement, modest resource demands, factual discipline and an inspectable comparison of supported understanding and discomfort."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0 by explicitly checking whether the feature is visible before relying on it, providing a feasible fallback, and testing perceived significance alongside understanding and discomfort. These address practical failure points in making the object meaningful; the advantage is operational rather than greater length or novelty. Neither proposal establishes effectiveness before testing."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four preserve immediate protection, bounded shifts, paper handoffs, escalation and three-week measurement. Their primary mechanisms are scheduled rotation, least-burden allocation, compensating task exchanges and exposure-changing shift swaps. Candidate 0 offers the clearest, most feasible ownership and escalation rule; the alternatives depend more heavily on simultaneous availability, transferable work or feasible swaps. Its limitation is that equal duty exposure may leave actual cleanup burden unequal."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable with their stated prerequisites. Candidate 4 repairs candidate 0's rotation through workload correction rather than introducing a distinct primary mechanism. The other mechanisms are least-burden incident allocation, compensating exchanges, simultaneous task division and prevention of recurring spills. Candidate 4 best combines clear advance ownership, immediate protection, explicit acceptance and escalation with correction for measured burden. Its paper records and three-week comparison make the rule inspectable, while explicitly acknowledging staffing limits."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves A0's central fairness weakness while retaining its practical handoff and escalation structure. It uses actual burden to adjust future assignments where staffing permits, measures administrative costs and missed deadlines, and provides a clear fallback if correction disrupts response. This is a substantive improvement in task quality rather than a reward for length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

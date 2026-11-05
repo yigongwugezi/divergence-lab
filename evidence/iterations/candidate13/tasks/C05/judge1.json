@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are feasible optional rituals with privacy safeguards, silent participation, and observation of access or refusal. Their primary mechanisms are personal learning records, collective questions, recognition of care, volunteer modeling, organizational responsiveness, and hindsight perspective-taking. Candidate 0 best balances a concrete celebration with low effort, an honest 'nothing clear yet' option, separate publication consent, and direct evaluation of learning versus embarrassment. Its pilot also checks delay and acceptance of refusals."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated safeguards and prerequisites. Candidates 0 and 7 share the personal learning-record mechanism; verification and wording safeguards do not create a new mechanism. The others use collective questions, recognition of care, volunteer modeling, decision rehearsal, organizational responsiveness, outcome normalization, and visitor-selected learning goals. Candidate 7 is strongest because it preserves a simple optional ritual while explicitly preventing unsupported lessons, assigning review responsibility, accepting uncertainty, and stopping offers when handbacks are delayed. Its pilot examines supportable learning, embarrassment, pressure, and opt-out behavior. Candidate 4 remains bounded to established service rules rather than repair instructions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A0 through concrete controls against inventing lessons, clear ownership of wording and publication review, and an explicit queue-related stopping rule. These strengthen correctness and inspectability without materially expanding resources. Its comparison tests the refinement rather than the whole ritual, but still directly evaluates learning and pressure. The advantage comes from operational safeguards, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

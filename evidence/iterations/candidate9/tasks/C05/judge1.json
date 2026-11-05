@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with no definite serious hard-constraint violations. Primary mechanisms are personal learning closure (0), collective question-making (1), recognition of care (2), volunteer modeling of fallibility (3), visible organizational improvement (4), and reconstructing uncertainty to counter hindsight (5). Candidate 0 best combines a concrete ritual, modest staffing demands, separate publication consent, and an inspectable comparison of specific learning, embarrassment, opt-out behavior and queue burden."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with no definite serious hard-constraint violations. Primary mechanisms are personal learning closure (0,7), collective question-making (1,8), recognition of care (2), volunteer modeling of fallibility (3), decision rehearsal with feedback (4), visible organizational improvement (5), normalization through outcome context (6), and portable continuity of verified observations (9). Candidates 7 and 8 refine existing mechanisms rather than introduce new ones. Candidate 7 is strongest: it explicitly legitimizes disappointment, separates private reflection from publication, limits review to available time, and checks pressure, refusal handling and service burden."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves A0's strongest practical mechanism by replacing the potentially presumptive 'now we know' framing with equally legitimate clarity, uncertainty and disappointment options. Its explicit stop conditions and opt-out checks strengthen the low-pressure pilot. A0 asks more directly about embarrassment and specific observations, but B7's overall advantage in emotional permission and operational safeguards narrowly wins."
+    }
+  },
+  "format_retry_of": null
+}

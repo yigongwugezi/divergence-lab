@@ -1,0 +1,1639 @@
+{
+  "task_count": 31,
+  "complete_count": 2,
+  "pass_count": 1,
+  "failed_ids": [
+    "N02"
+  ],
+  "incomplete_ids": [
+    "S01",
+    "S03",
+    "S06"
+  ],
+  "unreviewed_ids": [
+    "L01",
+    "S05",
+    "C05",
+    "L05",
+    "E03",
+    "T05",
+    "O02",
+    "I03",
+    "P06",
+    "N01",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09",
+    "N10",
+    "N11",
+    "N12",
+    "N13",
+    "N14",
+    "N15",
+    "N16",
+    "N17",
+    "N18"
+  ],
+  "candidate4_pass_count": 25,
+  "votes": {
+    "W": 2,
+    "T": 2
+  },
+  "cost": {
+    "attempts": 21,
+    "statuses": {
+      "complete": 21
+    },
+    "known_input_tokens": 299528,
+    "known_output_tokens": 25595,
+    "unknown_usage_attempts": 0,
+    "attempt_records": [
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\N02\\calls\\raw\\100781824df147b86096_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12640,
+        "output_tokens": 1978
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\N02\\calls\\raw\\13c88eb57bfa5b47fd4f_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14574,
+        "output_tokens": 1706
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\N02\\calls\\raw\\68e793697ddfb065b146_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11857,
+        "output_tokens": 1294
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\N02\\calls\\raw\\c6717a075db4965b3282_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12140,
+        "output_tokens": 902
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\N02\\calls\\raw\\cd397477db4dd98332cf_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12976,
+        "output_tokens": 967
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\N02\\judge1\\raw\\N02_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18149,
+        "output_tokens": 569
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\N02\\judge2\\raw\\N02_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18149,
+        "output_tokens": 475
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\Q05\\calls\\raw\\46aab9c6aca587c6bd68_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13531,
+        "output_tokens": 718
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\Q05\\calls\\raw\\97a3d367d05c519d2efe_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11874,
+        "output_tokens": 1575
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\Q05\\calls\\raw\\baa37009b9c4f5d6a5ca_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12498,
+        "output_tokens": 1134
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\Q05\\calls\\raw\\d869c566fd16369fe940_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12998,
+        "output_tokens": 1718
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\Q05\\calls\\raw\\fec0a8a0104b6e643c4d_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14675,
+        "output_tokens": 2054
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\Q05\\judge1\\raw\\Q05_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 19799,
+        "output_tokens": 484
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\Q05\\judge2\\raw\\Q05_J2_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18947,
+        "output_tokens": 559
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\S01\\calls\\raw\\46c19d529ebc18f8e79f_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 13245,
+        "output_tokens": 1362
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\S01\\calls\\raw\\c4f4a2f8cdc654aad927_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12257,
+        "output_tokens": 1079
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\S01\\calls\\raw\\db8ffdfbc63ce021b518_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11867,
+        "output_tokens": 1422
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\S01\\calls\\raw\\dfbfc53a1cae90989eb1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 12757,
+        "output_tokens": 2159
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\S01\\calls\\raw\\f52b981e1cfaa8abf130_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 14844,
+        "output_tokens": 1516
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\S01\\judge1\\raw\\S01_J1_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 18740,
+        "output_tokens": 571
+      },
+      {
+        "path": "work\\six-hour-improvement-20261103\\candidate17_eval\\runs\\S06\\calls\\raw\\6fba4a1d05a7e88780bc_a1\\metadata.json",
+        "status": "complete",
+        "input_tokens": 11011,
+        "output_tokens": 1353
+      }
+    ]
+  },
+  "tasks": {
+    "S01": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B的最佳方案6在A的最佳方案0基础上，把工作量上限、改期授权、释放核对及停止条件写得更具体，更容易在两名志愿者的固定开放时间内执行和检查。收益尚未证实，但其优势来自约束落实与可检验性，而非篇幅或新颖性。"
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6与B0的主要机制相同，但A6把工作量上限、改期确认、旧位释放及异常暂停写得更可执行，也检验改进是否较原提醒增加收益。其优势来自约束落实与可检查性，而非篇幅或机制新颖性；两者均未证明实际效果。"
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 8
+          },
+          "usable": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B7比A0更明确地处理取消后恢复、候补名额归属和通话中断，降低重复承诺及登记错误风险；回访数量上限、纸簿演练和停止条件也更便于执行与检查。这些具体改进提高了流程可靠性，但两者降低空档的效果都仍需试行验证。"
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "incomplete",
+      "pass": false,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "L01": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 5
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B的最佳方案3比A的最佳方案0更明确地解决个人余额、采购授权及退出退款问题，降低混合资金造成争议和隐性补差的风险；优势来自执行规则与可核验性，而非篇幅或新颖程度。"
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 4
+          },
+          "usable": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 4
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A的最佳方案3比B的最佳方案0更明确解决部分人参加、个人余额扣减及退出结算，减少实际执行中的资金归属争议，也保留采购者不得补差和隐私保护。新增核算负担有明确试行检查与停止条件，因此在约束正确性和可检查性上略胜；优势来自规则可执行性，而非篇幅或新颖性。"
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "S03": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "两池最佳均为候选2，文本相同，在约束正确性、可执行性、潜在效果和可检查性上没有差异。"
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6相对B2的优势有限但具体：明确把检查能力不足纳入不启动、停用及恢复原流程的条件，逐项记录未完成检查，并设置漏检放行立即暂停，令单人条件下的安全边界更可核查。两者均未证明实际周转提升；A6的历史比较较弱，不能据此宣称效果优于B2。"
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "incomplete",
+      "pass": false
+    },
+    "S05": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 5
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "A4通过既有订单与采购联动吸收新鲜余货，经济逻辑和防止库存转移的检查更完整，但依赖配材适配及可调整采购。B4直接覆盖短赏期积压，启动和停止规则清楚，但依赖付费需求且可能分流正常销售。两者均满足核心约束并提供可检查的两周试点，现有信息不足以认定一方整体更优。"
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "两池最佳均为内容相同的候选1：满足硬约束，直接服务现有滞销库存，具有可执行的两周对照、四项指标和停止条件。没有文字质量上的胜负依据。"
+        }
+      ],
+      "candidate4_pass": false,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "S06": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 5
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B4 improves on A0 through concrete operating rules for failed acoustic privacy, missed calls and missing referrals, while preserving anonymous access and the legal-information boundary. These changes make the flow more executable and inspectable with the available resources; the advantage is substantive rather than based on length or novelty."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A4 provides the more complete and inspectable first-visit flow: it checks acoustic privacy before service, defines what happens when that check fails, supports spoken assistance and missed turns, and specifies referral limits. B3 has a strong disclosure-minimization mechanism, but its warning that the corner may lack confidentiality gives less concrete protection against spontaneous disclosure."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "incomplete",
+      "pass": false
+    },
+    "C05": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 8
+          },
+          "usable": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B7 improves on A0 by placing responsibility for factual learning claims on volunteers rather than disappointed owners. It also provides clearer capacity limits and pilot stopping rules while retaining optional participation and explicit uncertainty. These are practical improvements in constraint correctness and inspectability, although its effect remains untested."
+        },
+        {
+          "vote": "L",
+          "mechanisms": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 6
+          },
+          "usable": {
+            "EXPAND": 9,
+            "DIRECT_FULL": 6
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "B4 narrowly exceeds A7: its concrete institutional change gives failed attempts visible value without adding individualized writing at handback. Its comparison better isolates the proposed mechanism and explicitly checks whether the celebration dismisses disappointment. A7 remains strong, but adds handback work and tests the revision against another learning ritual rather than ordinary service."
+        }
+      ],
+      "candidate4_pass": false,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "L05": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B的最佳候选5在A的最佳候选1基础上，具体解决了上肩触发不适用、检查后未进入最终携带位置及再次取出导致失效的问题，同时保留低成本、无声与隐私保护。其评估还区分出门前拦下的缺物和越过家门后的真实遗漏，可检查性更强；优势来自这些实际修正，而非篇幅或新颖性。"
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5在B1已有的实物触检机制上，更明确核定本趟证件需求、确认最终携带位置，并规定检查后取物的重新核对方式，减少检查与实际离家状态脱节。其优势来自流程完整性和可检验性，而非篇幅或新颖性；两者均未证明长期效果。"
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "E03": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 2,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 2,
+            "EXPAND": 5
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B3 modestly improves on A0 by making the 30-minute shutdown executable through explicit readiness and restoration decisions, including what to do when ventilation capacity or repair resources are inadequate. It retains repeated comparisons, corroborating inspection and safe escalation without claiming a definitive diagnosis from overall vibration alone."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 2
+          },
+          "usable": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 2
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A3 improves on B0 with explicit checks for ventilation capacity, tools, access, repair feasibility, and restoration time, plus clear fallback decisions when safe completion is impossible. These practical safeguards strengthen execution within the single 30-minute window while preserving diagnostic uncertainty."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "T05": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6 narrowly improves on A4 by combining clear escalation-boundary practice with reliable access to both claimants' information and an individual assessment requiring missing-information requests. These are concrete improvements in feasibility and inspectability, although neither proposal supplies evidence of actual learning effects."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 7
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 7
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6 strengthens evidence gathering through reliable disclosure and tests requesting missing information; B4 makes the action-versus-escalation boundary especially clear through contrasting cases. Both provide feasible 45-minute role-play sequences, explicit escalation checks, and relevant unseen individual assessments. Their different strengths do not establish a clear overall advantage in written task quality."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "O02": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 8
+          },
+          "usable": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B7 improves on A0 by specifying what happens when commitments lapse, owners withdraw or nobody accepts the recorder role. These practical recovery rules address a likely source of renewed chair dependence while preserving consent and bounded meeting time. Its direct comparison with the original queue makes the added value inspectable; superiority remains a hypothesis to test."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 7
+          },
+          "usable": {
+            "EXPAND": 9,
+            "DIRECT_FULL": 7
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A7 modestly improves on B0 by specifying dispositions for overdue and withdrawn commitments, voluntary handoffs, absent-owner handling and a fallback when no recorder volunteers. These practical repairs reduce ambiguity that could otherwise restore chair chasing. Both are lightweight and inspectable; B0 specifies the rework observation window more clearly."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "Q05": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6比A0更明确处理出勤分母与观察记录不匹配的问题，避免产生误导性的调整结果；其无法配对时的替代展示、停止条件和分母复核提高了可行性与可审查性，同时保留季节、记录口径及非因果解释的限制。优势来自具体的方法修正，而非篇幅或机制数量。"
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 4
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 4
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6对出勤分母错配的防范更细，B2对记录指标与统计口径的核验更完整。两者均利用允许资料、考虑努力与季节及记录方式、不推断种群下降，并提供可检查的反证条件和谨慎报告模板；没有足够依据认定其中一个整体更优。"
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 6,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6比A0更明确地解决了出勤次数本身如何识别的问题，降低把参与人次误当独立巡查次数而制造错误解释的风险；其退路、报告模板和反证条件均可检查。优势来自关键计算前提的落实，而非篇幅或新颖性。"
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 6
+          },
+          "usable": {
+            "EXPAND": 9,
+            "DIRECT_FULL": 6
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6略优于B0：两者都满足资源限制并避免将记录下降解释为种群下降，但A6把出勤计量单位的核实设为计算前提，明确禁止将人员行数直接当作巡查次数，并处理同日同路线场次不明的情况。这项可检查的准入规则降低了核心比较失真的风险；优势来自约束落实，而非篇幅或新颖性。"
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": true,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "I03": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5较A1略优：两者机制相同且均忠实容纳失败与未知，B5进一步将主要问题、处理依据和验收条件落实为拍摄前的明确要求，并规定漏拍证据时撤回对应成功结论，提高执行和核查的确定性。优势来自操作细化，而非篇幅或新颖性；试映尚未产生效果证据。"
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5与B1采用同一判断链，均提供可拍的九十秒结构、真实性边界及理解测试。A5把验收条件和拍摄责任写得更明确；B1对真实结果分支与观众判断依据的检查更直接。差异属于执行细化，未形成足以判定整体任务质量高下的优势。"
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "P06": {
+      "source": "original_13_development",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 modestly improves on A0 by specifying what happens when the return box or volunteer processing capacity is exceeded, including a recovery path and stopping criteria. This addresses a practical weakness within the same resources. The extra return location adds complexity, but its availability and access costs are explicitly tested."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 narrowly exceeds B0 in written task quality by addressing return-box capacity and unfinished work within the same resources and visit budget. It supplies concrete fallback instructions and stopping criteria while acknowledging reduced shelf capacity and unresolved depletion. The additional return location adds complexity, but makes overload more manageable and inspectable."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N01": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 2,
+            "EXPAND": 3
+          },
+          "usable": {
+            "DIRECT_FULL": 2,
+            "EXPAND": 4
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B2 improves on A1 with explicit source-based repair confirmation, recovery for intervention-caused leaks or service disturbance, and separate reporting of confirmed and unresolved findings after five mornings. These strengthen constraint correctness and inspectability without claiming proof of overnight flow."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 3,
+            "DIRECT_FULL": 2
+          },
+          "usable": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 2
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A2 modestly improves on B1 through clearer evidence thresholds, maintenance handoff, and explicit recovery if repair causes leakage or service disturbance. These strengthen the required confirmation and rollback workflow without changing the primary mechanism."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N02": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B6 modestly improves on A0 by specifying custody when the receiver is unavailable and preventing processing before acceptance. It measures both active handoff work and waiting time, and provides a fallback if pending transfers threaten deadlines. These operational details improve feasibility and inspectability while preserving traceability; effectiveness remains uncertain until tested."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "Both pools' best proposal is the identical source-checked handoff procedure and experiment, so their written task quality is equal."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 8
+          },
+          "usable": {
+            "DIRECT_FULL": 7,
+            "EXPAND": 10
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "The selected proposals are identical. Both provide a reversible, source-based handoff check, explicit mismatch holds, required measurements and a practical comparison while acknowledging uncertainty from rare errors."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 7
+          },
+          "usable": {
+            "EXPAND": 10,
+            "DIRECT_FULL": 7
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "Both pools' best proposal is the identical candidate 0, with the same feasible, reversible handoff check, traceability safeguards and two-week comparative measurement plan."
+        }
+      ],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "complete",
+      "pass": false,
+      "reuse": {
+        "p0": false,
+        "direct_full": false,
+        "p1": false,
+        "p2": false
+      },
+      "reuse_origin": {
+        "p0": null,
+        "p1": null,
+        "p2": null
+      }
+    },
+    "N03": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "Both pools select the identical headline-audit proposal. It provides a feasible lesson and a transparent assessment of calculation, justified interpretation, transfer and completion time; neither pool's selected proposal has a written-quality advantage."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "Both pools select the identical candidate 1. Its clear schedule, accessible instruction, claim-focused practice and timed individual transfer provide equally strong written task quality. Neither pool supplies evidence of actual learning effects."
+        }
+      ],
+      "candidate4_pass": false,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N04": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 narrowly improves on A2 by explicitly verifying each repair on the original pattern at the original tempo and providing a practical response to group masking. Both satisfy the constraints and test unfamiliar material; B5 makes successful correction more consistently observable, although neither establishes individual mastery or strong causal evidence."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 strengthens B2's diagnosis-and-repair mechanism with explicit verification at the original tempo and pattern, plus a practical quartet fallback for unclear ensemble evidence. These changes improve correction and inspectability while preserving the low-pressure format and resource constraints. Neither proposal establishes individual mastery or strong causal evidence."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N05": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 narrowly improves on A0 by checking that visitors can actually locate the documented feature through the closed case and specifying a factual-label fallback if they cannot. This addresses a concrete feasibility dependency. Its small three-condition trial remains formative and does not establish superiority, but the proposal makes its central mechanism more inspectable within the constraints."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 narrowly improves on B0 by checking whether visitors can actually locate the interpreted feature through the closed case and providing an explicit fallback if they cannot. This strengthens feasibility and inspectability. Its smaller samples limit comparative conclusions, but the proposal acknowledges that limitation."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N06": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 narrowly improves on A0 through an observable arrival cue, an executable fallback and explicit comprehension and performer-load measurements at both rehearsals. Its additional cue introduces a real burden, but its comparison plan directly tests whether that burden earns a benefit."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 offers a stronger spatial destination signal and explicit fallback, but requires distinguishable lighting areas and an additional readiness cue. B3 offers simpler movement and particularly inspectable repetition checks, but depends on a perceptible dark interval and communicates only a scene boundary. Both are concrete, feasible under stated checks and responsive to the required evaluations; neither clearly dominates."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N07": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 5
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "The best proposals are identical. Both provide a practical, time-bounded workflow, preserve privacy and phone-free pickup, and distinguish actual pickups from other shelf removals while tracking mistaken releases."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality. It provides practical release checks and tracks all required outcomes while acknowledging that reduced occupancy alone does not demonstrate reduced abandonment."
+        }
+      ],
+      "candidate4_pass": false,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N08": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 8
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 9
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B7 narrowly improves on A0 by specifying when a provisional window loses support and preserving original and revised windows separately. This makes stale promises and concealed misses easier to detect using the same paper cards and inbox. Its advantage is procedural clarity and inspectability, not demonstrated results."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 9,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A7 improves the shared evidence-gate proposal with explicit withdrawal of unsupported windows and preservation of original estimates. These practical controls reduce stale promises and prevent revisions from concealing misses, while retaining feasible staffing, existing tools and the required four-week comparison. Its advantage is operational clarity and inspectability, not length or novelty."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N09": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 5
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B3 narrowly improves on A1 through explicit acceptance handling, completion deadlines, treatment of unknown burden records and a rotating-order fallback. These make ownership and missed tasks easier to inspect while preserving immediate protection and scheduled shift limits. Both remain limited by unavoidable solo-shift burden."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 4
+          },
+          "usable": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 4
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A3 narrowly improves on B1 through explicit acceptance and fallbacks for missing records or unavailable responders, reducing the risk of unowned hazards without extending shifts. Both acknowledge that allocation cannot equalize unavoidable solo-shift exposure; A3 makes handoff and allocation failures more directly inspectable."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N10": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 narrowly improves on A0 by specifying how actual deliveries are distinguished from intentions and how missed commitments are cleared before further requests. It also uses the existing donor-facing schedule without assuming a separate contact channel. These concrete feasibility and inspectability gains support the same predictable-supply mechanism; neither proposal guarantees sufficient donations."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 narrowly improves on B0 through concrete delivery confirmation, expiration of missed commitments and capacity-aware replacement requests. These operational safeguards make the replenishment routine more reviewable and feasible with paper and the existing schedule. The advantage is in written implementation quality, not demonstrated results or a distinct new mechanism."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N11": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 2,
+            "EXPAND": 2
+          },
+          "usable": {
+            "DIRECT_FULL": 2,
+            "EXPAND": 3
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B's best proposal retains the direct six-week randomized comparison while making repeated measurements, discrepancy handling, watering delivery limitations, and plant withdrawal more explicit. These provide a modest practical advantage over A's best without changing the primary mechanism."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 2,
+            "DIRECT_FULL": 2
+          },
+          "usable": {
+            "EXPAND": 3,
+            "DIRECT_FULL": 2
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "Both pools' best proposal is the identical candidate 0, so their best written task quality is equal."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N12": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 4
+          },
+          "usable": {
+            "DIRECT_FULL": 4,
+            "EXPAND": 5
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B3 modestly improves on A0 through explicit Saturday–Sunday coverage, alternating circuit direction, cloud observations and a clear recurrence rule. These make timing and rain comparisons more inspectable while retaining safe access, instrument checks and appropriately limited causal claims."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 4,
+            "DIRECT_FULL": 4
+          },
+          "usable": {
+            "EXPAND": 5,
+            "DIRECT_FULL": 4
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "Both pools' best proposals are identical. They safely distinguish a localized runoff association from timing and meter artifacts through spatial baselines, matched-hour recovery observations and repeated rain events, while acknowledging weather and access limitations."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N13": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 8
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "Both pools' best proposal is the identical canonical-answer workflow, so their best written task quality is equal. Pool B's additional alternatives and refinements do not improve that selected proposal."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 8,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A6 strengthens the same practical mechanism as B1 with explicit coverage states, an initial provenance gate, authority handling, a fallback when archive changes cannot be identified, and public-result checks before closing issues. These address concrete correctness and maintenance gaps; the advantage does not depend on length or novelty."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N14": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 improves A0 by explicitly preventing matching terms from implying shared applicability, providing a fallback for unreliable pairings, and specifying what happens when no clarification contact exists. These practical safeguards strengthen constraint correctness and feasibility. Its trial also checks unsupported choices and time costs; neither proposal supplies actual effectiveness evidence."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 strengthens the shared crosswalk approach with an explicit applicability check, clearly limited coverage, handling for missing clarification contacts, and an executable fallback when term pairings are unreliable. These improve constraint correctness and practical usability without relying on greater length or novelty."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N15": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "Both pools' best proposal is the identical reservation routine, with clear privacy and emergency rules and a suitably cautious two-week comparison of missed trips, idle time and coordination effort."
+        },
+        {
+          "vote": "L",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "B's best proposal has a modest advantage: it provides a concrete way to preserve both overlapping trips and an inspectable measure of whether that mechanism works. A's best is simpler, but leaves overlap resolution to an agreed swap without specifying how to reach one. B explicitly measures its additional coordination burden and acknowledges when flexibility offers no benefit."
+        }
+      ],
+      "candidate4_pass": false,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N16": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "T",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "Both pools' strongest proposal is the identical candidate 0. It provides a feasible owner-controlled retrieval system with neutral labels, concealed contents and private one-month measurement. Both would benefit from recording a baseline misfiling count explicitly; neither provides protection against deliberate snooping, which both acknowledge."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "Both pools' best proposal is the identical candidate 0, so their written task quality is equal. It provides a practical privacy-preserving retrieval system and a one-month evaluation without changing clinical advice or exposing diagnoses."
+        }
+      ],
+      "candidate4_pass": false,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N17": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B5 strengthens A1's timed-cohort arrangement with a concrete preopening feasibility check, bounded waiting space and an orderly fallback when transitions cannot be managed safely. These improve constraint correctness and operational feasibility. Its two-event comparison remains confounded by attendance and weather, so it supports practical assessment rather than a causal claim."
+        },
+        {
+          "vote": "W",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "A5 improves on B1's shared timed-cohort mechanism with a preopening transition check, explicit queue-capacity limits and an order-preserving fallback. These strengthen constraint correctness and practical feasibility. Its between-event comparison offers weaker attribution than B1's reversed blocks, but the operational safeguards give A5 the overall advantage."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    },
+    "N18": {
+      "source": "frozen_18_before_any_adaptation",
+      "candidate4": [
+        {
+          "vote": "W",
+          "mechanisms": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 6
+          },
+          "usable": {
+            "DIRECT_FULL": 5,
+            "EXPAND": 7
+          },
+          "serious_violations": {
+            "DIRECT_FULL": [],
+            "EXPAND": []
+          },
+          "reason": "B's best proposal modestly improves feasibility and likely usefulness by checking actual conditions and specifying fallbacks before committing to placement. A's within-afternoon comparisons are stronger for attribution, but B's operational safeguards give it a narrow overall advantage."
+        },
+        {
+          "vote": "T",
+          "mechanisms": {
+            "EXPAND": 6,
+            "DIRECT_FULL": 5
+          },
+          "usable": {
+            "EXPAND": 7,
+            "DIRECT_FULL": 5
+          },
+          "serious_violations": {
+            "EXPAND": [],
+            "DIRECT_FULL": []
+          },
+          "reason": "The selected proposals are identical and equally satisfy the task: a dignified accessible layout, realistic acoustic limitations and a two-afternoon comparison covering all required outcomes. Neither supplies observed results."
+        }
+      ],
+      "candidate4_pass": true,
+      "candidate": [],
+      "format_errors": [],
+      "judge_format_errors": [],
+      "status": "unreviewed",
+      "pass": false
+    }
+  },
+  "limits": [
+    "These 31 tasks are development/regression checks after inspecting candidate 4.",
+    "Judgments concern written proposals, not measured effects.",
+    "Unknown usage and provider-side retries are not included in known token totals."
+  ]
+}

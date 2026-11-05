@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary ownership, due dates, existing meeting time and free resources, and compare completion, rework and burden. Each uses a distinct primary mechanism. Candidate 0 provides the strongest general-purpose foundation: explicit acceptance, bounded commitments, visible unclaimed work and owner updates without chair chasing. Its comparison preserves original deadlines and counts unclaimed work."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and address the constraints. Candidates 0 and 7 share the voluntary action-queue mechanism; 7 repairs interrupted ownership. Candidates 4 and 8 share delegated execution mandates; 8 adds dispute handling. The other candidates have distinct primary mechanisms. Candidate 7 is the strongest general-purpose proposal because it combines explicit acceptance and capacity limits with a practical release procedure that prevents automatic chair rescue. Its trial counts all decisions, handoff effort, abandonment and chair interventions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A0 by specifying what happens when an accepted commitment becomes infeasible, including handoff information, explicit replacement acceptance and disposition of unsupported work. This directly strengthens continuity without making the chair responsible for rescue. Its evaluation also captures execution burden and delivery across all decisions. The advantage is operational completeness, although few interruptions could leave the added procedure's benefit uncertain."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary acceptance, dated ownership, existing resources and comparative evaluation. Candidates 0 and 7 share an explicit-acceptance queue; 7 adds withdrawal handling. Candidates 3 and 8 share bounded delegation; 8 adds an exception rule. The other primary mechanisms are distinct. Candidate 7 offers the strongest general-purpose fit: modest meeting overhead, distributed updates, clear release and transfer rules, and measurement that includes paused work, original deadlines, rework and each volunteer's burden."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and represent distinct primary mechanisms: explicit acceptance, rotating coordination, protected execution, delegated authority, execution scheduling, backup coverage and recipient verification. Candidate 0 is the strongest general-purpose starting point because it directly addresses ambiguous ownership and overcommitment with little overhead, removes routine chair chasing, and compares completion, rework and administrative burden while exposing unclaimed work. Other candidates depend more heavily on a particular cause of failure."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 by making withdrawal, paused status and voluntary reassignment explicit, addressing interrupted commitments without defaulting responsibility to the chair. Its trial also counts execution burden and paused work. These are practical gains in accountability and evaluation; actual effectiveness remains untested."
+    }
+  },
+  "format_retry_of": null
+}

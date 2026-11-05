@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are reversible, preserve original identity evidence, use existing resources and measure the three required outcomes over two weeks. Their primary mechanisms are independent source verification, stable physical placement, single-sample labeling, fewer custody changes and batch identifier reconciliation. Candidate 0 best directly targets handoff errors with a feasible, inspectable acceptance check and consistent comparative auditing."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All ten satisfy the hard constraints with documented holds, preserved identifiers and two-week measurement. Candidates 7 and 8 refine the mechanisms of 0 and 1 rather than introduce new ones. The other mechanisms are single-sample labeling, stable spreadsheet identity, explicit interrupted-transfer state, label issuance accounting, fewer custody changes and intake ambiguity screening. Candidate 0 offers the strongest direct, simple and inspectable handoff intervention; the alternatives depend more on specific error causes or workflow prerequisites."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical source-checked acceptance proposal. It balances traceability, feasibility, direct relevance and an auditable two-week comparison; the additional candidates in B do not improve the written quality of that selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

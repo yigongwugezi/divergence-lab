@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Primary mechanisms are staged inquiry, evidence gaps, paused replay, authority-boundary contrasts, claimant-presentation swaps, correction and understanding checks, and source-labeled notes. Candidate 6 extends candidate 3 with recovery practice rather than replacing its primary mechanism. Candidate 7 best combines neutrality with inspectable practice: attributed claims remain separate from verified facts, and its escalation check specifies authority, handoff ownership, updates, and a staff-unavailable fallback. Brief note-taking is feasible within the schedule, although its effect remains untested."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their primary mechanisms are staged inquiry, evidence gaps, paused replay, presentation reversal, authority-boundary contrasts, source-separated worksheets, and recovery from an existing premature commitment. Candidate 6 makes recovery the central practice task, rather than merely repairing another proposal. Candidate 5 most directly makes premature endorsement observable: trainees distinguish both accounts from record evidence, invite attributed corrections, and justify action or escalation. Its individual unseen assessment checks that distinction, and its concise worksheet is practical for self-directed triads with one facilitator."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B5's shared source-separation mechanism with a more actionable handoff: an unresolved question and next owner, updates, a staff-unavailable fallback, and handling of inaccurate instructions. Its unseen assessment also checks routine action versus escalation. These are useful operational safeguards, rather than advantages from length or novelty alone; neither proposal establishes actual training effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

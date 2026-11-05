@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide a 50-minute paper-based lesson, accessible mean–median instruction, unseen-chart transfer, and completion-time checks. Their primary mechanisms are extreme-value manipulation, claim auditing, distribution prediction, error repair, and comparison of decision consequences. Candidate 1 best matches the goal directly, balances calculation with justified interpretation, and tests transfer before discussion with a useful-mean item that detects blanket distrust."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; data-dependent prerequisites and arithmetic or reading burdens are feasibility risks rather than definite hard-constraint violations. Candidate 7 retains candidate 1's claim-auditing mechanism; its bounded arithmetic recovery is a procedural repair, not a separate mechanism. The other groups use extreme-value manipulation, distribution prediction, count reconstruction, calculation scaffolding, information-sufficiency decisions, retrieval, and error diagnosis. Candidate 7 offers the strongest practical balance: verified preparation, timed recovery within the class, unseen transfer, and separately inspectable assisted interpretation and independent calculation."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A1 by specifying how to preserve interpretation time when novice arithmetic stalls, while recording assistance and keeping the transfer assessment within ten minutes. Its advantage is operational robustness and clearer assessment evidence, not demonstrated effectiveness or greater length."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect privacy, prohibit occupied-apartment shutdowns, and provide confirmation and rollback checks. Candidate 2 is conditional on a verified nonessential common branch; candidate 3 requires existing matched nested readings. These prerequisites limit applicability without constituting violations. Candidates 4 and 5 retain their source mechanisms. Candidate 5 offers the strongest broadly feasible workflow: correct reading intervals, separate cleaning use, require physical confirmation, and explicitly retract unsupported findings. Daily readings cannot establish overnight timing, which the candidates acknowledge."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible screening workflows with confirmation and rollback checks. Candidate 0 best integrates delayed-entry correction and cleaning comparisons with aggregate consumption and physical inspection. Candidate 1 offers directly inspectable evidence but depends on an accessible visible leak. Neither claims that morning observations prove overnight leakage."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "Candidate A5 improves on B0 through clearer escalation criteria, maintenance handoff, uncertainty handling, and explicit retraction when cleaning or transcription explains the signal. These strengthen the requested response workflow without requiring additional equipment or assuming overnight timing is observable."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,27 @@
+{
+  "package": "outputs\\divergence-lab-unified-superiority-candidate16-20261103\\.agents\\skills\\divergence-lab-unified",
+  "files": {
+    ".gitignore": "14188a31de4a645fd035797f1b2e904c60b2f1428ae555ed2a281e2431b3f2d6",
+    "references/BASELINE_PROMPT.txt": "0bffa1333b69c46f2e954bc770d1adfc2255fc2d9b87504e61a45e1bd94a0e07",
+    "references/CONTINUE_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "references/CONTINUE_PROMPT_P1.txt": "005abbc812f0cb13b86a507e5e2a31de45c0a11406c91094c66fecc18e277351",
+    "references/CONTINUE_PROMPT_P1_NARROW.txt": "228debe7fe2ca56532ada06f17430b574058ee0d748e9a5f136f9417a5e16749",
+    "references/CONTINUE_PROMPT_P2.txt": "6d3d584f4e5485d6f107d83b07adda4f9781dd954a54512dee8f5f08569bbb65",
+    "references/CONTINUE_PROMPT_P2_ASSUMPTION.txt": "e536f5446187f5de6a5eef2945160ddebe1cd56be439f4a3d9e97de5900a6812",
+    "references/REPAIR_PROMPT.txt": "df9a394518612c05852482a8ddc19b77d1ccd8961c3a485f3f01bc114ec51f2c",
+    "references/response.schema.json": "ba2ea82c009ec659e4da4afa7f9991a30f58b3f96452de317dcca08c8749e080",
+    "references/response6.schema.json": "fa8a84ab415bd47e7be4ce9cf9f5b0c93f6560ce655646abdd4c0e934f549867",
+    "references/SAVE_FULL_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+    "references/SAVE_WIDE_PROMPT.txt": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
+    "scripts/build_prompt.py": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
+    "scripts/run.py": "44134f478190f81715f671708fda8b8c3f255a4e4fc6c278d0a8783e1a313501",
+    "SKILL.md": "99350ca2379561c1b13ba697262d9275d7f182ff90e05c4586d1bff2f0e4e226"
+  },
+  "task_index_sha256": "f00266d497e98a581a989da42fea460a52866e6f3b1bbf6737bf8493ebcf19ae",
+  "runner_sha256": "edb8e9864b0b53a6f04b7b179df18190d82d6e8c7f3612e55f7323ae8129b7c1",
+  "judge_sha256": "a983ee6c081608a42eb98526f814ff486d18ba966ac2d05eeda30b287f63f0e4",
+  "direct_continue_sha256": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "design": "new tasks; shared P0; DIRECT_FULL P1/P2 and EXPAND P1/P2; two reversed judges"
+}

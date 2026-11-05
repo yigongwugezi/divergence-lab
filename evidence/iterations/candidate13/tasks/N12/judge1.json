@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide safe, repeated comparisons and address timing, calibration and runoff without asserting a biological cause. Their primary mechanisms are timing confounding, localized runoff, temperature-dependent solubility and vertical redistribution. Candidate 0 offers the most feasible direct investigation with the stated resources; the others depend more on site geometry or meter capabilities."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, including conditional routes that explicitly stop when equipment or safe access is insufficient. Candidates 4 and 5 refine existing mechanisms through calibration recovery and reference-return checks. Probe-response artifacts, vertical redistribution and temperature-dependent solubility remain distinct mechanisms. Candidate 4 best combines direct matched-time comparisons, feasible replication and explicit rules for excluding and replacing invalid measurements."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 by making calibration failures operationally inspectable: it withholds affected circuits, bounds correction attempts and permits replacement only within the original safe sampling window. This strengthens evidence quality while preserving the required timing and runoff comparisons."
+    }
+  },
+  "format_retry_of": null
+}

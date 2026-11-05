@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the training constraints without a definite serious violation. Groups distinguish sequential gates, distributed information, paused replay, contrasting authority boundaries, claimant-presentation swaps, correction loops, and shared record inspection. Candidate 6 refines candidate 3's mechanism through handoff acceptance checks; candidate 7 extends candidate 5's correction loop. Candidate 6 offers the strongest combination of clear routine-versus-staff decisions, rotating practice, individual unseen assessment, and an actionable interrupted-handoff procedure. Printed staff-response cards keep it feasible with one facilitator."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the constraints. Their primary mechanisms are sequential gates, distributed information, paused replay, controlled presentation reversal, contrasting authority boundaries, externalized claims-versus-facts notes, and explicit repair of premature commitments. Candidate 4 best combines a manageable schedule, required listening and verification, clear authority contrasts, and an individual unseen assessment that tests the distinction between verified booking facts and staff-only decisions."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly exceeds B4 in written task quality: both provide feasible contrast-based training, but A6 makes escalation more operational by specifying acceptance, interrupted contact, interim responsibility, and unavailable-staff handling. Its printed response cards support those additions without requiring another facilitator. These are practical refinements rather than a novel primary mechanism; neither proposal establishes effectiveness empirically."
+    }
+  },
+  "format_retry_of": null
+}

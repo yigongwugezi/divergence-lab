@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer usable workflows within the existing static site and weekly budget, require named sources and review dates, and track stale guidance, conflicts and reader failures. Their primary mechanisms are canonicalization, dependency tracking, review expiration, source excerpts and decision tables. Candidate 0 best reduces recurring editing work directly, with a lightweight register and an inspectable pilot; the others impose more recurring checking or depend on suitable policy structure."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight are usable and address the hard constraints without requiring new publishing infrastructure. Candidates 6 and 7 refine canonicalization and dependency tracking respectively; their transition and recovery safeguards do not establish new primary mechanisms. The remaining mechanisms are review expiration, source excerpts, reader-vocabulary navigation and grouped publication. Candidate 6 combines reduced duplication with explicit applicability and effective-date handling, a bounded schedule and a test that exposes premature replacements and reader confusion."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 by distinguishing newly issued policy from currently applicable policy, reducing premature or unsupported replacements while retaining the same feasible canonical-answer workflow. Its added fields and pilot are bounded, and it explicitly handles the limits of weekly updates. This is a substantive correctness improvement rather than a reward for length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and offer distinct primary mechanisms: facilitator-led synchronization, independent overlapping cycles, self-paced score reading, collective feedback through inversion, and imagined speech rhythm. Candidate 0 offers the clearest shared rhythmic effect with simple instructions, voluntary seated participation, announcement pauses, bounded logistics, and an observable comparison plus optional comfort feedback. The feedback mechanism risks perceived scrutiny, but its safeguards make this a pilot uncertainty rather than a definite serious violation."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable. The seven primary mechanisms are facilitator-led synchronization, independent overlapping cycles, self-paced score reading, gesture propagation, collective phrase selection, privately sustained pulse, and complementary alternating parts. Candidate 6 repairs candidate 0's visibility prerequisite without creating a new mechanism; candidate 7 similarly modifies score reading through restartable sections. Candidate 6 best combines a clear rhythmic effect, low participation demands, a practical seated visibility gate, explicit cancellation conditions, and a reversible eight-minute pilot with observation and optional comfort feedback."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 by checking seated visibility before participation and specifying cancellation if visibility cannot be achieved within the permitted corner. Its explicit feedback allowance and operational stop conditions make the same simple rhythmic mechanism more feasible and inspectable, without adding substantial participant burden."
+    }
+  },
+  "format_retry_of": null
+}

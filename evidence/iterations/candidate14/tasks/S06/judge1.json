@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable, with explicit service limits and checks covering navigation, waiting confusion and privacy. Primary mechanisms are anonymous turn allocation, visitor-controlled browsing, shared welcome rounds, information minimization and spatial separation. Candidate 0 offers the strongest overall first-visit flow: accessible anonymous waiting, optional disclosure, bounded assistance and qualified-help directions, with an audibility check and concrete rejection criteria."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable. Candidates 6 and 7 repair the queue and browsing mechanisms rather than introduce new ones. Other primary mechanisms are shared welcome rounds, environmental exposure control, referral rehearsal, volunteer boundary calibration and visitor control over companions. Candidate 6 preserves an inclusive anonymous flow while specifying recovery from missed or interrupted turns, assigning responsibility and checking waiting costs without requesting personal explanations."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 by resolving missed and interrupted turns without public justification. Its explicit ownership, recovery rule and comparative checks make the added procedure inspectable, while preserving privacy limits, accessibility and the boundary against legal advice."
+    }
+  },
+  "format_retry_of": null
+}

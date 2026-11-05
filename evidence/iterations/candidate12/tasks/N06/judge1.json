@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide concrete, conditional staging mechanisms within the stated resources and duration, with two-rehearsal evaluation plans. Candidate 3 offers a broadly reusable scene boundary, keeps movement under restored light, and explicitly evaluates comprehension, workload and repeatability. Lamp and visibility requirements remain feasibility checks, not established violations."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable subject to their stated script, space and lighting checks. Candidates 6 and 7 refine existing mechanisms rather than introduce new ones. The remaining mechanisms are repeated action, concealed reset, continuous action bridge, shared environmental response and learned light punctuation. Candidate 6 combines a readable relocation with explicit cue ownership, illuminated fallback and timed recovery trials. Candidate 3 permits only a short reset under sufficient remaining light, so it is not a definite safety violation."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly exceeds A3 through explicit movement acceptance, failure recovery and interrupted-transition testing while retaining a concrete, feasible mechanism. A3 has simpler movement safety and strong evaluation coverage, but less operational guidance for missed lighting cues. The advantage comes from inspectable reliability provisions, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

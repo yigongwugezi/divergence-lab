@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints and offer workable, conditional routines. The primary mechanisms are recurring staple commitments, scheduled release buffers, voluntary category shares, low-stock-triggered replenishment, loss prevention, and staggered arrivals. Candidates 5 and 6 refine existing mechanisms rather than introduce new ones. Candidate 5 best combines predictable staple supply with clear responsibility, bounded missed-delivery recovery, equal access, honest availability reporting and inspectable records."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious constraint violations. Their primary mechanisms are recurring commitments, scheduled release buffers, voluntary category shares, staggered arrivals, and weekly demand-responsive donation requests. Candidate 4 makes particularly good use of the weekly count and paper tally, assigns shortages to individual donation slots, caps requests by shelf space and measures whether replenishment improves usable access. Its estimates remain provisional and depend on donor responsiveness."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A5 offers steadier recurring supply and a clearer response to missed commitments; B4 adapts donation contents to observed use and unmet requests within the existing weekly routine. Both provide feasible allocation, replenishment, ownership and evaluation while acknowledging uncertain supply. Their different strengths do not establish a decisive overall quality advantage."
+    }
+  },
+  "format_retry_of": null
+}

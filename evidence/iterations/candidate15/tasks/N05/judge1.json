@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five respect the case, label, time and provenance constraints and compare understanding and discomfort with a factual label. Their primary mechanisms are close observation, evidential transparency, personal association, curatorial valuation and present care. Candidate 0 offers the strongest balance of direct object engagement, modest resource demands, evidence boundaries and an inspectable comparison."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable conditional on their stated evidence checks. Primary mechanisms are close observation, evidential transparency, personal association, simulated interrupted use, curatorial valuation and repair deliberation. Candidates 5 and 6 refine existing mechanisms rather than introduce new ones. Candidate 5 is strongest because its brief visibility check addresses a practical dependency of close observation, with feasible fallbacks and a comparison measuring understanding, significance and discomfort."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 modestly improves on A0 by checking whether visitors can actually locate the documented feature before deployment and specifying how failed visibility triggers revision. This strengthens feasibility and inspectability within the same constraints; the advantage comes from resolving a concrete dependency, not added length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

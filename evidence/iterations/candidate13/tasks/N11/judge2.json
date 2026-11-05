@@ -1,0 +1,55 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 best fits the sustained six-week comparison: matched randomization, fixed watering, temperature logs, predefined measurement and missing-plant rules, and cautious handling of mortality. Its watering recovery procedure refines candidate 0's mechanism. Candidate 1 uses a crossover with carryover limitations; candidate 3 adds a randomized orientation intervention but reduces precision and increases handling."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly compares six uninterrupted weeks at the two windows with feasible controls and predefined measurement and missingness rules. Candidate 1 is usable for a narrower short-term exposure question, but weekly switching introduces response-delay and carryover concerns."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A2 modestly improves on B0 through explicit watering-interruption handling and clearer safeguards against interpreting selective survivor heights. Both directly address the task, but A2 makes consequential deviations more inspectable without changing the primary experiment."
+    }
+  },
+  "format_retry_of": null
+}

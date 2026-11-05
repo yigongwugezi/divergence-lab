@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve classroom-only planning, distinguish mapped paths from verified safe or accessible routes, and allocate individual checks covering all three outcomes. Primary mechanisms are route comparison, timed simulation, backward deadline planning, unit-based conversion, error repair, evidence-based decision boundaries, reconstructing required inputs, and learner-generated counterexamples. Candidates 7 and 8 repair their source procedures without introducing new mechanisms. Candidate 7 offers the strongest practical package: direct distance–time comparison, checked measurements, bounded recovery, accessible response options and explicit individual criteria. Its twelve-minute checking block remains tight."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and specify individual checks within 35 minutes. Their primary mechanisms are route comparison, timed simulation, backward deadline planning, error repair, evidence classification and empirical indoor movement timing. Candidate 5 requires additional classroom conditions, but voluntary indoor movement violates no stated constraint; its feasibility is conditional. Candidate 0 best combines a concrete distance–time contrast, manageable classroom procedures, conditional route recommendations and inspectable individual explanations. Other candidates introduce additional arithmetic, simulation, classification or setup demands."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 modestly improves on B0 through teacher-checked route measurements, a bounded response to consequential measurement disagreements and explicit fallback conditions. These strengthen feasibility and the reliability of the comparison while retaining the core teaching mechanism and individual checks. The advantage concerns practical recovery and inspectability, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

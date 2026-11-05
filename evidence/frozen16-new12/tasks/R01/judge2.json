@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are visible scan progress, scan pacing, final count reconciliation, barcode exposure, basket stability, and grouped quantity entry. Candidates 6 and 7 refine existing mechanisms. All are usable conditionally; candidate 5 explicitly requires existing quantity controls and compatible accounting rules. Candidate 6 best combines a simple reversible routine with explicit handling of uncertain scans, separate error measures, and session-specific comparisons including recovery and audit time. Receipt detail and an existing timing source remain prerequisites, not established resources."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are visible scan progress, scan pacing, final count reconciliation, barcode preparation, and interruption control. All are usable with their stated prerequisites. Candidate 0 offers the strongest balance of low routine overhead, direct prevention of both error types, reversibility, and an equally applied receipt audit across both sessions. Barcode preparation has conditional material and scheduling requirements; interruption control depends on interruptions contributing to errors."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves on B0 by specifying what to do when an interruption leaves a book's recorded status uncertain, avoiding a guessed rescan or omission. It also clearly separates corrections from residual errors and includes recovery time in the trial. These operational improvements give it a modest advantage, conditional on usable transaction visibility and sufficiently brief checks."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with distinct primary mechanisms: deadline clearance, paper reminders and collection planning, explicit cancellation, faster retrieval, and authorized proxy collection. Candidate 0 offers the clearest direct shelf-space intervention, bounded daily work, release checks and measurable comparisons. Its policy and notification prerequisites are explicit, and it correctly distinguishes space recovery from increased pickups."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with distinct primary mechanisms: deadline clearance, paper reminders and collection planning, explicit cancellation, correction of retrieval failures, and opportunistic pickup during existing visits. Candidate 4 directly converts existing visits into verified pickups, preserves deadlines and private, phone-free service, budgets retrieval time, and specifies checkout failure recovery and measurable stopping criteria."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 better addresses abandoned holds by enabling wanted pickups during visits already occurring. Compared with A0, it preserves collection opportunities while potentially freeing space through actual borrowing. Both provide inspectable trials and release checks; B4 explicitly tests whether accelerated pickups produce meaningful space or abandonment benefits."
+    }
+  },
+  "format_retry_of": null
+}

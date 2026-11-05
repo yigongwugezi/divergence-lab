@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, avoid clinical changes, and provide private one-month retrieval and misfiling checks. Primary mechanisms are fixed storage, locator indexing, checkout tracking, preventing sheet separation, and source/transport completeness checks. Candidate 0 is the strongest general-purpose choice: simple, feasible with available resources, and directly inspectable without assuming a particular cause of loss."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated prerequisites and preserve private owner-led evaluation. Candidate 6 repairs intake within candidate 0's fixed-storage mechanism rather than introducing a distinct primary mechanism. Other mechanisms are locator indexing, checkout tracking, preventing circulation, chronological filing without classification, household custody boundaries, and physical association with medication containers. Candidate 7 is conditional on existing storage suitability and requires no medication relocation. Candidate 0 offers the best balance of simplicity, broad applicability, privacy, and inspectability; the alternatives add maintenance or depend on specific loss causes."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality. Each supplies a feasible visual-privacy system, preserves individual control and clinician advice, and tests retrieval and misfiling privately after one month."
+    }
+  },
+  "format_retry_of": null
+}

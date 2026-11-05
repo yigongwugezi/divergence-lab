@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, avoid changing clinical advice, use available materials and include private one-month retrieval and misfiling checks. Mechanisms are fixed storage with interruption recovery as a refinement (0,6), locator indexing (1), checkout tracking (2), whole-folder transport (3), periodic recovery (4), receipt completeness checking (5), and stationary consultation (7). Candidate 0 offers the strongest default: simple, feasible storage with concealed contents, neutral labels and inspectable outcomes. Other approaches depend more on particular loss patterns or add handling burdens. Privacy is explicitly limited to casual viewing."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the stated constraints and provide private one-month retrieval and misfiling checks. Their primary mechanisms are fixed storage (0), locator indexing (1), checkout tracking (2), whole-folder transport (3), and collection/transport completeness checking (4). Candidate 0 provides the best balance of simplicity, feasibility, likely loss reduction and inspectability without relying on a specific source of loss. Its privacy limitation is clearly stated."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality."
+    }
+  },
+  "format_retry_of": null
+}

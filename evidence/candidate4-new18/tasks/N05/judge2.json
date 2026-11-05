@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the case, label, time and provenance constraints and propose factual-label comparisons of understanding and discomfort. Mechanisms are close observation (0,5), evidential boundaries (1), personal association (2), curatorial accountability (3), conservation deliberation (4), and mental rehearsal of a task (6). Candidate 5 best combines grounded interpretation with a practical visibility check, explicit responsibility and a factual fallback. Its three-condition, small-sample test remains formative."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Their primary mechanisms are close observation (0), evidential boundaries (1), personal association (2), evaluation of museum selection (3), and present care (4). Candidate 0 offers a feasible, direct connection between documented damage and material significance, with a balanced factual-label comparison measuring understanding and discomfort."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly improves on B0 by checking whether visitors can actually locate the interpreted feature through the closed case and providing an explicit fallback if they cannot. This strengthens feasibility and inspectability. Its smaller samples limit comparative conclusions, but the proposal acknowledges that limitation."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, use available resources, leave clinical instructions unchanged, and include private one-month checks. Distinct primary mechanisms are fixed-home storage, locator indexing, checkout tracking, reading in place, arrival-order filing, custody boundaries during tidying, and physical pairing. Candidate 6 repairs candidate 0's interrupted-intake weakness rather than introducing a new primary mechanism. It offers predictable retrieval plus a protected, searchable intake location, with backlog limits and measurable failure criteria. Conditional suitability limits in other candidates do not constitute definite violations."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the constraints and provide private one-month retrieval and misfiling checks. Their primary mechanisms are fixed-home storage, locator indexing, checkout tracking, keeping sheets with a portable folder, and collection-and-transport completeness checks. Candidate 0 is the strongest general-purpose choice: its fixed destination and private index are feasible, directly address household retrieval, and permit straightforward inspection. The other mechanisms depend more on particular causes of loss; candidate 4 appropriately acknowledges that no incoming papers would leave its main mechanism untested."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 by giving interrupted filing a defined private destination while retaining fixed-home retrieval. Its additional search and backlog burden is explicit and tested, with a fallback if it makes retrieval harder. This is a practical improvement to a plausible failure point, rather than an advantage from length or novelty alone."
+    }
+  },
+  "format_retry_of": null
+}

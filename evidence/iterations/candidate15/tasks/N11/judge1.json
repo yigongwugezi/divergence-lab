@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly tests six-week exposure at each window with matched-pair randomization, fixed watering, and predefined measurement and missingness rules. Candidate 1 is usable but estimates weekly exposure effects and is more vulnerable to carryover."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the matched-pair parallel mechanism; candidate 2 improves its interpretation rules without creating a new mechanism. It best addresses survivor bias while preserving a feasible six-week comparison. Candidate 1 uses a distinct crossover mechanism but introduces carryover and developmental-period uncertainty."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B2 improves on A0 by explicitly preventing survivor height gains from supporting an overall better-growth claim when deaths or unknown outcomes undermine it. This strengthens cautious inference under the task's missing-plant constraint without materially increasing experimental burden."
+    }
+  },
+  "format_retry_of": null
+}

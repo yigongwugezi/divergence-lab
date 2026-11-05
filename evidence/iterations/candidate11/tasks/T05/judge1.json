@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints on paper. Candidate 4 best combines feasible rotating practice, explicit verification and listening, an actionable escalation check, and individual unseen assessment. Its matched cases directly teach the boundary between authorized action and escalation, including avoiding unnecessary referrals. The other candidates use distinct primary mechanisms: sequencing, information gaps, paused replay, presentation reversal, externalized accounts, and commitment repair."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints on paper. Candidate 3 provides the strongest balance of clear authority contrasts, complete role-play requirements, individual transfer assessment, and practical handoff instructions, including unavailable staff. Candidate 6 repairs the same boundary-calibration mechanism with failed-contact recovery rather than introducing a new mechanism; its added demands make the 45-minute session tighter. Correction loops in 5 and externalized evidence in 7 are distinct primary mechanisms."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 narrowly improves on A4 through explicit routine-action guidance, an update route and unavailable-staff fallback, and assessment covering both close contrasts and an unfamiliar exception. These additions improve operational clarity and inspectability while retaining the required 45-minute format. Neither proposal has demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

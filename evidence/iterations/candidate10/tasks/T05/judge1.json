@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their primary mechanisms are, respectively, procedural gates, distributed information, paused replay, presentation-style reversal, contrasting authority boundaries, source-separated notes, and recovery rehearsal. Candidate 4 best combines feasible rotating practice, explicit verification and listening, and inspectable reasons for acting or escalating. Its contrasting cases directly address both premature allocation and unnecessary escalation."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidate 6 adds recovery to candidate 3's authority-boundary comparison; that repair does not establish a separate primary mechanism. The other groups use procedural gates, distributed information, paused replay, claimant-presentation swapping, correction and understanding checks, and source-labeled notes. Candidate 3 offers the strongest balance of focused instruction, feasible practice, individual assessment, and actionable escalation, including communication and a staff-unavailable fallback."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 narrowly improves on A4 by explicitly stating when volunteers should carry out routine actions, how users receive updates, and what to do when staff are unavailable. These details make the escalation check more operational while preserving the core listening, verification, role-play, and individual assessment requirements. Both remain dependent on a clearly specified fictional policy."
+    }
+  },
+  "format_retry_of": null
+}

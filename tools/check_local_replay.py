@@ -41,7 +41,7 @@ def main():
         run.STATE = scratch / "state"
         original_generate = run.generate
 
-        def replay(_text, destination, limit=3):
+        def replay(_text, destination, limit=3, model=None):
             rows = json.loads((calls / f"{fixtures.pop(0)}.json").read_text(encoding="utf-8"))
             assert len(rows) <= limit
             destination.write_text(json.dumps({"candidates": rows}, ensure_ascii=False), encoding="utf-8")

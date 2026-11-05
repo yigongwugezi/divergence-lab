@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible and respect the safety and resource constraints. Candidate 0 uses repeated matched-condition comparisons; candidate 1 uses a warranted mounting correction as a causal intervention. Candidate 1 offers the more inspectable repair decision with a basic vibration meter, while explicitly leaving unresolved imbalance versus bearing wear for specialist diagnosis."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The distinct primary mechanisms are matched-condition comparison, controlled mounting correction, removal of the suspect fan's excitation, and reversible airflow-loading changes. Candidate 4 refines candidate 1's mechanism rather than adding a new one. Candidates 2 and 3 are usable with their stated safety, time and operating prerequisites. Candidate 4 best combines a warranted repair, repeatable evidence, explicit handling of uncaptured intermittent episodes, and safe escalation after an adverse restart."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A1 by requiring verification under conditions associated with the intermittent episodes and retaining an unresolved diagnosis if those conditions do not recur. Its explicit restart isolation trigger and restoration reserve strengthen safety and feasibility. These are substantive decision improvements, independent of length."
+    }
+  },
+  "format_retry_of": null
+}

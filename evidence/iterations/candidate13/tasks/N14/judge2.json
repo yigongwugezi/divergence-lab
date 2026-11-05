@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and authority limits, preserve source distinctions, dates and exceptions, and test unfamiliar-item sorting and appropriate questions. Groups represent terminology comparison, procedural routing, contrast learning, teach-back, and act-versus-ask calibration. Candidate 5 best serves the comparison goal while making omission control inspectable: actionable rows must retain consequential conditions legibly, with source consultation otherwise. Candidate 6 repairs the existing decision-path mechanism rather than introducing a new one."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, teach-back, and preventive correction of misleading shortcuts. Candidate 0 offers the clearest direct comparison of differing terminology, preserves exceptions and disagreements, and includes a practical update rule and source-grounded unfamiliar-item test."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0 with a concrete, auditable rule preventing incomplete printed instructions from appearing actionable, plus a fallback that preserves legibility and an explicit restriction pending source-change review. Its test examines that specific failure mode and consultation burden. These are substantive correctness and inspectability gains, although actual reader benefit remains untested."
+    }
+  },
+  "format_retry_of": null
+}

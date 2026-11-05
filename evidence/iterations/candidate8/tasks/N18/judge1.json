@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve voluntary universal access, avoid diagnosis collection and compare use, spillover and volunteer effort over two afternoons. Their primary mechanisms are environmental shelter, shared quiet behavior, voluntary seat turnover, source sound reduction and predictable self-service. Candidate 0 best combines direct environmental relief, a dignified accessible layout and inspectable outcomes using existing resources. Candidate 3 is conditional on existing operator cooperation; this is a feasibility dependency, not a definite staffing violation."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated conditions and include the required two-afternoon comparisons. Candidates 0 and 6 share placement and orientation as their primary mechanism; site checking and fallback rules improve that mechanism rather than create another. The remaining mechanisms are shared quiet behavior, voluntary turnover, wayfinding, seating-availability information, source sound reduction and opt-in volunteer interaction. Candidate 6 best combines direct relief with checks during actual activity, accessible fallback placement, safe relocation conditions and observable rejection criteria."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 by checking whether proposed shelter works during actual fair activity and specifying practical fallbacks when noise, circulation or volunteer workload undermines it. These changes strengthen feasibility and constraint correctness without relying on additional resources. Both trials remain limited by changing fair conditions and opportunities to move an empty tent."
+    }
+  },
+  "format_retry_of": null
+}

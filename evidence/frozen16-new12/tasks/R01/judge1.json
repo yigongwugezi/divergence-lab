@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer distinct, reversible mechanisms with conditional feasibility and trials comparing both error types and checkout time within each session. Candidate 0 offers the strongest balance of low routine effort, visible scan progress and inspectable outcomes. Receipt detail and timing availability remain prerequisites, not demonstrated facts."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are conditionally usable; none definitely breaches a hard constraint. Candidate 5 depends on existing quantity-entry controls and compatible accounting rules. Candidates 6 and 7 refine the mechanisms of 0 and 2 rather than create new ones. Candidate 6 best combines visible progress with explicit recovery from uncertain scan status, prerequisite checks, bounded overhead and separate recording of corrected and residual errors."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A0 by specifying how to resolve an interrupted, uncertain scan without guessing or automatically rescanning. Its feasibility checks and stopping rules make that improvement reviewable while retaining the same low-overhead primary mechanism. Both trials appropriately compare errors and time without assuming equivalent sessions."
+    }
+  },
+  "format_retry_of": null
+}

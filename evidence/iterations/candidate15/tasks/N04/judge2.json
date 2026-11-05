@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within the stated resources, schedule, and privacy constraints. Candidates 2 and 6 share diagnosis followed by a matching repair; smaller performing groups and decision safeguards refine that mechanism. The other primary mechanisms are internal pulse prediction, divided pulse roles, continuous movement, chunking, visual tracking, and adaptive tempo. Candidate 6 best combines explicit listening instruction, targeted correction, uncertainty handling, bounded fallback, and an unfamiliar-pattern check. Quartet performance reduces masking, though it cannot establish individual mastery."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and have distinct primary mechanisms: internal pulse prediction, divided pulse roles, diagnosis with matched repair, subdivision, and continuous movement. Candidate 2 most directly teaches both hearing the difference between drift and omissions and selecting an appropriate correction. Its private responses, collective practice, and separate checks of recognition and unfamiliar-pattern performance make it feasible and inspectable. Whole-group sound remains a limitation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves the same core teaching mechanism as B2 by reducing performance masking, specifying when a diagnosis warrants a repair, and providing a bounded fallback when evidence conflicts. These changes strengthen practical correction and inspection within the available sessions. Its additional procedural burden is manageable, and its advantage comes from those safeguards rather than length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and respect the resource and privacy constraints. Their primary mechanisms are consolidated return processing, reader reshelving guided by visible spaces, an on-site availability reserve, optional repair of others’ disorder, reader condition screening, and a voluntary borrowing limit. Candidate 1 best supports continuous availability and shared tidying within the volunteer allowance. Its pilot checks condition, cleanup effort, usable stock and seated access, with clear reasons to simplify or reject the arrangement."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Their primary mechanisms are consolidated return processing, reader reshelving guided by visible spaces, an on-site availability reserve, optional repair of others’ disorder, and portable return reminders. Candidate 1 offers the strongest practical balance: immediate book availability, low-effort reader upkeep, optional classification and scheduled condition checks. Its pilot covers all four required checks and identifies failure conditions."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 1. It provides an achievable self-maintaining ritual and an inspectable small pilot, while acknowledging sorting effort, missed damage and access limitations."
+    }
+  },
+  "format_retry_of": null
+}

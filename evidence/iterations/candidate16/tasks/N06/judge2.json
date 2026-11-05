@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide concrete mechanisms and two-rehearsal evaluation plans without definite hard-constraint violations; equipment and script dependencies are explicitly conditional. Groups distinguish light relocation, social geometry, repeated action, visual interruption, divided action, shadow representation and neutral disengagement. Candidates 6 and 7 repair existing mechanisms. Candidate 7 best combines a legible destination, verified illumination before travel, bounded fallback, one-technician operation and a 35-second acceptance ceiling."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable conditional proposals with clear-aisle provisions, durations below 40 seconds and evaluation across two rehearsals. Their primary mechanisms are light relocation, social geometry, repeated action, visual interruption and shadow architecture. Candidate 0 offers the strongest combination of likely spatial comprehension, modest performer demands, concrete cues and inspectable testing. Its lamp and control requirements are stated explicitly."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 preserves B0's clear spatial handoff while checking usable illumination before movement and specifying bounded recovery for failure. Its rehearsed fallback and timing margin improve feasibility and repeatability, with tests that directly inspect the added coordination burden. This advantage rests on operational completeness, not novelty or length."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide bounded workflows, private handling, phone-free pickup and three-week outcome tracking. Candidates 0 and 3 share deadline enforcement as their primary mechanism; added verification is a repair, not a separate mechanism. Candidate 0 offers the strongest overall balance of direct shelf-space recovery, policy safeguards, feasible daily work and inspectable outcomes. The other mechanisms are paper planning cues, explicit cancellation of unwanted holds and retrieval reconciliation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with conditional prerequisites stated where needed and no definite serious hard-constraint violations. Their distinct primary mechanisms are deadline enforcement, paper planning cues, explicit cancellation, faster indexed retrieval and authorized proxy collection. Candidate 0 most directly addresses scarce shelf space with a bounded daily routine and checks that distinguish actual pickups from releases. The other approaches depend more heavily on particular patron barriers or existing operational capabilities."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality. It provides practical release checks and tracks all required outcomes while acknowledging that reduced occupancy alone does not demonstrate reduced abandonment."
+    }
+  },
+  "format_retry_of": null
+}

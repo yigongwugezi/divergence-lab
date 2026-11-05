@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites and time caps. Candidates 0 and 4 share deadline-based clearance; 4 adds interruption recovery. Candidates 2 and 5 share consent-based withdrawal; 5 strengthens consent and completion handling. The remaining mechanisms are paper reminders, retrieval-error correction, and collecting additional ready holds during an existing visit. Candidate 6 best balances direct pickup improvement, shelf-space recovery, privacy, phone-free service and inspectable outcomes. Its feasibility depends on quick lookup and nearby retrieval, which its stopping rules address."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable subject to their explicit operational or policy prerequisites. Their primary mechanisms are deadline-based clearance, paper reminders, consent-based withdrawal, faster retrieval, and authorized proxy collection. Candidate 2 provides a practical way to recover space from unwanted holds, with explicit consent, item matching, separate pickup and cancellation counts, release checks and a capped daily workload. Its main limitation is reaching only patrons already visiting the desk."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly exceeds B2: it directly converts existing visits into completed pickups while preserving declined holds and deadlines. Its trial compares abandonment and shelf dwell, verifies actual checkouts, and explicitly recognizes that accepted offers alone do not establish benefit. B2 is practical and constraint-compliant, but its principal outcome—unwanted holds removed per visitor—provides weaker evidence of sustained shelf-space benefit."
+    }
+  },
+  "format_retry_of": null
+}

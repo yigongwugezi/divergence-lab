@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide concrete mechanisms with explicit resource and safety conditions, sub-40-second targets, and two-rehearsal evaluation plans. Conditional equipment or script requirements are feasibility limits, not definite violations. Candidates 6 and 7 refine mechanisms 0 and 1 rather than introduce new ones. Candidate 6 is strongest: its arrival-controlled light release accommodates delays, preserves visibility, specifies a timed fallback, and compares comprehension, load and repeatability at both rehearsals."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable subject to their stated room, lamp and script conditions, with clear aisles, timing limits and evaluation across two rehearsals. Their primary mechanisms are light relocation, social geometry, repeated movement indicating elapsed time, visual interruption, and projected shadow architecture. Candidate 0 offers the strongest general-purpose balance of clarity, modest performer load, concrete operation and inspectable rehearsal criteria."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves on B0's shared light-handoff mechanism with an explicit arrival cue, a safe response to delayed performers and a timed fallback. Its comparative trials at both rehearsals make the added cue burden assessable. These practical improvements give it a narrow advantage, subject to suitable existing lamps and controls."
+    }
+  },
+  "format_retry_of": null
+}

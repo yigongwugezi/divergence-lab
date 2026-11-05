@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the fixed-window, matched-pair randomized mechanism; added measurement and missing-data procedures do not create a new mechanism. Candidate 1 uses a distinct crossover mechanism and is usable with its stated carryover limitations. Candidate 0 best fits the six-week question directly, with feasible care, consistent measurement timing, explicit missing-pair rules, and cautious inference. Candidate 2 adds procedural detail without clearly improving overall quality."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 uses fixed-window matched-pair randomization; candidate 1 uses repeated weekly randomization. Both respect the hard constraints. Candidate 0 more directly tests sustained six-week growth differences and avoids the response-delay, carryover, and movement complications of weekly reassignment."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0, so their best written task quality is equal."
+    }
+  },
+  "format_retry_of": null
+}

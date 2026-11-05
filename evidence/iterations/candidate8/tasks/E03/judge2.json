@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and avoid definite serious hard-constraint violations. Primary mechanisms are repeated matched-condition comparison (0,4,6), controlled mounting correction (1,5), stopped-fan source isolation (2), and reversible airflow-loading intervention (3). Meter-capability gating and contact validation improve the comparison method without creating new primary mechanisms. Candidate 4 best combines repeatable comparisons, explicit meter limitations, episode capture, prioritized isolated inspection, conditional mounting repair, and safe escalation. Candidate 3 is usable only where its stated control and ventilation prerequisites hold."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable. Candidate 0 primarily uses matched-condition comparisons followed by targeted inspection; candidate 1 uses warranted mounting correction as a causal intervention. Candidate 0 provides the broader diagnostic sequence for all three requested faults while respecting measurement uncertainty, ventilation continuity, and the limited shutdown. Candidate 1 offers stronger intervention attribution but depends on finding a repairable mounting defect."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 modestly improves on B0 by explicitly checking meter capability, recording whether the intermittent episode was captured, controlling windmilling during isolation, and specifying what to do if the remaining fans cannot maintain ventilation. These strengthen feasibility and interpretation without claiming a diagnosis from an overall reading or requiring additional resources."
+    }
+  },
+  "format_retry_of": null
+}

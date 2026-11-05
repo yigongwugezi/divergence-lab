@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All three respect the resource and privacy constraints. Their primary mechanisms are controlled fault isolation, printer-internal path isolation, and idle-transition testing. Candidate 0 best covers all four required explanations with available resources, reversible steps, bounded uncertainty and a practical next-day fallback. Candidate 1 depends on an available internal self-test; candidate 2 emphasizes an unconfirmed idle trigger."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; conditional features include safe cable slack and an alternative port that needs no installation or elevation. Primary mechanisms are controlled fault isolation, idle-transition testing, cable-route separation, and USB-port substitution. Candidates 3 and 4 refine existing mechanisms rather than introduce new ones. Candidate 3 offers the strongest overall coverage and inspectability, adding explicit synthetic-job clearance, recovery time and stop conditions to the general isolation sequence. Routing interference and port-specific faults remain narrower hypotheses."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 preserves A0's broad, reversible diagnosis while explicitly stopping after failures and verifying synthetic-job clearance before further intervention or reopening. This improves recovery and reduces uncertain or duplicate output without requiring additional resources. The advantage is operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

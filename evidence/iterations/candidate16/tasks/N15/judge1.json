@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates support paper-only coordination, private destinations, emergency overrides and a two-week comparison of the required outcomes. Distinct mechanisms are first-entry reservations, rotating priority periods, usage-based conflict priority, flexible-window scheduling and a bounded-loan queue. Candidate 3 best addresses conflicts by fitting compatible trips together, with clear confirmation, a rotating tie-break and an inspectable test of whether flexibility actually saves trips. Its main cost is evening coordination."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints. Candidate 5 repairs reservation release and recovery; candidate 6 repairs flexible-scheduling confirmation, so neither creates a new primary mechanism. The other mechanisms are rotating priority, usage-based priority, a ready-now queue and lending against return deadlines. Candidate 6 offers the strongest balance: it fits flexible trips together, requires explicit acceptance of changes, preserves confirmed commitments, bounds planning time and specifies fallback conditions. Its comparison measures missed trips, idle time and coordination effort while checking unequal exclusions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A3 through explicit confirmation ownership, protection against interrupted rearrangements and a five-minute limit with fallback rules. These address practical coordination failures and make the low-friction claim more inspectable. Both depend on some scheduling flexibility, and neither has demonstrated results."
+    }
+  },
+  "format_retry_of": null
+}

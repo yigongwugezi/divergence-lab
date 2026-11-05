@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with their stated safeguards. Primary mechanisms are personal learning closure (0,7), collective inquiry (1), acknowledgment of care (2), volunteer modeling (3), decision rehearsal (4), organizational follow-through (5), outcome normalization (6), and editorial agency (8). Candidate 7 best combines a concrete optional ritual, private participation, factual verification before publication, bounded volunteer workload, and explicit observation of learning, pressure, delays and opt-outs."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with their stated safeguards. Primary mechanisms are personal learning closure (0), collective inquiry (1), acknowledgment of care (2), volunteer modeling (3), organizational follow-through (4), and reconstruction of uncertainty to reduce hindsight judgment (5). Candidate 4 makes learning inspectable through an implemented service improvement. Its comparison keeps that improvement available throughout while testing the added celebratory framing, and checks understanding, dismissal, congestion and opt-outs. Feasibility depends on finding a supported communication problem within volunteer authority."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 more directly serves visitors experiencing an unsuccessful repair, while allowing nothing clear yet and preserving a private fallback. Its factual gate and four-entry review cap make public learning credible and workload bounded. B4 has a cleaner test of its framing, but depends on a suitable recurring service problem and may demonstrate organizational improvement without helping visitors understand their own unsuccessful attempt."
+    }
+  },
+  "format_retry_of": null
+}

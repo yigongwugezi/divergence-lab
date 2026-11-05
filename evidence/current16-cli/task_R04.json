@@ -1,0 +1,12 @@
+{
+  "id": "R04",
+  "category": "engineering",
+  "goal": "Reduce intermittent USB printer disconnections at a community advice office without exposing documents.",
+  "hard_constraints": [
+    "One shared computer and printer; no administrator rights, new hardware or cloud upload.",
+    "Test only blank or synthetic pages and do not inspect clients' document contents.",
+    "Separate cable, power, queue and software explanations using a reversible sequence during one after-hours session."
+  ],
+  "available_resources": "Existing cable, outlet, print queue view and an empty test document.",
+  "expected_result": "A bounded diagnosis and a practical fallback for the next opening day."
+}

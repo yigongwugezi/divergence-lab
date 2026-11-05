@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency use and compare the three required outcomes over two weeks. The distinct mechanisms are first-entry reservations, rotating priority, usage-based priority, flexible scheduling and bounded-loan queuing. Candidate 0 best fits the low-friction goal: it exposes conflicts early with little administration and directly inspectable bookings and outcomes. The alternatives depend more on trip flexibility, fairness preferences or tolerance for waiting."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Candidate 5 repairs first-entry reservations rather than introducing a new mechanism; the other groups use rotating priority, usage-based priority, flexible scheduling, bounded-loan queuing and voluntary demand substitution. Candidate 5 retains simple bookings while clarifying responsibility for late returns and preventing assumed changes from cascading through later bookings. Its trial measures missed trips, idle time and coordination effort, and separately exposes delays and overrun disruption. Its added procedure is conditional, though benefits depend on overruns occurring."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's candidate 5 narrowly improves on A's candidate 0 by addressing a concrete source of last-minute conflicts: late returns disrupting subsequent bookings. It provides actionable recovery rules and measures their costs without requiring destination disclosure or additional equipment. The advantage comes from that operational repair and inspectability, not greater length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

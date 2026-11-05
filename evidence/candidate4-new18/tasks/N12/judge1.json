@@ -1,0 +1,67 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect safety, resources and repeated-check requirements. Their primary mechanisms are timing/calibration confounding, runoff association, temperature-dependent solubility and vertical redistribution, respectively. Candidate 0 provides the strongest broadly feasible starting plan: matched-hour wet–dry comparisons, morning–afternoon checks, calibration verification and repositioned duplicates. Candidates 2 and 3 appropriately condition their feasibility on existing meter capabilities."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious violations. Candidates 0 and 3 share the timing/calibration mechanism; the others test runoff association, vertical redistribution and probe-handling sensitivity. Candidate 3 best combines feasible scheduled sampling, actual-time and order records, repeated rain occasions, calibration safeguards and an explicit insufficient-weather outcome. Its schedule and evidence rules improve execution without creating a distinct mechanism."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 modestly improves on A0 through explicit Saturday–Sunday coverage, alternating circuit direction, cloud observations and a clear recurrence rule. These make timing and rain comparisons more inspectable while retaining safe access, instrument checks and appropriately limited causal claims."
+    }
+  },
+  "format_retry_of": null
+}

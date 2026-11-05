@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve voluntary universal access, avoid diagnosis collection, and compare use, spillover and volunteer effort over two afternoons. Distinct mechanisms are sheltered placement, shared quiet behavior, voluntary seat turnover, source-noise reduction and procedural predictability. Candidate 0 best combines a concrete accessible layout, feasible volunteer roles and direct relief from crowd exposure. Its acoustic benefit remains site-dependent."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; source adjustment explicitly depends on an existing authorized operator rather than extra staffing. Candidates 6 and 7 refine placement and shared quiet behavior rather than introduce new mechanisms. Other mechanisms are voluntary turnover, wayfinding, seating-status information, source-noise reduction and shade management. Candidate 6 is strongest because it checks actual conditions before placement, preserves accessible circulation and provides bounded recovery without displacing occupants. Its one-configuration-per-afternoon comparison is substantially confounded by day differences."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 through an actual listening and route check, a permitted fallback location and a clear limit on relocation. These strengthen feasibility and the likelihood of a useful, dignified space. A0 has a better within-afternoon comparison, but B6's operational safeguards give it a modest overall advantage; neither establishes reliable causal effects."
+    }
+  },
+  "format_retry_of": null
+}

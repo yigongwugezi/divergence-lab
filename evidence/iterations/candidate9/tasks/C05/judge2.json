@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible, optional participation with privacy and safety safeguards and observable pilots. Groups distinguish private reflection, collective questions, acknowledgment of care, volunteer modeling, decision rehearsal, organizational change, outcome normalization, and portable continuity. Candidates 7 and 8 refine existing mechanisms. Candidate 7 is strongest overall: it explicitly legitimizes disappointment, separates publication consent, limits service burden, and tests learning alongside pressure and opt-out behavior."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: private reflection, collective questions, acknowledgment of care, volunteer modeling, organizational responsiveness, and hindsight perspective-taking. Candidate 4 makes learning concrete through an implemented communication improvement. Its pilot keeps that improvement available while varying the celebratory explanation, allowing useful inspection of the framing's added benefit and potential dismissal of disappointment."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A7 offers a particularly direct, low-burden ritual with strong protection against forced positivity. B4 offers more tangible organizational learning and a better-isolated test of its celebratory framing, but depends on suitable notes and authority to change communication. Both address learning, embarrassment, consent, opt-outs, and queue burden convincingly; neither has a decisive overall advantage."
+    }
+  },
+  "format_retry_of": null
+}

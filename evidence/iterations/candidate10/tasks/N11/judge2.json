@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the sustained-exposure, matched-pair randomized mechanism; candidate 2 improves protocol handling rather than introducing a new mechanism. Candidate 1 uses a crossover and is usable, but carryover and developmental changes complicate inference and its estimand is less aligned with six-week exposure. Candidate 2 best combines task alignment, fixed care, measurement checks, explicit loss rules, and cautious interpretation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 uses sustained matched-pair randomization; candidate 1 uses repeated weekly randomization. Both specify watering, temperature logging, measurement and missingness rules. Candidate 0 better addresses six-week growth at the two positions and avoids the response-delay and exposure-history complications of weekly reassignment."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A2 narrowly improves on B0 through explicit handling of condition-dependent losses, care departures, and interrupted exposure. These strengthen inspectability and cautious inference while preserving the same feasible primary mechanism; the advantage is substantive protocol clarity, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

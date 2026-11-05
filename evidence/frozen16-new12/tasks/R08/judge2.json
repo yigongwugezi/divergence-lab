@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide accessible prediction-and-measurement work within 40 minutes using permitted materials. Groups distinguish controlled seam-placement comparison, backward sizing, diagnosis and repair, boundary revelation through turning, faded worked examples, information verification, and folded-versus-sewn construction. Candidate 6 best protects the core reasoning task with a timed assembly fallback, explicit measurement boundaries, and an individual transfer prediction. Its added preparation is modest and its benefit is explicitly untested."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are controlled seam-placement comparison, backward sizing, diagnosis and repair, folded-versus-sewn construction, and detecting local narrowing through measurements at different heights. Candidate 0 offers the clearest simple comparison, correct dimensional predictions, accessible participation, and an inspectable transfer check with low preparation demands."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 by bounding assembly difficulties and preserving prediction, measurement, and transfer within the required time. Both have correct geometry and accessible non-sewing routes; A6's advantage is practical recovery when construction stalls, not greater length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

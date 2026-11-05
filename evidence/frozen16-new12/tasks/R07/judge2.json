@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide safe lamp viewing, distinguish ordinary phases from eclipses, and include a new-position check within 25 minutes. Groups represent direct observation, controlled shadow comparison, combining illumination and visibility, and inverse construction. Candidate 5 best addresses the target misconception through an observable comparison, with bounded troubleshooting and an Earth-removal fallback if the eclipse demonstration is unclear."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All three satisfy the hard constraints. Their primary mechanisms are direct observation, controlled shadow comparison, and combining illumination and visibility. Candidate 1 most directly tests the Earth's-shadow misconception while providing controlled model movement and an individual causal transfer check; its feasibility depends on the stated shadow precheck."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 preserves B1's useful causal contrast while providing a concrete fallback and stopping rule for ambiguous cast shadows. This improves classroom feasibility and interpretability within the same time limit without introducing a different primary mechanism."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four are safe, conditional on stated equipment capabilities, and require repeated observations. Their primary mechanisms are sampling-time confounding, runoff-associated spatial change, temperature-dependent solubility, and vertical redistribution. Candidate 1 best combines matched timing, calibration checks, dry spatial baselines, order checks and replicated post-rain recovery observations to discriminate runoff effects within the available schedule."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and respect safety, resource and replication constraints. Candidates 4 and 5 refine the timing and runoff mechanisms respectively rather than introducing new mechanisms. The other mechanisms are probe-response artifacts, vertical redistribution and temperature-dependent solubility. Candidate 5 offers the strongest practical runoff comparison while explicitly handling reference failure, preserving matched-time observations and avoiding extra trips or unsafe access."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A1 by making reference qualification operational: visible contamination or an irreproducible sampling position suspends spatial attribution rather than allowing a missing gradient to count against runoff. This improves interpretability with little additional effort while retaining timing, calibration and repeat checks."
+    }
+  },
+  "format_retry_of": null
+}

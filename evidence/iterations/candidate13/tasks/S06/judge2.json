@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary disclosure, anonymous access and the information-only boundary, and check the three required outcomes. Primary mechanisms are predictable queue access, visitor-controlled browsing, shared welcome rounds, audibility control, referral rehearsal, volunteer boundary calibration and audience choice. Candidates 6 and 7 repair their source mechanisms rather than introduce new ones. Candidate 6 best combines observable privacy checks with explicit recovery that preserves an interrupted visitor’s access, clear volunteer ownership and supported referral limits."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and include the required checks without definite serious violations. Their distinct primary mechanisms are predictable queue access, visitor-controlled browsing, shared welcome rounds, information minimization and spatial separation. Candidate 3 offers the strongest fit: neutral requests and respectful redirection make assistance possible without a personal account, preserve volunteer boundaries and provide an inspectable route to qualified help. Missing referral information is explicitly treated as an unresolved gap."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 more directly prevents unnecessary disclosure and reduces dependence on room acoustics while retaining accessible assistance and escalation. A6 handles exposure and interrupted access carefully, but requires ongoing sound monitoring and recovery coordination from two volunteers. Both acknowledge referral limitations and propose relevant checks; neither supplies evidence of actual effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

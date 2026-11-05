@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source distinctions, dates and exceptions, avoid legal authority, and test unfamiliar-item sorting and appropriate questions. Candidates 0 and 5 share the terminology-crosswalk mechanism; the others use decision paths, contrast learning, teach-back, action-versus-ask calibration, and independent source retrieval. Candidate 5 is strongest: its explicit coverage gate prevents misleading equivalences when qualifications cannot fit, while providing inspectable source references, update and withdrawal rules, and a practical user check."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and provide relevant exploratory tests. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, teach-back, and preventive correction of misleading shortcuts. Candidate 0 most directly addresses the vocabulary-comparison goal with modest ongoing volunteer demands, explicit conflicts and exceptions, source dates, and a clear update rule."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 strengthens the same practical crosswalk mechanism used by B0 with an executable check that consequential qualifications fit legibly, a source-heading fallback when they do not, and withdrawal of misleading versions. These provisions improve constraint correctness and inspectability; its test also measures the resulting lookup and referral burden. The advantage is in operational safeguards, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

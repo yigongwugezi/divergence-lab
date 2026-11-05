@@ -1,0 +1,26 @@
+{
+  "cause": "manual early stop after candidate 10 could no longer exceed the completed candidate 8 result",
+  "interrupted_request_count": 3,
+  "provider_usage": "unknown",
+  "records": [
+    {
+      "task": "N04",
+      "raw_attempt_directory": "runs/N04/calls/raw/a91434e24d329c111914_a1",
+      "metadata_present": false,
+      "saved_output_present": false
+    },
+    {
+      "task": "N08",
+      "raw_attempt_directory": "runs/N08/calls/raw/833afbefa6adbace98ed_a1",
+      "metadata_present": false,
+      "saved_output_present": false
+    },
+    {
+      "task": "N17",
+      "raw_attempt_directory": "runs/N17/calls/raw/a29ca3bdc79546221e9f_a1",
+      "metadata_present": false,
+      "saved_output_present": false
+    }
+  ],
+  "note": "No synthetic metadata or zero-token estimate was added to the raw records. Local known-token totals omit these three requests."
+}

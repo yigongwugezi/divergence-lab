@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a 50-minute, paper-based lesson with novice instruction, mean–median comparison, unseen-chart transfer and timing. Candidates 0 and 7 share physical extreme-value manipulation; 7 adds an arithmetic recovery gate rather than a new mechanism. Other primary mechanisms are claim auditing, prediction versus revealed distribution, count reconstruction, calculation scaffolding, information-sufficiency decisions, retrieval with correction, and peer reconsideration. Candidate 1 best directly aligns interpretation with the public-health claim, keeps arithmetic manageable, and separately assesses numerical accuracy, justified transfer and completion time. Candidate 3 has narrower dataset prerequisites, but explicitly checks suitability rather than requiring fabricated data."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the stated class, materials, novice comparison and timed-transfer requirements. Their distinct primary mechanisms are physical extreme-value manipulation, claim auditing, prediction versus revealed distribution, diagnosing incorrect worked solutions, and comparing consequences of summary choices. Candidate 1 offers the strongest balance of direct claim evaluation, feasible workload and inspectable assessment, including a transfer question where the mean is useful. Candidate 4 risks excessive arithmetic load, but that is a feasibility weakness rather than a definite hard-constraint violation."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical headline-audit proposal at index 1. Its written task quality, feasibility and assessment provisions are therefore equal."
+    }
+  },
+  "format_retry_of": null
+}

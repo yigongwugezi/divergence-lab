@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the service boundaries and include the required checks. Groups distinguish anonymous access, self-directed navigation, shared orientation, audibility control, referral rehearsal, volunteer calibration and topic-concealing bundles. Candidates 6 and 7 repair their source mechanisms rather than introduce new ones. Candidate 6 best combines accessible arrival, observable privacy conditions, bounded interruption recovery and qualified-help navigation using existing resources."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with distinct primary mechanisms: anonymous access, self-directed navigation, shared orientation, information minimization and spatial separation. Candidate 3 provides the strongest feasible privacy protection by making useful assistance possible without a personal account. It clearly limits volunteer activity, identifies missing referrals as an unresolved gap and tests navigation, waiting confusion and privacy concerns."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 has a modest advantage over A6: preventing collection of personal accounts reduces dependence on acoustic separation and interruption management with only two volunteers. Its respectful redirection and explicit referral-gap check make the flow inspectable. A6 offers stronger recovery procedures, but these add coordination and waiting costs. Neither proposal establishes actual referral availability or demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

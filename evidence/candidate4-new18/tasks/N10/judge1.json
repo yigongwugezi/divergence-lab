@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are workable conditional proposals with distinct primary mechanisms: recurring supply commitments, timed stock release, universal flexible shares, staggered arrivals and demand-responsive replenishment. Candidate 0 best directly supports predictable staple supply with modest coordination, consistent access rules and inspectable records. The buffer is usable but risks denying present requests; the other routes depend on cooperation, arrival clustering or sufficiently reliable demand records."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable under their stated conditions. Candidates 0 and 5 share the recurring-commitment mechanism; delivery confirmation and commitment expiry are operational repairs, not a new mechanism. The remaining groups use timed release, flexible shares, count-triggered replenishment, loss prevention and staggered arrivals. Candidate 5 offers the strongest overall routine through explicit volunteer duties, physical-stock accounting, expiring missed commitments, shelf-capacity limits and a bounded workload. Its short trial provides only provisional evidence."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 narrowly improves on A0 by specifying how actual deliveries are distinguished from intentions and how missed commitments are cleared before further requests. It also uses the existing donor-facing schedule without assuming a separate contact channel. These concrete feasibility and inspectability gains support the same predictable-supply mechanism; neither proposal guarantees sufficient donations."
+    }
+  },
+  "format_retry_of": null
+}

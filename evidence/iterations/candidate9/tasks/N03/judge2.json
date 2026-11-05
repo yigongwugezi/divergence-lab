@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 8,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are extreme-value manipulation, claim auditing, prediction and distribution inspection, count-based aggregation reconstruction, calculation scaffolding, information-sufficiency decisions, retrieval with correction, and reasoning-error repair. Candidates 7 and 8 refine existing mechanisms. Candidate 8 is best: explicit numerical claims make judgments inspectable, beginner instruction supports comparison of both summaries, and unseen transfer measures reasoning and completion time within 50 minutes. Candidate 3 is usable conditionally but depends more heavily on suitable datasets and adds arithmetic complexity."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are extreme-value manipulation, claim auditing, prediction and distribution inspection, worked-error repair, and comparison of decision consequences. Candidate 1 best balances novice accessibility, direct relevance to misleading chart claims, feasible paper-based practice, and individual unseen transfer with separate calculation, interpretation, and timing measures. Candidate 4 is usable but its distance calculations create greater workload within the class."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A8 narrowly improves on B1 by specifying claims whose truth can be checked numerically, reducing ambiguity around 'typical' and making assessment more inspectable. It retains beginner mean–median instruction, unseen-chart transfer, and timing checks without expanding the class duration. This is a written-design advantage, not demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

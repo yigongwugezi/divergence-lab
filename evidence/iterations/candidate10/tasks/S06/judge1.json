@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with explicit limits on advice and disclosure. Their primary mechanisms are predictable anonymous access, visitor-directed browsing, shared welcome rounds, case-information minimization and spatial separation. Candidate 4 is conditional on adequate accessible separation. Candidate 0 offers the best overall balance of inclusive navigation, feasible staffing, privacy safeguards and observable evaluation."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable. Candidates 3 and 6 strengthen the anonymous individual-turn flow through environmental checks and queue recovery; these are safeguards and repairs rather than distinct primary mechanisms. The other mechanisms are visitor-directed browsing, shared welcome rounds, referral-action rehearsal and volunteer boundary calibration. Candidate 6 preserves the feasible baseline while addressing missed calls, closing capacity and overhearing, with anonymous checks of navigation, waiting confusion and privacy complaints."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 through concrete missed-turn recovery and closing-time handling, supporting visitors with hearing barriers or interruptions without requiring explanations. It also specifies responses to overhearing and measures operational costs. These practical improvements give it a modest advantage despite added queue-management work."
+    }
+  },
+  "format_retry_of": null
+}

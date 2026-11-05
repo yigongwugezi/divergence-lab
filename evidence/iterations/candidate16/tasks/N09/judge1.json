@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four respect immediate protection, bounded shifts, paper handoffs and three-week measurement. Their primary mechanisms are duty rotation, least-burden selection, compensating task exchange and shift-exposure swaps. Candidate 0 offers the clearest feasible handoff and escalation rule with few additional assumptions. Its actual-burden review is necessary because equal duty hours do not ensure equal cleanup burden."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with their stated prerequisites and limitations. Candidates 4 and 5 repair duty rotation and least-burden allocation respectively rather than introducing new mechanisms. The remaining mechanisms are compensating exchanges, simultaneous task division and rotating spill-producing duties. Candidate 4 best combines practical paper operation, explicit interruption recovery, bounded responsibility, escalation, actual-burden revision and inspectable three-week measures."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A0 by explicitly preserving safe closure and ownership when accepted work or a handoff is interrupted, and by specifying revision of future allocation when burden concentrates. These are relevant operational improvements, supported by concrete walkthroughs, rather than benefits from length or novelty alone."
+    }
+  },
+  "format_retry_of": null
+}

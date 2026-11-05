@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible screens with confirmation and rollback checks, privacy protection, and no apartment shutoffs. Candidate 1 is strongest because repeatable source tracing supplies directly inspectable evidence within five mornings. Neither can establish overnight duration from morning observations alone."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are corrected aggregate consumption, physical source tracing, dedicated-branch isolation, nested-meter reconciliation, and unaided listening. Candidates 2 and 3 are usable conditional routes with explicit prerequisite checks; their required infrastructure is not established. Candidates 4 and 5 refine existing mechanisms. Candidate 1 offers the strongest combination of feasibility, direct confirmation, a false-wetness comparison, and explicit physical and consumption rollback checks. Listening remains an uncertain supplementary screen. No candidate proves overnight duration."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The selected proposals are identical. Both provide a feasible five-morning workflow that distinguishes physical leakage from cleaning wetness, corrects delayed meter entries, preserves apartment supply and privacy, and specifies confirmation and post-repair rollback checks."
+    }
+  },
+  "format_retry_of": null
+}

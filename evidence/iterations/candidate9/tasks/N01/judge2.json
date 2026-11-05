@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The mechanisms are corrected aggregate consumption, physical source tracing, verified common-branch isolation, nested-meter reconciliation, and visible meter movement. Candidates 4 and 5 refine existing mechanisms. Candidates 2, 3, and 6 are usable only when their stated prerequisites hold; branch isolation must preserve apartment and essential services. Candidate 0 offers the strongest overall workflow: correct delayed entries, distinguish cleaning use, require confirmation, and withdraw attribution if post-repair checks fail. It appropriately leaves overnight timing unresolved."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible and respect supply and privacy constraints. Candidate 0 provides the more complete consumption-based workflow, explicitly distinguishing delayed entries and cleaning use and specifying confirmation and post-repair rollback. Candidate 1 offers complementary physical source tracing but can miss concealed leaks."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical candidate 0. The additional mechanisms and refinements in A do not improve the written quality of its selected best proposal."
+    }
+  },
+  "format_retry_of": null
+}

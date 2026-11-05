@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; equipment-dependent alternatives explicitly check feasibility and provide stopping rules. Groups represent matched-time comparison, runoff gradient and recovery, probe-procedure artifacts, vertical redistribution, and temperature-dependent solubility. Candidates 4 and 5 refine existing mechanisms. Candidate 4 best combines safe matched-hour sampling, calibration checks, independent repeats, and an inspectable circuit-drift rule while retaining cautious runoff interpretation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect safety, resource limits, and repeated verification. Their primary mechanisms are matched-time comparison, runoff gradient and recovery, temperature-dependent solubility, and vertical redistribution. Candidate 0 provides the strongest broadly feasible core plan, separating daily timing and calibration instability from repeated post-rain changes without requiring additional meter capabilities or depth access."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 modestly improves on B0 by alternating circuit direction and revisiting the starting point, with explicit rules preventing within-circuit changes from masquerading as spatial runoff effects. The extra stop is bounded by safety and available time, making the improvement practical and inspectable."
+    }
+  },
+  "format_retry_of": null
+}

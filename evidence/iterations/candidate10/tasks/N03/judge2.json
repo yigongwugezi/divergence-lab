@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide 50-minute paper-based lessons, novice mean–median instruction, unseen-chart transfer and timing checks. Candidate 3 is conditional on suitable data and has greater arithmetic demands, but explicitly checks feasibility. Candidates 1 and 7 share headline auditing as their primary mechanism; recovery sheets and timing refinements do not create a new mechanism. Candidate 7 is strongest because it directly targets claim evaluation, specifies individual timing and separates independent calculation from interpretation supported by verified summaries. Its extra handoff is modest and explicitly evaluated."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the class, materials, introductory instruction, transfer and timing constraints. Their primary mechanisms are respectively manipulating an extreme value, auditing claims, predicting distributions, repairing errors and comparing decision consequences. Candidate 1 offers the clearest direct route from numerical comparison to judging a misleading headline, with manageable practice, individual unseen transfer and separate calculation and interpretation scores. Candidate 4 adds substantial arithmetic demands without a comparably direct benefit for this short novice lesson."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 preserves B1's focused, feasible headline audit while making timing collection and arithmetic recovery more concrete. Preserving initial answers separately from supported revisions makes failures easier to interpret and feedback more useful. This is a practical improvement in assessment and teaching, rather than a benefit from length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

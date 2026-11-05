@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource, truthful-estimate and four-week comparison constraints. Groups distinguish evidence gates, historical calibration, supplier clarification, capacity reservation, order completeness, customer understanding and order-release timing. Candidates 6 and 7 refine existing mechanisms. Candidate 6 best combines evidence-supported estimates with explicit update ownership, failed-contact recovery and inspectable paper records. Its trial tracks all required outcomes and guards against apparent improvement from fewer estimates."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints. Their primary mechanisms are evidence gates, historical calibration, supplier clarification, protected repair capacity and repair-requirement completeness. Candidate 0 is the strongest direct fit: feasible paper status gates, supported pickup windows, scheduled updates and a four-week comparison covering misses, calls and staff time. The alternatives depend more on unestablished historical patterns or particular causes of delay."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 by making responsibility for delayed or unsuccessful customer updates explicit, closing a practical failure point for two interrupted staff. It preserves the same evidence safeguards and adds observable recovery checks and a workload fallback. The advantage is operational completeness, not length or a distinct new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

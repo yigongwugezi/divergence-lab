@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the strongest broadly feasible workflow: correct actual reading intervals, distinguish shared cleaning, inspect suspected sources, confirm defects, and withdraw unsupported attribution after repair. Candidate 1 uses physical source tracing; 2 uses conditional common-branch isolation; 3 uses conditional reconciliation of existing nested meters; 4 uses acoustic screening. These are distinct primary mechanisms. Candidates 2 and 3 explicitly stop when their additional prerequisites are absent. All preserve apartment supply and consumption privacy and include confirmation and rollback checks. None can establish overnight timing from daily readings alone, a limitation they acknowledge."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable and have distinct primary mechanisms: corrected aggregate consumption screening and repeated physical source tracing. Candidate 0 best integrates delayed-entry correction, cleaning comparisons, confirmation, and post-repair rollback within the available resources. Candidate 1 provides useful direct evidence but depends on accessible physical signs. Neither establishes overnight duration."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical, so their written task quality is equal. Both provide a feasible, cautious detection and response workflow while explicitly acknowledging the limits of daily observations."
+    }
+  },
+  "format_retry_of": null
+}

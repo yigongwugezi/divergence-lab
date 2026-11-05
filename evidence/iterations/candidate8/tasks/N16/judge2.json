@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, avoid changing clinical advice, use available resources, and include private one-month retrieval and misfiling checks. Primary mechanisms are fixed storage, locator indexing, checkout signaling, whole-folder handling, recovery sweeps, receipt reconciliation, and disposal control. Candidate 6 best combines simple fixed storage with a practical capacity boundary and an inspectable owner-only audit; its capacity fallback is a repair, not a distinct mechanism."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their primary mechanisms are fixed storage, locator indexing, checkout signaling, whole-folder handling, and source/transport reconciliation. Candidate 0 offers the strongest general fit: a predictable destination, modest upkeep, private labels and contents, and a direct one-month retrieval and misfiling comparison. The alternatives depend more on particular loss patterns or additional routines."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 by addressing overcrowding without requiring new supplies and by explicitly auditing loose pages, wrong-envelope filing, and maintenance effort. Both provide casual visual privacy and acknowledge that envelopes cannot prevent deliberate access."
+    }
+  },
+  "format_retry_of": null
+}

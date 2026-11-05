@@ -1,0 +1,67 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are scheduled duty rotation, least-burden incident allocation, routine-work exchanges, and incident segmentation. Candidate 3 repairs candidate 1 rather than introducing a new mechanism. It best combines immediate protection, actual-burden allocation, explicit acceptance, bounded shifts, fallback rules, and inspectable three-week measures. Exchanges and segmentation remain usable subject to their stated feasibility conditions."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are scheduled duty rotation, least-burden incident allocation, routine-work exchanges, and paired shift swaps. Candidate 1 most directly balances actual urgent work when eligible volunteers overlap, preserves immediate protection and shift boundaries, and measures response, repeated burden, and missed tasks. The other mechanisms are usable but depend more on incident distribution, transferable work, or scheduling flexibility."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A3 narrowly improves on B1 through explicit acceptance and fallbacks for missing records or unavailable responders, reducing the risk of unowned hazards without extending shifts. Both acknowledge that allocation cannot equalize unavoidable solo-shift exposure; A3 makes handoff and allocation failures more directly inspectable."
+    }
+  },
+  "format_retry_of": null
+}

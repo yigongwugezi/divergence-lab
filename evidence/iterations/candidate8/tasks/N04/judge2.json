@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible collective practice within the resources and session limits, distinguish drift from omissions, and include unfamiliar-pattern checks. Primary mechanisms are internal pulse prediction, divided pulse roles, error diagnosis and repair selection, continuous movement, chunking, visual tracking, and adaptive tempo. Candidates 6 and 7 refine existing mechanisms. Candidate 7 best connects hearing errors to independently choosing and applying repairs, with private responses, practical fallbacks, and separate observation of timing and omissions. Group masking limits assessment but does not violate the task."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and meet the hard constraints. Their distinct primary mechanisms are internal pulse prediction, divided pulse roles, error diagnosis and repair selection, spoken subdivision, and continuous movement. Candidate 2 most directly teaches both hearing and correcting the two error types, protects learners from public identification, and checks whether recognition translates into improved performance on unfamiliar patterns."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B2 through an explicit uncued repair check and a practical fallback when classification remains unclear. These strengthen independent correction and feasibility within limited rehearsal time. Both are sound, low-pressure proposals; A's advantage is operational clarity, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, use available resources, and include private one-month retrieval and misfiling checks. Primary mechanisms are fixed storage (0, with interruption repair 6), locator indexing, checkout tracking, whole-folder handling, recovery sweeps, receipt reconciliation, and accepted handoffs. Candidate 0 offers the strongest default: simple implementation, concealed contents, predictable retrieval, and an inspectable baseline comparison without extra maintenance routines."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their distinct primary mechanisms are fixed storage, locator indexing, checkout tracking, whole-folder handling, and source-to-home completeness checking. Candidate 0 is the strongest default because it directly addresses household loss with little overhead and provides a private, repeatable one-month evaluation. Other approaches depend more heavily on particular loss patterns."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a feasible privacy-preserving storage and retrieval system, retain individual control, and test retrieval time and misfiling after one month without sharing medical contents."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible within the constraints. Candidate 0 screens corrected aggregate consumption; candidate 1 traces recurring water to a physical source. Candidate 1 is best because direct source observation gives more inspectable confirmation despite variable household consumption. It addresses cleaning, delayed entries, supply preservation, and post-repair reassessment, while acknowledging that morning observations cannot establish overnight duration."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are aggregate consumption screening, physical source tracing, dedicated-branch isolation, nested-meter reconciliation, and listening. Candidate 4 refines candidate 1 rather than introducing a mechanism. Candidates 2 and 3 are usable conditional workflows with explicit prerequisite checks; their required plumbing or meter arrangements are not guaranteed. Candidate 4 is best for its feasible inspection routine, explicit handling of recording and cleaning confounders, confirmed-defect and supply-preserving repair gate, and physical recovery check."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 modestly improves on A1 by explicitly requiring an established repair method that preserves apartment supply and specifying safe recovery if intervention worsens conditions. These strengthen response correctness and rollback without requiring new sensors. Both appropriately limit claims about overnight timing."
+    }
+  },
+  "format_retry_of": null
+}

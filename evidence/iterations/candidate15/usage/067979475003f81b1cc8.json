@@ -1,0 +1,16 @@
+{
+  "role": "N14_J2_a1",
+  "status": "complete",
+  "exit_code": 0,
+  "seconds": 18.30074109999987,
+  "usage": {
+    "input_tokens": 16018,
+    "cached_input_tokens": 8320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 488,
+    "reasoning_output_tokens": 112
+  },
+  "total_tokens": 16506,
+  "cash_cost": null,
+  "provider_request_count": null
+}

@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are feasible, low-pressure sequences within the stated resources and sessions, distinguish drift from omissions, and include unfamiliar-pattern checks. Their primary mechanisms are internal pulse prediction, divided pulse roles, error discrimination with matched repairs, subdivision, and continuous movement. Candidate 2 best connects hearing an error to correcting it, with private responses and separate checks of recognition and performance. Candidate 0 depends partly on metronome muting capability; its fallback weakens its mechanism and assessment."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight satisfy the hard constraints sufficiently to be usable. Candidates 2 and 6 share error discrimination with matched repairs; the prerequisite gate and fallback are refinements, not a new mechanism. The other mechanisms are internal pulse prediction, divided pulse roles, continuous movement, sequence chunking, moving visual guidance, and shared-attack synchronization. Candidate 6 offers the strongest combination of direct listening instruction, actionable corrections, bounded simplification, and an unfamiliar-pattern assessment before coaching. Its group threshold is explicitly provisional and cannot establish individual mastery."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A2 through explicit handling of failed discrimination, mixed errors, unsuccessful retries, and interruptions. Its unfamiliar-pattern first attempt before coaching makes transfer more inspectable, while retaining private responses and realistic group-level conclusions. These operational improvements give it a modest advantage despite an unvalidated prerequisite threshold."
+    }
+  },
+  "format_retry_of": null
+}

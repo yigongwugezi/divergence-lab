@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the stated resources and 50-minute limit, teach mean and median accessibly, and assess individual transfer and completion time. Candidate 1 most directly connects numerical comparison to judging a public-health claim, with manageable practice and separately inspectable calculation and interpretation scores. Candidate 4 adds substantial arithmetic demands; candidate 0 places discussion before transfer, weakening its experimental comparison without violating a hard constraint."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a feasible conditional route within the constraints, with unseen-chart transfer and time recording. Candidate 3 requires suitable data and explicitly rejects unsuitable examples; this is a feasibility dependency, not a definite violation. Candidates 1 and 7 share headline auditing as their primary mechanism: recovery panels modify support rather than introduce a new mechanism. The other groups primarily use extreme-value manipulation, prediction and reveal, count reconstruction, calculation scaffolding, information-boundary decisions, retrieval, and error diagnosis. Candidate 7 best preserves claim evaluation when novice arithmetic stalls while recording independent calculation, assistance, final interpretation, and completion time separately."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A1 through a concrete, timed recovery procedure that keeps arithmetic difficulties from preventing interpretation assessment. It still requires initial calculation attempts, tests a legitimate use of the mean, and separates assisted from unassisted performance. This improves feasibility and inspectability for novice learners; it does not establish an empirical learning advantage."
+    }
+  },
+  "format_retry_of": null
+}

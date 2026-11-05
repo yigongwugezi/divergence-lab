@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with no definite serious constraint violations. Primary mechanisms are personal learning records, collective questions, private recognition of care, volunteer modeling, visible service improvement, and reconstructing uncertainty through a reveal. Candidate 0 best combines a concrete ritual, minimal resources, separate publication consent, an honest no-learning option, and evaluation of learning, pressure, refusal handling and delay."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with no definite serious constraint violations. Groups represent personal learning records, collective questions, private recognition of care, volunteer modeling, decision rehearsal, visible service improvement, outcome normalization, and prospective expectation-setting. Candidates 7 and 8 refine existing mechanisms rather than introduce new ones. Candidate 7 is strongest: repairer-supported observations, explicit uncertainty and no-learning options, separate consent and review, brief handback integration, and observable checks for understanding, pressure and service interruption."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A0 by checking factual support and the visitor's understanding while preserving an easy pass and ordinary handback. Its pilot examines supported learning rather than uptake and gives explicit stopping conditions for pressure or service interruption. These are practical improvements in correctness and inspectability, although effectiveness remains unproven."
+    }
+  },
+  "format_retry_of": null
+}

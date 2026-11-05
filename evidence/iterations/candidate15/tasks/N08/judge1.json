@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource limits, require evidence-supported estimates and honest delay disclosure, and compare the three required outcomes over four weeks. Their primary mechanisms are status gates, historical calibration, supplier exception clarification, protected repair capacity, and early repair-requirement completeness. Candidate 0 is the strongest direct service communication process: simple paper records, clear update commitments, evidence gates and an inspectable comparison that checks for gains caused merely by withholding estimates."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and satisfy the hard constraints. Ownership and failed-contact recovery in 6 refine status gates rather than create a new primary mechanism; overrun recovery in 7 similarly refines capacity reservations. The remaining mechanisms are historical calibration, supplier clarification, order completeness, customer understanding checks and prompt order release. Candidate 6 best combines direct task fit, feasible paper administration and inspectability, closing an update handoff gap while measuring missed original windows, customer calls, staff time and overdue updates."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A0 by making responsibility for changed estimates and failed contact explicit. That practical recovery procedure helps prevent customers retaining stale expectations, with its added staff burden included in the four-week comparison. It preserves A0's evidence requirements and estimate-availability safeguards; the advantage comes from operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,95 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary ownership, due dates, available tools and meeting limits, and propose comparisons of completion, rework and burden. Candidates 0 and 7 share explicit acceptance as their primary mechanism; 7 adds recovery procedures rather than a distinct mechanism. Other groups respectively use rotating coordination, protected execution, interpretation checks, delegated authority, prerequisite screening, preauthorized contingencies and recurring routines. Candidate 7 offers the strongest general-purpose mechanism: bounded commitments, visible unowned work and concrete recovery without defaulting to the chair. Its comparison preserves original commitments and counts execution, recovery and chasing burden."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their distinct primary mechanisms are explicit acceptance, rotating coordination, protected execution, delegated authority, calendar booking, backup coverage and recipient verification. Candidate 0 is the strongest broadly applicable starting point: inexpensive, easy to inspect and explicit about consent, capacity limits and unclaimed decisions. Its experiment measures original-deadline completion and rework while checking whether coordination burden merely shifts away from the chair; including execution time would strengthen burden measurement."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 retains B0's lightweight acceptance queue while specifying how stalled or withdrawn commitments are reduced, reassigned, deferred or cancelled without making the chair responsible. Its experiment also captures execution and recovery effort and preserves original dates and criteria. These practical improvements give it a modest advantage; neither proposal establishes effectiveness before the trial."
+    }
+  },
+  "format_retry_of": null
+}

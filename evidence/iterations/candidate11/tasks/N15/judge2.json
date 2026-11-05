@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency use when the bike is home, and compare the three required outcomes over two weeks. Mechanisms are reservations (0,5), rotating priority (1), usage-based priority (2), flexible scheduling (3), bounded checkout queueing (4), and voluntary demand substitution (6). Candidate 5 repairs reservation reliability rather than introducing a new mechanism. Candidate 0 offers the strongest low-friction default: clear allocation, early conflict visibility, minimal bookkeeping, and an inspectable comparison without assuming flexible schedules, walkable trips, or short outings."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their distinct mechanisms are reservations (0), rotating priority (1), usage-based priority (2), flexible scheduling (3), and bounded-loan queueing (4). Candidate 0 best balances feasibility, likely conflict reduction, coordination effort, and inspectability. The alternatives remain usable but depend more on household timing, trip length, or acceptance of additional allocation rules."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical reservation proposal and experiment. Their written task quality is therefore equal; additional alternatives do not improve the selected proposal."
+    }
+  },
+  "format_retry_of": null
+}

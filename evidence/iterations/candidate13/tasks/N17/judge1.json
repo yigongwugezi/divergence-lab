@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 provides a simple, visible arrival-order rule that two attendants can administer, preserves accessible waiting positions and emergency access, and measures the required outcomes across two events. All five mechanisms are usable subject to their stated site prerequisites; cohorts, call-forward registration, priority allocation and draws introduce additional operational tradeoffs."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 6 retains the feasible accessible first-come mechanism and adds explicit procedures for uncertain occupancy, responsibility transfer and closing, with inspectable checks across both events. Candidate 7 repairs cohort operation rather than creating a new mechanism. Candidate 5 is conditionally usable only with credible turnover information or an existing enforceable duration rule; it explicitly prohibits operation without that prerequisite."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 through concrete admission-pause, count-verification and handoff procedures while retaining its simple inclusive queue and required evaluation. These operational safeguards improve constraint correctness and inspectability without adding a new allocation mechanism."
+    }
+  },
+  "format_retry_of": null
+}

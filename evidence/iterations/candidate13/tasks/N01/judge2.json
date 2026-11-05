@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 5 best combines corrected observation intervals, explicit cleaning-confounding checks, immediate physical-inspection fallback, defect confirmation, and post-repair attribution rollback. Its numerical stop rule avoids unsupported diagnoses without abandoning detection. Candidates 4 and 5 refine existing mechanisms rather than introduce new ones. Branch isolation and nested-meter reconciliation are usable conditionally on their stated prerequisites; listening supplies only an investigation lead. None claims daily readings prove overnight duration or requires apartment shutoffs, new sensors, or disclosure of unit consumption."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 1 offers a feasible repeated inspection route, direct-source confirmation, a useful condensation comparison, and explicit repair and attribution checks. It checks cleaning and delayed entries while acknowledging concealed leaks and uncertain overnight duration. Candidate 0 is also usable, but its consumption comparison depends more heavily on suitable historical records and genuinely cleaning-free intervals."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 provides the stronger integrated workflow: it explicitly distinguishes late transcription from missed observations, prevents cleaning after a reading from being mistaken for a cleaning-free daily interval, and specifies when to abandon numerical classification and continue physical inspection. Confirmation, rollback, and unresolved-case handoff are actionable within the five-morning limit. B1 is practical but less precise about reconciling meter timing and managing unresolved findings."
+    }
+  },
+  "format_retry_of": null
+}

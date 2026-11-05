@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the explicit constraints and track the required outcomes. Their primary mechanisms are recurring supply commitments, timed release of held stock, voluntary category shares, staggered donation arrivals, and weekly demand-responsive replenishment. Candidate 0 best combines predictable staple supply, modest coordination demands, consistent allocation and an inspectable trial. Buffering imposes immediate-access costs; the other approaches depend more on local demand, arrival patterns or record quality."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 5 and 6 repair the commitment and buffering mechanisms rather than introduce new ones. The remaining mechanisms are voluntary category shares, depletion-triggered replenishment, prevention of shelf losses, and staggered arrivals. Candidate 5 offers the strongest balance: recurring staple commitments, explicit correction of missed-delivery information, a bounded replacement attempt through existing donors, equal access and required tracking. Its donor-contact prerequisite and limits are stated clearly."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0's recurring-commitment routine with a concrete, bounded response to missed deliveries and stale public expectations. That directly addresses recipient uncertainty while keeping the existing schedule, shelf and volunteer constraints. Its advantage is operational completeness, not length or novelty; improved supply remains conditional on donor cooperation."
+    }
+  },
+  "format_retry_of": null
+}

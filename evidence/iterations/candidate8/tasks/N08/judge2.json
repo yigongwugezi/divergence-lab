@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide executable paper-and-inbox processes without requiring unsupported promises or concealed delays, and compare the required outcomes over four weeks. Candidates 6 and 7 refine the status-gate and historical-calibration mechanisms respectively. The other primary mechanisms are supplier exception resolution, capacity reservation, order verification, customer understanding checks, and completion-triggered collection booking. Candidate 6 best combines evidence-supported estimates with explicit update ownership, recoverable handoffs and inspectable records. Its trial includes staff overhead, overdue updates and estimate coverage. Candidate 8 is usable but offers limited advance forecasting value."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five satisfy the resource and honesty constraints and specify four-week comparisons of missed estimates, calls and staff time. Their distinct primary mechanisms are evidence gates, historical calibration, supplier exception resolution, protected repair capacity, and repair-requirement completeness checks. Candidate 0 is strongest because it directly addresses uncertain arrivals with little setup, clear evidence gates and scheduled updates. The alternatives depend more on usable historical comparisons or particular causes of delay being present."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 modestly improves on B0 by making customer-update ownership and failed-contact recovery explicit while preserving the same practical evidence gates. Its evaluation also checks overdue updates and charges handoff overhead, making the added procedure inspectable. The advantage is operational completeness, not greater length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

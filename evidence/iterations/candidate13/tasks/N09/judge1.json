@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four preserve immediate protection, bounded shifts, paper handoffs and three-week measurement. Their primary mechanisms are scheduled duty rotation, least-burden assignment, compensating task exchanges and shift-exposure redistribution. Candidate 1 best directly balances actual cleanup burden using available records, with explicit acceptance and escalation. Its benefit depends on having multiple eligible volunteers; the proposal acknowledges that limit."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable subject to their stated prerequisites. The five primary mechanisms are duty rotation, least-burden assignment, compensating task exchanges, simultaneous task division and shift-exposure redistribution. Candidates 4 and 5 repair existing mechanisms rather than create new ones. Candidate 4 best combines actual-burden balancing with safe capacity checks, explicit interruption recovery, bounded handoffs and inspectable three-week records. Its rotating-order fallback addresses allocation delays."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves on A1 by checking safe capacity before acceptance and specifying what happens when an accepted cleanup is interrupted. These operational repairs reduce predictable failed assignments without delaying immediate protection or extending shifts. Its walkthroughs, bypass records and fallback make the rule easier to inspect, while retaining honest limits on fairness during solo shifts."
+    }
+  },
+  "format_retry_of": null
+}

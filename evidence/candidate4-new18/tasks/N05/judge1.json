@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five respect the case, label, time and provenance constraints and compare understanding and discomfort with a factual label. Their primary mechanisms are close observation, evidential classification, personal association, curatorial judgment and present care. Candidate 0 offers the strongest balance of feasibility, grounded meaning and inspectable outcomes, with relatively few prerequisites."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable; conditional concepts explicitly fall back when evidence is inadequate. Candidates 0 and 5 share close observation: visibility checks and revised testing improve implementation without creating a new mechanism. The other mechanisms are evidential classification, personal association, institutional selection rationale, conservation deliberation and procedural imagination. Candidate 5 best combines evidential restraint, practical visibility verification, clear responsibility and directly observable visitor outcomes."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 narrowly improves on A0 by checking that visitors can actually locate the documented feature through the closed case and specifying a factual-label fallback if they cannot. This addresses a concrete feasibility dependency. Its small three-condition trial remains formative and does not establish superiority, but the proposal makes its central mechanism more inspectable within the constraints."
+    }
+  },
+  "format_retry_of": null
+}

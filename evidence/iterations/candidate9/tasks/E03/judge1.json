@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are feasible and respect the safety constraints. Candidate 0 primarily uses repeated matched-condition comparisons; candidate 1 uses a warranted mounting correction as a controlled intervention. Candidate 1 offers the stronger repair decision through documented defects, matched before-and-after readings, and explicit safe restoration requirements, while acknowledging unresolved imbalance or bearing wear."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are matched-condition comparison, controlled mounting correction, source isolation, airflow-loading manipulation, and measurement-repeatability validation. Candidate 4 refines candidate 1's mechanism rather than introducing a new one. It best combines repeated evidence, physical inspection, a conditional repair, and a restoration deadline within the sole shutdown window. Candidate 3 is usable only under its explicitly stated approved-control and ventilation prerequisites."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 modestly improves on A1 by requiring a pre-disassembly assessment that repair and restoration fit the shutdown window, with a defined restoration deadline and explicit escalation for worsening after restart. This strengthens feasibility and inspectability without overstating diagnostic certainty."
+    }
+  },
+  "format_retry_of": null
+}

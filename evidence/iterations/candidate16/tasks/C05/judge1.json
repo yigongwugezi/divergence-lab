@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are feasible, optional, silent-accessible rituals with privacy safeguards and pilots checking discomfort and queue effects. Their primary mechanisms are recording learning, collective questioning, personal recognition, volunteer modeling, organizational responsiveness, and experiencing hindsight uncertainty. Candidate 0 best combines a concrete ritual, direct learning value, manageable workload, and an inspectable learning-versus-pressure comparison. Its weakness is insufficient explicit verification of claims such as ruling out a possibility."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable; none definitely breaches a hard constraint. Candidates 0 and 7 share the learning-record mechanism: verification and stopping rules improve execution rather than create a new mechanism. The others primarily use collective questioning, personal recognition, advance expectation setting, volunteer modeling, organizational responsiveness, hindsight uncertainty, and permission to remain disappointed. Candidate 7 best balances supported learning, separate publication consent, clear responsibility, an interruption fallback, and observable pressure and delay checks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves A0's central ritual by requiring supported café-authored findings and explicitly allowing an inconclusive result. Its fallback avoids a verification queue, while timing thresholds and publication checks make the pilot easier to inspect. These are practical improvements in accuracy and constraint handling, although neither proposal's small voluntary pilot can establish effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

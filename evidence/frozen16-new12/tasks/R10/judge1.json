@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable, with distinct primary mechanisms: narrated object belonging, participatory weather, optical size transformation, cooperative bridge construction, ritual repetition with a changed ending, and imitation with leadership reversal. Candidate 0 offers the strongest balance of expressive story, manageable staging, parallel sensory cues and an actionable audience check. Other candidates disclose practical uncertainties rather than definitely violating constraints."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable. The groups represent narrated object belonging, participatory weather, optical size transformation, delayed imitation, negative-space construction, exposed object transformation, and contextual reinterpretation through repetition. Candidates 6 and 7 refine existing mechanisms through recovery and comfort responses. Candidate 6 retains a clear emotional arc and feasible division of work while adding explicit interruption recovery, access adjustments and concrete safety stop conditions. Its prototype directly checks comprehension and recovery without claiming demonstrated success."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 through a rehearsable restart, clearer responses to access problems and explicit heat and support precautions. These operational improvements strengthen repeatability and constraint handling while preserving the expressive story; the advantage does not depend on length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

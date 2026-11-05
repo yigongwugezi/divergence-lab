@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: personal learning records, shared open questions, private recognition of care, volunteer modeling of fallibility, organizational responsiveness, and hindsight perspective-taking. Candidate 0 best combines a concrete optional ritual, realistic staffing, separate publication consent, an honest unknown ending, and direct comparison of learning against embarrassment and delay."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All ten are usable. Candidates 0 and 7 share the personal learning-record mechanism; 5 and 8 share organizational responsiveness. Evidence checks and reversible ownership improve those mechanisms without creating new ones. The remaining mechanisms are shared questions, recognition of care, volunteer modeling, decision rehearsal, outcome normalization, and prospective learning aims. Candidate 7 best combines supported learning claims, private participation, explicit publication review, immediate acceptance of refusals, and a concrete queue-delay suspension rule."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A0 by distinguishing documented observations from uncertain explanations, assigning publication review, and specifying when to suspend offers. These practical safeguards make learning more credible and queue protection more inspectable without materially expanding the ritual. Both still require a pilot to establish whether learning improves without added embarrassment."
+    }
+  },
+  "format_retry_of": null
+}

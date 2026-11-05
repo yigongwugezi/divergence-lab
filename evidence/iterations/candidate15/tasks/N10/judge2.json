@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints. Groups represent recurring staple commitments, scheduled releases, voluntary category shares, low-stock-triggered replenishment, and loss prevention. Candidate 5 best combines predictable replenishment with workable allocation, explicit ownership of missed deliveries, duplicate-request prevention, shelf-capacity limits and inspectable records. Its fallback adds bounded coordination work rather than a distinct primary mechanism."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Their primary mechanisms are recurring staple commitments, scheduled releases, voluntary category shares, staggered donation arrivals, and weekly demand-responsive donation requests. Candidate 0 offers the strongest balance of simplicity, predictable staple supply, equitable access and measurable outcomes. Candidate 4 is inspectable but requires more bookkeeping and depends on sufficiently complete arrival and request records."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0 with concrete handling of missed commitments, corrected public expectations, backup responsibility and limits on replacement effort. These provisions address a foreseeable source of recipient uncertainty while preserving the same shelf, existing visits, anonymous access and required tracking. The advantage is operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

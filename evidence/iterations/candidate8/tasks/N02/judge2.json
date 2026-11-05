@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve identifiers, require documentary corrections, remain reversible and measure the three required outcomes over two weeks. Primary mechanisms are checked acceptance (0,4,7), stable physical positions (1,8), serial labeling (2), stable spreadsheet identity (3), label issuance control (5), fewer custody changes (6), and intake ambiguity screening (9). Candidate 4 repairs incomplete acceptance and 7 changes its scheduling; neither establishes a separate primary mechanism. Candidate 8 repairs position tracking. Candidate 0 is the strongest default: it directly targets handoff errors with existing resources, clear exception handling and comparable audits, without additional workflow prerequisites."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their distinct primary mechanisms are checked acceptance, stable physical positions, serial labeling, fewer custody changes, and batch identifier reconciliation. Candidate 0 offers the most direct and broadly feasible handoff intervention. The alternatives depend more strongly on available space, labeling-stage error causes, technician qualifications or detectable identifier inconsistencies. Candidate 4 appropriately acknowledges that valid identifier swaps escape its checks."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical source-checked acceptance proposal. It provides the same traceability safeguards, reversible procedure and two-week comparison of wrong labels, handoff time and unresolved mismatches; neither pool has a quality advantage in its best proposal."
+    }
+  },
+  "format_retry_of": null
+}

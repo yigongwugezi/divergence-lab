@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates offer concrete mechanisms and two-rehearsal evaluation plans without definite serious hard-constraint violations. Candidate 6 repairs candidate 1's formation mechanism through clearance sequencing and recovery; it is not a new mechanism. The remaining groups use light handoff, repeated action, concealed reset through darkness, continuous action, shared environmental response, and neutral release. Candidate 0 best balances clear audience attention, modest performer load, feasible single-technician operation and inspectable testing. Its lamp-control and visibility assumptions are explicit. Candidate 3's movement under reduced light warrants verification but is expressly conditional on safe footing."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five candidates are usable, with distinct primary mechanisms: light handoff, spatial formation, repeated action, dark visual punctuation and projected shadow architecture. Each provides a sub-40-second staging plan, clear-aisle provisions and evaluation across two rehearsals. Candidate 0 offers the strongest overall balance of feasibility, likely comprehension and inspectability. Candidate 3 safely reserves travel for restored light, while candidate 4 depends more heavily on unverified lamp, wall and ambient-light conditions."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical light handoff. It specifies a reusable cue sequence, safe lamp placement, five-performer movement, a 25–30-second target and comparative rehearsal checks covering comprehension, performer load and repeatability. Neither pool has an advantage in its best proposal's written task quality."
+    }
+  },
+  "format_retry_of": null
+}

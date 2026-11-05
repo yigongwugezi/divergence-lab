@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and privacy constraints and check availability, condition, cleanup effort and seated access. Their primary mechanisms are centralized returns, visible shelving destinations, an on-site reserve, optional shared tidying and portable return reminders. Candidate 1 best balances self-maintenance and immediate availability: readers can replace usable books directly, with the box for uncertainty and scheduled volunteer condition checks. Its pilot explicitly tests whether category correction cancels the cleanup benefit."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Their primary mechanisms are centralized returns, visible shelving destinations, an on-site reserve, optional shared tidying, reader condition screening and a voluntary borrowing limit. Candidate 1 offers the strongest balance of feasible shared upkeep, immediate book availability and inspectable failure criteria. Screening risks unnecessary withdrawals, while the borrowing limit depends on an unverified cause of depletion and could discourage use."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 1, so their best proposals have equal written task quality."
+    }
+  },
+  "format_retry_of": null
+}

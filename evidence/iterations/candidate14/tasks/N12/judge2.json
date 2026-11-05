@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect safety, equipment and repeat-check constraints; conditional depth and temperature routes explicitly stop when unsupported. Groups distinguish matched-time wet–dry comparison, runoff gradient, probe-procedure artifact, vertical redistribution and temperature-dependent solubility. Candidates 4 and 5 refine existing mechanisms. Candidate 4 is strongest overall: it separates daily timing from rain comparisons, checks calibration and duplicates, requires usable dry controls, treats rain events as independent repeats and withholds attribution when comparisons are inadequate."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four are usable and address distinct primary mechanisms: matched-time wet–dry comparison, runoff gradient, temperature-dependent solubility and vertical redistribution. Capability-dependent routes state their prerequisites and limitations. Candidate 0 offers the most broadly feasible core plan with safe paired sampling, calibration checks, matched-hour comparisons and independent repeat events; runoff attribution remains appropriately limited."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 improves on B0 with explicit dry-control eligibility, checks for background change, event-level replication and comparison against duplicate variability. These make its conclusions more inspectable within the same resources and four-weekend limit."
+    }
+  },
+  "format_retry_of": null
+}

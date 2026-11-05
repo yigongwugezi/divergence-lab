@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the resources and address availability, condition, cleanup and seated access. Their primary mechanisms are centralized returns, visible shelving destinations, an on-site reserve, optional shared tidying and portable return reminders. Candidate 0 offers the simplest dependable routine and a directly inspectable pilot; its main weakness is delayed availability while returns await inspection."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious constraint violations. Candidate 5 repairs candidate 0's centralized-return mechanism rather than introducing a distinct mechanism. The other mechanisms are visible shelving destinations, an on-site reserve, optional-return circulation, donation screening and optional shared cleanup. Candidate 5 best combines a simple ritual with explicit capacity management, an interruption-safe volunteer routine and observable fallback triggers. Asking readers to retain returns can delay replenishment and burden access, which its pilot must assess."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best proposal narrowly improves on A's best by giving an actionable response to return-box overflow and repeated workload overruns within the existing visit budget. Its advantage is operational completeness, tempered by the burden of carrying returns away and the loss of take-home borrowing under its fallback."
+    }
+  },
+  "format_retry_of": null
+}

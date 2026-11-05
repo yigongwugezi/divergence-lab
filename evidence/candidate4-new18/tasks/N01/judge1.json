@@ -1,0 +1,55 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 uses timestamp-corrected aggregate consumption and cleaning comparisons; candidate 1 uses repeated physical source tracing. Candidate 1 best establishes an actual accessible leak despite noisy daily consumption, with confirmation and post-repair checks. Both respect supply and privacy constraints and acknowledge that morning observations cannot establish overnight duration."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 1 and 2 share physical source tracing; candidate 2 improves evidence thresholds, repair confirmation and recovery without creating a new mechanism. Candidate 0 uses corrected consumption comparisons. Candidate 3 uses conditional branch isolation, with strict eligibility, restoration checks and an executable fallback; its feasibility depends on a suitable existing valve, and daily consumption variation limits causal confidence. Candidate 2 offers the clearest feasible detection and response workflow."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B2 improves on A1 with explicit source-based repair confirmation, recovery for intervention-caused leaks or service disturbance, and separate reporting of confirmed and unresolved findings after five mornings. These strengthen constraint correctness and inspectability without claiming proof of overnight flow."
+    }
+  },
+  "format_retry_of": null
+}

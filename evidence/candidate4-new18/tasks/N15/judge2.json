@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency use when the bike is available, and specify two-week comparisons of missed trips, idle time and coordination effort. Candidate 5 refines candidate 0's reservation mechanism rather than introducing a new one. Candidate 0 offers the strongest low-friction default: flexible booking lengths, early conflict visibility and minimal bookkeeping. Other mechanisms depend more on unestablished household needs or add scheduling, fairness or accounting burdens."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Candidate 3 directly addresses overlapping demand by moving flexible trips around fixed windows, with a clear tie-break when both cannot fit. Its comparison measures all required outcomes, requested-trip demand and actual conflicts avoided through shifting. The evening check adds effort, but that cost and the mechanism's dependence on flexibility are explicitly testable."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best proposal has a modest advantage: it provides a concrete way to preserve both overlapping trips and an inspectable measure of whether that mechanism works. A's best is simpler, but leaves overlap resolution to an agreed swap without specifying how to reach one. B explicitly measures its additional coordination burden and acknowledges when flexibility offers no benefit."
+    }
+  },
+  "format_retry_of": null
+}

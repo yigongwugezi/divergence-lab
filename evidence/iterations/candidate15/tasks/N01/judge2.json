@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the constraints and specify confirmation and rollback checks. Candidate 2 is conditional on verified safe common-branch isolation; candidate 3 requires existing matched nested readings. The primary mechanisms are corrected aggregate consumption, physical source tracing, branch isolation, and nested-meter reconciliation. Candidate 4 best combines feasible direct confirmation, cleaning and entry-delay checks, supply protection, accepted maintenance ownership, and explicit unresolved-case handling. None establishes overnight duration from daily observations alone."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable and have distinct primary mechanisms: corrected aggregate consumption and physical source tracing. Candidate 1 provides more directly inspectable evidence of an active leak despite variable resident consumption, distinguishes cleaning wetness from source leakage, and includes confirmation and post-repair rollback. Its limits for concealed leaks and overnight timing are explicit."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 improves on B1's shared physical-tracing mechanism with an explicit accepted maintenance handoff, supply-preserving repair decision, and ownership of verification beyond the five-morning window. These make the response workflow more complete without overstating detection certainty."
+    }
+  },
+  "format_retry_of": null
+}

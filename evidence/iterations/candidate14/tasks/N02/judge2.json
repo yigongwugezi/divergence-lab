@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identity, prohibit memory-based correction, offer reversible procedures and measure the required outcomes over two weeks. Primary mechanisms are source verification, stable physical positions, single-sample labeling, stable spreadsheet identity, explicit interruption recovery, label issuance control, reduced custody changes and damage prevention. Candidates 7 and 8 repair their respective original mechanisms. Candidate 0 best combines direct relevance to handoffs, modest resource requirements, documentary traceability and an inspectable comparison with consistent audits. Other approaches depend more heavily on particular error sources or workflow conditions."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their distinct primary mechanisms are source verification, stable physical positions, single-sample labeling, reduced custody changes and batch identifier reconciliation. Candidate 0 provides the strongest broadly applicable handoff procedure with explicit acceptance, evidence-based corrections and comparable two-week measurements. Ownership requires compatible qualifications and scheduling; reconciliation adds transcription work and cannot detect complete swaps."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical source-checked handoff proposal. Its constraint correctness, feasibility, likely effect and inspectability are therefore equal; additional candidates do not improve the selected proposal's written quality."
+    }
+  },
+  "format_retry_of": null
+}

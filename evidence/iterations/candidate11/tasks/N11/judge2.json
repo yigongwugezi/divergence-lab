@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0 and 2 share the randomized matched-pair parallel mechanism; survival-aware interpretation is a repair, not a new mechanism. Candidate 1 uses a distinct crossover mechanism and is usable with its stated carryover limitations. Candidate 2 best matches the six-week task while explicitly guarding against misleading survivor-only conclusions. Its missing-data sensitivity rule would benefit from more precise implementation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 uses a matched-pair parallel comparison; candidate 1 uses repeated weekly randomization. Both meet the hard constraints, but candidate 0 more directly tests sustained six-week growth differences and avoids switching-related carryover and handling complications."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A2 retains B0's feasible, task-aligned design and adds useful safeguards for interpreting deaths and missing outcomes. This improves cautious inference without changing the primary mechanism or requiring additional equipment."
+    }
+  },
+  "format_retry_of": null
+}

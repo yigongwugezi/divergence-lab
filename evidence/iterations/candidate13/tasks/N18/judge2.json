@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and voluntary-access constraints and compare use, spillover and effort over two afternoons. Candidates 0 and 6 share placement and orientation as their primary mechanism; verification and recovery refine that mechanism. The other groups address behavioral expectations, voluntary turnover, discovery, availability information, source noise and shade. Candidate 0 offers the strongest balance of feasible acoustic relief, dignified accessible layout and inspectable comparison. Candidate 6 adds useful checks but also relocation effort and a more confounded between-afternoon comparison."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their distinct primary mechanisms are placement and orientation, behavioral expectations, voluntary turnover, source-noise reduction and procedural predictability. Candidate 0 most directly combines a practical quiet-space layout with a comparison of use, spillover and volunteer effort. Source reduction depends on operator cooperation; procedural predictability helps access but cannot itself reduce dominant fair noise."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a voluntary, universally welcoming layout and a feasible two-afternoon trial, while acknowledging limited tent sound insulation and environmental confounding."
+    }
+  },
+  "format_retry_of": null
+}

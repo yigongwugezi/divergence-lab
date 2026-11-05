@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All four are usable and represent distinct primary mechanisms: matched-time comparison, runoff gradient, temperature-dependent solubility, and vertical redistribution. Candidate 1 best combines a discriminating runoff comparison with dry baselines, matched hours, calibration checks, repeat measurements, recovery checks and replication across independent rain events. Its spatial prerequisites and attribution limits are explicit."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable. Candidates 4 and 5 repair the matched-time and runoff-gradient mechanisms rather than introduce new ones; probe response, vertical redistribution and temperature capacity are separate mechanisms. Candidate 5 best integrates safe access, repeated calibration verification, timing controls and a testable runoff gradient. It explicitly checks comparison-point validity and provides a feasible fallback when localization cannot be tested."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A1 by treating reference exposure as provisional, checking changing runoff paths, collecting morning comparisons more consistently and specifying when to abandon localized attribution while retaining useful matched-time sampling. These changes improve discrimination and inspectability within the stated resources and safety constraints."
+    }
+  },
+  "format_retry_of": null
+}

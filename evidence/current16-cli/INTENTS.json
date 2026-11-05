@@ -1,0 +1,15 @@
+{
+  "origin": "Assistant-authored natural-language demonstration requests; these are not quotations from a real end user. The assistant converted each request into the frozen task JSON before invoking the CLI.",
+  "requests": [
+    {
+      "id": "R04",
+      "natural_language": "Our small advice office's USB printer drops out intermittently. Help us diagnose it after hours using only blank test pages, without opening client files or buying equipment.",
+      "task_json": "task_R04.json"
+    },
+    {
+      "id": "R02",
+      "natural_language": "Our school garden rain gauge seems to read lower than the public report. Help us check whether the gauge is wrong or the sites differ, using only the equipment we already have.",
+      "task_json": "task_R02.json"
+    }
+  ]
+}

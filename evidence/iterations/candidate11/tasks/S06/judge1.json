@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect anonymous access and volunteer limits, provide qualified-help directions, and check navigation, waiting confusion and privacy. Primary mechanisms are predictable anonymous turns, visitor-controlled browsing, shared welcome rounds, information minimization and spatial separation. Candidate 0 offers the strongest balanced first-visit flow, with accessible turn calling and an explicit fallback when the corner is audible. Referral availability remains conditional on existing materials."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious violations. Candidates 0, 3 and 6 share anonymous turns with individual orientation; continuing audibility checks and unfinished-wait recovery refine that mechanism. Other primary mechanisms are visitor-controlled browsing, shared welcome rounds, referral-action rehearsal, volunteer decision calibration and visitor-held written communication. Candidate 6 best combines accessible anonymous access, privacy and advice boundaries with concrete recovery when service cannot finish. Its experiment also checks displaced workload and unfinished departures. Qualified-help capacity remains unverified."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A0 by specifying what happens at closing or after interruption, reducing the risk that visitors leave with only an unfulfilled number. It preserves the core constraints and tests whether recovery displaces access for others. This is a practical improvement in completeness and inspectability, rather than a reward for length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

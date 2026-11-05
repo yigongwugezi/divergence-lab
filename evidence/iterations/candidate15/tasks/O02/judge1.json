@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates fit the meeting limit, use available resources, preserve voluntary ownership and due dates, and propose comparisons of completion, rework and burden. Candidate 0 is the strongest general starting point: explicit acceptance, bounded work, a capacity limit and visible unclaimed decisions make commitments inspectable with little administration. Other mechanisms depend more on an unconfirmed cause of failure."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and address the hard constraints. Candidates 7 and 8 repair their underlying queue and delegation mechanisms rather than introduce new ones. Candidate 7 is strongest overall: it retains the lightweight voluntary queue and explicitly handles withdrawal, missing owners and reassignment without making the chair inherit execution. Its comparison retains original deadlines and all decisions, measures individual burden and rework, and acknowledges that few withdrawals may leave the repair's benefit uncertain."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A0 by specifying how commitments are released and reassigned when availability changes, directly addressing a route back to chair dependence. It preserves consent, keeps paused work visible and prevents deadline resets from inflating measured completion. The added handoff effort is limited and explicitly evaluated."
+    }
+  },
+  "format_retry_of": null
+}

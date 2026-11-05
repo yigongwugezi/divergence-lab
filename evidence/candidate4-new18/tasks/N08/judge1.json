@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five satisfy the resource, truthful-estimating and four-week comparison constraints. Their primary mechanisms are evidence gates, historical calibration, exception clarification, protected repair capacity and repair-requirement completeness. Candidate 0 is the strongest general-purpose communication process: it directly addresses uncertain arrivals, assigns practical staff responsibilities and checks whether apparent accuracy gains come from withholding estimates. The others depend more on unestablished historical comparability or particular causes of delay."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable; candidate 6 explicitly makes applicability conditional on existing alternative suppliers rather than assuming they exist. The primary mechanisms are evidence gates, historical calibration, exception clarification, capacity reservation, order completeness, early preparation, supplier selection and customer-understanding verification. Candidate 7 improves the gate process through explicit expiry triggers and preserved estimate history; these are refinements of candidate 0's mechanism. It offers the strongest combination of direct relevance, modest resource demands and inspectable commitments, with four-week tracking of misses, calls and staff time."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A0 by specifying when a provisional window loses support and preserving original and revised windows separately. This makes stale promises and concealed misses easier to detect using the same paper cards and inbox. Its advantage is procedural clarity and inspectability, not demonstrated results."
+    }
+  },
+  "format_retry_of": null
+}

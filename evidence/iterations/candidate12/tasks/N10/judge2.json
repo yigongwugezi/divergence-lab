@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints. Candidates 0 and 5 share recurring staple commitments as their primary mechanism; 5 adds a missed-delivery repair rather than a new mechanism. The other mechanisms are timed releases, universal flexible shares, low-stock-triggered replenishment, loss prevention, and food exchanges. Candidate 5 best combines predictable supply, immediate anonymous access, explicit responsibility, bounded workload and inspectable records. Its donor-contact and flexibility prerequisites are clearly stated."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints and use distinct primary mechanisms: recurring commitments, timed releases, universal flexible shares, staggered donation arrivals, and weekly demand-responsive donation requests. Candidate 0 offers the strongest balance of predictable replenishment, simple allocation, feasible weekly administration and clear measurement. The alternatives depend more heavily on timing cooperation, voluntary portion limits or sufficiently complete consumption records."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B0 with a concrete, bounded response to missed commitments, explicit backup ownership and duplicate-delivery controls. These provisions address an important source of unpredictable availability while preserving open access and the existing resource limits. The advantage comes from operational reliability and inspectability, not length or a distinct new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

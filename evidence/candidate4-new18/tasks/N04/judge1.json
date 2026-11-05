@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide feasible, low-pressure sequences within the stated resources and session limits, distinguish drift from omissions, and check unfamiliar patterns. Candidate 2 best connects hearing an error to selecting a correction and checks performance separately from recognition. Its comparison with equal-duration repetition makes the proposed benefit inspectable. Candidate 0 depends on metronome muting for its strongest mechanism, and its fallback provides weaker evidence."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable without definite serious hard-constraint violations. Candidates 2 and 5 share diagnosis followed by a matching repair; added verification refines that mechanism. The other primary mechanisms are internal pulse prediction, divided pulse roles, continuous movement, chunk assembly, and landmark recovery. Candidate 5 best combines explicit listening distinctions, specific repairs, immediate performance verification, uncertainty handling, and a feasible quartet fallback when collective sound masks errors."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 narrowly improves on A2 by explicitly verifying each repair on the original pattern at the original tempo and providing a practical response to group masking. Both satisfy the constraints and test unfamiliar material; B5 makes successful correction more consistently observable, although neither establishes individual mastery or strong causal evidence."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "R02",
+  "category": "engineering",
+  "goal": "Find why a school garden's manual rain gauge appears to undercount rainfall compared with a nearby public reading.",
+  "hard_constraints": [
+    "Do not assume the public reading is ground truth for the garden's exact location.",
+    "No powered instruments, climbing, or changes to the public station.",
+    "Use only the existing gauge, a ruler, a marked cup and observations during the next three rain events; distinguish measurement error from local variation."
+  ],
+  "available_resources": "Gauge, ruler, marked cup, site sketch and public daily rainfall report.",
+  "expected_result": "A safe diagnostic sequence with uncertainty and a way to check each explanation."
+}

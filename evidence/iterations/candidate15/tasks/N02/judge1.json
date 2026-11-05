@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, use existing resources, provide reversible procedures and measure the three required outcomes over two weeks. The five primary mechanisms are source verification, stable physical positions, serial labeling, fewer custody changes and batch identifier reconciliation. Candidate 0 best directly addresses handoff errors with a feasible independent check, explicit acceptance and inspectable correction records; the alternatives depend more strongly on unconfirmed error causes or workflow prerequisites."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints, with conditional adoption where resources or error causes require confirmation. Candidates 4 and 7 repair interruption handling within source-checked acceptance; candidate 8 repairs container-change handling within fixed-position custody. The other mechanisms are serial labeling, stable spreadsheet identity, printed-label inventory control, fewer custody changes and protection against physical label damage. Candidate 7 offers the strongest directly applicable procedure: source verification, explicit custody during interruptions, documented rollback and measurement that includes waiting and recording burden."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A0 by specifying custody and restart behavior during interrupted checks and reconciliation before rollback. Its comparison against ordinary source-checked acceptance makes the added benefit and burden inspectable. The advantage comes from closing a practical procedural gap, not from length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

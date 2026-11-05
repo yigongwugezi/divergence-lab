@@ -1,0 +1,69 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide safe, repeated sampling and address timing, calibration and runoff without claiming a biological cause. Their primary mechanisms are timing confounding, localized runoff, temperature-dependent solubility and vertical redistribution. Candidate 0 offers the strongest general plan with the fewest equipment prerequisites; the others provide useful conditional mechanism tests."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated capability and safety conditions. Their primary mechanisms are timing confounding, localized runoff, probe-response artifacts, vertical redistribution and temperature-dependent solubility. Candidate 0 best balances the core distinctions, feasible workload and repeat checks. The specialized alternatives add discrimination when their prerequisites hold."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The selected proposals are identical. Both provide a feasible matched-time wet–dry plan with calibration checks, repositioned duplicates, runoff observations, independent repeat comparisons and explicit limits when weather prevents inference."
+    }
+  },
+  "format_retry_of": null
+}

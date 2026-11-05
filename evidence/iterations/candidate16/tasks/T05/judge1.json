@@ -1,0 +1,95 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their primary mechanisms are ordered gates, distributed information, paused replay, controlled cue reversal, contrasting escalation boundaries, a visible attributed account, and commitment repair. Candidate 4 best combines feasible practice with explicit policy justification and an inspectable distinction between routine action and necessary escalation."
+      },
+      "B": {
+        "best": 8,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Candidates 3 and 7 refine the gates protocol with stopping and handoff rules; candidate 8 refines contrasting authority cases with an applicability check. These are protocol refinements rather than separate primary mechanisms. The remaining groups use distributed information, paused replay, a visible shared account, controlled cue reversal, and inherited-decision repair. Candidate 8 offers the strongest policy-grounded practice and assessment, including unfamiliar cases and an actionable interrupted-handoff fallback. Its assessment is demanding but feasible with short prepared cases."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B8 strengthens A4's contrasting-case approach by explicitly checking whether a policy provision applies and specifying what happens when staff contact fails. These additions address unsupported transfer and incomplete escalation while preserving the required listening, verification, individual assessment, and 45-minute format. The advantage is operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

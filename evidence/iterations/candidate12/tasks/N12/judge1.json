@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect safety and resource limits, require repeat checks, and avoid biological attribution from one reading. Their primary mechanisms are matched-time comparison, runoff gradient and recovery, temperature-dependent solubility, and vertical redistribution. Candidate 0 provides the most broadly feasible core plan for separating timing, calibration instability and rain-associated changes; the others depend more on site geometry or meter capabilities."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with explicit safety limits and conditional fallbacks where capabilities are uncertain. Candidates 0 and 4 share the matched-time mechanism; calibration-failure recovery is an operational repair, not a new mechanism. The other mechanisms are runoff gradient and recovery, probe-procedure artifacts, vertical redistribution, and temperature-dependent solubility. Candidate 4 offers the strongest core plan, with bounded recalibration, clear exclusion of invalid readings and protection against shifting the sampling window."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 retains A0's feasible matched-time comparisons and repeat checks while giving a concrete response to calibration failure. Its bounded recovery and replacement rules improve execution and inspectability without treating recalibration as validation of earlier readings. Both appropriately leave causal attribution unresolved when weather coverage or spatial evidence is insufficient."
+    }
+  },
+  "format_retry_of": null
+}

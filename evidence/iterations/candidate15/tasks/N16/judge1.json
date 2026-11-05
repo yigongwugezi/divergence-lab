@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, use available resources and provide private one-month checks. Mechanisms are fixed storage, locator indexing, checkout tracking, keeping sheets with a carried folder, and receipt/transport reconciliation. Candidate 0 offers the strongest general fit: a simple, predictable destination with little maintenance. Its baseline should also count misfilings for a clearer comparison."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with stated suitability limits. Candidate 6 repairs the fixed-storage mechanism with interruption handling; it is not a distinct primary mechanism. The other mechanisms are locator indexing, checkout tracking, carrying the folder, periodic recovery, receipt reconciliation, and stationary consultation. Candidate 6 best combines predictable storage, enclosed interrupted work, owner-only handling and an inspectable month-end audit. Its pending envelope adds maintenance, with explicit criteria for dropping it."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 by addressing interrupted returns and explicitly measuring baseline misfilings and unresolved pending sets. These practical safeguards and clearer checks justify its small added sorting burden; the advantage does not depend on novelty or length."
+    }
+  },
+  "format_retry_of": null
+}

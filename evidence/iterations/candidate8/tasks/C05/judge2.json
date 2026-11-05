@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with their stated safeguards. Groups distinguish personal learning records, collective questions, acknowledgment of care, volunteer modeling, decision rehearsal, organizational follow-through, outcome normalization, and prospective expectation-setting. Candidates 7 and 8 refine existing mechanisms. Candidate 7 best combines supported learning, an explicit no-learning option, separate display consent, minimal handback burden, and observation of understanding, embarrassment, refusals and delays."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable with their stated safeguards. Their primary mechanisms are personal learning records, collective questions, acknowledgment of care, volunteer modeling, organizational responsiveness, and reconstruction of uncertainty through a reveal. Candidate 4 makes learning concrete through an actual service improvement and tests the celebratory framing while keeping that improvement available throughout. Its feasibility depends on finding a supported communication problem within volunteers’ authority."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 more directly connects an individual unsuccessful attempt to supported understanding while explicitly allowing no lesson. Its brief, optional handback ritual and checks for pressure, accuracy and queue disruption fit the task especially well. B4 offers credible organizational learning and a cleaner framing comparison, but depends on a suitable recurring problem and may demonstrate service improvement without helping visitors understand their own failed attempts."
+    }
+  },
+  "format_retry_of": null
+}

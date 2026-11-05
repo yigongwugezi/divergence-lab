@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide operationally plausible arrangements with emergency-access safeguards, mobility accommodations and two-event measurement. Candidates 1 and 5 share timed arrival-order cohorts; 5 adds feasibility checks, bounded waiting space and an explicit fallback. It is strongest overall because predictable turnover supports fair access while its recovery rules address practical limits with two attendants. The remaining groups use continuous arrival order, call-forward registration, random selection, first-turn priority and protected capacity matching respectively. Random selection and repeat-turn delays are fairness tradeoffs, not definite hard-constraint violations."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates address accessibility, emergency clearance, two-attendant operation and measurement across two events. Their distinct primary mechanisms are continuous arrival order, timed cohorts, call-forward registration, first-turn priority with a repeat-turn share, and batch random ordering. Candidate 1 best combines predictable turnover, equal play intervals, protected transition time and an inspectable comparison. Its feasibility remains conditional on safe cohort clearance, which it explicitly requires."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B1's shared timed-cohort mechanism with a preopening transition check, explicit queue-capacity limits and an order-preserving fallback. These strengthen constraint correctness and practical feasibility. Its between-event comparison offers weaker attribution than B1's reversed blocks, but the operational safeguards give A5 the overall advantage."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,55 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Three primary mechanisms: corrected aggregate consumption comparison, repeated physical source tracing, and conditional common-branch isolation. Candidate 2 best combines a feasible five-morning routine, delayed-entry and cleaning checks, explicit confirmation thresholds, and repair verification with operational rollback. Candidate 3 is usable only under its strict eligibility conditions; otherwise its stated fallback applies. None establishes overnight duration from morning evidence alone."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The candidates use distinct primary mechanisms: corrected aggregate consumption comparison and physical source tracing. Candidate 1 offers more directly inspectable leak evidence, distinguishes cleaning and condensation, preserves apartment supply and privacy, and checks repairs while retracting unsupported consumption attribution. Concealed leaks and overnight duration remain unresolved."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A2 modestly improves on B1 through clearer evidence thresholds, maintenance handoff, and explicit recovery if repair causes leakage or service disturbance. These strengthen the required confirmation and rollback workflow without changing the primary mechanism."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve anonymous access, volunteer scope and checks of navigation, waiting confusion and privacy. Candidates 0, 3 and 6 share anonymous queuing with individual orientation; continued audibility checks and unfinished-wait recovery are operational refinements. Other primary mechanisms are self-directed browsing, shared welcome rounds, referral comprehension rehearsal, volunteer boundary calibration and optional silent written communication. Candidate 6 best combines accessible arrival, explicit privacy limits, qualified-help directions and practical recovery when service cannot finish, with inspectable workload and access checks. Referral availability remains unverified."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints. Their primary mechanisms are anonymous queuing with individual orientation, self-directed browsing, shared welcome rounds, minimizing personal information throughout assistance, and spatial separation of waiting from conversation. Candidate 3 most directly prevents disclosure without relying on acoustic privacy. It provides neutral request options, respectful redirection, accessible assistance and explicit qualified-help boundaries, while testing whether those boundaries impede useful navigation. Candidate 4 is usable conditionally on sufficient accessible space."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A6 offers stronger handling of interrupted or unfinished waits; B3 offers stronger prevention of personal disclosure throughout the visit. Both provide feasible two-volunteer flows, qualified-help escalation and inspectable checks of all required outcomes. Their different operational and accessibility tradeoffs do not establish a clear overall quality advantage."
+    }
+  },
+  "format_retry_of": null
+}

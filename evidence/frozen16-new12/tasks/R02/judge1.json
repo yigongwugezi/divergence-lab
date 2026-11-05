@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the constraints and acknowledge unresolved local variation. Groups address calibration and retention, placement-dependent collection, timing and handling, and gauge-specific collection differences using a simultaneous comparator. Candidate 0 offers the strongest feasible first diagnostic: inspectable known-volume checks before interpreting public comparisons. Candidate 1 has substantial storm-to-storm confounding; candidate 3 depends on cup suitability."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidates 5 and 6 refine calibration and timing mechanisms respectively. Candidates 1 and 4 investigate position-dependent collection; simultaneous collection and swapping improve the test rather than establish a separate primary mechanism. Candidate 3 checks comparator units and quantity definitions. Candidate 5 is strongest because repeat pours, explicit uncertainty and correction gates make calibration conclusions more reliable while preserving the distinction between measurement error and local variation."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 through repeatability checks, explicit measurement uncertainty and clear conditions for withholding corrections. These materially improve inspectability and constraint correctness with modest additional effort; neither proposal claims that successful calibration establishes equal rainfall at both locations."
+    }
+  },
+  "format_retry_of": null
+}

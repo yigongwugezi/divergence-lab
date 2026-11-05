@@ -1,27 +1,68 @@
 {
-  "version": "candidate4-preview-20261102",
-  "source_candidate": "superiority-candidate4-20261102",
-  "runtime_files_unchanged": 13,
-  "documentation": "Evidence statements updated; runtime scripts, prompts and schemas unchanged.",
-  "new_18_task_evaluation": "pending_complete_results",
-  "real_cli_end_to_end": "pending",
+  "version": "2026.11.05-preview",
+  "source_candidate": "superiority-candidate16-20261103",
+  "runtime_files": 15,
+  "comparison": {
+    "tasks": 31,
+    "passed": 31,
+    "votes": {
+      "win": 59,
+      "tie": 3,
+      "loss": 0
+    },
+    "failed_ids": [],
+    "scope": "development/regression; written proposals"
+  },
+  "candidate4_frozen_new18": "complete;14/18; evidence/candidate4-new18/summary.json",
+  "default_expand_real_cli_end_to_end": {
+    "completed": 2,
+    "routes": {
+      "R02": "wide",
+      "R04": "narrow"
+    },
+    "uninterrupted": 0,
+    "interrupted_then_resumed": 2,
+    "fresh_process_restore_byte_identical": {
+      "R02": true,
+      "R04": true
+    },
+    "extra_incomplete_trial": "R01; outer driver timeout; retained without rerunning",
+    "configuration": "Native Windows Codex CLI, explicit gpt-6.1-sol; process-local UTF-8 and temporary directory where required",
+    "usage": "unknown; excluded from evaluation generation totals",
+    "evidence": "evidence/current16-cli/SUMMARY.json"
+  },
+  "real_cli_component_flow": "passed on candidate6 start/legacy continue/save/resume; usage unknown",
+  "local_replay": "candidate13 runtime replay passed; candidate16 runtime script byte-identical; reused component evidence, no new model calls",
   "license": "not_provided",
   "files": {
     ".agents/skills/divergence-lab-unified/.gitignore": "14188a31de4a645fd035797f1b2e904c60b2f1428ae555ed2a281e2431b3f2d6",
-    ".agents/skills/divergence-lab-unified/SKILL.md": "4fbf7b1b92616875833b9c449742639ac9ed04507b6011cd3aa91acd1a8ebdbc",
+    ".agents/skills/divergence-lab-unified/SKILL.md": "99350ca2379561c1b13ba697262d9275d7f182ff90e05c4586d1bff2f0e4e226",
     ".agents/skills/divergence-lab-unified/references/BASELINE_PROMPT.txt": "0bffa1333b69c46f2e954bc770d1adfc2255fc2d9b87504e61a45e1bd94a0e07",
     ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
-    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P1.txt": "870eb09b2570462774dd1e0fc4c6b99320d6bca5333a43dc42e4c643b3cc5a8b",
-    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P1_NARROW.txt": "d254dbdb64b5952c5ebea249ffaf1a95a04bbd6cb696868b31cd49140e71b874",
-    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P2.txt": "06849a8a6f0c6540e461830c758a780833dec6ccbc854567c7d8da7fc99da740",
-    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P2_ASSUMPTION.txt": "76d2a3d39bc018d9014f367b560ab7bab5e522e994078e33eefc399fe9ed4b9f",
+    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P1.txt": "005abbc812f0cb13b86a507e5e2a31de45c0a11406c91094c66fecc18e277351",
+    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P1_NARROW.txt": "228debe7fe2ca56532ada06f17430b574058ee0d748e9a5f136f9417a5e16749",
+    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P2.txt": "6d3d584f4e5485d6f107d83b07adda4f9781dd954a54512dee8f5f08569bbb65",
+    ".agents/skills/divergence-lab-unified/references/CONTINUE_PROMPT_P2_ASSUMPTION.txt": "e536f5446187f5de6a5eef2945160ddebe1cd56be439f4a3d9e97de5900a6812",
     ".agents/skills/divergence-lab-unified/references/REPAIR_PROMPT.txt": "df9a394518612c05852482a8ddc19b77d1ccd8961c3a485f3f01bc114ec51f2c",
     ".agents/skills/divergence-lab-unified/references/response.schema.json": "ba2ea82c009ec659e4da4afa7f9991a30f58b3f96452de317dcca08c8749e080",
     ".agents/skills/divergence-lab-unified/references/response6.schema.json": "fa8a84ab415bd47e7be4ce9cf9f5b0c93f6560ce655646abdd4c0e934f549867",
     ".agents/skills/divergence-lab-unified/references/SAVE_FULL_PROMPT.txt": "52687940645d11ce713624971d99921213ba9b4af35c4049382fb83953fec38c",
     ".agents/skills/divergence-lab-unified/references/SAVE_WIDE_PROMPT.txt": "364e79ef20235438e70e7531d22a6fdc5ca6090eb264a5418456b34f108cfb61",
     ".agents/skills/divergence-lab-unified/scripts/build_prompt.py": "18f1752c0a4d2e595436d26e1b59563446eb6cd943f5d003ab04dec55ba3a0f1",
-    ".agents/skills/divergence-lab-unified/scripts/run.py": "96c982ad83f112362a22254e82d726c1c12ca649ae1addee284610e4c3491fa1"
+    ".agents/skills/divergence-lab-unified/scripts/run.py": "44134f478190f81715f671708fda8b8c3f255a4e4fc6c278d0a8783e1a313501"
   },
-  "local_replay_validation": "passed; offline fixtures; evidence/usability/LOCAL_REPLAY.json"
+  "known_constraint_risk": "Q05 shared P0 unchanged: candidate15 both reviews flag future-data next steps, candidate16 both reviews do not. Original judgments preserved; source risk is not erased by review disagreement.",
+  "candidate16_frozen_new12": {
+    "tasks": 12,
+    "passed": 12,
+    "votes": {
+      "win": 24,
+      "tie": 0,
+      "loss": 0
+    },
+    "mechanism_mean_difference": 1.166666666666667,
+    "generation_token_change_percent": 9.562698480817101,
+    "evidence": "evidence/frozen16-new12/summary.json",
+    "scope": "12 project-authored tasks frozen before evaluation; no tuning; model-reviewed written proposals"
+  }
 }

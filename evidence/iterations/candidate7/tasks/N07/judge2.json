@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with stated prerequisites and bounded staffing. Candidates 0 and 4 share checked expiration as their primary mechanism; the timing gate is a refinement. Candidate 5 best combines an immediate opportunity for actual pickup, private phone-free service, a clear feasibility check, capped work and inspectable outcomes. Its reach is limited to patrons already visiting."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable subject to their explicit prerequisites. Candidate 2 offers a practical way to free space from unwanted holds while preserving collection deadlines. Specific consent, item matching, separate cancellation and pickup counts, and reconciliation make errors inspectable within the daily cap. Its effect depends on encountering patrons with stale holds."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A5 converts existing visits into pickups; B2 removes explicitly unwanted holds. Both provide feasible, private, phone-free workflows, bounded daily work and three-week tracking of occupancy, actual pickups and mistaken releases. Neither text establishes how prevalent its target cause is, so there is no clear overall quality advantage."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect owner control, preserve clinical instructions, and include private month-end retrieval and misfiling checks. The mechanisms are fixed storage, locator indexing, checkout signaling, keeping sheets with a portable folder, and receipt/transport reconciliation. Candidate 0 offers the strongest general-purpose balance of simplicity, privacy, likely benefit, and inspectability."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints. Capacity handling in 6 repairs fixed storage; the fallback in 7 repairs locator indexing, so neither creates a new primary mechanism. Other mechanisms are checkout signaling, portable-folder handling, periodic recovery, receipt reconciliation, and preventing accidental disposal. Candidate 6 retains simple owner-controlled storage while addressing crowding and providing baseline and month-end retrieval and misfiling checks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 through an actionable capacity boundary and clearer before-and-after misfiling measurement, including loose pages and wrong envelopes. These strengthen feasibility and inspectability while preserving privacy and individual control."
+    }
+  },
+  "format_retry_of": null
+}

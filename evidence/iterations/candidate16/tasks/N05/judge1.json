@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five respect the case, label, time, and provenance constraints and propose factual-label comparisons of understanding and discomfort. Their primary mechanisms are close observation, evidential transparency, personal association, curatorial judgment, and present care. Candidate 0 best combines feasible preparation, supported object-specific meaning, and an inspectable comparison with explicit failure criteria."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable; conditional concepts explicitly require verification rather than inventing facts or care dilemmas. Candidates 6 and 7 refine the observation and association mechanisms rather than introduce new ones. Other mechanisms are evidential transparency, embodied action, institutional judgment, consequential care choice, and aesthetic reclassification. Candidate 6 offers the strongest balance: supported close observation, a practical visibility check, clear responsibility and fallback, and direct assessment of understanding, significance, misconceptions, and discomfort."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 by checking that visitors can actually see the evidence and specifying a fallback if preparation or interpretation fails. This strengthens feasibility and inspectability without changing the mechanism or requiring additional resources. Both provide responsible formative comparisons; the advantage rests on operational clarity, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

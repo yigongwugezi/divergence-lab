@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide concrete, conditional mechanisms compatible with existing resources, five performers, one technician, clear aisles and sub-40-second execution, with evaluation across two rehearsals. Candidate 0 offers the strongest balance of readable relocation, modest performer load, simple operation and inspectable comparison. Its lamp and visibility prerequisites are explicit."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable subject to their stated staging prerequisites. Candidates 6 and 7 refine existing mechanisms through recovery procedures rather than introduce new mechanisms. The other mechanisms are temporal repetition, visual interruption, divided-action continuity, a switch to shadow representation and neutral disengagement. Candidate 7 best combines readable relocation with verified destination visibility, bounded fallback, timing margin and two-rehearsal checks of comprehension, load and repeatability."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves A0's operational reliability by requiring visible destination acceptance before crossing and rehearsing a bounded fallback under existing light. Its 35-second rehearsal ceiling and failure trials make compliance more inspectable. The added coordination is modest and explicitly evaluated; the advantage comes from practical constraint handling rather than length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

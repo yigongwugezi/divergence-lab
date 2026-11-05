@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites and fallbacks. Primary mechanisms are repeated matched comparisons, controlled mounting correction, stationary source isolation, airflow perturbation, and passive rundown observation. Candidate 4 improves the mounting-intervention approach through explicit compatibility checks, repair-entry conditions and a restoration deadline. It offers the strongest practical repair decision within the single shutdown while preserving diagnostic uncertainty and safe escalation."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both candidates respect the constraints. Candidate 0 centers on repeated matched comparisons; candidate 1 centers on a warranted mounting correction evaluated before and after intervention. Candidate 1 provides the more inspectable repair decision, controls operating-condition confounding, and explicitly avoids unnecessary replacement or a forced diagnosis of residual vibration."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "Candidate A4 narrowly improves on B1 by making shutdown allocation, repair-entry conditions and the restoration deadline explicit. These safeguards materially improve feasibility within the only 30-minute window; the advantage is operational clarity rather than length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

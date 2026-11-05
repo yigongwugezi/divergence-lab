@@ -1,0 +1,55 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints. Candidates 0 and 2 share the matched-pair parallel mechanism; preserving survival and missingness is a repair, not a new mechanism. Candidate 1 uses crossover exposure, and candidate 3 emphasizes masked measurement. Candidate 2 is best because it preserves the direct six-week comparison while explicitly preventing survivor-only growth results from concealing harm. Crossover adds carryover uncertainty; masking adds handling and staffing demands."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both candidates are usable and respect the hard constraints. Candidate 0 uses a matched-pair parallel comparison; candidate 1 repeatedly randomizes weekly exposure. Candidate 0 better addresses sustained growth over six weeks, with straightforward paired outcomes and less carryover or movement uncertainty."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A2 narrowly improves on B0 by retaining survival and missingness prominently and explicitly blocking a favorable surviving-plant growth claim when losses undermine it. Both provide feasible randomized comparisons and appropriately limit inference to these windows and plants."
+    }
+  },
+  "format_retry_of": null
+}

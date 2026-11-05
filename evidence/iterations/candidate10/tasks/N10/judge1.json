@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints and track the required outcomes. Their primary mechanisms are recurring supply commitments, timed release, voluntary category shares, staggered donation arrivals, and weekly demand-responsive replenishment. Candidate 0 best addresses predictable staple availability through the existing schedule with modest coordination and inspectable records. The others depend more on particular arrival patterns, donor responsiveness, recipient cooperation, or accepting immediate unmet demand."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidates 0 and 5 share recurring commitments as their primary mechanism; missed-delivery recovery is a repair to that mechanism. The remaining mechanisms are timed release, voluntary category shares, low-stock-triggered replenishment, and prevention of usable food losses. Candidate 5 offers the strongest routine: predictable commitments with bounded recovery, explicit handoff records, duplicate-delivery controls, capacity limits, and all required tracking."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 by specifying what volunteers do when a commitment fails, while bounding contacts and preventing duplicate replenishment. Its paper status records make recovery inspectable and transferable between volunteers. The additional work is limited and measured; the advantage comes from operational completeness rather than length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

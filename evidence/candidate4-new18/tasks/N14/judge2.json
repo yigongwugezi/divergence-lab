@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source distinctions, dates and exceptions, remain unofficial, and test unfamiliar-item sorting and appropriate requests for help. Candidate 5 best fits terminology comparison while explicitly checking applicability, limiting coverage to readable content, and providing a source-separated fallback. It improves candidate 0's mechanism rather than introducing a new one. Evidence receipts, teach-back and act-or-ask rehearsal impose distinct working mechanisms."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and include inspectable tests and update rules. Candidate 0 offers the most direct, feasible comparison of differing terms, with explicit relationships, adjacent exceptions and source metadata. The other candidates primarily use decision routing, contrast learning, corrective teach-back and preventive correction of misleading shortcuts."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 strengthens the shared crosswalk approach with an explicit applicability check, clearly limited coverage, handling for missing clarification contacts, and an executable fallback when term pairings are unreliable. These improve constraint correctness and practical usability without relying on greater length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

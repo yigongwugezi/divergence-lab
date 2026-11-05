@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the hard constraints and identify their operational prerequisites. Primary mechanisms are recurring supply commitments (0,5), timed release (1), voluntary category shares (2), low-stock-triggered replenishment (3), and loss prevention (4). Candidate 5 improves the recurring-commitment routine with bounded missed-delivery recovery, a single open replacement request, capacity checks and inspectable paper handoffs. It offers the strongest balance of predictable supply, feasible workload and explicit failure handling."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Their primary mechanisms are recurring supply commitments, timed release, voluntary category shares, staggered donation arrivals and weekly demand-responsive replenishment, respectively. Candidate 0 most directly improves predictability with a simple routine using the existing schedule. Candidate 4 provides useful feedback but depends on more complete movement records and potentially noisy demand estimates; candidate 3 depends on clustered arrivals and donor flexibility."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly exceeds B0 because it specifies a practical response when a promised delivery fails, including ownership, replacement limits and duplicate-delivery prevention. Those details address a concrete reliability gap while preserving the same shelf, donation dates and volunteer visits. Its additional coordination remains conditional and explicitly bounded; neither proposal guarantees adequate total supply."
+    }
+  },
+  "format_retry_of": null
+}

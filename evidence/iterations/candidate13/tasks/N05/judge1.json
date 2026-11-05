@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five respect the case, label, time and provenance constraints and compare understanding and discomfort with plain facts. Their primary mechanisms are close observation, evidential boundaries, personal association, evaluating museum inclusion, and present care. Candidate 0 offers the strongest balance of feasibility, grounded meaning and inspectable understanding, with relatively few prerequisites."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable, with explicit evidence requirements and factual-label comparisons. Candidates 0 and 5 share close observation; 5 improves its implementation rather than introducing a mechanism. The other mechanisms are evidential boundaries, personal association, simulated interrupted use, accountable institutional selection, and weighing conservation consequences. Candidate 5 best combines grounded interpretation, feasible installation checks, visitor understanding and significance measures, discomfort assessment, and clear fallback conditions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 strengthens A0's practical reliability by checking that visitors can actually see the interpreted features, including from a seated position. It also measures perceived significance and specifies actionable confusion checks. These are useful improvements within the constraints, although its small formative test cannot establish general superiority."
+    }
+  },
+  "format_retry_of": null
+}

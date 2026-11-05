@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their primary mechanisms are sequential gates, distributed information, paused replay, presentation reversal, contrasting authority boundaries, externalized accounts, and commitment repair. Candidate 4 best combines feasible practice with explicit discrimination between routine action and escalation. Its case packets and requirement to cite decisive evidence or policy make performance inspectable."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Candidate 7 refines evidence-gap practice through record-currency checks; candidate 6 refines boundary calibration through completed handoffs. Neither refinement creates a distinct primary mechanism. The remaining mechanisms are sequential gates, paused replay, presentation reversal, correction and understanding checks, and prospective commitment to decision criteria. Candidate 6 is strongest: it preserves clear routine-versus-escalation contrasts and adds actionable handling of unanswered requests without granting volunteers extra authority. Its individual assessment checks both boundary judgment and pending handoff responsibility."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A4 through explicit staff acceptance, update responsibility, and a fallback when contact fails or policy is incomplete. These details make escalation more actionable and assessable while preserving the required listening, verification, individual assessment, and 45-minute format. The advantage is operational completeness, not added length or a new primary mechanism."
+    }
+  },
+  "format_retry_of": null
+}

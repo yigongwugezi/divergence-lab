@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are personal learning records (0,7), shared questions (1), acknowledgment of care (2), volunteer modeling (3), decision rehearsal (4), organizational change (5), outcome normalization (6), and visitor correction (8). Candidate 7 improves the learning-record mechanism rather than creating a new one. It best combines direct learning evidence, private participation, separate publication consent, explicit uncertainty, and observable refusal and queue safeguards."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are personal learning records (0), shared questions (1), acknowledgment of care (2), volunteer modeling (3), organizational change (4), and hindsight-based perspective-taking (5). Candidate 4 makes learning concrete through an implemented communication improvement. Its comparison keeps that improvement available while testing the celebratory framing, and checks understanding, dismissal, congestion, and opt-out handling. Feasibility depends on finding a supported problem and an authorized small change."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A7 is more broadly deployable and directly checks what visitors understood, with strong stopping rules. B4 makes organizational learning more tangible and isolates the added framing more cleanly, but requires suitable prior evidence. Both provide concrete, optional rituals and inspect learning alongside embarrassment without claiming that participation proves comfort."
+    }
+  },
+  "format_retry_of": null
+}

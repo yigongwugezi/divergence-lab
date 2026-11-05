@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary ownership, due dates, available tools and meeting limits, and offer month-long comparisons. Candidates 7 and 8 repair their respective original mechanisms rather than introduce new ones. Candidate 7 provides the strongest general-purpose foundation: explicit acceptance, limited commitments, explicit release and collective recovery without chair chasing. Its evaluation includes all action decisions, original deadlines, rework and individual execution and coordination burden, although historical baseline gaps weaken attribution."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and have distinct primary mechanisms: voluntary commitment, rotating coordination, protected execution, delegated authority, calendar scheduling, backup continuity and recipient verification. Candidate 0 is the most broadly applicable lightweight foundation, with explicit acceptance, visible unclaimed work and owner-managed updates. Its prospective comparison is inspectable, though burden measurement omits execution time and stalled commitments lack a firm release procedure."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 through explicit commitment release and recovery, a fallback when no recorder volunteers, and measurement of total volunteer effort and workload concentration. These strengthen practical follow-through and burden assessment. Its weaker historical comparison limits confidence but does not outweigh those operational advantages."
+    }
+  },
+  "format_retry_of": null
+}

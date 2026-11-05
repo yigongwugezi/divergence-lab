@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and privacy constraints and check availability, condition, cleanup and seated access. Distinct mechanisms are centralized return processing, visible reshelving destinations, an on-site reserve, optional shared tidying and portable return reminders. Candidate 1 best supports immediate reuse and reader-led upkeep, with an uncertainty box and a pilot that checks whether classification creates extra work."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidate 5 repairs the capacity and interruption handling of candidate 0 rather than introducing a distinct primary mechanism. Other mechanisms are visible reshelving destinations, an on-site reserve, optional shared tidying, reader damage screening and limiting simultaneous browsing. Candidate 1 offers the strongest balance of simple upkeep, immediate availability, feasible volunteer checks and inspectable failure criteria. Candidate 5 improves backlog handling but adds conditional instructions and can defer returns."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' strongest proposal is the identical candidate 1. It directly distributes routine upkeep while preserving access and availability, and its pilot checks the principal operational tradeoffs. B's additional options do not clearly surpass it."
+    }
+  },
+  "format_retry_of": null
+}

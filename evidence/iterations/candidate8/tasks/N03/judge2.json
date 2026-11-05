@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 8,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a 50-minute, paper-based lesson for novices, mean–median comparison, unseen-chart transfer, and timing checks. Groups distinguish value manipulation, headline auditing, prediction and reveal, count reconstruction, arithmetic scaffolding, information-boundary decisions, retrieval, and error diagnosis. Candidates 7 and 8 repair existing mechanisms. Candidate 8 best combines claim-focused teaching, explicit evidence limits, feasible practice, and inspectable transfer judgments, including checks for unnecessary information requests. Candidate 3 is conditional on suitable datasets; that limitation is explicit rather than a definite violation."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five meet the stated classroom and assessment constraints. Their primary mechanisms are value manipulation, headline auditing, prediction and reveal, error repair, and comparing consequences of summary choices. Candidate 1 most directly targets justified chart interpretation with manageable preparation and arithmetic. Its unseen assessment separates calculation from interpretation, includes a useful application of the mean, and records completion time. Candidate 4 adds substantial arithmetic burden but remains usable."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A8 narrowly improves on B1 by explicitly contrasting what a mean establishes with what requires the underlying distribution, then assessing both justified conclusions and unnecessary deferral on an unseen chart. This makes misleading-average recognition more observable and guards against simplistic summary-choice rules. Its additional preparation and reading demands are bounded within the lesson."
+    }
+  },
+  "format_retry_of": null
+}

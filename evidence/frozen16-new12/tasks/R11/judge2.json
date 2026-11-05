@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide workable permission, disclosure, withdrawal and copy-limit controls. Primary mechanisms are separate-recipe juxtaposition (0,5), structured comparison (1), contributor-led variations (2), selective excerpts (3), private reader adaptation (4), and reciprocal appreciation (6). Candidate 5 best combines visible variation, usable recipes and an inspectable editorial process. Its sharing-authority check, explicit editor handoff and recheck after interruption strengthen the original mechanism without adding substantial production burden."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with no definite serious hard-constraint violation. Primary mechanisms are separate-recipe juxtaposition (0), structured comparison (1), contributor-led variations (2), private reader reflection (3), and reciprocal inquiry (4). Candidate 0 offers the strongest balance of immediate celebration of differences, complete cooking instructions, low coordination burden and traceable consent. Candidate 3 leaves variation largely prospective; candidate 4 adds dialogue and approval dependencies within limited page space."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 modestly improves on B0 through an explicit check for unresolved sharing authority, clear responsibility for pending approvals and renewed checks after interruption. These strengthen consent correctness and inspectability while preserving the same feasible, inviting boxed-recipe concept."
+    }
+  },
+  "format_retry_of": null
+}

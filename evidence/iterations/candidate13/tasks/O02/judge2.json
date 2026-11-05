@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect voluntary ownership, due dates, available resources and the meeting limit, and propose comparisons of completion, rework and burden. Candidates 7 and 8 repair the queue and delegated-mandate mechanisms respectively rather than introduce new mechanisms. Candidate 7 is the strongest general-purpose option: explicit acceptance limits overcommitment, release preserves clear responsibility when availability changes, and its comparison includes all decisions, abandoned work, total volunteer effort and chair rescues."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and have distinct primary mechanisms: voluntary commitment, rotating coordination, protected execution time, delegated authority, calendar booking, backup continuity and recipient verification. Candidate 0 offers the strongest general-purpose foundation with little overhead, explicit consent, bounded commitments and visible unclaimed work. Its experiment preserves original deadlines and checks rework and distributed administrative burden, although execution effort is less fully measured than in some alternatives."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly exceeds B0 in written task quality. It provides a concrete response to interrupted ownership without defaulting to chair rescue, and measures execution effort and delivery across all decisions as well as administrative burden. These practical improvements strengthen feasibility and inspectability; their actual benefit remains uncertain if few interruptions occur during the month."
+    }
+  },
+  "format_retry_of": null
+}

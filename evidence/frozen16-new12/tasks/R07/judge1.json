@@ -1,0 +1,65 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All three provide safe, timed lessons and transfer checks without attributing ordinary phases to Earth's shadow. Their primary mechanisms are direct viewpoint observation, controlled shadow comparison, and combining illuminated and visible surfaces. Candidate 1 best directly challenges the target misconception through observable changes in obstruction, with explicit eclipse qualification and individual transfer predictions."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidates 4 and 5 refine the observation and shadow-comparison mechanisms respectively; their checks and fallbacks do not create new mechanisms. Candidate 2 uses illuminated-visible surface construction, while candidate 3 uses inverse construction from a target appearance. Candidate 5 best combines misconception-focused causal evidence, safe viewing, bounded troubleshooting, and an inspectable individual transfer check."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A1 by checking whether the staged shadow is distinguishable and providing a timed Earth-removal fallback that preserves the causal comparison. This makes the lesson more robust with the available equipment while retaining safety, the phase–eclipse distinction, and prediction at a new position."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Primary mechanisms are sequenced gates, distributed evidence, paused replay, boundary calibration (3 and its recovery extension 6), presentation swapping, correction feedback, and externalized evidence tracking. Candidate 3 best balances explicit verification and neutral listening with contrasting authorized action and escalation. Its individual assessment checks both routine decisions and unfamiliar exceptions, and its handoff includes an unavailable-staff fallback. Candidate 6 adds useful recovery detail but increases preparation and rehearsal demands within the same duration."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their distinct primary mechanisms are sequenced gates, distributed evidence, paused replay, presentation reversal, boundary calibration, externalized claims-versus-facts tracking, and repairing premature commitment. Candidate 4 offers the strongest balance of feasible practice, observable decision criteria, and an unseen individual assessment. Its matched cases directly teach when verified evidence permits action and when authority or uncertainty requires staff."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A3 narrowly exceeds B4 in written task quality: it explicitly requires neutral summaries, assesses routine action as well as escalation across unseen cases, and specifies an update route and unavailable-staff fallback. Both provide feasible 45-minute sequences and actionable escalation checks; A3's broader assessment requires concise responses."
+    }
+  },
+  "format_retry_of": null
+}

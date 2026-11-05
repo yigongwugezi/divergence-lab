@@ -1,0 +1,146 @@
+{
+  "task": "Q05",
+  "hard_constraints": [
+    "只能使用过去一年公开汇总记录及志愿者出勤表，不开展捕捉或干预动物。",
+    "考虑观察努力、季节和记录方式改变。",
+    "不虚构种群数字，提出下一步可证伪的观察。"
+  ],
+  "same_first_six_proposals": true,
+  "records": [
+    {
+      "version": 13,
+      "prefix_sha256": "da273f3026c6b7e364bfa437f328459a88757ebe09c59a6aa57d0defe554cb13",
+      "votes": [
+        "W",
+        "W"
+      ],
+      "serious_flags": [
+        {
+          "DIRECT_FULL": [],
+          "EXPAND": []
+        },
+        {
+          "EXPAND": [],
+          "DIRECT_FULL": []
+        }
+      ],
+      "evidence": "iterations/candidate13/tasks/Q05/task-and-pools.json"
+    },
+    {
+      "version": 15,
+      "prefix_sha256": "da273f3026c6b7e364bfa437f328459a88757ebe09c59a6aa57d0defe554cb13",
+      "votes": [
+        "W",
+        "W"
+      ],
+      "serious_flags": [
+        {
+          "DIRECT_FULL": [
+            {
+              "index": 0,
+              "reason": "下一步依赖后续时段的公开记录，未限定为过去一年内的记录，超出限定资料范围。"
+            },
+            {
+              "index": 1,
+              "reason": "下一步等待相同季节窗口再次出现及季节回升，依赖限定年份之外的记录。"
+            },
+            {
+              "index": 2,
+              "reason": "下一步检查后续指标是否继续下降，未将新增资料限定在过去一年范围内。"
+            }
+          ],
+          "EXPAND": [
+            {
+              "index": 0,
+              "reason": "下一步依赖后续时段的公开记录，未限定为过去一年内的记录，超出限定资料范围。"
+            },
+            {
+              "index": 1,
+              "reason": "下一步等待相同季节窗口再次出现及季节回升，依赖限定年份之外的记录。"
+            },
+            {
+              "index": 2,
+              "reason": "下一步检查后续指标是否继续下降，未将新增资料限定在过去一年范围内。"
+            },
+            {
+              "index": 3,
+              "reason": "下一步检查后续同季节条件下记录是否恢复，未限定在过去一年资料内。"
+            },
+            {
+              "index": 4,
+              "reason": "下一步依赖后续高值重现及持续偏低情况，未限定在过去一年资料内。"
+            },
+            {
+              "index": 5,
+              "reason": "下一步利用后续记录检验路线差异持续或反转，未限定在过去一年资料内。"
+            }
+          ]
+        },
+        {
+          "EXPAND": [
+            {
+              "index": 0,
+              "reason": "下一步依赖后续时段的记录，未限定在允许的过去一年资料范围内。"
+            },
+            {
+              "index": 1,
+              "reason": "要求后续相同季节窗口再次出现，超出了限定的过去一年资料检验范围。"
+            },
+            {
+              "index": 2,
+              "reason": "下一步使用后续公开汇总，未限定为过去一年内观察记录的补录。"
+            },
+            {
+              "index": 3,
+              "reason": "下一步依赖随后同季节窗口的条件与记录恢复，超出了限定的历史资料范围。"
+            },
+            {
+              "index": 4,
+              "reason": "下一步依赖后续高值重现及持续变化，未限定使用过去一年内的记录。"
+            },
+            {
+              "index": 5,
+              "reason": "下一步依赖后续路线差异持续或反转，未限定使用过去一年内的记录。"
+            }
+          ],
+          "DIRECT_FULL": [
+            {
+              "index": 0,
+              "reason": "下一步依赖后续时段的记录，未限定在允许的过去一年资料范围内。"
+            },
+            {
+              "index": 1,
+              "reason": "要求后续相同季节窗口再次出现，超出了限定的过去一年资料检验范围。"
+            },
+            {
+              "index": 2,
+              "reason": "下一步使用后续公开汇总，未限定为过去一年内观察记录的补录。"
+            }
+          ]
+        }
+      ],
+      "evidence": "iterations/candidate15/tasks/Q05/task-and-pools.json"
+    }
+  ],
+  "interpretation": "The same archived P0/P1 proposals received inconsistent serious-violation judgments. Later judgments identified future-data next steps outside the permitted past-year scope. Both original reviews remain unchanged; no replacement judge or retroactive score adjustment. A new shared-prefix constraint repair requires new matched outputs and is not evidenced by these results.",
+  "candidate16_followup": {
+    "same_p0_as15": true,
+    "p1_changed": true,
+    "votes": [
+      "W",
+      "W"
+    ],
+    "serious_flags": [
+      {
+        "DIRECT_FULL": [],
+        "EXPAND": []
+      },
+      {
+        "EXPAND": [],
+        "DIRECT_FULL": []
+      }
+    ],
+    "evidence": "iterations/candidate16/tasks/Q05/task-and-pools.json",
+    "interpretation": "No serious flags in these two new reviews does not erase the prior flags on the unchanged shared P0."
+  }
+}

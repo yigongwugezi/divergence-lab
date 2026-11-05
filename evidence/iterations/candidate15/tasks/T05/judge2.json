@@ -1,0 +1,93 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Primary mechanisms are sequential gates, distributed evidence, paused replay, contrasting authority boundaries, claimant-presentation swaps, correction and confirmation loops, and prospective policy commitment. Candidates 6 and 7 refine their source mechanisms rather than introduce new ones. Candidate 6 best combines clear routine-versus-escalation practice, observable verification and listening, an actionable handoff with contact-failure handling, and individual unseen assessment. Its added handoff procedure remains bounded by volunteer authority."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints. Their distinct primary mechanisms are sequential gates, distributed evidence, paused replay, controlled presentation reversal, contrasting authority boundaries, externalized claims-versus-facts recording, and repairing premature commitments. Candidate 4 offers the strongest balance of feasible practice, explicit authority distinctions, required listening and verification, actionable escalation, and an individually assessed unfamiliar case."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly exceeds B4 in written task quality: both provide feasible contrasting-case training, but A6 makes unanswered or interrupted staff requests actionable without granting extra authority and assesses routine action, escalation, and interrupted handoff individually. These details address practical failure points; the advantage does not depend on length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

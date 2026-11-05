@@ -1,0 +1,16 @@
+{
+  "role": "N15_J1_a1",
+  "status": "complete",
+  "exit_code": 0,
+  "seconds": 21.38536369999929,
+  "usage": {
+    "input_tokens": 15945,
+    "cached_input_tokens": 8320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 517,
+    "reasoning_output_tokens": 153
+  },
+  "total_tokens": 16462,
+  "cash_cost": null,
+  "provider_request_count": null
+}

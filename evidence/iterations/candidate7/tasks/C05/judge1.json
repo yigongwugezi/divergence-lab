@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: personal learning records, collective questions, private recognition, volunteer modeling, organizational responsiveness, and hindsight perspective-taking. Candidate 0 best combines a concrete ritual, minimal preparation, explicit uncertainty, separate publication consent, and an inspectable comparison of learning, embarrassment, refusal handling, and delay."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable. Candidates 0 and 7 share the personal learning-record mechanism; comprehension checking refines it rather than creating another mechanism. The remaining mechanisms are collective questions, private recognition, volunteer modeling, decision rehearsal, organizational responsiveness, outcome normalization, and reciprocal correction. Candidate 7 best combines optional reflection, invited clarification, privacy review, capacity limits, explicit stopping conditions, and evaluation that checks understanding rather than positive ticks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A0 by checking whether visitors can articulate learning, allowing invited correction of misunderstandings, and specifying when queue pressure, privacy concerns, or challenged refusals stop the activity. These strengthen inspectability and practical safeguards while preserving the same low-pressure ritual. Its added clarification work is bounded and optional."
+    }
+  },
+  "format_retry_of": null
+}

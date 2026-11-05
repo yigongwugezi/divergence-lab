@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Four primary mechanisms: repeated matched-condition comparison; warranted mounting correction as a causal intervention; stopped-fan source isolation; and reversible airflow-loading perturbation. Candidate 4 strengthens candidate 1's mechanism rather than introducing another. It offers the best practical sequence, with preparation, bounded inspection and mounting repair, explicit diagnostic limits, safe escalation, and verification under conditions associated with the intermittent episodes. Candidates 2 and 3 are usable with their stated access and operating prerequisites."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 primarily uses repeated matched comparisons; candidate 1 uses warranted mounting correction as a causal intervention. Both respect the constraints. Candidate 1 provides a more inspectable repair decision with the available kit and basic meter, controls unrelated adjustments, and checks sustained improvement against a healthy reference while leaving uncertain imbalance versus bearing wear for specialist diagnosis."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 improves on B1 by explicitly preventing premature closure when intermittent triggering conditions have not recurred, requiring provisional reporting in that case, and specifying isolation if restart worsens vibration. These are substantive verification and safety improvements within the same feasible mechanism, rather than benefits from length or novelty alone."
+    }
+  },
+  "format_retry_of": null
+}

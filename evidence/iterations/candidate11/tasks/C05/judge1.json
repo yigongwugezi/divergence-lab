@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: personal learning records, collective questions, acknowledgment of care, volunteer modeling, organizational responsiveness, and hindsight perspective-taking. Candidate 0 best combines a concrete ritual, minimal resources, private participation, separate publication consent, and direct checks of learning, embarrassment, refusal handling and delay. Its explicit acceptance of 'nothing clear yet' reduces pressure to manufacture a lesson."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable. Candidates 0 and 7 share the personal learning-record mechanism; checking evidence improves that mechanism rather than creating another. The remaining mechanisms are collective questions, acknowledgment of care, volunteer modeling, decision rehearsal, organizational responsiveness, outcome normalization, and visitor correction rights. Candidate 7 is strongest because it distinguishes observations from guesses, provides an immediate fallback when evidence is unclear, and suspends offers during busy handbacks. Its pilot checks learning clarity, pressure, opt-outs and queue disruption. Other candidates have manageable limitations rather than definite serious violations."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A0's practical learning-slip ritual by explicitly preventing unsupported conclusions, including the mistaken inference that an unsuccessful intervention rules out a cause. It retains optional participation and publication consent while adding workable fallbacks and withdrawal criteria. The additional checking creates some workload, but existing notes, no-wait fallbacks and suspension during busy periods address it."
+    }
+  },
+  "format_retry_of": null
+}

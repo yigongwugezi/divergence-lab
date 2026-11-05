@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource, privacy and tracking constraints. Their primary mechanisms are recurring supply commitments, timed releases, universal flexible shares, staggered arrivals and weekly demand-responsive replenishment. Candidate 0 best supports predictable staple supply with manageable coordination, equal access and an inspectable trial. Its benefit depends on donors honoring commitments."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable under their stated prerequisites. Candidate 5 repairs recurring commitments rather than introducing a new mechanism; candidate 6 similarly refines the low-stock trigger mechanism. The other mechanisms are timed releases, universal flexible shares, loss prevention and staggered arrivals. Candidate 5 offers the best balance of predictable replenishment, simple equal-access allocation, explicit responsibility, bounded recovery work and measurable outcomes."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 with a concrete missed-delivery response, removal of stale expectations, a limit on replacement requests and a workload stop rule. These operational safeguards make the routine more feasible and inspectable while preserving the same primary mechanism and all hard constraints."
+    }
+  },
+  "format_retry_of": null
+}

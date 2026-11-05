@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer distinct workable mechanisms, subject to stated site prerequisites, and track waits, disputes and workload across two events. Candidate 0 is the strongest default: visible arrival order, simple staffing, accessible place preservation and emergency-route protection. Cohorts could improve turnover but require safe clearing; registers, priority shares and draws add administrative or dispute burdens."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 6 offers the most feasible default with explicit queue boundaries, accessible place preservation, clear staff roles and tracking of refused joins as well as waits, disputes and workload. Candidates 6 and 7 repair existing mechanisms rather than create new ones. Candidate 8 adds voluntary departure prompting as its primary intervention. Candidate 5 is conditionally usable only with credible turnover information, as explicitly required; it must otherwise not be trialed. No candidate definitely violates a hard constraint."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A0 by specifying when joining stops, preventing untracked overflow, defining reopening and recording displaced demand. These make emergency-access protection and its fairness costs more inspectable without adding substantial staffing complexity. Both retain the limitation that unrestricted visits can stall admission."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with distinct primary mechanisms: separate recipe juxtaposition, structured comparison, contributor-led variations, private reader participation, and reciprocal inquiry. Candidate 0 best balances an inviting celebration of existing differences, usable cooking instructions, low production burden, and traceable consent and proofing. No definite serious hard-constraint violation is present."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are usable. Candidates 0 and 5 share the separate-box juxtaposition mechanism; the others use structured comparison, contributor-led variations, selective excerpts, private reader participation, and reciprocal recognition. Candidate 5 is strongest: it preserves complete recipes and clear boundaries while making permission checks, editorial responsibility, interruption recovery, and the black-and-white copy ceiling explicit. Its added permission conversation improves the process without constituting a new mechanism."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 modestly improves on A0 through clearer sharing-authority checks, an explicit editorial handoff, renewed checks after interruption, and an explicit black-and-white limit. Both offer feasible, inviting concepts and checkable consent processes; B5 makes the production safeguards more inspectable without materially complicating the page."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve traceability, use existing resources, provide reversible procedures and measure the required outcomes over two weeks. Groups represent source-checked acceptance, fixed physical positions, one-sample labeling, stable spreadsheet identity, label issuance control, reduced transfers and label preservation. Custody, interruption and duplicate-handling refinements do not create separate primary mechanisms. Candidate 7 offers the strongest handoff procedure: independent source checks, explicit custody, ambiguity holds and evidence-backed corrections, with an inspectable comparison and workload safeguards."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five candidates satisfy the hard constraints. Their distinct primary mechanisms are source-checked acceptance, fixed physical positions, one-sample labeling, reduced transfers and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with modest operational requirements, preserved evidence, explicit acceptance and consistent two-week measurement. The alternatives depend more heavily on particular error causes or workflow prerequisites."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 by explicitly blocking acceptance when matching identifiers are ambiguous and defining custody and recovery after interruption. These actionable safeguards strengthen traceability and inspectability; its trial also measures the additional resolution burden. The advantage concerns operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Primary mechanisms are centralized return processing (0,5), visible shelving destinations (1), an on-site reserve (2), optional repair of existing disorder (3), reader condition screening (4), and a departure-time borrowing cue (6). Candidate 5 repairs candidate 0 rather than introducing a new mechanism. It is strongest because it specifies overflow handling, interrupted processing, workload limits and a simpler fallback, while checking availability, condition, cleanup and seated access."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Primary mechanisms are centralized return processing (0), visible shelving destinations (1), an on-site reserve (2), optional repair of existing disorder (3), and portable return reminders (4). Candidate 1 best combines immediate book availability with distributed tidying, optional classification, volunteer condition checks and a pilot that tests whether sorting consumes the saved effort. Candidate 3's invitation to handle damaged books warrants clearer boundaries but is not a definite serious hard-constraint violation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly beats B1 on operational feasibility and inspectability: it provides explicit responses to box overflow and unfinished work within the fixed volunteer allowance. B1 offers a plausible self-maintaining ritual, but its category maintenance adds work and its return-box capacity response is less developed. Neither proposal has demonstrated effects."
+    }
+  },
+  "format_retry_of": null
+}

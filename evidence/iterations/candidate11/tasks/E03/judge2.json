@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0, 1 and 4 share repeated matched comparisons followed by isolated inspection and warranted repair; emphasizing mounting correction does not create a separate primary mechanism. Candidate 2 tests transmitted vibration by removing local excitation, 3 perturbs airflow loading, and 5 observes the coastdown response. All are conditional, usable approaches without definite serious violations. Candidate 4 best combines diagnostic caution with an executable readiness gate, restoration cutoff, justified repair decisions and safe escalation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both use matched comparisons, isolated inspection and warranted mounting repair; the intervention emphasis is a repair and verification variation. Candidate 0 provides the stronger overall diagnostic sequence, explicitly addressing meter limitations and conditional evidence for all three faults while preserving ventilation and requiring escalation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 improves practical execution within the single 30-minute window through explicit repair prerequisites, an inspection cutoff tied to restoration time, and a clear inspection-only fallback. These strengthen feasibility and safe completion while retaining repeated evidence and cautious repair decisions."
+    }
+  },
+  "format_retry_of": null
+}

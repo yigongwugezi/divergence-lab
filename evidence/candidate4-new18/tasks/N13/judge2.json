@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide workable static-file workflows, source and review-date requirements, and tracking of stale answers, conflicts and reader failures. Candidates 1 and 6 share the dependency-register mechanism; 6 improves its coverage accounting and fallback checks rather than introducing a new mechanism. Candidate 6 is strongest overall because it explicitly handles unsupported existing answers, uninspected sections, uncertain source authority and undetectable archive changes while retaining a bounded weekly routine and inspectable closure checks."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the static-site and staffing constraints and include the required provenance and issue tracking. Their primary mechanisms are canonical answers, source-to-passage dependencies, renewal gates, source excerpts and decision tables. Candidate 1 offers the strongest general workflow: policy revisions produce concrete editing checklists, supplementary searches expose missing dependencies, and the pilot measures omissions and maintenance cost. Its main limitation is maintaining complete coverage within two hours."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 strengthens the same practical mechanism as B1 with explicit coverage states, an initial provenance gate, authority handling, a fallback when archive changes cannot be identified, and public-result checks before closing issues. These address concrete correctness and maintenance gaps; the advantage does not depend on length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

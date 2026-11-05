@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly addresses acoustic and crowd exposure through an accessible layout using the stated resources, with voluntary universal access and an inspectable comparison of use, spillover and effort across both afternoons. Candidate 5 refines the same placement mechanism; its separate-day comparison is more vulnerable to changing fair conditions. Other mechanisms are behavior agreements, voluntary turnover, source-volume reduction, capacity information and experience predictability. Candidate 3 is conditional on existing operator cooperation, not a definite extra-staff violation."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the strongest direct combination of feasible quiet-space layout and inspectable trial within the stated resources. All candidates preserve voluntary universal access and compare use, spillover and volunteer effort. Their distinct mechanisms are placement, behavior agreements, voluntary turnover, source-volume reduction and experience predictability. Candidate 3 explicitly depends on cooperation from existing operators and is conditionally feasible."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The selected proposals are identical and equally satisfy the task: a dignified accessible layout, realistic acoustic limitations and a two-afternoon comparison covering all required outcomes. Neither supplies observed results."
+    }
+  },
+  "format_retry_of": null
+}

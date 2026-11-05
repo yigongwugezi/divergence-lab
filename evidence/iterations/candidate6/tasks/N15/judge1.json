@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency overrides and compare the three requested outcomes over two weeks. Mechanisms are first-entry reservations, rotating periods, recent-use priority, flexible scheduling and bounded-loan queuing. Candidate 3 best combines early conflict resolution, opportunities to preserve both trips and explicit, consistent measurement; its evening discussion adds effort that the trial measures."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with differing coordination burdens. Candidate 5 repairs reservation conflict resolution rather than introducing a distinct primary mechanism; credits introduce a separate allocation mechanism. Candidate 3 offers the strongest combination of feasible scheduling, confirmed private time windows and inspectable outcomes. Candidates 5 and 6 measure only contested idle booking time, weakening their coverage of overall idle time."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B3 narrowly improves on A3 through explicit schedule selection, confirmation, rotating responsibility and checks for displaced long trips. Its comparison against simple reservations tests the added value of flexibility more directly. The extra scheduling effort remains a practical tradeoff, not an established benefit."
+    }
+  },
+  "format_retry_of": null
+}

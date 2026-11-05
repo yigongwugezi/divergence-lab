@@ -1,0 +1,69 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Four primary mechanisms: physically contrast moving attributes with moving complete records; audit and reconstruct against authoritative evidence; reverse recorded movements; recompute from retained redundancy. Candidate 3 changes the audit route's recovery conditions rather than introducing a separate reconstruction mechanism. Candidate 4 is strongest: its paper exercise directly demonstrates the cause, verifies identity independently of row position, and individually checks valid-table recognition, specific mismatches, complete repair and safe sorting within 29 minutes. All candidates satisfy the hard constraints on paper; none claims observed results."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "The primary mechanisms are physical movement contrast, specification-based auditing, reversal of recorded movements, and reconstruction through a known arithmetic relationship. Candidate 1 offers the strongest balance of beginner feasibility and inspectability: authoritative cards support reliable repair, while the individual check requires accepting a valid sort, identifying concrete mismatches and restoring all eight records within 28 minutes. Candidate 2 adds logging demands; candidate 3 adds arithmetic and a special recovery relationship. Neither is a hard-constraint violation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 combines a direct physical explanation of how associations break with a stronger transfer check: learners distinguish legitimate reordering from corruption, repair by stable identity and demonstrate safe sorting. B1 provides a clear, feasible audit-and-repair lesson, but its causal demonstration and final assessment of safe sorting are less direct. The advantage concerns instructional alignment and observable performance, not length or demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

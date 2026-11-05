@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are reversible, preserve original identity evidence, use existing resources and measure the required outcomes over two weeks. Their primary mechanisms are source verification, stable physical positions, single-sample labeling, fewer custody changes and batch identity reconciliation. Candidate 0 best directly addresses handoff errors with a feasible, inspectable acceptance check and consistent comparison audits."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Candidates 4 and 7 refine source-checked acceptance; candidate 8 refines single-sample labeling. The other distinct mechanisms are stable physical positions, fixed spreadsheet identities, label issuance accounting, fewer custody changes and label preservation. Candidate 7 offers the strongest handoff procedure: explicit custody, independent source checks and containment when identifiers do not uniquely identify a sample, with observable costs and reversal criteria."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 modestly improves on A0 by specifying custody during interrupted checks and blocking acceptance of ambiguous duplicate identities. These operational safeguards strengthen traceability without requiring new equipment, while retaining a comparable two-week evaluation. Its advantage is clearer handling of failure cases, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

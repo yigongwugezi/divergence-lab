@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the service limits and check navigation, waiting confusion and privacy concerns. Candidates 3 and 6 refine the anonymous-queue/private-orientation flow through stronger audibility conditions and a closing-capacity fallback; these are operational repairs rather than distinct primary mechanisms. The other groups use optional self-service, shared welcomes, referral rehearsal, volunteer calibration and privacy recovery. Candidate 6 offers the strongest complete flow: accessible anonymous waiting, conditional use of the corner, clear advice boundaries and an explicit fallback when individual service cannot be completed."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with spatial feasibility explicitly conditional in candidate 4. Their primary mechanisms are anonymous turns with individual orientation, optional self-service, shared welcomes, case-free information navigation and physical waiting separation. Candidate 3 most directly reduces disclosure pressure by making assistance executable without a personal account. It includes accessible requests, anonymous waiting, respectful redirection, qualified-help boundaries and inspectable failure criteria while acknowledging referral gaps."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A6 provides stronger capacity management and closing-time navigation; B3 provides stronger information minimization and less dependence on confidential space. Both offer feasible, inclusive flows within two-volunteer limits, acknowledge referral uncertainty and test the required outcomes. Neither has a decisive overall advantage in written task quality."
+    }
+  },
+  "format_retry_of": null
+}

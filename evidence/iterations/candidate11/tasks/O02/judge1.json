@@ -1,0 +1,95 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven offer distinct, feasible mechanisms using notes and calendars, voluntary ownership and due dates, with completion, rework and burden comparisons. Candidate 0 is the strongest general starting point: explicit acceptance, bounded workload and visible unclaimed decisions address unreliable commitments with little coordination overhead. Its burden measurement would be stronger if it included execution time."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidate 7 repairs the explicit-acceptance queue rather than introducing a distinct primary mechanism, so it belongs with 0. The other mechanisms are distributed coordination, protected execution time, misunderstanding prevention, delegated authority, prerequisite readiness, contingency activation and recurring routines. Candidate 7 best combines a lightweight general mechanism with explicit handling of stalled or withdrawn commitments, preserved original targets and measurement of total volunteer effort."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A0 by specifying recovery without making the chair responsible, while retaining voluntary acceptance and the same meeting allowance. Its comparison includes execution effort, recovery discussion, cancellations and original commitments, making benefits and displaced burden more inspectable. The advantage is practical completeness, not an additional mechanism."
+    }
+  },
+  "format_retry_of": null
+}

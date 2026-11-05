@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the stated constraints and track the four required measures. Their primary mechanisms are recurring supply commitments, timed releases, voluntary category shares, staggered arrivals and weekly demand-responsive replenishment. Candidate 0 best addresses predictable staple supply with manageable coordination and transparent availability; the alternatives depend more on specific arrival patterns, donor responsiveness or allocation tradeoffs."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, although loss prevention and meal suggestions help mainly when their diagnosed problems exist. Candidates 0 and 5 share the recurring-commitment mechanism; missed-delivery recovery is an operational repair, not a distinct mechanism. The other mechanisms are timed releases, voluntary category shares, low-stock-triggered requests, prevention of shelf losses and optional meal-use guidance. Candidate 5 best combines predictable replenishment, equal access, explicit responsibility, capacity-aware recovery and inspectable burden limits."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 by assigning ownership and specifying how missed commitments are closed, replaced or removed from dependable planning. It also checks duplicate deliveries and donor burden. These practical safeguards strengthen feasibility and reliability without requiring cash, extra storage, recipient identification or mandatory extra trips."
+    }
+  },
+  "format_retry_of": null
+}

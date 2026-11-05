@@ -1,0 +1,10 @@
+{
+  "role": "0f21f35c7318ee9bc732_a1",
+  "status": "failed",
+  "exit_code": 1,
+  "seconds": 11.464986600003613,
+  "usage": null,
+  "total_tokens": null,
+  "cash_cost": null,
+  "provider_request_count": null
+}

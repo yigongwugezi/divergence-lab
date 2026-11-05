@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with no definite serious hard-constraint violations. Their primary mechanisms are shared vocabulary exchange, spatial selection, substitution, sound association, chance ordering, subtraction, and reciprocal continuation. Candidate 1 best balances accessible composition, private participation, feasible board use, and modest observation with explicit limits on interpreting display counts."
+      },
+      "B": {
+        "best": 9,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Candidates 7 and 8 refine the map and substitution mechanisms rather than introduce new ones. Concealed independent contributions, question–answer composition, and expressive typography are distinct mechanisms. Candidate 9 offers a simple subtraction procedure that explicitly retains at least two words, avoids attachment dependencies, permits private participation, and provides feasible observation and clear stopping conditions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B9 more directly specifies combining multiple incidentally overheard words, while keeping the procedure flexible and feasible with the stated materials. Its optional comfort feedback and operational stopping conditions make the proposal slightly more inspectable than A1, although neither trial can establish comparative effectiveness or silent visitors’ comfort."
+    }
+  },
+  "format_retry_of": null
+}

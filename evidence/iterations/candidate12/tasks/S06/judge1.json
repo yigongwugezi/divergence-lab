@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the volunteer boundary and avoid mandatory registration or public case triage. Their primary mechanisms are anonymous queue access, visitor-controlled browsing, shared welcome rounds, information minimization, and spatial separation. Candidate 0 offers the strongest overall balance: a clear, inclusive arrival flow, explicit privacy fallback, qualified-help directions and observable checks of navigation, waiting confusion and privacy concerns. Referral adequacy remains conditional on existing materials."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, with stated limits on privacy, legal advice and referral availability. Primary mechanisms are anonymous queue access (0,6), visitor-controlled browsing (1), shared welcome rounds (2), environmental audibility control (3), referral rehearsal (4,7), volunteer decision calibration (5), and uniform handout distribution (8). Missed-turn recovery and interruption handling refine their source mechanisms rather than create new ones. Candidate 6 best combines an inclusive first-visit flow with explicit ownership of interrupted turns, privacy safeguards, qualified-help directions and inspectable failure checks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 preserves A0’s practical anonymous-access flow and adds a concrete recovery rule for missed calls and interrupted handoffs. That addresses foreseeable waiting confusion and pressure to explain personal needs publicly, using the same resources. Its rehearsal directly checks those failure points as well as the required outcomes; the advantage is operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

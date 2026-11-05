@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, avoid clinical changes, use available resources, and include private one-month retrieval and misfiling checks. Mechanisms are fixed-home storage (0 and its identifier repair 6), locator indexing, checkout tracking, whole-folder transport, recovery sweeps, receipt reconciliation, and consultation at storage. Candidate 0 offers the strongest general-purpose balance of simplicity, likely benefit and inspectability; the others add maintenance or depend on particular loss patterns or suitable reading conditions."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints and provide private one-month checks. Their primary mechanisms are fixed-home storage, locator indexing, checkout tracking, whole-folder transport, and collection/transport reconciliation. Candidate 0 provides a clear destination and straightforward retrieval with little recurring administration. Alternatives are feasible but require additional upkeep or assumptions about where losses occur."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0. It supplies an executable, owner-controlled retrieval system with concealed labels and private outcome measurement, while clearly acknowledging that envelopes cannot prevent deliberate access."
+    }
+  },
+  "format_retry_of": null
+}

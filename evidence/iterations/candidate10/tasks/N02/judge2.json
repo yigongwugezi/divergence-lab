@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, use existing resources, provide reversible procedures and measure the three required outcomes over two weeks. Candidate 4 refines candidate 0's explicit custody acceptance with interruption recovery; this is not a separate primary mechanism. Other groups address stable physical positions, single-sample labeling, stable spreadsheet identity, label issuance inventory, fewer transfers and physical label durability. Candidate 0 offers the strongest direct fit to handoff errors, with independent source checks, clear exception handling and comparable audits. Other mechanisms depend more heavily on an unconfirmed failure source or workflow prerequisite."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints and support reversible two-week trials. Their distinct primary mechanisms are source-checked acceptance, fixed physical positions, single-sample labeling, reduced custody changes and batch identifier reconciliation. Candidate 0 provides the strongest direct, feasible intervention for handoff errors with inspectable independent checks. Candidate 4 appropriately discloses that complete swaps evade its reconciliation; candidate 3 depends on both technicians being qualified for end-to-end processing."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical source-checked handoff proposal and experiment, so their best proposals have equal written task quality."
+    }
+  },
+  "format_retry_of": null
+}

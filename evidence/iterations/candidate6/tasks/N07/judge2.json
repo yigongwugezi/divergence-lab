@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: deadline clearance, paper reminders, voluntary cancellation, retrieval-error correction, deferred activation, and authorized collection. Candidate 0 offers the most direct, inspectable shelf-space benefit, with a workable daily budget, notification and extension safeguards, private phone-free collection, and separate tracking of occupancy, pickups and mistaken releases. Shortening is conditional on policy; consistent existing-deadline clearance remains executable."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and have distinct primary mechanisms: deadline clearance, paper reminders, voluntary cancellation, faster retrieval, and authorized collection. Candidate 0 best combines direct shelf-space recovery, feasibility and explicit release checks with the required three-week measurements. The other mechanisms depend more on unverified patron barriers or existing authorization procedures."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a practical, conditional workflow with strong error checks and appropriately distinguish shelf-space recovery from improved pickup outcomes."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 offers the clearest novice process: controlled setup correction and filament substitution with explicit acceptance criteria, resource records and cautious interpretation. Candidate 1 requires reproducible historical records; 2 localizes failing functions but provides weaker causal separation; 3 checks instruction-to-print conformance but depends on early, small-footprint failures and direct evidence."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 4 best combines controlled causal comparison, novice feasibility and inspectability. Its approved loading/purge prerequisite prevents an invalid filament comparison, while preserving the three-start limit and recording total consumption. Candidate 5 repairs the historical-control route rather than adding a mechanism. Spatial localization, job-prefix comparison and tracing existing failure evidence are distinct mechanisms, each usable within its stated limits."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 improves A0's diagnostic validity by explicitly checking filament-transition completion and stopping when that comparison is invalid. This is a practical constraint-compatible improvement, with purge time and material accounted for, rather than a benefit from additional length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

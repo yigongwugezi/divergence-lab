@@ -1,0 +1,61 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect isolation, ventilation continuity, repeated evidence and safe escalation. Their primary mechanisms are matched-condition comparison, mounting correction as an intervention, stopped-source isolation, reversible airflow excitation, and historical repair-response inference. Candidate 0 offers the strongest broadly feasible sequence using the stated resources, acknowledges meter limitations, and links corroborated findings to justified repair or specialist handoff. The alternatives are useful but depend more on specific defects, controls, transmitted vibration or informative records."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are safe and feasible. Candidate 0 uses repeated matched comparisons followed by prioritized inspection; candidate 1 uses a warranted mounting correction as a causal intervention. Candidate 0 is the stronger general diagnostic plan across all three requested causes, while candidate 1 is especially useful when a mounting defect is found."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical candidate 0, so their best proposals have equal written task quality."
+    }
+  },
+  "format_retry_of": null
+}

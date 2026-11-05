@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, allow emergency use and compare the three required outcomes over two weeks. Their primary mechanisms are advance reservations, rotating priority, recent-use fairness, flexible-window scheduling and a bounded waiting queue. Candidate 0 best balances low effort, irregular trip lengths, early conflict visibility and inspectable results. Candidate 3 could preserve more trips when schedules are flexible, but requires more shared discussion."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints. Candidate 5 modifies advance reservations with expiring holds rather than introducing a distinct primary mechanism. The other mechanisms are rotating priority, recent-use fairness, bounded queued borrowing, private demand consolidation and booking-hour allowances. Candidate 0 offers the strongest low-friction default. Expiry checks, consolidation and quota accounting have plausible benefits but depend on unestablished household conditions and add effort."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' best proposal is the identical reservation routine, with clear privacy and emergency rules and a suitably cautious two-week comparison of missed trips, idle time and coordination effort."
+    }
+  },
+  "format_retry_of": null
+}

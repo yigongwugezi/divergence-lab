@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve destination privacy, permit emergency use and compare the three required measures over two weeks. Mechanisms are first-entry reservations, rotating priority, usage-based priority, flexibility-based scheduling and bounded-loan queuing. Candidate 0 offers the clearest low-friction default without assuming flexible departures or short trips."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and meet the hard constraints. Candidate 5 repairs first-entry reservations rather than introducing a new mechanism. The other mechanisms are rotating priority, usage-based priority, flexibility-based scheduling, bounded-loan queuing and voluntary demand reduction. Candidate 5 best addresses dependable access through explicit return-deadline acceptance and concrete recovery when lateness disrupts another trip, with inspectable costs and limitations."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best narrowly improves on A's simple reservations by addressing late returns, a direct source of last-minute conflicts. Its additional rules apply chiefly when reliability fails, and its experiment tracks the resulting waiting, idle time and rejected requests. The advantage is practical failure handling, not greater length or a new mechanism."
+    }
+  },
+  "format_retry_of": null
+}

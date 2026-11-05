@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide executable, conditional mechanisms within the resource and timing limits, with two-rehearsal evaluation plans. Candidate 3's movement in darkness creates uncertainty but includes bounded routes, rejection conditions and recovery, so it is not a definite violation. Candidates 0 and 5 share the light-handoff mechanism; arrival checks and fallbacks do not create a new mechanism. Candidate 5 best combines a clear destination signal, lamp-operability checks, arrival confirmation, timing margin and an executable fallback."
+      },
+      "B": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates condition feasibility on available space or lighting and evaluate comprehension, load and repeatability across two rehearsals. Their primary mechanisms are distinct: light handoff, social geometry, repeated movement, dark punctuation and shadow architecture. Candidate 3 provides a simple reusable scene boundary, keeps performers stationary during darkness, preserves safety lighting and specifies three timed runs plus clear rejection criteria."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A5 offers a stronger spatial destination signal and explicit fallback, but requires distinguishable lighting areas and an additional readiness cue. B3 offers simpler movement and particularly inspectable repetition checks, but depends on a perceptible dark interval and communicates only a scene boundary. Both are concrete, feasible under stated checks and responsive to the required evaluations; neither clearly dominates."
+    }
+  },
+  "format_retry_of": null
+}

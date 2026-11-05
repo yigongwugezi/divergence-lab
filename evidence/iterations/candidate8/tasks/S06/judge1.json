@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable. Their primary mechanisms are anonymous turn allocation with individual orientation, visitor-controlled browsing, shared welcome rounds, case-information minimization, and spatial separation. Candidate 0 offers the strongest overall balance: accessible waiting instructions, explicit advice boundaries, conditional use of the corner, qualified-help referrals and directly observable checks."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight are usable. Candidates 3 and 6 refine candidate 0's anonymous-queue and individual-orientation flow through audibility conditions and closing-time capacity management; these are operational repairs rather than distinct primary mechanisms. Other groups use visitor-controlled browsing, shared welcomes, referral rehearsal, volunteer boundary calibration and visitor-triggered recovery. Candidate 6 best combines the accessible baseline with an executable closing-time fallback and checks that distinguish clearer waiting from reduced access. Referral availability remains conditional on existing materials."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 preserves A0's privacy and accessibility protections while addressing a concrete navigation failure: waiting until closing without service or a clear next step. Its fallback and separate accounting for deferrals make the improvement feasible and inspectable without requiring public case triage."
+    }
+  },
+  "format_retry_of": null
+}

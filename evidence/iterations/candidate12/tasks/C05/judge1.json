@@ -1,0 +1,91 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All six are usable and have distinct primary mechanisms: personal learning closure, shared questions, private recognition, volunteer modeling, organizational responsiveness, and hindsight perspective-taking. Candidate 0 best combines a concrete optional ritual, minimal resources, permission-controlled sharing, an honest 'nothing clear yet' option, and direct evaluation of learning, embarrassment, refusals and queue impact."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All nine are usable. Candidates 0 and 7 share the personal learning-closure mechanism; factual checking is a safeguard, not a new mechanism. The other mechanisms are shared questions, private recognition, volunteer modeling, decision rehearsal, organizational responsiveness, outcome normalization, and editorial agency. Candidate 7 is strongest: it preserves optional private participation while checking public claims, caps publication work, assigns responsibility, and provides a private-only fallback. Its pilot directly inspects learning, pressure, opt-outs, delays and unsupported claims."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A0 by making factual support for public lessons inspectable and specifying what happens when checking fails. Its workload cap and private-only fallback keep the added safeguard feasible. Both evaluate learning versus embarrassment without treating participation as proof of comfort."
+    }
+  },
+  "format_retry_of": null
+}

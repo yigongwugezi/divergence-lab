@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and privacy limits and check availability, condition, cleanup and seated access. Their primary mechanisms are centralized return processing, visible reshelving destinations, an on-site reserve, optional shared tidying and portable return reminders. Candidate 0 offers the clearest borrowing ritual and predictable volunteer workflow, with observable failure criteria."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidate 5 repairs candidate 0's centralized return mechanism with capacity limits and recovery gates; it is not a distinct mechanism. The other mechanisms are visible reshelving destinations, an on-site reserve, optional shared tidying, reader damage screening and controlled donation intake. Candidate 5 best addresses return overflow, temporary unavailability and the fixed volunteer budget while specifying measurable stop conditions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 improves on A0 by checking return capacity before launch, limiting intake and explicitly stopping or reverting when overflow, access or workload fails. These concrete feasibility safeguards give it a modest advantage, despite added complexity and the fallback's reduced condition screening."
+    }
+  },
+  "format_retry_of": null
+}

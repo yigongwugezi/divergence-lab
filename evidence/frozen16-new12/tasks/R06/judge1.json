@@ -1,0 +1,67 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All use fabricated eight-row data, work on paper, and assess detection and actual repair within 30 minutes. Groups distinguish reference-backed record reconstruction, reversal of recorded movements, and reconstruction from a trustworthy internal relationship. Specification cards change the reference-based activity rather than establish a separate primary mechanism. Candidate 0 offers the clearest physical explanation of detached associations with low prerequisite demands and an observable repair-and-sort check. Candidate 2 adds tracking burden; candidate 3 risks measuring arithmetic more than spreadsheet understanding."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All satisfy the hard constraints on paper and include assessable repair within 30 minutes. Groups distinguish reference-backed reconstruction, movement-history reversal, judgments about sufficient recovery evidence, and recomputation from surviving data. Candidate 4 improves the reference-based exercise without creating a new mechanism: stable-token verification separates record identity from row position. Its individual check includes a valid reordered table, specific mismatches, complete repair and safe sorting, making success and false alarms inspectable. Its nine-minute assessment is demanding but plausible for eight records."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best proposal retains A's direct physical demonstration and adds explicit verification by identity plus a valid-table control. These address a consequential beginner misconception and make the learning check more diagnostic. The advantage is in the written teaching and assessment design; no empirical superiority is established."
+    }
+  },
+  "format_retry_of": null
+}

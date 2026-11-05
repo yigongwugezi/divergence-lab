@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, avoid changing medical advice, use available resources and include private one-month retrieval and misfiling checks. Candidate 0 offers the strongest general solution: a predictable destination with little maintenance. The alternatives depend more on particular loss routes or additional habits. Privacy is appropriately limited to concealment from casual view."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without definite serious hard-constraint violations. Candidate 6 retains candidate 0's primary fixed-home mechanism; its recovery rule is a repair rather than a distinct primary mechanism. It best combines simple storage, owner-controlled recovery, professional replacement guidance and inspectable private baseline and one-month checks. Other groups address indexing, circulation signals, keeping sheets with the folder, periodic recovery, receipt reconciliation and disposal interception."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 narrowly improves on A0 by specifying what happens when instructions remain missing, preserving unresolved status and directing the owner to the issuer without reconstructing advice. Its private baseline and follow-up checks also cover missing and misfiled sets explicitly. The added procedure is occasional and includes a simplification rule, making the improvement practical rather than merely longer."
+    }
+  },
+  "format_retry_of": null
+}

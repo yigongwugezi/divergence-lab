@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect owner control, avoid changing medical advice, and include private one-month retrieval and misfiling checks. Their primary mechanisms are fixed storage, a locator index, checkout signals, keeping sheets with a portable folder, and receipt/transport reconciliation. Candidate 0 offers the strongest broadly applicable balance of simplicity, privacy and likely retrieval benefit; the others depend more on particular loss patterns or additional habits."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with no definite serious hard-constraint violations. Candidates 0 and 6 share the fixed-storage mechanism; 6 adds a recovery rule and stronger evaluation rather than a distinct primary mechanism. The remaining mechanisms are a locator index, checkout signals, carrying the folder, periodic recovery sweeps, and receipt reconciliation. Candidate 6 best combines simple storage, explicit owner-only recovery, appropriate professional clarification, and private baseline and one-month checks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 preserves A0's feasible storage mechanism while making failed retrieval and uncertain completeness actionable without guessing medical instructions or inspecting another person's papers. Its baseline loss counts and month-end misfiling audit also make the result more inspectable. These substantive improvements give B the edge, independently of length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

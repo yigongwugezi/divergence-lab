@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve static publishing, require named sources and review dates, and track all three required failure types. Their primary mechanisms are canonicalization, dependency mapping, scheduled renewal, source excerpts, and decision tables. Candidate 0 offers the strongest general maintenance benefit within two hours by removing duplicate substantive edits, with a concrete register and inspectable pilot."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and address the hard constraints. Candidates 0 and 6 share canonicalization as their primary mechanism; the source-conflict gate is a correctness improvement, not a separate mechanism. The remaining mechanisms are dependency mapping, scheduled renewal, source excerpts, reader-language navigation, grouped publication, and claim retirement or narrowing. Candidate 6 combines reduced duplication with explicit checks on source authority, bounded weekly work, and an inspectable pilot covering ambiguity and interruption."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves A0's canonical-answer workflow by explicitly preventing a newer but non-governing memo from becoming centralized guidance. Its unresolved-source handling and interruption check improve correctness and inspectability while retaining the same static-site infrastructure and two-hour budget. The advantage comes from that concrete safeguard, not additional length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

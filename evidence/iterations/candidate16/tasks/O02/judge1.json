@@ -1,0 +1,97 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All seven are feasible, distinct primary mechanisms using available resources, voluntary ownership and due dates. Candidate 0 is the strongest general starting point: explicit acceptance, bounded work, capacity limits and visible unclaimed actions address commitment failures with little coordination overhead. Its trial measures completion, rework and administrative burden, though total execution time would improve burden measurement."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated applicability limits. Candidate 7 repairs the acceptance queue rather than introducing a new primary mechanism; likewise, candidate 8 refines bounded delegation. Candidate 7 is strongest because it combines voluntary, capacity-limited commitments with explicit withdrawal and reassignment, preventing interrupted work from silently reverting to the chair. Its comparison includes paused and unclaimed work, original deadlines, rework and each volunteer's execution and coordination burden."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 improves on A0 with a practical release procedure that preserves consent and makes interrupted ownership inspectable without chair chasing. It also measures volunteer burden more completely. The improvement is modest but directly relevant to the task; neither proposal establishes effectiveness before the trial."
+    }
+  },
+  "format_retry_of": null
+}

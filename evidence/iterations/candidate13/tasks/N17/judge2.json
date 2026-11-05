@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide conditional, inclusive arrangements with two-attendant roles, protected emergency access and evaluation across two events. Candidate 5 is usable only with credible turnover information and explicitly prohibits operation without it. Candidates 6 and 7 repair their source mechanisms rather than introduce new ones. Candidate 6 is best: straightforward arrival-order admission, accessible place preservation, explicit recovery from uncertain occupancy and a clear end-of-hour handoff make it feasible and inspectable."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates address accessibility, emergency access, two-attendant operation and two-event measurement without definite serious violations. Candidate 0 offers the strongest balance of transparent fairness, low administrative burden and operational feasibility. The alternatives introduce transition, notification, classification or draw administration burdens without an established compensating benefit."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves on B0 through concrete admission pauses, verified occupancy recovery, explicit responsibility transfer and end-of-hour closure or handoff. These address practical safety gaps while retaining the same simple, inclusive queue mechanism and acknowledging limited evidence from two events."
+    }
+  },
+  "format_retry_of": null
+}

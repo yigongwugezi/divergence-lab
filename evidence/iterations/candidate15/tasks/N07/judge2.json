@@ -1,0 +1,77 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve privacy, phone-free collection, the daily time cap and required trial measurements. Groups represent expiration clearance, paper reminders, voluntary cancellation, retrieval-error correction and collection of additional ready holds. Candidate 6 best balances feasible delivery during existing visits, actual pickups, space recovery and inspectable checkout outcomes. It includes explicit handling of missing items, checkout failures and unfinished work; benefit depends on additional ready holds not already being routinely offered."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within their stated prerequisites, with no definite serious hard-constraint violation. Their primary mechanisms are expiration clearance, paper reminders, voluntary cancellation, faster retrieval and authorized proxy collection. Candidate 2 directly addresses stale demand through private, explicit consent during existing visits, with bounded work and separate measurement of cancellations, pickups and occupancy. Its main weakness is less explicit recovery when cancellation succeeds but physical removal cannot be completed."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 offers a practical opportunity to increase actual pickups and free space during visits already occurring, with clear consent, item checks, exception ownership and stopping rules. B2 is also sound, but its cancellation-to-removal workflow leaves interrupted or unsuccessful physical retrieval less fully addressed. Both proposals appropriately acknowledge limited reach and uncertain benefit."
+    }
+  },
+  "format_retry_of": null
+}

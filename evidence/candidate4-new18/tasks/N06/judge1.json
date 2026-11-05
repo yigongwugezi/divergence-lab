@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer distinct, concrete mechanisms with conditional equipment requirements, clear aisles and sub-40-second targets. Their rehearsal plans address comprehension, load and repeatability, though some measure load less explicitly at rehearsal two. Candidate 0 best balances readable relocation, modest performer demands and straightforward operation; shadow scenery has greater optical uncertainty."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All are usable subject to their stated feasibility checks. Concealed repositioning, release from character and lighting punctuation have different primary mechanisms. Candidates 0 and 5 share light handoff; arrival checks and fallback procedures do not create a new mechanism. Candidate 5 offers the strongest balance of clarity, feasibility and inspectability through an explicit arrival cue, lamp checks, timing margin and evaluation at both rehearsals. Candidate 3's movement in darkness warrants its specified visibility and footing checks, but is not a definite hard-constraint violation."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 narrowly improves on A0 through an observable arrival cue, an executable fallback and explicit comprehension and performer-load measurements at both rehearsals. Its additional cue introduces a real burden, but its comparison plan directly tests whether that burden earns a benefit."
+    }
+  },
+  "format_retry_of": null
+}

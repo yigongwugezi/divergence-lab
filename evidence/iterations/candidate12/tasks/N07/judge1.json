@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the time, privacy, phone-free pickup and trial measurement constraints, with prerequisites stated where needed. Mechanisms are deadline clearance, paper reminders, voluntary cancellation, faster retrieval and authorized collection. Candidate 0 best directly addresses scarce shelf space with a workable daily allocation, notification-aware deadlines, release checks and separate pickup measurement. Its guarded shorter-window option requires policy permission and monitoring for reduced pickups."
+      },
+      "B": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and include the required safeguards and measurement. Candidates 2 and 4 share voluntary cancellation as their primary mechanism; interruption-safe completion improves that mechanism rather than creating another. Other mechanisms are deadline clearance, paper reminders, retrieval-error correction and immediate collection during an existing visit. Candidate 5 best combines feasible existing resources, preserved collection entitlements, verified actual pickups, a capped workload and an inspectable comparison."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B5 frees shelf space by completing borrowing during an existing visit, directly addressing abandonment while preserving normal deadlines. Its private offer, checkout verification, interruption handling and measurement make the workflow practical and inspectable. A0 is sound but primarily clears expired holds sooner and may reduce collection opportunities; its likely benefit is more narrowly shelf occupancy."
+    }
+  },
+  "format_retry_of": null
+}

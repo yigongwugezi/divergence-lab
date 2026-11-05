@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource and privacy constraints and check availability, condition, effort and seated access. Primary mechanisms are centralized return processing (0,5), labelled reshelving (1), an on-site reserve (2), optional shared tidying (3), reader damage screening (4), and limiting simultaneous browsing (6). Candidate 5 best combines a simple borrowing ritual with bounded volunteer work, interruption recovery and explicit overflow failure criteria. Its fallback adds complexity but addresses a practical weakness in 0."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable. Their primary mechanisms are centralized return processing (0), labelled reshelving (1), an on-site reserve (2), optional shared tidying (3), and portable return reminders (4). Candidate 0 offers the clearest low-burden ritual and predictable inspection workflow, with relevant pilot measures and an explicit seated-access check. The others depend more on classification, voluntary extra effort, distinguishing borrowing permissions or remembering a portable cue."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 narrowly improves on B0 by specifying how volunteers stop within 15 minutes, contain unfinished processing and respond to a full return box. Both cover the required checks and acknowledge pilot limitations; A5 makes capacity failure more actionable, despite a more complicated fallback."
+    }
+  },
+  "format_retry_of": null
+}

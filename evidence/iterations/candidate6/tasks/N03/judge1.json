@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five provide a 50-minute, paper-based lesson with novice instruction, unseen-chart transfer and timing. Their primary mechanisms are physical perturbation, claim auditing, prediction and distribution reveal, error repair, and numerical consequence comparison. Candidate 1 best balances direct relevance, manageable arithmetic, explicit claim justification and inspectable transfer before discussion. Candidate 4 is usable but its distance calculations risk crowding out interpretation."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight satisfy the stated constraints on paper, subject to their explicit dataset prerequisites. Their primary mechanisms are physical perturbation, claim auditing, prediction and distribution reveal, count reconstruction, calculation scaffolding, information-boundary decisions, retrieval with correction, and numerical consequence comparison. Candidate 1 offers the strongest balance of feasibility, direct claim evaluation and observable individual transfer, including timing and a question where the mean is useful. Other routes add plausible benefits but greater arithmetic, preparation or procedural burden."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical: candidate 1 in each pool. Both directly teach mean–median comparison and assess justified interpretation on an unseen chart within a recorded time limit."
+    }
+  },
+  "format_retry_of": null
+}

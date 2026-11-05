@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide safe, repeated sampling and address timing, calibration and runoff without claiming a biological cause from one reading. Primary mechanisms are matched-time comparison, runoff gradient, probe-procedure artifact, vertical redistribution and temperature-dependent solubility. Candidate 4 improves the matched-time plan with a bounded calibration-failure recovery rule that preserves sampling windows and keeps invalid readings separate. Its core procedure uses the stated resources; the capability-dependent alternatives have explicit stopping conditions."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the safety and repeat-check requirements. Their primary mechanisms are matched-time comparison, runoff gradient, temperature-dependent solubility and vertical redistribution. Candidate 0 offers the strongest broadly feasible core plan without depending on temperature outputs, depth reach or a distinct runoff gradient. The other proposals remain usable because they state their prerequisites and limits."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A4 narrowly improves on B0 through an explicit, feasible response to calibration failure: one approved recovery attempt, replacement measurements only within the original window, and rejection of earlier invalid readings. This makes handling compromised observations more inspectable while retaining the same safe matched-time wet–dry design."
+    }
+  },
+  "format_retry_of": null
+}

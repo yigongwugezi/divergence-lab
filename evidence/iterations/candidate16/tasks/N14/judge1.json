@@ -1,0 +1,81 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve source separation, dates and exceptions, provide an update rule, and test unfamiliar-item decisions and appropriate asking without claiming authority. Their primary mechanisms are terminology comparison, procedural routing, contrast learning, corrective teach-back, and preventive shortcut correction. Candidate 0 most directly addresses comparing different terms, with an inspectable crosswalk and a source-grounded test; its feasibility depends on retaining readable exceptions."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and no definite serious hard-constraint violation is present. The primary mechanisms are terminology comparison, procedural routing, contrast learning, item lookup, corrective teach-back, and structured clarification handoff. Candidates 6 and 7 repair their respective baseline mechanisms rather than introduce new ones. Candidate 6 offers the strongest direct comparison aid: explicit conditions limit misleading category transfers, coverage can shrink to preserve readability, changed entries become unavailable pending review, and testing checks both unsupported transfers and unnecessary referrals."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves on A0 by making each terminology match's supported conditions explicit and preventing unchecked changed entries from remaining current guidance. These concrete safeguards address a central crosswalk failure while preserving source differences, exceptions, readable scope and inspectable testing. The advantage comes from constraint handling, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

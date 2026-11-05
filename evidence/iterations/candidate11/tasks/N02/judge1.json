@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, use existing resources, provide reversible procedures and measure the three required outcomes over two weeks. Their primary mechanisms are source verification, stable physical positions, single-sample labeling, reduced custody changes and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with a feasible, independently inspectable source check; the alternatives depend more on particular error patterns or workflow prerequisites."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            4,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the hard constraints on paper. Candidates 0, 4 and 7 belong together: explicit pending custody and interruption recovery refine source-checked acceptance rather than establish a separate primary mechanism. The remaining mechanisms are stable physical positions, single-sample labeling, fixed spreadsheet identity, printed-label issuance control, reduced custody changes and preservation of label readability. Candidate 7 best combines direct handoff verification with explicit retained responsibility, interruption recovery, feasible waiting rules and measurable operational costs."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A0 by specifying custody and permitted work when acceptance cannot finish, plus a concrete rehearsal and rollback reconciliation. These provisions close a practical execution gap for two technicians sharing work. Both retain documentary traceability and appropriately cautious two-week comparisons; effectiveness remains unproven."
+    }
+  },
+  "format_retry_of": null
+}

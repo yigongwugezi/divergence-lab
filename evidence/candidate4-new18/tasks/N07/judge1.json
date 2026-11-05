@@ -1,0 +1,71 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with conditional prerequisites stated and privacy, phone-free pickup, daily time limits and required measurements addressed. Their primary mechanisms are deadline enforcement, paper reminders, explicit cancellation, faster retrieval and authorized collection. Candidate 0 most directly addresses limited shelf space, verifies release eligibility and tests whether space gains come at the expense of pickups."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable and address the hard constraints. Candidates 0 and 3 share deadline enforcement as their primary mechanism; additional verification and correction procedures do not create a new mechanism. The others use paper reminders, explicit cancellation and prevention of failed retrievals. Candidate 0 offers the strongest overall combination of direct space recovery, safeguards and an inspectable trial. Candidate 3's comparison adds little separation because candidate 0 already requires item-specific checks."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The best proposals are identical. Both provide a practical, time-bounded workflow, preserve privacy and phone-free pickup, and distinguish actual pickups from other shelf removals while tracking mistaken releases."
+    }
+  },
+  "format_retry_of": null
+}

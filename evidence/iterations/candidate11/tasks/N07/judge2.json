@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with their stated prerequisites and time caps. Candidates 0 and 4 share deadline clearance as their primary mechanism; interruption recovery is a repair, not a separate mechanism. Candidate 5 best combines a direct opportunity to complete pickups, unchanged collection entitlements, private phone-free service, practical handling checks and a trial that distinguishes accelerated pickups from reduced abandonment."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable; candidate 4 explicitly depends on an existing authorized-collection policy and specific disclosure permission. The five candidates use distinct primary mechanisms. Candidate 2 offers a feasible way to remove stale demand within the daily allowance, requires explicit cancellation consent, separates cancellations from pickups and audits removals. Its limited reach and weak branch-wide occupancy attribution are acknowledged."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 has a slight advantage over B2: it directly converts an existing visit into a completed pickup and tests eventual collection outcomes, while B2 primarily recovers space through cancellations. A5 also gives concrete interruption and retrieval-failure checks. Both respect the constraints and make their limited reach explicit."
+    }
+  },
+  "format_retry_of": null
+}

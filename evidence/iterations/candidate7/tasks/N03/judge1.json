@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All proposals accommodate the 50-minute class, teach mean and median to beginners, and assess unseen-chart transfer and completion time. Candidate 1 most directly connects numerical comparison to misleading public-health claims, includes a useful role for the mean, and assesses transfer before discussion. Its arithmetic and interpretation scores make outcomes inspectable. Candidate 4 imposes greater arithmetic demands; candidate 0 allows shared discussion before the main transfer comparison."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible conditional plans within the stated constraints, with individual transfer and timing checks. Candidates 0 and 7 share the extreme-value manipulation mechanism; arithmetic recovery refines its delivery rather than creating a new mechanism. Other primary mechanisms are claim auditing, prediction and reveal, count reconstruction, calculation scaffolding, information-sufficiency decisions, retrieval with correction, and peer reconsideration. Candidate 1 offers the strongest balance of direct relevance, manageable demands, and inspectable transfer. The alternatives introduce useful but unestablished benefits or additional arithmetic, procedural, or preparation demands."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools' strongest proposal is the identical headline-audit lesson. It meets the constraints and directly assesses justified interpretation on a new chart within a recorded time limit. Pool B's additional routes do not establish a stronger written lesson merely through greater variety or added safeguards."
+    }
+  },
+  "format_retry_of": null
+}

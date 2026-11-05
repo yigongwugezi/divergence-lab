@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve original identifiers, require documentary resolution, avoid purchases and measure the required outcomes over two weeks. Their primary mechanisms are independent source verification, stable physical positions, single-sample labeling, fewer custody changes and batch identifier reconciliation. Candidate 0 most directly addresses handoff errors with modest workflow changes and an inspectable comparison."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable, subject to their stated workflow prerequisites, and none definitely violates a hard constraint. Candidate 4 repairs incomplete acceptance handling; 7 repairs interrupted single-sample labeling; 8 strengthens removal tracking within fixed-position handling. These are refinements of existing mechanisms. Fixed spreadsheet identity, label issuance control, reduced custody changes and damage prevention supply the other distinct mechanisms. Candidate 0 offers the strongest balance of direct relevance, feasibility, traceability and inspectability without depending on a particular unconfirmed error source."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "The selected proposals are identical and provide a reversible, source-checked handoff procedure with preserved evidence and a two-week comparison measuring all required outcomes. Neither pool's best has a written task-quality advantage."
+    }
+  },
+  "format_retry_of": null
+}

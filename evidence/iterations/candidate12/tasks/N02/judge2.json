@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve traceability, avoid purchases and specify the required two-week measurements. Candidates 7 and 8 refine the acceptance and one-sample mechanisms rather than introduce new ones. Candidate 7 best combines direct handoff verification, explicit custody, documentary resolution and an inspectable comparison; its added uniqueness check prevents acceptance of ambiguous matches."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five candidates are usable and employ distinct primary mechanisms. Candidate 0 most directly addresses handoff errors with feasible independent source checks, preserved correction history and consistent comparative measurement. Other routes depend more on particular error patterns, workspace or processing flexibility."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 narrowly improves on B0 by explicitly withholding acceptance for ambiguous identities, retaining sender custody and restarting interrupted checks. These operational rules strengthen traceability during actual handoffs using existing resources. Both provide reversible trials and appropriate measurements; the advantage is procedural correctness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

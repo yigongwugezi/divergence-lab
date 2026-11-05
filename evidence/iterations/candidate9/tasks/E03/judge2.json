@@ -1,0 +1,63 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the constraints and qualify uncertain diagnoses. Primary mechanisms are matched operating comparisons, controlled mounting correction, stationary source isolation, reversible airflow loading, and measurement-repeatability auditing. Candidate 4 best combines corroborated repair decisions, preparation, a concrete restoration deadline, and safe escalation within the single shutdown."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both are usable. Candidate 0 centers on matched comparisons; candidate 1 centers on a warranted mounting correction evaluated before and after intervention. Candidate 1 offers the more directly inspectable repair decision while acknowledging residual faults and requiring safe restoration."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "Candidate A4 narrowly improves on B1 by explicitly requiring a pre-disassembly feasibility decision and restoration deadline within the 30-minute window. This strengthens shutdown feasibility without overstating what mounting correction proves."
+    }
+  },
+  "format_retry_of": null
+}

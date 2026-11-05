@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 3,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable, with distinct primary mechanisms: anonymous queued orientation, optional self-service navigation, shared welcome rounds, personal-information minimization, and spatial separation. Candidate 3 best protects privacy without relying on acoustic separation, clearly limits volunteers to published information, supports spoken assistance, and makes referral gaps and rejection criteria inspectable."
+      },
+      "B": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All eight are usable. Candidate 6 repairs interruptions in candidate 0's queued-orientation mechanism rather than introducing a new one. The other primary mechanisms are optional browsing, shared welcome rounds, identical information packets, optional written exchange, referral rehearsal, and eliminating personal-case intake. Candidate 7 offers the strongest balance of privacy, accessible assistance, explicit advice boundaries, honest referral limitations, and observable checks. Conditional resource and layout assumptions are acknowledged rather than presented as established facts."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B7 narrowly improves on A3 by explicitly preserving assistance for visitors unable to frame general questions, defining an operational boundary for answers, and requiring an honest explanation when no suitable referral is documented. Its rehearsal checks whether disclosure reduction leaves visitors without understandable help. These are substantive improvements in inclusion and inspectability, not rewards for length."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five offer concrete, conditional staging mechanisms with clear aisles, sub-40-second timing and two-rehearsal evaluation. Candidate 0 best balances readable relocation, modest performer load and inspectable cues. Its lamp-control and ambient-light assumptions are explicit and testable."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable subject to their stated staging prerequisites. Candidate 3 permits only short, unobstructed movement under sufficient remaining light, so it is not a definite safety violation. Candidates 6 and 7 repair existing mechanisms rather than introduce new ones. Candidate 6 best combines readable relocation with an explicit arrival cue, bounded recovery and rehearsal checks for comprehension, load and repeatability."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 improves A0's practical cue reliability by specifying how the technician confirms arrival and handles delayed performers or failed destination lighting. Its two-rehearsal evaluation directly tests those contingencies while retaining the original mechanism and time limit. The advantage is operational completeness, not length or novelty."
+    }
+  },
+  "format_retry_of": null
+}

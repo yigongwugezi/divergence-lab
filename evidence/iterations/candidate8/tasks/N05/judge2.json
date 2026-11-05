@@ -1,0 +1,79 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the resource limits, disclose unknown provenance, avoid fabricated biography, and compare understanding and discomfort with factual labels. Groups distinguish close observation, evidential boundaries, personal association, simulated use, and institutional valuation. Candidate 7 shifts valuation toward retention but retains the primary mechanism of weighing a curator-supported reason for museum attention. Candidate 5 is strongest: its visibility gate makes the proposed encounter feasible and directly inspectable, with a manageable comparison and factual-label fallback."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates satisfy the hard constraints. Their primary mechanisms are close observation, evidential boundaries, personal association, curatorial judgment, and understanding present protective care. Candidate 4 connects a verified physical condition to an actual care decision, creating grounded significance without historical invention. Its installation limits, identical safe mounting across conditions, and questions about care, uncertainty, significance, and discomfort make it feasible and inspectable."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "A5 offers a particularly clear visibility check and simple implementation; B4 offers a concrete present relationship whose explanation visitors can demonstrate. Both provide responsible, feasible concepts and formative comparisons with factual labels. Their relative effectiveness depends on object-specific evidence that has not been supplied."
+    }
+  },
+  "format_retry_of": null
+}

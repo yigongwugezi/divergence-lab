@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect static publishing, source and review-date requirements, and tracking of stale answers, conflicts and reader failures. Candidate 0 best reduces recurring work by removing duplicate substantive answers, with a bounded pilot and observable maintenance and retrieval checks. The other mechanisms are dependency mapping, scheduled renewal, source excerpts and decision tables."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable without a definite serious hard-constraint violation. Candidates 0 and 6 share canonical-answer consolidation; 6 adds safeguards rather than a new mechanism. The remaining mechanisms are dependency mapping, scheduled renewal, source excerpts, reader-vocabulary navigation, grouped publication and decision tables. Candidate 6 best combines reduced duplicate maintenance with explicit source-authority checks, bounded conversion work and inspectable failure and recovery checks."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 retains A0's practical reduction in duplicate maintenance while making conflicting-source decisions explicit, limiting initial conversion to two questions and providing reader-failure collection without assuming a monitored inbox. These safeguards improve constraint correctness and inspectability, although source reconciliation can still consume the weekly allowance."
+    }
+  },
+  "format_retry_of": null
+}

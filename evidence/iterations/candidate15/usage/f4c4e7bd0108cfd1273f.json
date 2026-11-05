@@ -1,0 +1,10 @@
+{
+  "role": "N13_J2_a1",
+  "status": "failed",
+  "exit_code": 1,
+  "seconds": 47.60762330000216,
+  "usage": null,
+  "total_tokens": null,
+  "cash_cost": null,
+  "provider_request_count": null
+}

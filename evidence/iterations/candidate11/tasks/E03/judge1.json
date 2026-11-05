@@ -1,0 +1,59 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0,
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both provide feasible repeated comparisons, isolated inspection and evidence-based repair decisions without overclaiming meter capability. Their mounting-repair validation differs in emphasis, not primary mechanism. Candidate 1 is stronger on preparation, controlled repair, safe restoration and sustained verification."
+      },
+      "B": {
+        "best": 4,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groups": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            5
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidates 0, 1 and 4 share repeated comparison plus targeted inspection and warranted repair. Candidate 2 adds source isolation through stationary measurements; 3 tests airflow excitation; 5 examines coastdown response. These conditional approaches acknowledge resource limitations and retain safe fallback inspection. Candidate 4 best fits the limited shutdown through explicit readiness checks, an inspection cutoff, reserved restoration time and clear repair and escalation decisions."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B4 modestly improves on A1 by making the 30-minute shutdown executable: verify repair prerequisites, prevent unintended rotation, set a restoration-based cutoff and assign unresolved operating decisions to the existing authority. These improve feasibility and safety without requiring additional diagnostic equipment."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,89 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates accommodate the class constraints, teach mean and median, and assess unseen-chart transfer and completion time. Primary mechanisms are value manipulation, claim auditing, prediction followed by distribution inspection, count reconstruction, calculation scaffolding, information-sufficiency decisions, retrieval with correction, and counterexample search. Candidates 8 and 7 refine mechanisms already represented by 0 and 1. Candidate 7 is strongest because its timed arithmetic rescue protects interpretation time while retaining initial calculations and distinguishing assisted performance. Its preparation, timing, assessment, and failure criteria are concrete; independent calculation remains separately inspectable."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the stated constraints without definite serious violations. Their distinct primary mechanisms are value manipulation, claim auditing, prediction followed by distribution inspection, error diagnosis and repair, and comparison of numerical decision consequences. Candidate 1 most directly connects summaries to public-health claims with manageable novice practice, individual unseen transfer, separate calculation and interpretation scoring, and recorded completion time. Candidate 4 is mathematically sound but adds substantial arithmetic and conceptual load within the short class."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 preserves B1's direct alignment with claim evaluation and adds a concrete recovery procedure for a foreseeable novice arithmetic bottleneck. Retaining initial work and recording assistance makes that tradeoff inspectable while preserving the 50-minute schedule and timed transfer assessment. This is a modest advantage in written feasibility, not demonstrated effectiveness."
+    }
+  },
+  "format_retry_of": null
+}

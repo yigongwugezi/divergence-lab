@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 0 directly tests sustained six-week window exposure with paired randomization, fixed watering, temperature logs and prespecified measurement and missingness rules. Candidate 1 is usable but estimates weekly exposure effects, with carryover and delayed responses weakening its fit to the task."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Candidate 2 preserves the feasible matched-pair design and adds useful safeguards against interpreting survivor height gains as an overall benefit when deaths differ. It shares candidate 0's primary mechanism. Candidate 1 uses a distinct crossover mechanism but introduces carryover and period effects. Candidate 2's missing-outcome sensitivity rule would benefit from explicit numerical bounds."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best proposal retains A's direct, controlled six-week comparison while improving interpretation of deaths and missing outcomes. This is a substantive safeguard against misleading conclusions, despite the sensitivity rule needing greater precision."
+    }
+  },
+  "format_retry_of": null
+}

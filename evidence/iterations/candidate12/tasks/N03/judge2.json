@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide a 50-minute paper-based lesson, novice instruction comparing mean and median, and timed assessment on an unseen chart. Primary mechanisms are value manipulation (0,7), claim auditing (1), prediction and distribution reveal (2), count reconstruction (3), calculation scaffolding (4), information-boundary decisions (5), retrieval with correction (6), and peer explanation with revision (8). Candidate 7 repairs a risk in 0 without changing its primary mechanism. Candidate 1 best balances direct relevance, manageable arithmetic, feasibility, and inspectable individual transfer before discussion. Its assessment separates calculation from justified interpretation and includes a useful application of the mean. Candidate 3 is conditional on suitable data; several other routes add preparation or cognitive demands, but none definitely violates a hard constraint."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates meet the class, resource, novice-comparison, unseen-transfer, and time-measurement requirements. Their distinct primary mechanisms are value manipulation (0), claim auditing (1), prediction and distribution reveal (2), worked-error diagnosis and repair (3), and comparison of decision consequences (4). Candidate 1 offers the strongest balance of task alignment, feasibility, and inspectable assessment. Candidate 3 requires careful correction of planted errors, while candidate 4 adds substantial distance arithmetic within a short lesson; these are feasibility risks rather than definite hard-constraint violations."
+      }
+    },
+    "pair": {
+      "winner": "tie",
+      "reason": "Both pools select the identical headline-audit proposal. It directly teaches learners to connect numerical summaries to public-health claims and checks justified transfer, calculation, completion time, and unfinished work on a new chart. The written task quality is therefore equal."
+    }
+  },
+  "format_retry_of": null
+}

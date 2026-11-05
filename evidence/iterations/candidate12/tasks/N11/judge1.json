@@ -1,0 +1,51 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Both satisfy the hard constraints. Candidate 0 directly tests six-week growth under fixed window assignments with matched-pair randomization. Candidate 1 uses repeated randomized exposure, but carryover and delayed growth responses weaken its interpretation for this task."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2
+        ],
+        "groups": [
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All satisfy the hard constraints. Candidates 0 and 2 share the matched-pair parallel mechanism; candidate 2 improves its loss handling and measurement rules without introducing a new mechanism. Candidate 1 uses a crossover, with carryover and developmental effects limiting interpretation. Candidate 2 provides the strongest inspectable protocol, although withholding overall conclusions after any loss is conservative."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B's best retains the direct six-week randomized comparison while explicitly preventing survivor-only height results from supporting an overall growth claim. Its measurement consistency check and accounting for every assigned plant improve constraint correctness and inspectability, with little additional resource burden."
+    }
+  },
+  "format_retry_of": null
+}

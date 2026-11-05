@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect owner control, available resources and clinical boundaries, and include private one-month retrieval and misfiling checks. Candidate 6 retains the feasible fixed-home mechanism while adding a bounded, owner-only recovery procedure and explicit handling of urgently needed missing instructions. Its recovery addition is a repair to candidate 0, not a distinct primary mechanism."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable and test retrieval and misfiling without sharing medical contents. Candidate 0 offers the strongest general-purpose balance of simplicity, likely benefit and inspectability. The alternatives target particular loss routes or require additional maintenance without evidence those routes dominate."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 by providing an actionable, bounded response when instructions are missing, including professional guidance when needed. It preserves the simple storage routine and distinguishes recovery rehearsal from evidence of effectiveness. Both appropriately limit their privacy claims to protection from casual viewing."
+    }
+  },
+  "format_retry_of": null
+}

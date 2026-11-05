@@ -1,0 +1,87 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All fit the class duration, resources, novice instruction, and timed transfer requirements. The mechanisms are extreme-value manipulation, claim auditing, distribution prediction, error repair, and decision consequences. Candidate 1 best connects numerical comparison to the chart's claim, tests appropriate use of the mean, and separates calculation from interpretation. Candidate 4 adds substantial arithmetic demands."
+      },
+      "B": {
+        "best": 8,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groups": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            5,
+            8
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ],
+          [
+            9
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All provide feasible conditional preparation, novice mean–median instruction, and timed unseen-chart assessment without prohibited resources. Groups represent extreme-value manipulation, claim-and-evidence auditing, distribution prediction, unequal-group reconstruction, calculation scaffolding, retrieval practice, and error diagnosis. Information-request decisions refine evidence auditing; recovery keys repair manipulation rather than create a mechanism. Candidate 8 best combines claim evaluation with contrasting evidence conditions, explicit numerical comparison, and checks for unnecessary information requests."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B8 improves on A1 by explicitly testing when a mean supports a claim and when underlying observations are required, then checking whether learners can conclude once sufficient evidence appears. Its timed transfer also exposes excessive hesitation. These are concrete improvements in task alignment and inspectability, despite modest additional preparation."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,73 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 5,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "groups": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Five primary mechanisms: matched-time rain comparison, runoff gradient, probe-procedure artifact, vertical redistribution, and temperature-dependent oxygen capacity. Candidates 4 and 5 repair existing mechanisms. Candidate 5 best combines repeated timing and calibration controls with an inspectable runoff comparison, checks reference validity, and provides a feasible fallback when localization cannot be tested."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Four primary mechanisms: matched-time rain comparison, runoff gradient, temperature-dependent solubility, and vertical redistribution. All respect safety and require repeated checks; equipment-dependent approaches state their prerequisites. Candidate 1 offers the strongest direct runoff discrimination through spatial differences, matched-hour recovery checks, calibration verification, and replication across rain events."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A5 improves on B1 by explicitly checking changing runoff exposure, treating the reference as provisional, and switching to within-point matched-time comparisons if the gradient becomes uninterpretable. Its repeated morning and afternoon schedule also controls daily timing more consistently within the available weekends."
+    }
+  },
+  "format_retry_of": null
+}

@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates support voluntary seated participation, announcement priority, bounded operation and comfort testing without definite serious violations. Groups distinguish shared visual pulse, independent overlapping cycles, self-paced printed score, gesture transmission, collective phrase selection, privately sustained pulse and complementary parts. Candidates 6 and 7 improve existing mechanisms rather than introduce new ones. Candidate 6 best combines a simple achievable rhythm with a seated visibility gate, explicit cancellation conditions, an eight-minute schedule and appropriately limited comfort evidence."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable with no definite serious hard-constraint violations. Their primary mechanisms are shared visual pulse, independent overlapping cycles, self-paced printed score, aggregate inverse-response feedback and imagined speech rhythm. Candidate 0 offers the clearest low-burden collective rhythm, practical timing, anonymous seated participation and an inspectable pilot that distinguishes coordination from comfort. The feedback and speech approaches introduce additional comprehension or observation demands."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 improves on B0 through a concrete seated visibility check and cancellation rule, reducing foreseeable leaning, crowding and obstruction before participation begins. Its explicit feedback allowance and stop conditions make the single-session pilot more operationally complete while preserving the same simple rhythmic mechanism."
+    }
+  },
+  "format_retry_of": null
+}

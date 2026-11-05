@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 7,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1,
+            5,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are extreme-value manipulation; claim–evidence auditing, including information-request and arithmetic-recovery variants; prediction followed by distribution reveal; count-weighted reconstruction; calculation scaffolding; retrieval with correction; and error diagnosis with repair. All candidates provide a feasible conditional route within 50 minutes and assess unfamiliar-chart transfer and time. Candidate 7 best combines direct claim evaluation, novice-accessible instruction, arithmetic recovery, and separately inspectable assisted and independent performance. Candidate 3 has greater data dependence and arithmetic demands, but no definite hard-constraint violation."
+      },
+      "B": {
+        "best": 1,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "Primary mechanisms are extreme-value manipulation, claim–evidence auditing, prediction followed by distribution reveal, error diagnosis with repair, and comparing numerical consequences of summary choices. All include novice instruction, individual transfer, and completion-time checks within 50 minutes. Candidate 1 most directly addresses misleading public-health claims with manageable practice and a transfer item that checks appropriate use of the mean. Candidate 4 adds substantial arithmetic demand but is conditionally feasible, rather than a definite violation."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A7 retains B1's strong alignment between claims and numerical evidence while providing a concrete recovery route when novice arithmetic stalls. Its transfer assessment records calculation attempts before assistance, panel use, justified interpretation, and time, making this improvement inspectable without conflating assisted interpretation with independent calculation. This gives A7 a modest advantage in feasibility and assessment quality."
+    }
+  },
+  "format_retry_of": null
+}

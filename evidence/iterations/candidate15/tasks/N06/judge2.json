@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide concrete mechanisms with conditional feasibility, clear aisles, sub-40-second targets and two-rehearsal evaluation. Primary mechanisms are light transfer, social geometry, repeated action showing elapsed time, concealed reset, continuous action bridge, shared environmental response and visible character release. Candidates 6 and 7 repair their source mechanisms rather than introduce new ones. Candidate 6 is strongest: destination-first lighting makes relocation readable, while an explicit acceptance cue and rehearsable recovery address delayed arrivals and lighting failure."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five are usable subject to their stated room, lamp and script requirements. Their distinct primary mechanisms are light transfer, social geometry, repeated action showing elapsed time, dark visual punctuation and projected shadow architecture. Candidate 0 offers the strongest balance of readable relocation, modest performer load, straightforward operation and inspectable rehearsal comparisons. Candidate 3 safely reserves movement for restored light; candidate 4 appropriately requires checking actual shadow feasibility."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 narrowly improves on B0 through a concrete arrival-confirmation cue and bounded recovery procedures, tested with delayed arrivals and a simulated lighting failure. These address practical repeatability without changing the underlying effective light-transfer mechanism. Both remain contingent on suitable existing lamps and safe internal routes; neither claims tested results."
+    }
+  },
+  "format_retry_of": null
+}

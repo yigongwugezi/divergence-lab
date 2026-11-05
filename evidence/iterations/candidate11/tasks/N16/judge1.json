@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "DIRECT_FULL",
+    "B": "EXPAND"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates preserve owner control, avoid clinical changes, and include private one-month retrieval and misfiling checks. Distinct primary mechanisms are fixed storage, locator indexing, checkout tracking, keeping sheets with the folder, and collection completeness checks. Candidate 0 offers the strongest broadly applicable balance of simplicity, privacy and likely loss reduction."
+      },
+      "B": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates are usable within the constraints. Candidate 6 repairs the fixed-storage mechanism with interrupted-return containment, so it belongs with 0. Other mechanisms are locator indexing, checkout tracking, keeping sheets with the folder, periodic recovery, receipt reconciliation, and accepted handoffs. Candidate 6 best combines predictable storage with a practical interruption safeguard, baseline and month-end misfiling counts, and explicit criteria for dropping an ineffective pocket."
+      }
+    },
+    "pair": {
+      "winner": "B",
+      "reason": "B6 modestly improves on A0 by addressing interrupted filing and measuring baseline misfiling as well as retrieval time. Its backlog checks and fallback make the added envelope inspectable and reversible while preserving privacy and individual control."
+    }
+  },
+  "format_retry_of": null
+}

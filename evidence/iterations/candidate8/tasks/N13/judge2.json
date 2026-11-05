@@ -1,0 +1,85 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible static-file workflows, require named sources and review dates, and track stale guidance, conflicts and retrieval failures. Candidates 6 and 7 repair their respective original mechanisms rather than introduce new ones. Candidate 6 is strongest: canonical answers reduce recurring edits, while bounded migration preserves existing routes, records unresolved duplicates and prioritizes policy corrections within two hours. Its pilot checks maintenance cost and reader access. Automation in 8 is conditional and has a manual fallback."
+      },
+      "B": {
+        "best": 0,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates respect the publishing evidence requirement, existing infrastructure and weekly allowance, with explicit tracking of all three required failure types. Their primary mechanisms are consolidation, dependency mapping, scheduled renewal, source excerpts and decision tables. Candidate 0 offers the strongest general maintenance benefit by reducing duplicate substantive edits, with a simple register and a test covering contradictions and retrieval. Its main limitations are initial consolidation effort and reliance on an existing monitored inbox."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 strengthens B0's shared canonical-answer mechanism with concrete controls for migration workload, old links, uneditable conflicts and missing feedback infrastructure. These address practical failure modes under the same resource constraints, and its pilot can reveal whether consolidation actually pays off."
+    }
+  },
+  "format_retry_of": null
+}

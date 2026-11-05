@@ -1,0 +1,83 @@
+{
+  "mapping": {
+    "A": "EXPAND",
+    "B": "DIRECT_FULL"
+  },
+  "answer": {
+    "pools": {
+      "A": {
+        "best": 6,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All candidates provide feasible collective practice within the stated resources and sessions, distinguish drift from omissions, and check unfamiliar patterns. Candidates 2 and 6 share the primary mechanism of identifying an error and selecting its matching repair; 6 adds safeguards rather than a new mechanism. The other mechanisms are internal pulse prediction, divided pulse roles, continuous movement, chunking, visual tracking, and shared-attack synchronization. Candidate 6 best combines listening instruction, specific corrections, private checks, practical fallbacks, and an unfamiliar-pattern assessment before coaching. Group masking limits every candidate's assessment."
+      },
+      "B": {
+        "best": 2,
+        "usable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "groups": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "serious_violations": [],
+        "reason": "All five meet the hard constraints. Their distinct primary mechanisms are internal pulse prediction, divided pulse roles, error identification with matched repair, subdivision, and continuous movement. Candidate 2 most directly teaches both hearing and correcting the two required error types, uses private responses and collective practice, and checks recognition separately from unfamiliar-pattern performance. Its repair-versus-repetition comparison is practical, although group sound can conceal omissions."
+      }
+    },
+    "pair": {
+      "winner": "A",
+      "reason": "A6 strengthens the shared listening-and-repair approach with a prerequisite check, instructor modelling when recognition is unreliable, explicit handling of mixed errors, and simplification after unsuccessful retries. Its unfamiliar-pattern first attempts before coaching also make transfer more inspectable. These operational improvements give it a modest advantage over B2 without requiring additional equipment or public individual assessment."
+    }
+  },
+  "format_retry_of": null
+}
